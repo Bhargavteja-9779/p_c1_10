@@ -1,0 +1,1647 @@
+[
+ {
+  "pmid": "43003562",
+  "title": "Simultaneous dynamic spectrophotometric determination of coexisting rare earth elements in acidic chloride media using response-specific multivariate calibration.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346403",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Reliable spectrophotometric determination of coexisting rare-earth elements in strongly acidic chloride media remains analytically challenging because of weak 4f-4f absorption responses, severe spectral overlap, and baseline instability under dynamic measurement conditions. This study presents a dynamic absorption spectroscopic method coupled with a response-specific multi-scale peak-basis linear regression model (RS-MPBLR) for continuous in situ quantification of Nd3+ and Pr3+ in strongly acidic coexisting systems relevant to NdFeB magnet recycling. Characteristic absorption peaks, multi-scale spectral descriptors, and derivative-related features were integrated to enhance response specificity and robustness against spectral overlap, acidity-dependent background variation, and flow-induced baseline drift. Spectral analysis confirmed an approximately linear absorbance-concentration relationship within the investigated range, supporting peak-oriented linear modeling. RS-MPBLR was evaluated using leave-one-concentration-out cross-validation and benchmarked against partial least squares, principal component regression, and ridge regression, achieving lower prediction errors and more stable error distributions. Dynamic online experiments demonstrated continuous tracking of stepwise concentration changes, with R2 values above 0.97 and limits of detection of 0.07 and 0.03\u202fg/L for Nd3+ and Pr3+, respectively. Cross-day segment-wise analysis further confirmed stable online predictions, with coefficients of variation mostly below 1-2% and \u03c3pred values within 0.015-0.040\u202fg/L for Nd3+ and 0.006-0.021\u202fg/L for Pr3+. This study provides a robust and sensitive spectrophotometric soft-sensing strategy for continuous rare-earth ion quantification in hydrochloric acid media. By combining response-specific modeling with reference-sample-based calibration correction, it overcomes the difficulty of long-term dynamic detection under online flowing conditions and enables reliable quantification for NdFeB magnet hydrometallurgical recycling.",
+  "authors": [
+   "Li L",
+   "Wang B",
+   "Li G",
+   "Hu G",
+   "Liu H",
+   "Liao J",
+   "Qiu H",
+   "Wang H"
+  ]
+ },
+ {
+  "pmid": "43003561",
+  "title": "Simultaneous quantification of gold and silver nanoparticles in spiked buffered river surface water using fluorescence spectroscopy and U-PLS/RBL.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346404",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: The accelerated production and use of engineered nanoparticles in commercial products will inevitably result in their release into aquatic environments, raising concerns about potential ecological and health impacts. Distinguishing synthetic nanomaterials from naturally occurring colloids in environmental samples remains a major analytical challenge because of matrix complexity and the coexistence of multiple nanoparticle types with diverse sizes, shapes, and surface chemistries. RESULTS: In this study, we present a second-order multivariate calibration strategy based on unfolded partial least squares coupled with residual bilinearization (U-PLS/RBL) for the simultaneous quantification of gold nanoparticles and silver nanoparticles in water samples. Fluorescence excitation-emission matrices were recorded using rhodamine 6G and a carbazole derivative as fluorescent probes. The quenching effects induced by the nanoparticles were used to construct quenching matrices, which were then analyzed by U-PLS/RBL. The proposed methodology achieved low detection limits in the picomolar range, high sensitivity, and excellent recovery (92-110%) in both river surface water and tap water samples, without requiring prior separation or pretreatment. SIGNIFICANCE: These results highlight the robustness and cost-effectiveness of U-PLS/RBL for nanoparticle analysis and demonstrate its potential as a valuable tool for environmental monitoring of engineered nanomaterials.",
+  "authors": [
+   "N\u00fa\u00f1ez RN",
+   "Veglia AV",
+   "Pacioni NL"
+  ]
+ },
+ {
+  "pmid": "42967808",
+  "title": "Vibrational spectroscopy of microorganisms: A review.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346204",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Vibrational spectroscopic methods, mid- and near-infrared, and Raman spectroscopies, have been extensively applied to the study of microorganisms. This is due to the relatively rapid analysis time, relative low-cost, experimental flexibility, and phenotypic nature of these methods. Consequently, vibrational spectroscopies have been investigated for clinical, environmental and industrial microbiology applications. This review outlines the principles of mid- and near-infrared, and Raman spectroscopies, and steps through vibrational spectroscopic experiments in the context of microbiological studies. Further applications within species/strain identification, antimicrobial resistance, bioremediation, cell sorting and intracellular microbial protein analysis are examined. Vibrational spectroscopy is expected to become increasingly routine in microbial analyses, particularly in clinical settings, driven by the harmonisation of spectral databases, the expanding application of deep learning methods and improved instrumentation to reduce sampling-to-reporting time.",
+  "authors": [
+   "McGoverin C"
+  ]
+ },
+ {
+  "pmid": "42967802",
+  "title": "Construction of a robust fluorescent probe for the rapid evaluation of natural products' inhibition of Alzheimer's disease.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346374",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Peroxynitrite (ONOO-) is a key oxidative stress biomarker for Alzheimer's disease (AD), and elevated levels of ONOO- in the brain directly reflect the extent of oxidative stress-induced damage in AD. To enable in situ real-time monitoring of ONOO-, this study designed and synthesized a ratiometric near-infrared fluorescent probe (BF) based on a D-\u03c0-A framework. The probe BF emits near-infrared fluorescence; upon interaction with ONOO-, BF's intrinsic ICT is weakened, causing a blue shift in its emission and resulting in a red-to-green ratio change. When applied to PC12\u202fcells and AD model mice, BF enables real-time ratiometric imaging monitoring of changes in ONOO- levels within the cells and the mouse brain. Furthermore, through molecular docking, neobavaisoflavone (with curcumin as a control) was screened as an intervention drug; BF successfully monitored the real-time dynamic downregulation of ONOO-, and the signal recovery in the neobavaisoflavone group was superior to that in the curcumin group and the model group. This study established a rapid evaluation platform centered on real-time imaging with near-infrared ratiometric probes, which not only enables in situ dynamic monitoring of AD-related ONOO- but also provides an intuitive and reliable visualization method for the rapid assessment of the efficacy of anti-AD candidate drugs.",
+  "authors": [
+   "Xu X",
+   "Xu X",
+   "Zhou L",
+   "Wang W",
+   "Ouyang M",
+   "Zheng J",
+   "Zhang L"
+  ]
+ },
+ {
+  "pmid": "42967774",
+  "title": "Long-alkyl-chain-modified near-infrared fluorescent probe for in vivo visualization of viscosity and ONOO- in inflammation.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346372",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Rheumatoid arthritis (RA) and inflammatory bowel disease (IBD) are prevalent immune diseases that pose substantial global public health burdens. Early, accurate molecular imaging of inflammatory biomarkers in situ remains a major challenge. RESULTS: Herein, we rationally designed a novel near-infrared (NIR) fluorescent probe, HCy-LD-mito, for high-contrast, crosstalk-free imaging of viscosity and ONOO- in mitochondria and LDs. Benefiting from the introduction of a long C12 alkyl chain, HCy-LD-mito exhibits an ultra-sensitive NIR fluorescence response to viscosity with a remarkable 530-fold signal enhancement, while displaying a highly rapid and specific response toward ONOO- at 560\u202fnm. Taking advantage of this excellent performance, HCy-LD-mito successfully enabled precise spatial mapping of the dynamic changes of ONOO- and viscosity in LPS-induced zebrafish liver inflammation. In vivo experiments further demonstrated that HCy-LD-mito can specifically visualize inflammatory lesions in RA and IBD animal models with high signal-to-background ratio (SBR), and achieve timely, real-time evaluation of the therapeutic effects of methotrexate (MTX) for RA and 5-aminosalicylic acid (5-ASA) for IBD. SIGNIFICANCE: This work establishes a versatile molecular platform for precise inflammatory disease theragnostic and offers a rational design strategy for multi-organelle synergistic imaging probes.",
+  "authors": [
+   "Liu C",
+   "Wei L",
+   "Liu Y",
+   "Chen Y",
+   "Wang X",
+   "Chen J",
+   "Fu N",
+   "Wang G"
+  ]
+ },
+ {
+  "pmid": "42951558",
+  "title": "A comparison of PCA, ASCA, and vASCA for enhancing the interpretability of biological Raman spectroscopy.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346321",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: Raman spectroscopy is often used to analyze complex biological systems, but interpreting the resulting spectra remains difficult because of overlapping vibrational bands and the limitations of standard multivariate approaches such as Principal Component Analysis. This work assesses whether ANOVA-Simultaneous Component Analysis and its variable-selection extension can address these interpretability issues. More specifically, the goal was to determine if this approach could isolate spectral features that reflect metabolic syndrome and its progression over time. RESULTS: Serum Raman spectra were collected from control rats and those with metabolic syndrome at four time points. The datasets were then analyzed comparatively using Principal Component Analysis, ANOVA-Simultaneous Component Analysis, and Variable-Selection ANOVA-Simultaneous Component Analysis, with attention not only to statistical separation but also to the interpretability of the resulting features in a biochemical context. Variable-Selection ANOVA-Simultaneous Component Analysis shows a narrower set of statistically relevant spectral regions. Among these, a Raman band in the 907-926\u202fcm-1 range appeared as a candidate signature associated with metabolic syndrome. Temporal variation was also evident, particularly in lipid- and protein-related bands between 8 and 52 weeks, although some overlap across groups persisted. Compared with the other methods, this approach yielded a clearer feature-based separation and, in most comparisons, stronger statistical contrasts. SIGNIFICANCE AND NOVELTY: The use of Variable-Selection ANOVA-Simultaneous Component Analysis makes the relationship between spectral features and the physiology of the disease clearer. Our approach paves the way to establish an interpretable tool to identify relevant spectral signatures in biological Raman spectra datasets.",
+  "authors": [
+   "Ram\u00edrez-El\u00edas MG",
+   "Vallejo-Espa\u00f1a D",
+   "Donju\u00e1n-Loredo G",
+   "Camacho J"
+  ]
+ },
+ {
+  "pmid": "42951548",
+  "title": "Fluorescent labeling of lysosomal \u03b1-L-fucosidase using an activity-based near-infrared (NIR) fluorogenic probe.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346311",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Lysosomal \u03b1-L-fucosidase catalyzes the degradation of fucosylated glycoconjugates and is implicated in multiple pathological events. Although conventional fluorogenic substrates have been utilized to detect the glycosidase in cells, they are inappropriate for long-term imaging owing to the diffusion of the fluorophores released upon enzymatic cleavage. On the other hand, existing activity-based probes are useful for capturing the target enzyme, but they cannot be readily used for live-cell fluorescence imaging. RESULTS: We developed \u03b1Fuc-Bn-NIR(CM)-AY, an activity-based near-infrared (NIR) fluorogenic probe for selective fluorescence imaging and covalent labeling of active \u03b1-L-fucosidase. The probe comprised (1) an \u03b1-L-fucose recognition unit linked to a hemicyanine-derived NIR fluorophore through a self-immolative scaffold, (2) a carbamate-based reactive moiety appended to the fluorophore, and (3) a terminal alkyne bioorthogonal handle. The probe functioned as a mechanism-based, irreversible inhibitor that covalently labeled and inactivated active \u03b1-L-fucosidase upon fluorescence activation. In addition, \u03b1Fuc-Bn-NIR(CM)-AY showed high selectivity toward \u03b1-L-fucosidase and enabled robust fluorescent labeling of the enzyme. Moreover, the probe allowed detection of the enzyme at concentrations as low as 20\u202fnM, and the labeling was markedly reduced by an \u03b1-L-fucosidase inhibitor. In live cells, enzyme-mediated activation produced persistent lysosome-associated fluorescence with minimal cytotoxicity. The terminal alkyne further facilitated click chemistry-mediated biotinylation and affinity enrichment of labeled lysosomal \u03b1-L-fucosidase from treated cells. SIGNIFICANCE: \u03b1Fuc-Bn-NIR(CM)-AY integrates fluorescence activation, covalent enzyme labeling, and affinity-based enrichment within a single NIR platform, overcoming the diffusion-associated limitation of conventional fluorogenic substrates and the imaging limitation of existing activity-based probes. It provides a useful tool for prolonged imaging and covalent capture of active lysosomal \u03b1-L-fucosidase.",
+  "authors": [
+   "Kim Y",
+   "Lee CH",
+   "Shin I"
+  ]
+ },
+ {
+  "pmid": "42951544",
+  "title": "Near-infrared excited core-shell upconversion composites for living cells proteome labeling.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346307",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Near-infrared excitation effectively eliminates interference from intracellular visible-light-absorbing photosensitizers for living cells proteome labeling. Herein, a core-shell upconversion composites (CS-NaYF4@MOF) were developed for NIR activated proteome proximity labeling in living cells. A NIR-responsive photosensitizer was fabricated by in situ growth of a Cu-TCPP-based metal-organic framework (MOF) shell on Nd3+-sensitized core-shell upconversion nanoparticles. Upon 808\u202fnm NIR excitation, the composites generate green upconversion luminescence to efficiently activate Cu(II) meso-Tetra(4-carboxyphenyl)porphine (Cu-TCPP) for reactive oxygen species production, enabling protein labeling in living cells with nucleophilic substrate. The characterizations confirm the successful formation of a crystalline MOF coating with homogeneous elemental distribution. Cellular assays reveal low photo-toxicity, allowing time- and concentration-dependent protein labeling under NIR light irradiation. By combining click chemistry and mass spectrometry, high-throughput proteome identification in living cells is successfully realized. This work not only extends the application of MOF-based materials in proteomics, but also offers a NIR excited strategy for living cells proteome labeling.",
+  "authors": [
+   "Le C",
+   "Qianqian J",
+   "Jingjing J",
+   "Bo J",
+   "Sai X",
+   "Lihua Z",
+   "Yukui Z"
+  ]
+ },
+ {
+  "pmid": "42951507",
+  "title": "Photothermally enhanced laccase-mimetic CaMnO3 enables full-dimensional signal harvesting for self-powered electrochromic immunosensing of stratifin.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346344",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Self-powered enzymatic biofuel cells (EBFCs) are attractive for portable biosensing but are inherently restricted by low power output and single-channel signal readout. Herein, a photothermal-enhanced self-powered immunosensor was proposed to realize full-dimensional signal harvesting, in which a single recognition event is converted into four correlated readouts that provide mutual cross-validation for the sensitive detection of stratifin (SFN). Specifically, CaMnO3 perovskite served as a bifunctional material on the bioanode, functioning simultaneously as a laccase-mimicking nanozyme with strong substrate affinity (Km\u202f=\u202f0.073\u202fmM) and a photothermal agent with a light-to-heat conversion efficiency of 65.3%. Under 808\u202fnm near-infrared irradiation, the photothermal effect accelerated the laccase-mimicking oxidation of 2,4-dichlorophenol to form a red electrolyte, while the enhanced electron flux charged a matched capacitor and reduced the oxidized polyoxometalate cathode, switching its electrochromic film from yellow to blue. Accordingly, the anode open-circuit voltage, the circuit instantaneous current, the electrolyte absorbance, and the cathode RGB value were acquired within a single measurement cycle as four readouts. The sensor exhibited linear ranges of 10-7 to 1\u202fng\u202fmL-1 with a limit of detection of 3.3\u202f\u00d7\u202f10-8\u202fng\u202fmL-1 for the two electrochemical readouts and 10-6 to 1\u202fng\u202fmL-1 with a limit of detection of 3.3\u202f\u00d7\u202f10-7\u202fng\u202fmL-1 for the two colorimetric readouts, together with recoveries of 95.95% to 105% in human serum. This work provides a generalizable design strategy that integrates photothermal-enhanced enzyme catalysis, capacitor-amplified current output, and electrochromic visual transduction for low-cost, self-powered point-of-care diagnostics. The four readouts are correlated rather than fully independent, and the present prototype still requires an external light source.",
+  "authors": [
+   "Wang X",
+   "Gao L",
+   "Li B",
+   "Hu S",
+   "Ma X",
+   "Zhou X",
+   "Dai H"
+  ]
+ },
+ {
+  "pmid": "42887984",
+  "title": "A blood-brain barrier-penetrating NIR fluorescent probe enables cross-model optical imaging of H2O2 in three neuroinflammation-related experimental mice models of brain injury.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346241",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Hydrogen peroxide (H2O2) is a key mediator of oxidative stress in neuroinflammation-related brain injury, yet brain H2O2 imaging remains challenging because of the blood-brain barrier (BBB) and tissue autofluorescence. In addition, most reported probes have been evaluated in only one or a few disease models, limiting cross-model comparison. Here, we developed MH-1, an H2O2-responsive near-infrared (NIR) fluorescent probe for brain-section optical mapping after systemic administration. RESULTS: MH-1 exhibited an approximately 60-fold fluorescence turn-on at 667\u202fnm, enabled H2O2 detection over 0.107-1000\u202f\u03bcmol/L, and reached a stable response within approximately 30\u202fmin, with high selectivity, interference resistance, pH stability, and low cytotoxicity. Its fluorescence quantum yield increased from 0.72% to 2.45% upon activation. CD31 co-staining confirmed MH-1-associated fluorescence in extravascular brain parenchyma after systemic administration. Ex vivo brain-section imaging further revealed model-dependent H2O2-associated fluorescence in LPS-induced neonatal neuroinflammation, hypoxic-ischemic encephalopathy (HIE), and Alzheimer's disease (AD), with an effective imaging window of approximately 12\u202fh. SIGNIFICANCE: Rather than relying on a single best-in-class analytical parameter, MH-1 integrates NIR emission, a large fluorescence turn-on, BBB access, and applicability across three mechanistically distinct brain-injury models. This combined performance enables region-resolved, cross-model comparison of H2O2-associated oxidative stress in preclinical brain tissue.",
+  "authors": [
+   "Lu Y",
+   "He W",
+   "Li Y",
+   "Liu Y",
+   "Li Z",
+   "Zhang R",
+   "Kong F",
+   "Li F",
+   "Zhou Y"
+  ]
+ },
+ {
+  "pmid": "42887971",
+  "title": "Mislabeling (label noise) - an often overlooked issue in chemometrics.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346227",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: In supervised learning, errors can arise in label values. This fact is well known in machine learning (ML), where it has been studied since the late 1960s, but is often ignored in chemometrics. The main reason for mislabeling is human errors when supervision is carried out by a person. It is also inevitable in cases where a continuous process is divided into stages for their subsequent supervised discrimination. Another reason is the imperfection of an instrumental method, which poorly reflects the differences between classes. RESULTS: This paper pursues two goals. The first one is to introduce the concept of mislabeling in chemometrics. The second goal is to share our experience in solving mislabeling problems that arise in real-world examples. In our opinion, the most appropriate approach is the integration of the domain knowledge with the outlier detection methods, which should be based on probabilistic (soft) classifiers. This approach is used systematically and is illustrated by three cases that employ both well-established and new methods. SIGNIFICANCE: Mislabeling is a real problem that can occur across a variety of applications, reaching up to 20%, and in some areas, such as medicine, this rate can be even higher. There is no doubt that mislabeling deserves investigation and correction. In mission-critical fields, particularly in medicine, the cost of an error caused by mislabeled data can be significant, measured not only in financial losses but also in human lives.",
+  "authors": [
+   "Pomerantsev AL",
+   "Rodionova OY"
+  ]
+ },
+ {
+  "pmid": "42887964",
+  "title": "A near-infrared fluorescent probe for point-of-care screening of male infertility in seminal plasma.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346208",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Diagnosis of male infertility currently relies on cumbersome semen analysis and lacks a rapid screening method. Elevated seminal plasma Hcy and Cys are early biomarkers linked to impaired sperm quality, yet no fluorescent probe has been reported for their direct detection in this matrix. To fill this gap, we developed JC-THA, a near-infrared probe comprising a julolidine-coumarin core and a chlorine-substituted tetrahydroacridine salt as the thiol-reactive site. Exploiting differences in molecular volume and electronic effects between Hcy/Cys and GSH, JC-THA exhibits a strong turn-on response toward Hcy and Cys but negligible enhancement toward GSH, enabling selective discrimination. The probe completes quantitative measurement within 4\u202fmin, with detection limits of 40\u202fnM for Hcy and 39\u202fnM for Cys. It shows good cytocompatibility and enables the first fluorescence imaging of Hcy/Cys in NTERA-2 cl.D1 cells. We also pioneered the direct use of this probe in real human seminal plasma, obtaining spike recoveries of 90%-110% for Hcy, which preliminarily supports its clinical feasibility. A smartphone-based colorimetric device using JC-THA further allows rapid visual semi-quantitative analysis via visible color changes, demonstrating point-of-care testing potential. Collectively, this work offers a simple and cost-effective near-infrared tool for early male infertility screening, with considerable promise for clinical translation.",
+  "authors": [
+   "Li M",
+   "Chen S",
+   "Liu Q",
+   "Fan C",
+   "Ma Y",
+   "Shu W",
+   "Chi W",
+   "Zeng C"
+  ]
+ },
+ {
+  "pmid": "42838677",
+  "title": "Analytical characterisation of yeast cell walls by lectin-binding flow cytometry and extraction-based polysaccharide analysis.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346174",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Accurate profiling of yeast cell-wall polysaccharides (PS) remains analytically challenging because different methods interrogate different levels of cell-wall organisation. In this study, lectin-binding flow cytometry and extraction-based chemical analysis were comparatively evaluated across 10 representative yeast strains. Flow cytometry revealed marked strain-dependent variation in forward scatter (FSC), side scatter (SSC), and median of lectin fluorescence intensity (MFI), whereas extraction-based analysis showed substantial differences in PS yield, monosaccharide composition, and molecular weight distribution. Using lg-transformed data, Pearson correlation and partial least squares regression (PLSR) analyses showed that FSC and SSC were strongly associated with cell-normalised extractable mannose content (r\u202f=\u202f0.89 and 0.88, respectively) and contributed most to its prediction. By contrast, MFI was more strongly related to the mannose to glucose molar ratio (r\u202f=\u202f0.90) than to extractable mannose content (r\u202f=\u202f0.70), providing strain-specific biochemical information. These findings demonstrate that flow cytometry and extraction-based analysis are complementary approaches. Scatter-based parameters mainly reflect absolute PS abundance associated with cell size, whereas MFI rapidly reflects surface lectin-binding characteristics and PS composition. The combined use of both methods therefore provides a more complete framework for yeast cell-wall characterisation.",
+  "authors": [
+   "Gu P",
+   "Muhl JR",
+   "Chometon TQ",
+   "Jelley RE",
+   "Larsen DS",
+   "Deed RC",
+   "Fedrizzi B"
+  ]
+ },
+ {
+  "pmid": "42838671",
+  "title": "Machine-learning-enhanced Optical Photothermal infrared (O-PTIR) spectroscopy for rapid simultaneous identification of multiple metabolites to monitor biotransformations: proof of concept on Brewer's spent grain (BSG).",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346159",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Monitoring fermentation in chemically complex matrices remains analytically challenging because multiple metabolites evolve simultaneously. Conventional assays are targeted and sequential, and only partial annotation is often available in real samples. In this study, we present a masked multi-label analytical workflow combining optical photothermal infrared spectroscopy (O-PTIR) with a one-dimensional convolutional neural network (1D-CNN) for rapid screening of brewer's spent grain fermentations. The methodology couples a library of standard compound spectra with transfer learning on partially labelled fermentation spectra, while masked optimisation avoids penalising unannotated classes during fine-tuning. RESULTS: A library of ten reference compounds and their mixtures was first used to train the model, which was then adapted to fermented samples using qualitative labels for starch, glucose, lactic acid and kojic acid. Supernatants from non-inoculated, separated and sequential bacterial/fungal fermentations were analysed after minimal sample preparation. The pretrained model showed excellent internal validation on the standard library. The fine-tuned 1D-CNN retained high discriminative performance (macro-F1\u202f=\u202f0,950). Benchmarking against one-vs-rest PLS-DA and SVM models using the same held-out BSG validation split showed that the nonlinear models outperformed the linear chemometric baseline. Predicted temporal profiles were consistent with assay-derived phase transitions, notably glucose depletion and lactic acid accumulation during the bacterial stage, followed by starch disappearance and kojic acid appearance during the fungal stage. SIGNIFICANCE: These results support the use of multi-label O-PTIR workflow to provide rapid and label-free identification of key metabolic phases in partially labelled, heterogeneous matrices, and highlight its potential as a transferable analytical strategy for bioprocess monitoring.",
+  "authors": [
+   "Lagneaux P",
+   "Hassan M",
+   "Winckler P",
+   "Wach\u00e9 Y"
+  ]
+ },
+ {
+  "pmid": "42838660",
+  "title": "A near-infrared fluorescent probe for monitoring hepatic cysteine dynamics in drug-induced liver injury guided by cholic acid group.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346147",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "In this work, a liver-targeted NIR fluorescent probe CA-Cys for Cys was developed by integrating benzothiazole hemicyanine, an acrylate moiety responsive to Cys, and a cholic acid (CA) ligand. The CA group of CA-Cys recognizes the sodium-taurocholate cotransporting polypeptide (NTCP) specifically expressed on hepatocytes, enabling specific liver targeting and excellent resistance to disease interference. CA-Cys exhibits an excellent linear response to Cys with a detection limit of 0.54\u202f\u03bcM, rapid response within 30\u202fs, and favorable selectivity, without interference by other reactive sulfur species such as homocysteine, glutathione, hydrogen sulfide, etc. CA-Cys exhibits liver-targeted ability both in vitro and in vivo. Moreover, CA-Cys distinguishes liver cancer cells from normal liver cells by sensing intracellular Cys levels. CA-Cys can track the Cys changes in drug-induced liver injury (DILI) cell models and evaluate the therapeutic effect of N-acetylcysteine (NAC). In vivo and ex vivo imaging of mice showed that Cys accumulation induced by acetaminophen (APAP) mainly occurred in the liver, and NAC treatment effectively restored hepatic Cys homeostasis. This liver-targeted CA-Cys enables non-invasive real-time visualization of hepatic Cys at both cellular and animal levels, offering a practical tool for pathological research, diagnosis, and therapeutic monitoring of DILI.",
+  "authors": [
+   "Zhang G",
+   "Quan H",
+   "Zhang Y",
+   "Wang M",
+   "Wang J"
+  ]
+ },
+ {
+  "pmid": "42838659",
+  "title": "A self-calibrating porphyrin-based optofluidic system with edge-deployable chemometrics for online fluoride monitoring.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346146",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "In this work, we report a self-calibrating two-channel flow system for a porphyrin-molecule-based optical sensor for the quantification of fluoride (F-) in drinking water, with online monitoring capabilities. The mechanism employs absorbance-based detection of fluoride ion (F-) using 5, 10, 15, 20-Tetraphenyl-21H, 23H-porphine iron(III) chloride (FeTPP) as the sensing probe. The absorbance spectrum of FeTPP was recorded for fluoride ions (F-) in the presence of various interferents including chloride (Cl-), bromide (Br-), iodide (I-), nitrate (NO3-), sulfate (SO42-), phosphate (PO43-), sulfite (SO32-), bisulfide (HS-), azide (N3-) and acetate (CH3COO-) to assess its applicability for real-time detection. Statistical analysis, in conjunction with a multivariate prediction model, has been implemented to estimate the sensitivity and predictive efficiency of the porphyrin sensor. The prediction model showed promising results with a coefficient of determination (R2) of 0.9983\u202f\u00b1\u202f0.0009 and mean squared error (MSE) of 0.0018\u202f\u00b1\u202f0.0068 in the absence of interferences, and R2 of 0.9928\u202f\u00b1\u202f0.0018 and MSE of 0.0472\u202f\u00b1\u202f0.0422 in the presence of interferences. The effect of environmental parameters such as pH and temperature was also studied to develop a compensated prediction model that yielded a coefficient of determination (R2) of 0.9867\u202f\u00b1\u202f0.0039 and MSE 0.0590\u202f\u00b1\u202f0.0718. Furthermore, an online fluoride monitoring system has been designed, which includes a flow system with two parallel channels for the chemosensor and the water sample, a compact optical detector unit with an integrated LED and lens assembly, a microcontroller, and a display unit for data acquisition and user interface. The edge-deployed chemometrics, which included a multivariate prediction model, was configured in the microcontroller to predict the fluoride concentration in water. The proposed system showed congruence with recorded absorbance data for the fluoride concentration in a range from 0.1 to 10\u202fppm. The efficiency of the sensor was also effectively demonstrated for real water samples spiked with fluoride ions. These encouraging findings provide a firm foundation for the implementation of practical field applications in water quality sensing.",
+  "authors": [
+   "Rana S",
+   "Sharma A",
+   "Neena",
+   "Bhondekar AP",
+   "Bagchi S"
+  ]
+ },
+ {
+  "pmid": "42838648",
+  "title": "AIE-active photoresponsive Ir(III) complex as an oxidase mimic for ratiometric ascorbic acid detection.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346129",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Ascorbic acid (AA) sustains biological redox homeostasis, hence its rapid and precise detection bears important research value. Conventional nanozyme-based detection strategies are hampered by complicated synthesis, inflexible enzyme-like activity modulation, single detection mode and unsatisfactory anti-interference ability. In this work, an amino-modified Ir(III) complex with aggregation-induced near-infrared emission property was facilely synthesized. The product can self-assemble into photoresponsive oxidase-mimetic nanoparticles. Upon light irradiation, Ir-1 NPs exhibit remarkable catalytic performance and excellent stability, with a Michaelis constant of 5.5\u202fmM in catalyzing o-phenylenediamine oxidation. A ratiometric fluorescent sensor was fabricated using the intensity ratio of I567/I682. It achieves linear detection of AA within 0.01-0.8\u202fmM, with a low limit of detection at 2.1\u202f\u03bcM (3\u03c3/k) and superior selectivity. The sensor enables accurate quantification of AA in fruits and vitamin C tablets. This study offers a novel strategy for photoresponsive nanozyme design and a reliable analytical approach for AA detection in nutritional assessment.",
+  "authors": [
+   "Zheng Q",
+   "Huang P",
+   "Peng Y",
+   "Li MJ",
+   "Fu F"
+  ]
+ },
+ {
+  "pmid": "42838646",
+  "title": "UCT-LMIR: A standard-free unsupervised calibration transfer method without model recalibration.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346104",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Cross-instrument spectral variations in intensity, baseline, and noise structure severely undermine the transferability of multivariate calibration models, limiting their practical deployment across spectroscopic platforms. Existing calibration transfer methods typically rely on standard samples, target domain reference labels, or model recalibration, all of which incur substantial experimental or computational costs. RESULTS: This work proposes unsupervised calibration transfer via likelihood maximization inverse regression (UCT-LMIR), which simultaneously eliminates the need for standard samples, target domain reference labels, and model recalibration. UCT-LMIR constructs an error covariance model within a latent space and performs prediction by maximizing the likelihood of a target spectrum under the learned error structure. An optional covariance compensation term accounts for the additional dispersion induced by cross-domain spectral discrepancies, enabling the method to accommodate varying degrees of instrumental mismatch. Validation on three spectroscopic datasets with distinct distributional characteristics showed that UCT-LMIR outperformed representative unsupervised calibration transfer methods in the majority of transfer tasks, with particularly pronounced improvements under large inter-instrument distribution shifts where competing methods often failed. SIGNIFICANCE: UCT-LMIR provides a standard-free and unsupervised calibration transfer strategy that does not require model recalibration. By combining physical interpretability with ease of implementation, it offers a practical and robust solution for calibration transfer in real-world spectroscopic applications.",
+  "authors": [
+   "Huang X",
+   "Chen X",
+   "Huang G",
+   "Xie Z",
+   "Shi W",
+   "Chen X",
+   "Yuan L",
+   "Liang P",
+   "Zhu J",
+   "He Y"
+  ]
+ },
+ {
+  "pmid": "42763173",
+  "title": "Structure-property investigation of aminonaphthalene-based hemicyanine dyes for high-performance mitochondrial imaging.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346116",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "A series of aminonaphthalene-based hemicyanine probes (NI1-NI7) was developed through systematic modulation of amino substituents and the push-pull electronic framework to establish structure-property relationships for mitochondrial imaging. The structural variations effectively regulate intramolecular charge transfer processes, enabling tunable optical properties with absorption/emission maxima ranging from 560 to 690\u202fnm and 647-742\u202fnm, respectively. These probes exhibit large Stokes shifts (up to 120\u202fnm), high molar absorptivity (up to 2.17\u202f\u00d7\u202f104\u202fM-1\u202fcm-1), and high fluorescence quantum yields (up to 55.3%). Although the calculated HOMO-LUMO energy gaps remain relatively similar, molecular rigidification and electronic modulation significantly influence viscosity responsiveness, chemical stability, and cytocompatibility. Confocal laser scanning microscopy experiments demonstrate that all investigated probes possess efficient mitochondrial localization, with Pearson correlation coefficients of 0.89-0.94 from co-localization with MitoTracker Green. Among them, NI7 exhibits the most favorable balance of long-wavelength emission, viscosity responsiveness, mitochondrial targeting capability (PC\u202f=\u202f0.94), and low cytotoxicity, enabling effective mitochondrial imaging at low concentration of 1\u202f\u03bcM. This work establishes a clear structure-property-function relationship within aminonaphthalene-based hemicyanine fluorophores and provides a rational strategy for developing organelle-targeted fluorescent probes with tunable optical properties and biological imaging potential.",
+  "authors": [
+   "Chen Y",
+   "Han B",
+   "Xiangli T",
+   "Wang B",
+   "Yan M",
+   "Luo W",
+   "Xie X",
+   "Chen S",
+   "Li J"
+  ]
+ },
+ {
+  "pmid": "42763161",
+  "title": "Dual-mode colorimetric and photothermal sensing platform for point-of-care testing of uric acid based on enhanced peroxidase-like activity of platinum-based nanozyme by adenosine triphosphate.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346101",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "To break through the limitation of low peroxidase-like (POD-like) activity of conventional nanozymes at neutral pH, platinum-based nanozyme assisting with adenosine triphosphate (Pt NZ/ATP) system is prepared in this study. ATP enables to promote the stability of Pt NZ and the production of O2\u2022- and \u2022OH, and Pt NZ/ATP displays remarkably enhanced POD-like activity (Michaelis constant Km 0.46\u202fmM) than only Pt NZ (Km 2.1\u202fmM). Uric acid (UA) reacts with urate oxidase to form H2O2. Then, Pt NZ/ATP triggers the POD-like reaction to catalyze H2O2 to oxidize 2,2-azinobis(3-ethylbenzothiazoline)-6-sulfonic acid (ABTS) into ABTS\u2022+, which shows broad absorbance spectrum in visible (obvious color change) and near-infrared (high photothermal conversion efficiency) regions. Thus, dual-mode colorimetric and photothermal platform for point-of-care testing (POCT) of UA with smartphone camera and thermometer were constructed with linear range of 1.5 to 70\u202f\u03bcM, and limit of detection of 0.81 and 1.05\u202f\u03bcM, respectively. The relative standard deviations were less than 9.10% and 9.90% in human serum samples, and relative errors were lower than 8.28% and 6.93% comparing to the results of biochemical detector, respectively. This work not only provides an efficient enhancement approach for nanozyme activity, but also establishes sensitive, accurate and portable dual-mode POCT platform for UA assay.",
+  "authors": [
+   "Tong X",
+   "Guo J",
+   "Hu J",
+   "Liu S",
+   "Li G"
+  ]
+ },
+ {
+  "pmid": "42702478",
+  "title": "An ER-targeted electronic-switched cascade probe for synchronous dual-channel imaging of H2S and HClO during liver fibrosis.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346067",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: The endoplasmic reticulum (ER) relies on a delicate redox balance, primarily orchestrated by crucial biomolecules like hydrogen sulfide (H2S) and hypochlorous acid (HClO). The synchronous monitoring of these multiple biomarkers is critical for deciphering the complex redox signaling intricately associated with pathological processes such as liver fibrosis. While simultaneous dual-channel imaging offers a comprehensive view of cellular redox remodeling, developing precise analytical tools remains highly challenging. Traditional cascade-responsive fluorescent probes inherently suffer from strict activation sequences, severe signal crosstalk, and limited deep-tissue penetration, which unequivocally impede accurate in vivo evaluations. RESULTS: We developed an ER-targeted fluorescent probe (PD) integrating a phenothiazine-coumarin fluorophore with a 2,4-dinitrophenyl (DNP) moiety to independently image H2S and HClO. Reaction with H2S triggers thiolysis, eliciting distinct near-infrared (NIR) emission. Conversely, HClO selectively oxidizes the sulfur core, shifting the scaffold to an acceptor-\u03c0-acceptor (A-\u03c0-A) architecture with green emission. Uniquely, this oxidized sulfoxide center exerts a potent \"remote inductive effect,\" activating the distal DNP-linked electrophilic site to enable a solvent-mediated 1,6-cascade elimination. This electronic-switched mechanism was rigorously validated by HRMS and density functional theory calculations. Biologically, PD independently mapped endogenous H2S/HClO fluctuations, capturing complex dual-directional redox remodeling during chemically induced ER stress. Capitalizing on its deep-tissue NIR emission, PD achieved exceptional high-contrast intravital tracking of ER-associated redox dynamics in a mouse model of liver fibrosis. SIGNIFICANCE AND NOVELTY: This work establishes a highly novel electronic-switched cascade mechanism driven by a unique remote inductive effect, successfully overcoming traditional signal crosstalk and strict activation sequence limitations. We conclude that PD serves as an exceptionally robust analytical platform for real-time dual-channel monitoring. Significantly, this strategy provides a powerful optical tool for elucidating the complex physiological mechanisms underlying fibro-inflammatory diseases.",
+  "authors": [
+   "Yang J",
+   "Le Y",
+   "Wang N",
+   "Wu B",
+   "Song Y",
+   "Wang T",
+   "Yang B",
+   "Zhou F",
+   "Liu L"
+  ]
+ },
+ {
+  "pmid": "42702459",
+  "title": "Can we predict drug permeability class in intestinal epithelial cells using in situ live-cell ATR-FTIR spectroscopy?",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346043",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Membrane permeability plays a vital role in oral drug absorption and is one of the important reasons for attrition of promising drug candidates in early-stage drug discovery. Conventional in vitro permeability assays and metabolomics-based approaches are informative but are often destructive, labor-intensive, costly and limited to endpoint measurements. Here, we report a live-cell attenuated total reflectance Fourier-transform infrared (ATR-FTIR) spectroscopy platform for label-free, cost-effective, non-destructive monitoring of biochemical responses in Caco-2\u202fcells following exposure to model drugs spanning multiple Biopharmaceutics Classification System (BCS) classes. RESULTS: IR spectra in the biochemical fingerprint region (1800-950\u202fcm-1) were then analysed using principal component analysis and hierarchical clustering. Distinct spectral signatures were observed for highly permeable versus poorly permeable compounds, with discriminatory features dominated by protein (amide I/II), lipid and phosphate-associated bands. Drugs that highly permeate through membranes left a clearly different spectral trail compared to those that do not. Importantly, chemometric separation was achieved within the early hours of exposure, demonstrating the potential of live-cell ATR-FTIR spectroscopy as a rapid, low-cost and non-destructive complement to conventional permeability screening assays. SIGNIFICANCE: These findings support the use of in situ live-cell ATR-FTIR spectroscopy as a promising approach for predicting drug permeability class in intestinal epithelial cells during early drug discovery.",
+  "authors": [
+   "Patel ND",
+   "Lu Y",
+   "Rahman KM",
+   "Chan KLA"
+  ]
+ },
+ {
+  "pmid": "42702442",
+  "title": "A general near-infrared fluorescence analysis platform via N-substituent modulation of tricyclic boronic ester hemicyanine dyes.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346011",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Conventional responsive fluorescent probes often suffer from high background signals, laborious multi-step synthesis, and limited photophysical tunability, which constrain their practical applications in biosensing. Developing a generalizable platform that integrates facile synthesis, efficient quenching, and modular target responsiveness is urgently needed. Herein, we address this challenge by exploring N-substituent electronic modulation on tricyclic boronic ester hemicyanine (TBEH) dyes as a unified strategy for constructing high-performance turn-on NIR probes. RESULTS: Through N-substituent engineering, electron-withdrawing groups (EWGs) effectively quench fluorescence via a photoinduced electron transfer (PET) mechanism, while analyte-triggered conversion to electron-donating species or elimination restores emission. Three probes were developed for hypoxia (2d), glutathione (2f), and bioorthogonal (2g) detection, exhibiting 130-, 54-, and 13-fold fluorescence turn-on with detection limits of 16, 90, and 33\u202fnM, respectively. All probes showed rapid response (20-40\u202fmin), excellent selectivity, and good biocompatibility in live-cell imaging. DFT calculations confirmed that EWGs lower acceptor LUMO energies to enable PET quenching, and target interactions reverse this process to recover fluorescence. SIGNIFICANCE: This work establishes a universal TBEH-based fluorescence analysis platform that combines synthetic simplicity, electronically tunable photophysical properties, and high sensitivity. The N-substituent modulation strategy offers a straightforward blueprint for developing diverse responsive NIR probes for real-time biosensing and theranostic applications.",
+  "authors": [
+   "Yan R",
+   "Li Y",
+   "Hao Z",
+   "Yao K",
+   "Zhou Y",
+   "Hu L",
+   "Mo S"
+  ]
+ },
+ {
+  "pmid": "42702439",
+  "title": "A turn-on NIR probe with rotational-release mechanism for HOCl imaging in CIRI.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.346007",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Cerebral ischemia-reperfusion injury (CIRI) remains a major therapeutic challenge, with mitochondrial dysfunction and hypochlorous acid (HOCl) overproduction playing key roles in its progression. Real-time monitoring of HOCl fluctuations is helpful for understanding its pathological involvement. Conventional HOCl fluorescent probes based on CC bond cleavage often suffer from decreased near-infrared emission upon reaction and small Stokes shifts, which may limit their biological imaging performance. Therefore, the development of a sensitive NIR probe with a large Stokes shift for effective HOCl imaging in living systems is of considerable interest. RESULTS: We developed XZTU.BBT, a D-\u03c0-\u03c0'-A molecular rotor probe that responds to HOCl via a rotational-release mechanism. In the native state, rotation around the C2-C3 single bond facilitates non-radiative decay, keeping the probe in an off state. HOCl-triggered oxidative cleavage of the C1C2 bond releases the rotatable acceptor, restoring NIR fluorescence at 698\u202fnm with a large Stokes shift of 196\u202fnm. The probe exhibits a rapid response (<5\u202fs), good sensitivity (LOD\u202f=\u202f2.3\u202fnM), and acceptable selectivity toward HOCl. It was successfully applied to image HOCl fluctuations in oxygen-glucose deprivation/reperfusion (OGD/R) cell models and in a mouse model of ischemic stroke (MCAO). Furthermore, the probe was used to evaluate the antioxidant effects of phelligridimer A (PA), suggesting its potential utility in screening neuroprotective agents. SIGNIFICANCE: This work presents a molecular rotor probe with a rotational-release mechanism for HOCl sensing. Unlike conventional CC cleavage probes showing spectral blue-shift, XZTU.BBT maintains NIR emission with a large Stokes shift, offering a potential tool for HOCl biology and antioxidant evaluation in CIRI.",
+  "authors": [
+   "Wang H",
+   "Ren H",
+   "Wang J",
+   "Zhang X",
+   "Zhao S",
+   "Zhang T"
+  ]
+ },
+ {
+  "pmid": "42702426",
+  "title": "Efficient tools for multivariate curve resolution: Outlier detection and estimation of the optimal number of components.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345989",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Multivariate Curve Resolution (MCR) encompasses a wide range of algorithms widely used in solving analytical problems such as second-order calibration, where the well-known second-order advantage can be achieved. Another key application of these methods is the analysis of first-order data for analyte quantification using correlation constraints. In recent decades, MCR methods have also been successfully extended to classification and class modeling problems. This article discusses several critical aspects of exploratory analysis using MCR, including the estimation of appropriate model complexity and the influence of outliers. New tools are introduced to assess the complexity of MCR models, such as degrees-of-freedom plots developed for between-space distances, as well as the Extreme and Distance plots, which provide new insights into the behavior of both calibration and test data. The practical use of these tools is first demonstrated with a simulated dataset. Additionally, three real-world datasets from diverse application domains are used to showcase their capabilities: NIR corn data, wine classification by geographical origin, and the well-known Marzipan dataset; each widely used for demonstration and benchmarking purposes in chemometrics. The proposed methodology is intended as a complementary framework for assessing model complexity and model adequacy in MCR analyses. The presented calibration and class-modeling examples are used as illustrative case studies, while the proposed diagnostic tools are not intended to replace the chemical interpretation of resolved profiles, which remains a central aspect of MCR-based investigations.",
+  "authors": [
+   "Bakhshi H",
+   "Abdollahi H",
+   "Rajk\u00f3 R"
+  ]
+ },
+ {
+  "pmid": "42702424",
+  "title": "Interoperability of machine learning classifiers across LC-MS platforms for non-targeted authentication of honey botanical origin.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345986",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: The botanical origin of honey largely defines its taste, appearance, and nutritive properties. This has led to honey being one of the most frequently frauded foods today, whereby honey from less valuable flowers is packaged as honey originating from a more valuable flower and sold at a higher price. Non-targeted LC-MS analysis is a powerful tool for quantifying the chemical fingerprint of honey. However, this high sensitivity also leads to difficulty in reproducing results, especially across different LC-MS platforms, limiting the application of non-targeted analysis in a regulatory environment. RESULTS: This work presents an algorithm to transform the LC-MS spectra of one instrument, to make it appear as though it came from another instrument. This allows a machine learning model trained on one set of samples using one LC-MS platform to classify new honey samples on a different LC-MS platform. This cross-instrument classification is demonstrated using a dataset of 262 monofloral honey samples across 4 LC-MS platforms using a logistic regression classifier model that predicts whether a sample is blueberry, buckwheat, clover, or \"other\" monofloral honey. A Matthews correlation coefficient (MCC) of 0.77-0.84 was obtained for same-instrument classification, whereas a relatively high MCC of 0.71-0.80 was still observed for cross-instrument classification. In 75% of cases, there was no significant difference (p\u202f>\u202f0.05) between same-instrument and cross-instrument performance. SIGNIFICANCE: This method enables greater collaboration between research groups and helps facilitate the usage of non-targeted analysis in regulatory honey authentication by achieving a reproducible outcome across multiple LC-MS platforms.",
+  "authors": [
+   "Chahal S",
+   "Tian L",
+   "Balogh F",
+   "Hindle R",
+   "Hunt K",
+   "Baesu A",
+   "Feng YL",
+   "Karboune S",
+   "De Leoz ML",
+   "Anumol T",
+   "Cuthbertson D",
+   "Bayen S"
+  ]
+ },
+ {
+  "pmid": "42648839",
+  "title": "Highly sensitive and precise SERS quantification of P. gingivalis in complex saliva matrices via AgNPs@4-MPBA substrates coupled with the NiPLS-AMLP algorithm.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345963",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Precise quantitative detection of Porphyromonas gingivalis (P. gingivalis, Pg) is important for developing a potential non-invasive screening platform for key periodontal pathogens. To address the challenge of specific P. gingivalis detection in complex saliva matrices by surface-enhanced Raman scattering (SERS), this study developed an intelligent quantitative sensing platform combining a SERS substrate based on 4-mercaptophenylboronic acid-functionalized silver nanoparticles (AgNPs@4-MPBA) with a nested interval partial least squares-attention mechanism multilayer perceptron (NiPLS-AMLP) framework. Based on the enhancement of the C-S-related characteristic peak at 674\u202fcm-1 and the bacterial control experiments, 4-MPBA may interact with the O-glycosylated gingipain glycans on the P. gingivalis outer membrane through its terminal boronic acid group, thereby promoting bacterial capture. Meanwhile, interactions between 4-MPBA and gingipain-related cysteine residues may contribute to the enhancement of the C-S-related Raman signal. For data analysis, the NiPLS-competitive adaptive reweighted sampling (CARS) strategy identified the 650-699\u202fcm-1 core spectral region, providing biochemical interpretability, whereas the AMLP model improved the quantitative accuracy for low-concentration P. gingivalis signals. To mitigate matrix effects caused by artificial and real human saliva matrices, semi-supervised transfer learning was further introduced to reduce cross-matrix domain shift. The platform achieved accurate P. gingivalis quantification in complex saliva matrices over the range of 2 x 102 to 2 x 109\u202fCFU/mL, with an R2 of 0.98 and a limit of detection of 200\u202fCFU/mL. These results support the use of this platform as a proof-of-concept approach for potential non-invasive P. gingivalis screening in complex saliva matrices and provide a strategy for intelligent SERS-based quantification of pathogens in complex biological samples.",
+  "authors": [
+   "Bai L",
+   "Hu K",
+   "Li J",
+   "Fang G",
+   "Hasi W",
+   "Han S"
+  ]
+ },
+ {
+  "pmid": "42648837",
+  "title": "Comprehensive non-targeted LC\u00d7LC-HRMS lipidomics workflow with active solvent modulation for the characterization of endocrine disruptor effects in zebrafish eleutheroembryos.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345961",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Lipidomics is a powerful approach for investigating lipid alterations in complex biological systems. However, conventional liquid chromatography coupled to\u00a0mass spectrometry (LC-MS) may be limited in non-targeted studies due to the high structural diversity and wide concentration range of lipid species. In this work, an optimized comprehensive two-dimensional liquid chromatography coupled to high-resolution mass spectrometry (LC\u00d7LC-HRMS) workflow was developed for non-targeted lipidomics. The method combines reversed-phase (RP) separation in the first chromatographic dimension with hydrophilic interaction liquid chromatography (HILIC) separation in the second dimension (RP\u00d7HILIC) and incorporates active solvent modulation (ASM) as an interface between the two chromatographic dimensions to improve analytical sensitivity and solvent compatibility across both dimensions. This approach improves sensitivity, solvent compatibility and lipidome coverage compared to conventional LC-MS workflows. The proposed workflow was applied to investigate lipidomic alterations in zebrafish (Danio rerio) eleutheroembryos exposed to the endocrine-disrupting chemical bisphenol A (BPA), using 17\u03b2-estradiol (E2) as an estrogenic control. The LC\u00d7LC-HRMS approach enabled enhanced lipidome coverage, resulting in the detection of 567 lipid features, of which 134 showed significant alterations associated with endocrine-disruptor exposure. Comparative analysis revealed lipidomic changes consistent with estrogenic responses for both BPA and E2 treatments, while additional lipid alterations suggested potential obesogenic effects under E2 exposure. In summary, the proposed LC\u00d7LC-HRMS workflow with ASM provides enhanced separation performance. The obtained results demonstrate the potential of comprehensive multidimensional chromatography combined with multivariate analysis tools for in-depth lipidomics studies in complex biological samples.",
+  "authors": [
+   "P\u00e9rez-Cova M",
+   "Navarro-Martin L",
+   "Leme GM",
+   "Tauler R",
+   "Pi\u00f1a B",
+   "Jaumot J",
+   "Stoll DR"
+  ]
+ },
+ {
+  "pmid": "42648828",
+  "title": "Micro-FTIR identifies osteodifferentiation markers in heterogeneous mesenchymal stem cell populations.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345951",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Mesenchymal stem cells (MSCs) are often used in bone tissue engineering. However, for optimized MSC osteogenic commitment to be achieved, a deeper understanding of the cellular molecular mechanisms underlying osteodifferentiation is required. In this paper we show that this can be provided by Fourier Transform Infrared (FTIR) spectroscopy in tandem with microscopy (micro-FTIR), a methodology which may also aid the rapid early evaluation of differentiation outcomes. RESULTS: We report a micro-FTIR time-course characterization of human adipose tissue mesenchymal stem cell (hAMSCs) osteodifferentiation (for 21 days), considering different independent experiments and biological replicates to account for cell heterogeneity, under both differentiation and proliferation (control) conditions. Despite extensive spectral variability in both groups, multivariate statistical methods revealed time-dependent spectral changes and potential spectral signatures of proliferation and osteodifferentiation extension. Under proliferation alone, spectral changes reflecting helical proteins and lipids were seen up to day 14, stabilizing thereafter. Osteodifferentiating cells exhibited higher inter- and intra-replicate variability and a distinct spectral time-course trajectory. Evidence was found of both helical and \u03b2-sheet protein structures, with a relative increase of the former from day 6, although masked by increasing sample variability. Other osteo-specific changes were noted in lipid moieties and at lower wavenumbers (1030-1115\u202fcm-1). The latter were found to relate to different degrees of hydroxyapatite maturity between and even within samples. SIGNIFICANCE: Specific spectral FTIR signatures have been identified as markers of the extent of hAMSC proliferation and osteodifferentiation, potentially enabling the rapid and non-invasive evaluation of hAMSCs osteodifferentiation outcome and of inter- and intra-sample variability.",
+  "authors": [
+   "Martins JTS",
+   "Martins C",
+   "Rodrigues JA",
+   "Gra\u00e7a ICR",
+   "Bispo DS",
+   "de Carvalho ALMB",
+   "Goodfellow BJ",
+   "Mano JF",
+   "Oliveira MB",
+   "Nolasco MM",
+   "Marques MPM",
+   "Ribeiro-Claro PJA",
+   "Rutledge DN",
+   "Gil AM"
+  ]
+ },
+ {
+  "pmid": "42648824",
+  "title": "Gram-scale synthesis of neodymium-enriched carbon dots as a CT/NIR-II fluorescence bimodal imaging probe for early diagnosis of acute kidney injury.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345947",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Acute kidney injury (AKI) is a highly morbid and lethal syndrome that is often clinically \"silent\" in early stages. Multimodal imaging, which integrates complementary structural and functional insights from various techniques, holds great potential to enhance diagnostic sensitivity and accuracy. However, developing a single-agent probe that effectively combines multiple imaging modalities for AKI remains a significant challenge. Herein, we show neodymium-enriched carbon dots (Nd-CDs) as a novel bimodal imaging probe for the early diagnosis of AKI by using computed tomography (CT) and the second near-infrared window (NIR-II) fluorescence. Nd-CDs with high metal doping level (17.9%) can be achieved on a gram-scale (2.1\u202fg) through a \"bottom-up\" strategy. The ultra-small hydrodynamic size (<2\u202fnm) endows Nd-CDs with rapid renal clearance. Benefiting from narrow-band NIR-II fluorescence emission at 1060\u202fnm and strong X-ray attenuation, Nd-CDs provide high-spatial-resolution CT and highly sensitive fluorescence imaging in vivo. In a cisplatin-induced AKI rat model, Nd-CDs-based bimodal imaging reveals a pronounced delay in renal metabolism caused by tubular injury, which precedes abnormalities in blood biochemical parameters, enabling early diagnosis and progression monitoring of AKI. The proposed strategy provides new insights into the development of single-agent probes integrating multiple imaging modalities and opens up a new way for early diagnosis of AKI.",
+  "authors": [
+   "Xiang K",
+   "Liu N",
+   "Shu G",
+   "Wang G",
+   "Chen Y",
+   "Sun SK",
+   "Cheng R"
+  ]
+ },
+ {
+  "pmid": "42648822",
+  "title": "Rational linker engineering enables near-infrared visualization of cysteine fluctuations in vivo.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345945",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Cysteine (Cys) dynamics govern cellular redox homeostasis, yet existing fluorescent probes operating in the visible region suffer from limited tissue penetration due to strong light scattering and autofluorescence. Herein, we report a rational linker engineering strategy to develop a near-infrared (NIR) fluorescent probe for real-time Cys imaging in vivo. By systematically varying the \u03c0-conjugated bridge (furan, thiophene, EDOT, and benzene) within a dicyanoisophorone-based donor-\u03c0-acceptor scaffold, we identified furan as the optimal linker that maximizes intramolecular charge-transfer (ICT) efficiency. The optimized probe, FTCN-CA, exhibits NIR emission at 720\u202fnm with a large Stokes shift of 250\u202fnm, detects Cys with a detection limit of 8.7\u202f\u00d7\u202f10-4\u202f\u03bcM (DMSO-PBS, 1:1, v/v, pH 7.4), and discriminates Cys from other biothiols with high selectivity. Importantly, FTCN-CA enables visualization of endogenous and exogenous Cys fluctuations in live HeLa cells and in living mice under both physiological and oxidative stress conditions. In a renal ischemia-reperfusion injury model, FTCN-CA reveals elevated Cys levels in pathological kidney tissue, providing direct visual evidence of a compensatory antioxidant response. This work establishes a generalizable linker-engineering strategy for NIR probe development and provides a robust tool for investigating Cys-associated redox biology.",
+  "authors": [
+   "Su S",
+   "Yu X",
+   "Liu Q",
+   "Chen S",
+   "Yuan Q",
+   "Zhang B",
+   "Li T",
+   "Fan C",
+   "Chi W",
+   "Zeng C"
+  ]
+ },
+ {
+  "pmid": "42618130",
+  "title": "A versatile near-infrared fluorescent probe for Zn2+ detection in food and biological matrices.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345976",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Zinc ions (Zn2+) are essential for human health, and their accurate detection in food is critical for dietary safety and nutritional assessment. Although near-infrared fluorescent probes have been widely developed for Zn2+ detection, their application in complex food matrices remains underexplored. Herein, we report DCMB, a novel near-infrared probe based on a dicyanomethylene-4H-pyran (DCM) derivative, exhibiting high selectivity for Zn2+ with an emission maximum at 640\u202fnm. Anti-interference was systematically evaluated against metal ions, food-relevant small molecules, and biomolecules. DCMB enabled accurate Zn2+ quantification in diverse food matrices: fruits (apples, bananas), dairy products (milk), cereals (oats), and pharmaceuticals (zinc gluconate tablets), with results consistent with inductively coupled plasma mass spectrometry. DCMB-loaded test strips allowed rapid and portable naked-eye visual detection and smartphone-based RGB analysis of Zn2+ in food and supplement samples. Moreover, DCMB facilitated real-time tracking of endogenous and exogenous Zn2+ in 4T1 cells and supported in vivo imaging in mice, with effective suppression of background autofluorescence. Together, DCMB enriches the repertoire of near-infrared fluorescent probes for Zn2+ detection in complex food matrices.",
+  "authors": [
+   "Hou T",
+   "Fan C",
+   "Deng H",
+   "Sun Y",
+   "Miao W",
+   "Hou C",
+   "Zhang Y",
+   "Luo J",
+   "Shen X"
+  ]
+ },
+ {
+  "pmid": "42618117",
+  "title": "A dual-state emission NIR fluorescent sensor for intelligent dual-analyte detection and multisite imaging: From N2H4/ClO- and fingerprints to living cells and organisms.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345911",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Hydrazine and hypochlorite as two important chemical reagents in reducing and oxidizing reactions are widely used in chemical industry, agriculture, environment and daily life. Therefore, it is essential to develop a rapid, intelligent and versatile sensor for real-time detection of trace N2H4 and ClO- to ensure environmental and health safety. RESULTS: A novel sensor L with near-infrared (NIR) dual-state emission was synthesized by a simple refluxing reaction of 4-diethylaminosalicylaldehyde with 2,3-diaminobutenedionitrile. Sensor L includes two donor-\u03c0-accept (D-\u03c0-A) electron transfer systems and exhibits excellent fluorescent and UV absorption properties, which can be applied to sensitively and visually identify N2H4/ClO- with the detection limits as low as 0.0537 and 0.0674\u202f\u03bcM. The investigations on mechanisms confirm the recognition of N2H4/ClO- may attribute to their chemical reactions to result in fluorescence quenching or weakening. Sensor L can be applied for the determination of trace N2H4/ClO- in real water sample, bio-imaging to detect ClO- in vivo, and fingerprint identification and security based on its NIR dual state fluorescent emission and visible color change. In addition, an intelligent platform based on a STM32-based device has been constructed to provide a promising and portable pathway for trace N2H4/ClO- sensing. SIGNIFICANCE: Considering the outstanding optical properties, low toxicities, and versatile applications of sensor L, thereby providing a comprehensive and practical solution for on-site environmental monitoring, biological safety assessment, and forensic investigation.",
+  "authors": [
+   "Cai SQ",
+   "An BW",
+   "Jiang RY",
+   "Yuan SW",
+   "Xiao X"
+  ]
+ },
+ {
+  "pmid": "42618098",
+  "title": "A near-infrared fluorescent probe activated by cysteine for imaging hyperglycemia-induced oxidative stress injury in the liver.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345887",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Chronic hyperglycemia can cause oxidative stress damage to the liver, which is one of the main complications of diabetes. Cysteine (Cys), acting as a key thiol involved in maintaining the redox balance of the liver, plays an important role in the pathogenesis of diabetic liver injury. There is currently a lack of means for real-time monitoring of the dynamic changes of Cys in the liver. Therefore, the development of related technologies is crucial for revealing the potential pathological mechanisms of diabetes. RESULTS: Here, we developed a near-infrared (NIR) fluorescent probe that detects Cys with high selectivity via an ester-bond cleavage mechanism. The probe showed a clear fluorescence turn-on response to Cys, with its emission peak at 735\u202fnm allowing for deep-tissue imaging. Background autofluorescence was largely avoided, and the detection limit reached 0.2\u202f\u03bcM. When applied to hyperglycemic hepatocytes, the probe uncovered a clear relationship between glucose concentration and intracellular Cys levels, revealing a pronounced depletion of Cys under high-glucose conditions. In a diabetic mouse model, in vivo imaging further showed a marked reduction in hepatic Cys signals compared to healthy controls, confirming the oxidative stress-associated Cys decline in the liver. This work provides a practical molecular tool for dissecting the role of Cys in diabetes-related liver injury. SIGNIFICANCE: The Cys-responsive NIR fluorescent probe enables effective tracking of changes in Cys levels in hyperglycemic hepatocytes and diabetic liver tissues. It not only advances our understanding of the pathological mechanisms underlying oxidative stress-induced liver injury but also provides a reliable experimental basis for further investigation into the pathogenesis of diabetes and its associated pathological processes.",
+  "authors": [
+   "Wei W",
+   "Ma Q",
+   "Huang L",
+   "Lin W"
+  ]
+ },
+ {
+  "pmid": "42618096",
+  "title": "Measurement replicates under the lens: evaluating NIR spectroscopic error quality through multivariate error analysis.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345885",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The optimal number of replicates for reliable measurements is a recurring issue in analytical chemistry, particularly for inherently multivariate techniques (e.g. spectroscopy) often coupled with chemometrics. Replicates allow error estimation, incorporation of error into models, and quantification of the multivariate error structure, described by the Error Covariance Matrix (ECM). This study proposes an ECM-based approach to determine the optimal number of measurement replicates necessary for proper error estimation. A new, easy-to-compute index, ECM-SI (ECM similarity index), is introduced to study the effect of sample number and replicates on ECM estimation, demonstrated on real world datasets obtained with NIR portable sensors. The approach uses intuitive graphical representations without imposing strict rules, allowing flexible evaluation. Accurately characterizing measurement error is fundamental to understanding the data acquired but requires enough samples and replicates. In practice, the proposed methodology allows two objectives to be achieved simultaneously: determining the optimal number of measurement replicates through the best possible estimation of the ECM, while obtaining the most accurate estimate of the ECM itself. This study offers a methodological strategy framed into a practical perspective to determine replicates needed for describing data uncertainty in multivariate data, avoiding the assumption that a stable mean implies fully characterized data variability. Applicable to spectroscopic systems, the approach can also be extended to other multivariate analytical techniques and other sources of error, improving model reliability for both novices and experienced practitioners.",
+  "authors": [
+   "Riu J",
+   "Gorla G",
+   "Monti M",
+   "Campeny M",
+   "Quesada J",
+   "Giussani B"
+  ]
+ },
+ {
+  "pmid": "42567614",
+  "title": "Monolithic triple auto-enhanced DNA nanoamplifier under orthogonal dual-response of direct-lock NIR photocage and endogenous APE1 gate for high-precision biosensing in live biosystems.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345880",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: DNA nanoamplifiers constructed by isothermal protease-free nucleic acid amplifications are promising for fluorescence imaging of disease biomarkers in live biosystems. However, they are still hindered by cumbersome cascade architectures, suboptimal sensitivity, and compromised analytical precision. RESULTS: Herein, we devise a monolithic triple auto-enhanced DNA nanoamplifier under orthogonal dual-response of direct-lock near-infrared (NIR) photocage and endogenous apurinic/apyrimidinic endonuclease 1 (APE1) gate. The nanoamplifier incorporates three consecutive amplification processes: analyte-recycling amplification, self-propagating Mn2+-reliant DNAzyme-mediated hybridization chain reaction (HCR), and DNAzyme reassembly-driven iterative HCR. Orthogonal dual-response is performed through an initial direct-lock NIR photocage enabled by ultraviolet-emitting upconversion luminescence and photolytic moieties directly tethered to apurinic/apyrimidinic sites, followed by an endogenous APE1 gate. Using malignant tumor-associated microRNA-155 for conceptual verification, the method exhibits ultrasensitive (limit of detection down to 5.31\u202ffM) and highly specific biosensing performance. Moreover, it allows high-precision fluorescence imaging of low-abundance analytes in live cells and animal models. SIGNIFICANCE: This work propels the advancement of DNA nanoamplifiers and offers a potent approach for bioassay applications.",
+  "authors": [
+   "Yao L",
+   "Sun X",
+   "Li CY"
+  ]
+ },
+ {
+  "pmid": "42508927",
+  "title": "Dual-mode colorimetric/photothermal lateral flow immunoassay using Au-Pt-CdS Hetero-Nanostructure for highly sensitive detection of progesterone in food samples.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345685",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Progesterone (P4) residues, whether resulting from improper veterinary application or environmental persistence, are established endocrine disruptors within the food supply chain. This underscores the need for analytical methods that are both sensitive and dependable. In response, we constructed a lateral flow immunoassay (LFIA) with dual-signal output, utilizing colorimetric changes and photothermal effects for the quantitative determination of P4. The assay employs Au-Pt-CdS hetero-nanostructures as versatile signal-enhancing probes. The Au-Pt-CdS nanohybrids exhibit strong and broad optical absorption spanning the visible to near-infrared (VIS-NIR) region, coupled with a high photothermal conversion efficiency of 45.60%, which collectively amplifies the signal in both detection channels. After optimization, the limits of detection (LODs) for the colorimetric/photothermal dual-mode LFIA were measured to be 0.352\u202fng\u202fmL-1 and 0.087\u202fng\u202fmL-1, respectively. These values represent sensitivity improvements of 1.7-fold and 6.9-fold over conventional LFIA systems based on gold nanoparticles (AuNPs). The developed method showed strong resilience to matrix interference in fortified milk and pork samples, with recovery rates between 81.49% and 123.06% and reproducible results (RSD <10%). Consequently, this dual-mode approach provides a robust, rapid, and user-friendly platform suitable for the on-site monitoring of steroid hormone residues in food systems with intricate composition.",
+  "authors": [
+   "Guo X",
+   "Zhao Q",
+   "Bian S",
+   "Li Z",
+   "Tang B",
+   "Zhang Z",
+   "Wang Y",
+   "Wang J",
+   "Ji Y"
+  ]
+ },
+ {
+  "pmid": "42508915",
+  "title": "Detection of malignancies in mice using TXRF analysis and reaction-based optical fingerprinting of blood plasma.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345819",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "This study explores the potential of reaction-based optical fingerprinting and total X-ray fluorescence (TXRF) elemental analysis, both separately and in combination, as a rapid and inexpensive approach to preliminary cancer diagnostics. Plasma samples from BALB/c mice with transplanted mammary carcinoma (EMT-6) and BDF1 mice with Lewis lung carcinoma (LLC) or B16 melanoma were analyzed. The optical fingerprinting method relies on differences in the oxidation rate of a carbocyanine dye in the presence of blood plasma samples. Changes in fluorescence and absorption intensity were recorded photographically, enabling high-throughput analysis. The obtained images were digitized and the resulting dataset was processed using various statistical methods. Reaction-based optical fingerprinting achieved up to 100% observed accuracy in several classification tasks within the limited proof-of-concept dataset, distinguishing between healthy and diseased animals with transplanted tumors at different time points after tumor cell inoculation: 1 week for LLC, 2 weeks for B16, and 3 weeks for EMT-6. The same samples were simultaneously analyzed using TXRF, which also achieved 100% recognition accuracy when distinguishing between healthy animals and mice bearing LLC (after 1 and 2 weeks) or B16 melanoma (after 2 weeks). Although a direct combination of the reaction-based optical fingerprinting and TXRF analysis data into a single array did not consistently improve discrimination accuracy, the individual methods complement each other and enable effective screening of various cancer types. Overall, the kinetic-based fingerprint method demonstrated significant potential in distinguishing between different types and stages of malignancies in mice.",
+  "authors": [
+   "Ustyuzhanin AO",
+   "Skorobogatov EV",
+   "Babayeva G",
+   "Pokrovsky VS",
+   "Solovova IA",
+   "Podrugina TA",
+   "Filatova DG",
+   "Beklemishev MK"
+  ]
+ },
+ {
+  "pmid": "42508910",
+  "title": "Evaluation of data analysis pipelines for ambient ionization mass spectrometry: Bridging analytical chemistry and data science.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345813",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Ambient Ionization Mass Spectrometry (AIMS) enables rapid, high-throughput chemical analysis with minimal sample preparation, but produces complex, information-rich spectra that require robust preprocessing and multivariate analysis. Numerous normalization, scaling, and transformation strategies are routinely applied, yet their selection is often empirical and poorly justified. Using edible oil authentication and type-determination as a model system, this work systematically evaluates ten preprocessing strategies combined with multiple dimensionality reduction and classification methods. The problem addressed is the lack of a quantitative, evidence-based framework for selecting optimal preprocessing and analysis workflows for AIMS data. RESULTS: Ten preprocessing approaches were quantitatively assessed in combination with Principal Component Analysis (PCA), sparse PCA (sPCA), and Partial Least Squares Discriminant Analysis (PLS-DA), followed by Na\u00efve Bayes, Support Vector Machines (SVM), and Linear Discriminant Analysis (LDA) classifiers. Performance was evaluated using explained variance, clustering index, projected chromatographic resolution (Rs), and classification accuracy. No universally optimal workflow was identified; instead, performance depended strongly on data characteristics. Log2 transformation consistently outperformed alternative preprocessing methods, yielding superior cluster separation and classification accuracy for this dataset. PCA and PLS-DA performed comparably and outperformed sPCA, while LDA achieved the highest classification accuracy. In contrast, commonly used Total Ion Count (TIC) normalization degraded performance and, in some cases, produced misleading classifications. Two visualization tools are introduced: an importance spectrum highlighting discriminative m/z features, and a synthetic chromatographic projection enabling intuitive interpretation of multivariate separability. Although demonstrated using LMJ-SSP AIMS data, the framework is broadly applicable to conventional MS workflows. SIGNIFICANCE: This study provides the first comprehensive, quantitative framework for optimizing preprocessing, dimensionality reduction, and classification for AIMS data analysis. By demonstrating that commonly used methods can underperform or mislead, it shifts workflow selection from convention to evidence. The proposed metrics and visualization tools improve interpretability, rigor, and reproducibility, enabling more reliable classification and feature discovery in mass spectrometry-based research.",
+  "authors": [
+   "Hassan M",
+   "Theriault RL",
+   "Ellis RE",
+   "Oleschuk RD"
+  ]
+ },
+ {
+  "pmid": "42508891",
+  "title": "Innovative analytical method based on magnetic resonance imaging and NIR to correlate hazelnuts morphological and structural characteristics with agronomic treatments, bedbug occult damage and varietal features.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345769",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Several Italian Protected Geographical Indication (PGI) and Protected Designation of Origin (PDO) hazelnuts are very famous for their quality and is of a paramount importance to establish innovative analytical approaches, guaranteeing a reliable and informative quality assessment, as well as identify novel agronomic treatments, capable to preserve and improve the product quality. We innovatively explored the combination of magnetic resonance imaging (MRI) and near-infrared (NIR) spectroscopies to investigate on several aspects related to the hazelnut quality. In particular, we aimed to correlate structural and compositional characteristics of intact hazelnuts with (i) variety-specific traits, (ii) sustainable agronomic treatments, and (iii) bedbug occult damage (BOD). RESULTS: MRI representations revealed anatomical details detecting the BOD. 2D and 3D MRI images revealed unequivocally the presence of the damage through a dramatic change in the hydrogen population which led to a neat colour modulation. MRI proton spin-lattice (T1) and spin-spin (T2) relaxation times were processed innovatively through a novel and advanced processing procedure enabling the mapping of spin populations which unveiled peculiar features. Such an approach not only confirmed the BOD detection (increase in T1 accompanied by a decrease in T1 and T2 intensities), but also discriminated significantly the two considered varieties (based on T2, T2 Area and T1 intensity). In addition, they also revealed the effects resulting from innovative and sustainable in-field treatments on plants. Although less powerful than MRI, NIR supplied promising results which, in many cases, represented a complementary analytical tool. NIR unambiguously recognized the hazelnuts affected by BOD and detected the hazelnuts undergone plant treatments. SIGNIFICANCE: The proposed advanced and innovative approach can support the high-quality hazelnut producers by acting as a useful tool to detect, early and non-invasively, the presence of BOD, identify and certify high-quality hazelnuts, and conduct a varietal classification.",
+  "authors": [
+   "Sica A",
+   "Altieri G",
+   "Curcio D",
+   "Graziano ML",
+   "Funicello N",
+   "De Pasquale S",
+   "Celano G",
+   "Mazzei P"
+  ]
+ },
+ {
+  "pmid": "42508888",
+  "title": "FabricSpec-RAG: A knowledge graph-augmented Seq2Seq framework for quantitative analysis of complex textile blends from NIR spectra.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345729",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The quantitative analysis of complex textile blends from Near-Infrared (NIR) spectra is critical for industrial recycling but is hampered by strong spectral overlap and compositional variability. Conventional deep-learning models often struggle on rare compositions and lack sufficient transparency. To address these limitations, we propose FabricSpec-RAG, a Sequence-to-Sequence framework that couples a multi-scale convolutional encoder with a Retrieval-Augmented Generation (RAG) mechanism, grounding predictions in a hierarchical, evolving knowledge graph. Extensive experiments show that the framework compares favourably with representative chemometric, machine-learning and deep-learning baselines, achieving a Micro-F1 score of 0.9880 in component identification and a Mean Absolute Error (MAE) of 0.0026 in ratio prediction. Interpretability analysis confirms that the model attends to chemically valid spectral features. In addition, the system is designed for continuous adaptation, allowing the knowledge base to be updated incrementally as new materials appear, without expensive retraining.",
+  "authors": [
+   "Qiu X",
+   "Sun F",
+   "Lyu Y",
+   "Sun H",
+   "Wang G",
+   "Zhang J"
+  ]
+ },
+ {
+  "pmid": "42401471",
+  "title": "Precise diagnosis of hepatocellular carcinoma and acute kidney injury through near-infrared imaging utilizing a fluorescence probe for monitoring \u03b1-l-fucosidase.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345767",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Herein, hepatocellular carcinoma (HCC) and acute kidney injury (AKI) were accomplished using \u03b1-l-fucosidase (AFU)-responsive fluorescent probe, HD-AFU, which incorporates the canonical AFU recognition moiety and a structurally optimized hemicyanine-thioxanthene signaling unit. In comparison with recently reported probes, HD-AFU demonstrated robust and reliable performance in monitoring AFU activity across HCC and AKI models. This probe enabled mitochondrial-targeted intracellular imaging to track AFU dynamics during progression and therapeutic intervention. In the orthotopic transplanted tumor mouse model, HD-AFU exhibited consistent capabilities for visualizing HCC status. To validate the accuracy of the probe in detecting AFU in AKI, we established four AKI models, including cisplatin-induced, gentamicin-induced, hyperuricemic nephropathy, and diabetic nephropathy models. The accurate establishment of these four models holds significant importance for subsequent fluorescence imaging studies. Additionally, we employed losartan and metformin to treat hyperuricemic nephropathy and diabetic nephropathy, respectively, and utilized the probe to achieve the screening and validation of therapeutic drugs. Furthermore, in a long-term induced HCC and AKI model validated by serum indices and histopathological assessment, HD-AFU successfully visualized the diagnostic and therapy process. These presented herein offer valuable insights for the development of effective diagnostic strategies.",
+  "authors": [
+   "Mao CP",
+   "Tan JT",
+   "Wang K",
+   "Cai FF",
+   "Dai HB"
+  ]
+ },
+ {
+  "pmid": "42401456",
+  "title": "Ratiometric near-infrared fluorescent probe for imaging Peroxynitrite fluxes in rheumatoid arthritis and drug-induced liver injury models.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345732",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Peroxynitrite (ONOO-) plays a pivotal role in the pathogenesis of Rheumatoid arthritis (RA) and drug-induced liver injury (DILI), with its dynamic accumulation closely associated with disease progression. To effectively monitor the level of ONOO- in biological system, fluorescent probes offer distinct advantages for ONOO-, including high spatiotemporal resolution, non-invasive imaging capability, and exceptional sensitivity for detecting transient ONOO- fluctuations in living systems. These probes enable real-time visualization of ONOO- in inflamed joints or drug-stressed livers, facilitating early diagnosis and therapeutic monitoring. RESULTS: Thus, a novel mitochondria-targeted ratiometric near-infrared (NIR) fluorescent probe, DXD, was designed and synthesized via the condensation reaction of a diphenylamino-substituted xanthene with dicyanoisophorone. The incorporation of a dicyanoisophorone bridging unit enabled emission redshift into the NIR region, while a phenylboronic acid recognition group conferred rapid and selective responsiveness to ONOO-. DXD exhibited a markedly larger Stokes shift and faster response kinetics for ONOO-. Importantly, the original emission peak of DXD at 734\u202fnm gradually decreased, while a new peak at 618\u202fnm progressively emerged and intensified, enabling ratiometric detection of ONOO-. Functionally, DXD enabled selective monitoring of dynamic fluctuations in both endogenous and exogenous ONOO- in live cells. It is noteworthy that ONOO- concentrations were significantly elevated in RA and DILI models compared to normal mice, providing important imaging evidence for the role of ONOO- in disease progression. SIGNIFICANCE: Detecting ONOO- levels using fluorescent probes is critically important because ONOO- acts as a key pathogenic mediator in both RA and DILI models, driving inflammation, autoimmunity, and tissue damage. Furthermore, its real-time monitoring serves as an early and sensitive biomarker for disease progression, often showing changes before traditional clinical indicators.",
+  "authors": [
+   "Li R",
+   "Wang R",
+   "Li M",
+   "Zhang L"
+  ]
+ },
+ {
+  "pmid": "42401444",
+  "title": "Laser-induced plasma spectrometry for assessing food nutritional quality and safety: A review.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345595",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: Foods are sources of nutrients - mainly essential elements - necessary for maintaining a healthy life. Analytical methods for elemental determination are essential for obtaining nutritional information because they enable the determination and/or identification of chemical compounds Therefore, a robust, reliable, and high-throughput analytical methods are required for studies on nutritional quality and food safety. In this context, Laser-Induced Breakdown Spectroscopy (LIBS) is a growing analytical technique that offers valuable advantages for qualitative and quantitative food analysis, as it allows rapid, remote, multielemental determination with minimal or no sample preparation. RESULTS: In this review, a critical evaluation of the different analytical approaches applied to food analysis by LIBS is presented, with emphasis on qualitative and quantitative applications. Key aspects discussed include target analytes, sample preparation, interferences, mathematical models, and instrumental characteristics, highlighting promising alternatives for obtaining nutritional information and ensuring food safety. Although qualitative LIBS studies are predominant, remote analysis for determining nutritional quality and food safety represents an important emerging trend, particularly through imaging strategies. Mathematical tools are essential in quantitative studies, especially for calibration methods, although external calibration remains the most straightforward approach. Additionally, sample preparation strategies - especially for liquid foods - remain a critical challenge for elemental quantification. SIGNIFICANCE AND NOVELTY: In studies of food quality and food safety, LIBS is a trending method that offers fast, in situ, multielemental, and remote analysis. These characteristics are highly advantageous for agricultural studies and routine industrial analyses. Qualitative and quantitative investigations represent significant achievements and evolving trends in the application of LIBS to food analysis. While various analytical strategies have demonstrated successful outcomes, substantial limitations persist, particularly in quantitative methodologies.",
+  "authors": [
+   "Pereira de Oliveira A",
+   "Nomura CS",
+   "Bolignano de Oliveira H",
+   "de Oliveira Lima L",
+   "Naozuka J"
+  ]
+ },
+ {
+  "pmid": "42242800",
+  "title": "Rethinking local spectral modelling: From per-query refitting to model libraries.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345682",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: This work introduces liblex, a simple yet powerful algorithmic framework to streamline the use of complex spectral libraries. It converts diffuse reflectance spectroscopy (DRS) libraries into libraries of pre-computed localised models (experts) that can be retrieved and combined at prediction time. RESULTS: The liblex algorithmic framework was evaluated in a challenging cross-continental test case. A large and heterogeneous DRS library of North American soils was used to construct a library of predictive models for total carbon (TC), which were then applied to samples from a region in the Democratic Republic of the Congo. In this scenario, liblex achieved high predictive accuracy and produced RMSE values that were competitive with, and in this case lower than, those obtained with the benchmark methods considered, including LOCAL, Cubist, global PLS variants, and a convolutional neural network with transfer learning. This work also shows how liblex intrinsically provides uncertainty proxies via prediction dispersion and supports interpretability through stored regression coefficients and variable-importance profiles. SIGNIFICANCE: The liblex framework addresses several long-standing drawbacks of conventional local modelling methods by replacing per-query model refitting with the retrieval and aggregation of pre-computed localised experts. This design reduces computational burden at prediction time, enables deployment without access to the full reference library, preserves interpretability, and supports robust prediction across heterogeneous domains. The dispersion among retrieved expert predictions also provides an intrinsic, low-cost proxy for sample-specific uncertainty. These features make liblex a scalable, interpretable, and privacy-preserving strategy for operationalising large spectral libraries.",
+  "authors": [
+   "Ramirez-Lopez L",
+   "Metz M",
+   "Lesnoff M",
+   "Orellano C",
+   "Perez-Fernandez E",
+   "Plans M",
+   "Breure T",
+   "Behrens T",
+   "Viscarra Rossel R",
+   "Peng Y"
+  ]
+ },
+ {
+  "pmid": "42242816",
+  "title": "Non-destructive forensic identification and quantification of cocaine through sealed packaging using FT-NIR spectroscopy and hyperspectral imaging.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345679",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The forensic analysis of illicit drugs requires analytical methods that are rapid, reliable, and compliant with legal constraints concerning sample integrity. In this study, Fourier Transform Near-Infrared (FT-NIR) spectroscopy and hyperspectral imaging (HSI) were evaluated as non-destructive tools for the identification, classification, and quantification of cocaine and its most common cutting agents, directly through sealed polyethylene packaging. Real samples of cocaine seized in four independent operations, together with six typical adulterants (creatine, caffeine, levamisole, lidocaine, lactose, and mannitol), were analyzed without opening the evidence, ensuring operator safety and full compliance with Article 360 of the Italian Code of Criminal Procedure. FT-NIR spectroscopy combined with chemometric techniques enabled a clear differentiation between cocaine and adulterants through exploratory Principal Component Analysis (PCA) and supervised Soft Independent Modeling of Class Analogy (SIMCA), achieving 100% sensitivity and specificity in cocaine identification. Partial Least Squares (PLS) regression further allowed accurate prediction of cocaine content in seized samples (R2\u202f=\u202f0.95, RMSEP\u202f=\u202f2.40%). NIR hyperspectral imaging provided additional advantages by integrating spatial and spectral information, enabling pixel-level classification and visualization of chemical distribution within the samples. Pixel-based SIMCA models applied to NIR-HSI data showed excellent classification performance, selectively identifying cocaine and adulterants while rejecting background and packaging materials without the need for prior masking. Beyond analytical performance, the proposed approach is designed to support green, non-destructive, and operationally safe forensic workflows, enabling rapid screening while minimizing sample handling and operator exposure. Overall, the results demonstrate that FT-NIR spectroscopy and NIR hyperspectral imaging represent powerful, rapid, and legally robust alternatives to conventional destructive techniques for forensic drug analysis, with significant advantages in terms of safety, repeatability, and preservation of evidentiary integrity.",
+  "authors": [
+   "Spinelli E",
+   "Casamassima R",
+   "Marini F"
+  ]
+ },
+ {
+  "pmid": "42242809",
+  "title": "Cross-study validation and guidance for resampling approaches for partial least squares discriminant analysis in spectral machine learning.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345655",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Resampling strategies are central to model selection and performance estimation in spectroscopic machine learning (SML), yet their impact is often treated as secondary to model choice. In this tutorial study, we systematically evaluated how common resampling methods influence model selection, predictive performance, and estimation bias within a fixed partial least squares-discriminant analysis (PLS-DA) framework across twelve independent spectroscopic datasets. Model tuning was performed using both the one-standard-error (1SE) rule and highest Macro F1 (HMF1) selection, and performance was assessed at the sample level using repeated external validation. Bootstrap and jackknife methods demonstrated the strongest ability to preserve predictive performance, whereas LOOCV and selected Venetian blinds and some K-fold approaches achieved a more favorable balance between performance stability and model parsimony. However, resampling strategies differed substantially in their ability to estimate true test performance. A Bayesian Bradley-Terry analysis revealed that K-fold cross-validation with five folds consistently produced the least biased estimates of external test Macro F1, outperforming both bootstrap and leave-one-out approaches. In contrast, LOOCV, jackknife, and Venetian blinds methods exhibited increased bias due to small or unrepresentative validation sets under sample-level resampling. These findings demonstrate that resampling strategy is a primary determinant of both model selection behavior and performance estimation accuracy in SML. This work provides a practical framework for selecting resampling methods that improve the reliability and interpretability of spectroscopic machine learning models.",
+  "authors": [
+   "Holman AP",
+   "Kurouski D"
+  ]
+ },
+ {
+  "pmid": "42219635",
+  "title": "When spectral libraries are too complex to search: Evolutionary subset selection for domain-adaptive calibration.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345651",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: The increasing availability of large spectral libraries offers new opportunities to reduce the costs and efforts required to develop spectroscopy-based sensing techniques for rapidly and non-destructively estimating key properties across environmental and agricultural matrices. These libraries can provide training samples for developing models adapted to specific target domains. However, identifying which samples are most relevant for a given target domain remains challenging. This study introduces gesearch, a non-linear evolutionary algorithm for selecting target-domain-relevant training samples from complex spectral libraries to build accurate and interpretable quantitative models. RESULTS: The gesearch, method was used to extract a subset of relevant samples from a large North American infrared soil spectral library to build predictive models of total carbon for an independent target area in the Democratic Republic of the Congo. In this challenging cross-domain test case, simple linear models built with the training samples found by gesearch achieved superior accuracy compared with established modelling approaches, including LOCAL, Cubist, convolutional neural networks, and global partial least squares regression. SIGNIFICANCE: The proposed method provides a practical framework for exploiting large heterogeneous spectral libraries when only limited target-domain reference data are available. By selecting samples that are spectrally and compositionally coherent with the target domain, gesearch supports accurate, compact, and interpretable calibration models. It can also operate when only unlabelled target-domain spectra are available.",
+  "authors": [
+   "Ramirez-Lopez L",
+   "Viscarra Rossel R",
+   "Orellano C",
+   "Kooijman L",
+   "Perez-Fernandez E",
+   "Wadoux AMJ",
+   "Plans M",
+   "Breure T",
+   "Summerauer L",
+   "Safanelli JL",
+   "Behrens T",
+   "Boqu\u00e9 R"
+  ]
+ },
+ {
+  "pmid": "42191263",
+  "title": "A near-infrared fluorescent probe lights up protective carbon monoxide during inflammation in live systems.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345613",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: The role of carbon monoxide (CO) as a fundamental gasotransmitter in cellular signaling and redox homeostasis is well-established. Precise in vivo tracking of CO remains a significant challenge, as most existing fluorescent probes are limited by short emission wavelengths or small Stokes shifts, which compromise signal fidelity in deep tissues due to autofluorescence and light scattering. RESULTS: To address these critical gaps, we developed DMBT-OH-CO, a near-infrared (NIR) fluorescent probe constructed on a novel dicyanoisofuranone-aminothiophenol scaffold. This rational molecular engineering achieves a synergistic combination of long-wavelength emission at 693\u202fnm and an exceptionally large Stokes shift of 193\u202fnm, effectively eliminating spectral crosstalk and excitation interference to ensure high-fidelity imaging. Utilizing a palladium-mediated Tsuji-Trost deallylation mechanism, the probe exhibits a rapid response, high selectivity over various biological interferents, and a competitive detection limit of 210\u202fnM. Furthermore, DMBT-OH-CO demonstrates excellent biocompatibility and superior deep-tissue penetration. We successfully applied this tool to visualize endogenous CO upregulation in LPS-stimulated cells and, significantly, to monitor real-time, non-invasive CO fluctuations in a zebrafish inflammation model. These results validate the probe's efficacy in capturing dynamic gasotransmitter changes within complex physiological environments with high spatio-temporal resolution. SIGNIFICANCE AND NOVELTY: This work introduces a novel NIR imaging platform, DMBT-OH-CO, distinguished by its ultra-large Stokes shift and superior optical resolution. By overcoming the penetration limits of traditional probes, it enables the precise visualization of CO in deep tissues. Our findings provide a powerful chemical tool for elucidating the complex pathological roles of CO in inflammation, offering significant potential for future biomedical research and the diagnosis of gasotransmitter-related diseases.",
+  "authors": [
+   "Lv S",
+   "Yang L",
+   "Wu C",
+   "Liu Y",
+   "He Y",
+   "Cao Y",
+   "Li P",
+   "Wang Z",
+   "Zhu HL"
+  ]
+ },
+ {
+  "pmid": "42191311",
+  "title": "ATP-responsive NIR-\u2161 fluorescence/mass spectrometry dual-modal nanoprobe for precision diagnosis of metabolic dysfunction-associated steatohepatitis.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345541",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Metabolic dysfunction-associated steatohepatitis (MASH) requires analytical tools capable of noninvasive and dynamic evaluation of hepatic metabolic dysfunction in vivo. Adenosine triphosphate (ATP) is a key indicator of mitochondrial activity and energy metabolism, yet its selective detection in complex biological environments remains challenging. RESULTS: An ATP-responsive dual-modal nanoplatform, NA1060@ZIF-90, was developed by integrating near-infrared \u2161 (NIR-\u2161) fluorescence imaging with mass spectrometry imaging (MSI). ATP-Zn2+ coordination induces disassembly of the ZIF-90 framework, activating a turn-on NIR-\u2161 fluorescence signal and enabling sensitive and selective ATP detection. The platform allows real-time visualization of hepatic ATP depletion and recovery in free-fatty-acid (FFA) treated hepatocytes and a methionine-choline-deficient (MCD) diet-induced MASH mouse model. MSI analysis further provides spatial molecular validation by correlating probe activation with lipid metabolic remodeling. SIGNIFICANCE: This work presents an analytical strategy that couples dynamic in vivo metabolic imaging with label-free spatial molecular analysis, offering a robust framework for MASH diagnosis, disease evaluation, and therapeutic efficacy assessment, and highlighting the potential of ATP-responsive nanomaterials in metabolic disease analysis.",
+  "authors": [
+   "Huang F",
+   "Jing Q",
+   "Wang N",
+   "Pei D",
+   "Zhang J",
+   "Hai J",
+   "Liu C"
+  ]
+ },
+ {
+  "pmid": "42128556",
+  "title": "A mitochondria-targeting NIR ratiometric fluorescent probe for visualizing the dynamics of vicinal dithiol-containing proteinsin a psoriasis mouse model.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345565",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Psoriasis is a chronic inflammatory skin disease characterized by the infiltration of inflammatory cells, epidermal hypertrophy, aberrant keratinocyte proliferation, and desquamation, which collectively lead to severe impairment of patients' quality of life. This pathological milieu is closely linked to oxidative stress, which has emerged as a crucial contributor to its progression. Within this context, systemic profiling of vicinal dithiol-containing proteins (VDPs), serving as critical modulator of protein conformation, cellular redox balance, and diverse physiological processes may provide valuable insights into the molecular mechanisms underlying psoriasis and its complex biological networks. RESULTS: Herein, we report the rational construction of a near-infrared (NIR) ratiometric fluorescent probe (MCQ-4) for the precise detection of VDPs in living environment. MCQ-4 utilized a quinoline conjugated coumarin-based luminophore connected with N-benzyl-methacrylamide-based VDPs receptor unit. Upon treating with reduced bovine serum albumin (rBSA), MCQ-4 exhibited a rapid, ratiometric and colorimetric fluorescence (584 nm/735\u202fnm) response, demonstrating reputable selectivity and sensitivity, and high biocompatibility. Furthermore, MCQ-4 enabled dual-emission imaging of endogenous VDPs in living HepG2 and HeLa cells, with excellent mitochondrial localization potential (PC\u202f=\u202f0.95). Notably, this study reveals the first evidence of a significant depletion of reduced VDPs in psoriasis mice model, highlighting the potential of MCQ-4 as a powerful tool for studying the pathophysiology of psoriasis. SIGNIFICANCE: This study pioneers the precise profiling of VDPs alterations during psoriasis for the comprehensive elucidation of redox dysregulation and its contribution to disease progression. Additionally, the findings of this work establish MCQ-4 as a promising tool for advancing mechanistic studies of psoriasis and its biological pathways.",
+  "authors": [
+   "Han F",
+   "Gao J",
+   "Ren X",
+   "Sayed ZN",
+   "Shi S",
+   "Zhang M",
+   "Zhu Z",
+   "Zhang H",
+   "Sun C",
+   "Li Y",
+   "Zhang B"
+  ]
+ },
+ {
+  "pmid": "42108066",
+  "title": "Characterization and quantitation of bevacizumab in human blood serum through hyperspectral micro-Raman spectroscopy imaging.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345543",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: HPLC/MS and ELISA immunoassay are established techniques for identifying and quantifying monoclonal antibodies in biological fluids, offering high accuracy, precision, and low limits of detection (DL) and quantitation (QL). However, these methods are complex, destructive, costly and solvent-intensive. In contrast, vibrational techniques, such as Raman spectroscopy, provide non-destructive, environmentally friendly, and cost-effective analysis while maintaining analytical reliability. This study aimed to develop a hyperspectral micro-Raman approach for identifying and quantifying monoclonal antibodies in human blood serum with minimal achievable DL and QL. RESULTS: Bevacizumab was selected as a model monoclonal antibody to evaluate the capability of micro-Raman mapping for discrimination from the blood serum matrix. Spectral acquisition conditions and imaging parameters, including mapping step size and number of spectra per map, were optimized to ensure robust identification. Quantification was achieved using classical least squares (CLS) fitting, exploiting both CLS scores and the surface area covered by the analyte within each map to construct calibration curves. The resulting models exhibited excellent linearity, with coefficients of determination (R2) between 0.98 and 0.99 over a concentration range of 0.01-1.25\u202fppm. The method achieved a DL of 0.17\u202fppm and a QL of 0.53\u202fppm for bevacizumab in human blood serum. SIGNIFICANCE: This work demonstrates that hyperspectral micro-Raman spectroscopy combined with chemometric analysis enables automated, and environmentally friendly quantification of monoclonal antibodies in complex biological matrices, achieving adequately low DL and QL.",
+  "authors": [
+   "Lykouras M",
+   "Georgakopoulos CD",
+   "Makri OE",
+   "Kontoyannis CG",
+   "Orkoula MG"
+  ]
+ },
+ {
+  "pmid": "42067298",
+  "title": "Mitochondria-targeted redox-logic carbon dots for in vivo realtime visualization of peroxynitrite during wound-healing.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345508",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Mitochondrial oxidative imbalance is closely associated with inflammation, tissue injury and disease progression, where endogenous thiols and peroxynitrite (ONOO-) play a competitive dominant role in determining cellular redox status. However, this process is hindered by the fact that ONOO- has an ultrashort half-life (10-20\u202fms), is spatially heterogeneous, and exhibits antagonistic interplay with glutathione (GSH). Existing fluorescent nanoprobes rely on irreversible mechanisms and are unable to capture the net redox balance. Herein, a novel approach for the in vivo visualization of ONOO- is presented using near-infrared mitochondria-targeted silicon-doped carbon dots (Si-Mito CDs) as a redox-logic nanoprobe. Si-Mito CDs demonstrate excellent mitochondrial colocalization (Pearson coefficient: 0.92), exhibit a sensitive response to GSH (0-10\u202f\u03bcM) and ONOO- (0-100\u202f\u03bcM), and successfully detects endogenous mitochondrial ONOO- elevation (fluorescence intensity nearly doubled) in LPS/IFN-\u03b3-stimulated HepG-2\u202fcells, with signal suppression upon TEMPO treatment confirming specificity. Importantly, real-time zebrafish tail amputation imaging revealed fluorescence enhancement peaking at 5\u202fmin post-injury, followed by gradual decline, which directly reflected spatiotemporal ONOO-/GSH fluctuation dynamics. This work establishes a novel reversible sensing platform for elucidating wound healing mechanisms and guiding therapeutic interventions.",
+  "authors": [
+   "Hu JY",
+   "Gen X",
+   "Sun YQ",
+   "Li ZH"
+  ]
+ },
+ {
+  "pmid": "42067285",
+  "title": "Diagnostic and therapeutic intelligent probe: Photoacoustic/ fluorescent dual-modality of thiols detection in tumor and ROS-potentiated cancer photodynamic therapy.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345479",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Diagnostic integration technology represents a significant advancement in cancer diagnosis and treatment. The combination of fluorescence probe-based imaging methods with photodynamic therapy (PDT) offers distinct advantages due to its high sensitivity and minimally invasive nature. However, the effective detection depth and spatial resolution of fluorescence imaging are limited by light scattering effects in biological tissues. Additionally, high concentrations of GSH in the tumor microenvironment (TME) neutralize reactive oxygen species (ROS) generated by PDT, directly inhibiting therapeutic efficacy. Therefore, developing a highly sensitive, high-resolution fluorescent probe to achieve integrated tumor diagnosis and treatment is of great significance. This study developed an activatable diagnostic-therapeutic probe, MB-2O-MB. In MB-2O-MB, methylene blue (MB) served as both the photosensitizer and signal reporting moiety, while a thiols-sensitive disulfide bond was introduced as the linker and response unit. When the probe reacted with GSH in tumor regions, the disulfide bond broke, causing structural dissociation and releasing free MB molecules. Experiments demonstrated that the probe exhibited strong interference resistance, and high sensitivity (LOD\u202f=\u202f57.99\u202fnM) for this reaction. Furthermore, the photoacoustic (PA) signal generated upon probe activation compensated for the limited tissue penetration depth of fluorescence imaging, enabling more precise spatial localization of tumor regions. Therapeutically, upon irradiation with 660\u202fnm near-infrared (NIR) laser light, the released MB efficiently generated singlet oxygen, effectively inducing 4T1 tumor cell death. In vivo data further validated the significant tumor suppression effect of MB-2O-MB via PDT. In summary, MB-2O-MB achieves precise tumor localization and complete eradication through the synergistic combination of NIR fluorescence/PA dual-modality imaging and PDT. This strategy simultaneously overcomes the drug resistance bottleneck and imaging limitations of conventional photodynamic therapy, paving a new pathway for constructing highly selective and potent smart diagnostic and therapeutic systems, and significantly advancing precision medicine.",
+  "authors": [
+   "Su X",
+   "Zeng R",
+   "Li H",
+   "Lan C",
+   "Jiang N",
+   "Ding Y",
+   "Lan J",
+   "Zhang T",
+   "Yi T"
+  ]
+ },
+ {
+  "pmid": "42009426",
+  "title": "Cross-instrument coal quality spectral analysis via a PDS-assisted fine-tuning calibration transfer method.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345485",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Device-related variations in X-ray fluorescence (XRF) instruments often lead to spectral inconsistencies, which significantly degrade the accuracy and generalization of quantitative coal quality models, particularly for ash content prediction. Conventional calibration transfer methods or single-stage transfer learning approaches struggle to effectively handle large inter-instrument spectral discrepancies, especially under limited sample conditions. RESULTS: In this study, a two-stage transfer learning framework integrating piecewise direct standardization (PDS) with feature fine-tuning (FT), termed PDS-FT, is proposed to enhance cross-instrument ash content prediction. Using 140 coal samples measured on two different XRF instruments, five approaches-PDS, FT, Domain-Adversarial Neural Network (DANN), PDS-DANN, and PDS-FT-were systematically evaluated. The results show that standalone PDS and FT exhibit limited test-set performance, achieving average R2 values of 0.33 and 0.51 with root mean square error (RMSE) of 1.86% and 1.55%, respectively. DANN improves cross-domain prediction performance (R2\u202f=\u202f0.74, RMSE\u202f=\u202f1.36%) but is constrained by training instability. The hybrid PDS-DANN method further enhances performance, reaching R2\u202f=\u202f0.78 and RMSE\u202f=\u202f1.0%. In contrast, the proposed PDS-FT framework achieves the best performance, with a test-set R2 of 0.95 and a substantially reduced RMSE of 0.59%, demonstrating superior accuracy, robustness, and cross-device generalization capability. SIGNIFICANCE: By combining spectral-level physical correction with feature-level model adaptation, the proposed PDS-FT framework establishes a hierarchical domain alignment mechanism that progressively mitigates inter-instrument discrepancies. This dual-stage strategy significantly enhances the transferability and reliability of XRF-based ash content models, providing a practical and generalizable solution for coal quality analysis across heterogeneous XRF instruments in industrial applications.",
+  "authors": [
+   "Gao J",
+   "Li J",
+   "Yin J",
+   "Gao R",
+   "Tian Z",
+   "Zhao Y",
+   "Bai Y",
+   "Dong L",
+   "Ma W",
+   "Zhang L",
+   "Yin W",
+   "Jia S"
+  ]
+ },
+ {
+  "pmid": "41997682",
+  "title": "Liquid-phase microextraction assisted surface-enhanced Raman spectroscopy: On-site quantification of amphetamine-type stimulants in complex samples from crime scenes.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345427",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The widespread abuse of amphetamine-type stimulants (ATS) poses severe threats to public security and health, necessitating rapid and accurate on-site detection of ATS specially at crime scenes for criminal detection and illicit drug control. However, detection of complex samples at crime scenes by surface-enhanced Raman scattering (SERS) is still a challenge because of the matrix effect. Flat membrane-based liquid-phase microextraction (FM-LPME) enables efficient separation and sufficient sample clean-up. FM-LPME was used to overcome the matrix effect on SERS, and a sensing platform of FM-LPME-SERS was developed for rapid and accurate detection of ATS. The effect of key operation factors on FM-LPME performance was investigated. ENB and NPOE were identified as efficient supported liquid membrane solvent. For SERS, silver nanoparticles synthesized by sodium citrate reduction displayed superior enhancement in SERS signal, and the SERS signal for ATS could be further improved by sodium bromide. Finally, a quantitative model based on partial least squares regression was established to analyze the FM-LPME-SERS sensing data, which displayed satisfactory analytical performance for blood spot, urine, and wastewater samples with acceptable detection limit (0.011-0.570\u00a0\u03bcg\u00a0mL-1), high repeatability (RSD \u226413%), and satisfactory accuracy (90-114%). This method was successfully applied to analyze wastewater samples from a drug production site provided by the Public Security Bureau in XX Province. Therefore, FM-LPME-SERS is a powerful tool for on-site detecting ATS in complex samples, which is of great importance for forensic science and public security. We believe this work will expand the applicability of SERS for complex samples.",
+  "authors": [
+   "Gao T",
+   "Dong Z",
+   "Xiong J",
+   "Hao H",
+   "Shen X",
+   "Tang W",
+   "Tong Z",
+   "Huang C"
+  ]
+ },
+ {
+  "pmid": "41997678",
+  "title": "GAN-FixMatch: A generative-semi-supervised deep learning framework for small-sample quantitative analysis in near-infrared spectroscopy of agricultural and pharmaceutical materials.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345451",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: Near-infrared (NIR) spectroscopy has become a key analytical tool for rapid and non-destructive quantification in agricultural, pharmaceutical, and medicinal materials. However, the predictive performance of deep learning models remains heavily constrained by the limited availability of labeled NIR spectra, as chemical reference measurements are labor-intensive, costly, and slow. Existing augmentation strategies either generate unrealistic spectral variations or introduce label drift that degrades model reliability. Thus, the central challenge is to achieve accurate and robust NIR quantitative modeling when only a limited number of samples can be labeled by reference chemical measurements. RESULTS: We propose GAN-FixMatch, a hybrid generative-semi-supervised framework that synthesizes large quantities of realistic unlabeled spectra while enforcing prediction consistency for robust quantitative modeling. The one-dimensional GAN accurately captured the global absorption patterns and fine-grained spectral variations in real samples, thereby expanding the training distribution without introducing regression-label drift. Building on these synthetic spectra, FixMatch applied dual perturbations-low-magnitude additive Gaussian noise to generate reliable pseudo-labels and high-magnitude additive Gaussian noise to regularize the model toward invariant predictions-effectively exploiting unlabeled information to stabilize learning under small-sample constraints. Extensive experiments on three representative NIR datasets-pharmaceutical granules, maize kernels, and American ginseng-demonstrated that GAN-FixMatch consistently surpassed fully supervised baselines, classical unsupervised augmentation, and GAN-labeled synthesis across multiple 1D CNN architectures. Notably, the method yielded substantial gains in coefficient of determination (R2), root mean square error (RMSE), and residual predictive deviation (RPD), with the best model achieving R2\u202f=\u202f0.993 and RPD\u202f=\u202f12.3051, indicating markedly improved accuracy, robustness, and generalization. SIGNIFICANCE AND NOVELTY: This work introduces the first framework that jointly leverages generative spectral modeling and semi-supervised consistency learning for NIR quantitative analysis. The method overcomes the inherent limitations of conventional augmentation and GAN-labeled strategies, enabling high-precision prediction under scarce labeled data. GAN-FixMatch provides a robust, scalable pathway for NIR-based quality assessment and offers significant potential for broader applications in pharmaceutical analysis, food quality evaluation, and biomaterial characterization.",
+  "authors": [
+   "Li P",
+   "Qiu C",
+   "Duan J",
+   "Qin Y",
+   "Li M",
+   "Zhai D",
+   "Cheng X",
+   "Yang Y"
+  ]
+ },
+ {
+  "pmid": "41935010",
+  "title": "Lysosome-targeted copper-modulated carbon dots with near-infrared fluorescence imaging and enhanced photodynamic therapy effects.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345401",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: The excellent biocompatibility and tunable optical properties of carbon dots make them highly promising for applications in photodynamic therapy (PDT). However, effectively enhancing their photodynamic performance remains a significant challenge. This work employed methylene blue and metformin as precursors along with three trace metal elements ion (Fe3+, Zn2+ and Cu2+) to synthesize carbon dots (CDs, FeCDs, ZnCDs and CuCDs) via a one-step hydrothermal method. RESULTS: The results demonstrate that metal ion doping effectively modulates the optical properties and photodynamic performance of carbon dots. Compared to CDs, the metal-doped carbon dots as synthesized exhibited red-shifted absorption and fluorescence emission wavelengths, alongside an increased fluorescence quantum yield and enhanced reactive oxygen species (ROS) generation. Among them, CuCDs displayed the most pronounced optical and photodynamic properties with fluorescence emission at 667\u00a0nm, and their ROS generation capacity was 9-fold higher than that of CDs. The CuCDs can specifically target the lysosomes of tumor cells, upon 660\u00a0nm laser irradiation, the resulting ROS disrupt the lysosomal membrane, thereby increasing lysosomal membrane permeability ultimately potentiating the photodynamic therapy effect and leading to a notable apoptosis rate of 87% in the tumor cells. SIGNIFICANCE AND NOVELTY: Thus, we constructed metal-ion-doped near-infrared carbon dots with organelle-targeting capability, which expected to enhance PDT efficacy by targeting lysosomes, promoting ROS generation, and disrupting their redox balance to exacerbate membrane damage. This work provides support for the construction of lysosome-targeted carbon dots through metal ion doping and shows their potential for application in near-infrared fluorescence imaging and PDT.",
+  "authors": [
+   "Chen T",
+   "Zhao M",
+   "Li Y",
+   "Wang Y",
+   "Zhao B",
+   "Zhou Y"
+  ]
+ },
+ {
+  "pmid": "41903983",
+  "title": "A step-by-step tutorial to local partial least squares analyses for near-infrared spectroscopic data analysis.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345242",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Partial least squares (PLS) methods are key algorithms in chemometrics, particularly in near-infrared spectroscopy. Their ability to handle multicollinearity and high-dimensional data makes them an effective tool for regression and discrimination tasks. Nevertheless, PLS performance can be limited when dealing with highly complex datasets. To address this, local PLS analyses were introduced. Instead of calibrating a model on the entire dataset and ignoring local variations, local PLS selects a subset of nearest neighbours for each new sample to predict and calibrate a PLS model on this subset. This ensures that each sample is predicted using a model trained on a more relevant local context. Such an approach is easy to implement and especially valuable with the growing availability of large spectroscopic datasets. Despite its advantages, local PLS remains underutilized, perhaps due to a lack of accessible resources. This tutorial aims to bridge that gap by providing a step-by-step framework for implementing local PLS, combining theoretical insights with hands-on applications. Readers will gain practical knowledge through detailed explanations, examples, and best practices for avoiding common mistakes. Ready-to-use scripts written in R and Julia languages are provided to facilitate adoption and integration into research workflows.",
+  "authors": [
+   "Deryck A",
+   "Fern\u00e1ndez Pierna JA",
+   "Baeten V",
+   "Lesnoff M"
+  ]
+ },
+ {
+  "pmid": "41903982",
+  "title": "Transfer of multivariate calibrations for potentiometric multisensor systems to account for non-calibrated interferences.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345387",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: The deterioration in the predictive ability of calibration models when transitioning between different experimental conditions is a common analytical problem. Such circumstances as low long-term instrument stability, instrument replacement, or changes in the matrix composition of the analyzed samples (appearance of non-calibrated interferences) lead to necessity of sensor system recalibration, which is a long and tedious process. Moreover, in industrial settings where multisensor systems tend to be applied this recalibration is often impossible at all due to specific installation requirements and technological process regulations. Thus, there is a need for some mathematical correction for novel measurement conditions with unknown interference. RESULTS: We have studied four multivariate calibration transfer protocols: Dynamic Orthogonal Projection (DOP), unsupervised Dynamic Orthogonal Projection (uDOP), Domain-Invariant iterative Partial Least Squares (DIPALS), and domain-invariant Partial Least Squares (diPLS) in extending multisensor calibration model applicability. These methods were applied to transfer the multivariate calibrations for predicting Nd3+ concentrations in a ternary nitric acid solution system (Nd3+, Eu3+, Er3+) mimicking the industrial media for lanthanides reprocessing. The initial conditions were further changed by addition of two non-calibrated interferences to the working solutions: Cs+ and Ba2+. As expected, the initial regression models intended for quantification of Nd3+ failed in these new conditions, the root mean squared error in cross validation (RMSECV) increased from 0.24 to 1.86 (logC(Nd3+) [-5; -3]). Application of model transfer algorithms allowed for substantial improvement of prediction in the new conditions returning the RMSECV values almost back to the initial model (0.21 logC(Nd3+) in case of DIPALS). SIGNIFICANCE: The findings of this study indicate that non-calibrated interferences can be successfully handled in the framework of already developed calibration models in multisensor potentiometry. This can significantly enlarge applicability domains for multisensor systems such as e-noses and e-tongues.",
+  "authors": [
+   "Saveliev M",
+   "Kirsanov D"
+  ]
+ },
+ {
+  "pmid": "41833422",
+  "title": "Optimized HSSE-GC-MS and machine learning for forensic gender classification of human scent from clothing.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345337",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Clothes are considered a valuable piece of evidence in forensic investigations because of the underlying information that can be extracted from them. Human scent is one kind of trace evidence that can be extracted from clothes, which can link a specific person or location to the crime. This study optimized a headspace sorptive extraction (HSSE) method coupled with gas chromatography-mass spectrometry in combination with machine learning for objective discrimination of gender from human scent traces on clothing for forensic applications. RESULTS: The HSSE was optimized using the Box-Behnken design and Response Surface Methodology to maximize the Euclidean distance between the total ion sum spectrum (TIS) of two independent samples. The optimized extraction parameters were determined at 100\u00a0\u00b0C extraction temperature, 180\u00a0min extraction time, and 5\u00a0\u00d7\u00a05 cm cloth dimension at m/z range 101 - 250 which produced an R2 of 0.9874. Method validation demonstrated an acceptable absolute error of 6.60%. Intra- and inter-day precisions were calculated for each m/z from 101 to 250 to remove outliers from the dataset for the multivariate analysis. Using the optimized extraction method, 62 samples were analyzed and the pre-processed TIS from the samples were subjected to various supervised machine learning algorithms. Support vector machine (SVM) and partial least squares-discriminant analysis (PLS-DA) models achieved perfect 100% accuracy for gender classification in both training and test sets. Random forest (RF) and linear discriminant analysis (LDA) also showed high test set accuracies of 93% and 86%, respectively. SIGNIFICANCE: This integrated approach, combining optimized stir bar HSSE-GC-MS with different machine learning algorithms using the TIS untargeted approach, provides a fast and automatic gender classification from human scent traces on clothes that can be used as a rapid screening technique in forensic investigations to narrow down suspect or victim profiles.",
+  "authors": [
+   "Mateo JMC",
+   "Calle JLP",
+   "Dur\u00e1n-Guerrero E",
+   "Palma M",
+   "Ferreiro-Gonz\u00e1lez M"
+  ]
+ },
+ {
+  "pmid": "41796490",
+  "title": "Assessing variable importance stability using resampling strategies to enhance model interpretability and reliability in metabolomics.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345258",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: As a cornerstone of knowledge discovery in metabolomics, multivariate analysis enables the evaluation of relationships between variables, such as measured signals, and observed objects or samples, thereby facilitating the deciphering and deeper understanding of the processes under study. Matrix factorization methods are extensively employed to uncover trends and relevant groupings of observations, but also to highlight potentially related variables based on their contributions to model components. However, the inherent high dimensionality of metabolomic datasets raises questions about the reliability of the coefficients obtained and efficient solutions for this purpose are needed. RESULTS: A novel method is proposed to assess the stability of Variable Importance in Projection from Partial Least Squares regression models, a common criterion widely used in metabolomics to highlight relevant subsets of variables. It combines bootstrap resampling and permutations to offer an effective and versatile tool based on a stability index and a diagnostic plot. The proposed strategy leverages the full set of variable importance values collected across bootstrap replicates to construct empirical distributions, both authentic and permuted, thereby enhancing the robustness of the assessment. Results from a synthetic dataset and representative real case studies illustrate its potential for evaluating the reliability of meaningful variables, and remove uninformative signals in metabolomic data resulting from different experimental configurations. A comparison benchmark with established approaches highlights its merits, emphasizing its ability to provide more stable subsets of informative variables, improving the interpretability of metabolomics studies. SIGNIFICANCE: Because it is computationally efficient and does not require assumptions about data distribution, the proposed method constitutes a straightforward, generic and relevant approach that is well suited to the needs of a wide range of applications. The broad adoption of this type of methodology will undoubtedly help to achieve more consistent and reproducible results, ultimately advancing the understanding of metabolic patterns.",
+  "authors": [
+   "Boccard J",
+   "Rudaz S"
+  ]
+ },
+ {
+  "pmid": "41791803",
+  "title": "Old advice on multivariate calibration: still in force, but not always followed. A tutorial.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345155",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: A growing number of multivariate calibration protocols use deep learning for estimating target properties from spectra, without considering simpler alternatives such as partial least-squares (PLS) regression. In addition, rational analyses are lacking on the following issues: (1) the real need of mathematically pre-processing the spectra before model building, (2) the proper statistical comparison of root mean square prediction errors for different models, and (3) the impact of the uncertainty associated to the primary reference technique used to train the models. RESULTS: To illustrate the above general concepts, a specific experimental example is analyzed: a publicly available data set regarding the estimation of dry matter content in fruits from UV-visible-near infrared spectra. Literature results using various shallow and deep learning methods, and those presently achieved by global and local PLS models are compared, concluding that the latter may be preferred due to its simplicity, accuracy, and prediction errors which are close to the uncertainty of the reference technique. The implications regarding general multivariate calibration protocols are highlighted in view of these results. SIGNIFICANCE: Multivariate calibration reports will benefit from the application of parsimonious concepts, producing more robust and reliable procedures, with prediction errors that are in reasonable agreement with those associated to the reference values in the calibration target variables.",
+  "authors": [
+   "Olivieri AC"
+  ]
+ },
+ {
+  "pmid": "41708239",
+  "title": "A deprotection-oxidation cascade-regulated dual-responsive near-infrared fluorescent probe for individual and sequential detection of H2S/HClO with applications in food safety monitoring.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345191",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: Hydrogen sulfide (H2S) and hypochlorous acid (HClO), as critical reactive sulfur (RSS) and oxygen (ROS) species, respectively play dual roles in physiological regulation and food safety. While numerous fluorescent probes exist for individual detection of H2S or HClO, dual-functional probes remain rare despite their significant potential in food safety, environmental monitoring, and biomedicine. RESULTS: A novel A-\u03c0-A (acceptor-\u03c0-bridge-acceptor) type near-infrared fluorescent probe, DCIQ-DNBS, was developed for the first time, featuring dual-response mechanisms for individual and sequential detection of H2S and HClO via H2S-triggered thiolysis of the 2,4-dinitrobenzenesulfonyl (DNBS) and HClO mediated DNBS-deprotection-oxidation of electron-deficient CC bond cascade oxidation. The probe DCIQ-DNBS demonstrates exceptional selectivity and rapid response times, and offers dual-channel fluorescence signaling with non-overlapping emissions: a near-infrared response at 740\u00a0nm for H2S (LOD, 49\u00a0nM) and a short-wavelength yellow emission at 562\u00a0nm for HClO (LOD, 40\u00a0nM). Practical applications were demonstrated through DCIQ-DNBS loaded portable test strips, which successfully enabled visual monitoring of gaseous H2S in food spoilage samples and quantitative tracing of HClO in foods. Furthermore, cellular studies revealed the probe's capability to detect elevated levels of both H2S and HClO in HeLa cells. SIGNIFICANCE AND NOVELTY: This novel single-probe system enables the individual and sequential detection of two distinct analytes in a single assay. By generating unique emission signals for each target, it eliminates the need for separate tests or complex separation steps, thereby revolutionizing efficiency in fields like food safety monitoring.",
+  "authors": [
+   "Yang J",
+   "Fu C",
+   "Zhou Y",
+   "Zhang H",
+   "Song X",
+   "Li D",
+   "Liu C"
+  ]
+ },
+ {
+  "pmid": "41698742",
+  "title": "A near-infrared ratiometric fluorescent probe for visual sensing of H2S and monitoring its fluctuation in plant roots under drought and flooding stresses.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345144",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Hydrogen sulfide (H2S) is a key endogenous gasotransmitter involved in plant physiological regulation and stress responses. Monitoring its dynamic changes in plants is essential for understanding related signaling mechanisms. However, due to its chemical instability and the complexity of plant tissues, developing a reliable method for accurate quantification and real-time visualization of H2S in living plants remains challenging. Although fluorescent probes have been developed for H2S imaging, most still face critical limitations, such as emission in the visible region being susceptible to background fluorescence interference, and insufficient quantitative reliability of single-wavelength-based signal output modes in complex samples. Therefore, developing novel probes with near-infrared emission and rationetric response characteristics is of great significance. RESULTS: We constructed a near-infrared rationetric fluorescent probe, NIR-Cou-H2S, for H2S detection. The probe itself emits at 716\u00a0nm, and after specific reaction with H2S, a new emission peak appears at 552\u00a0nm, resulting in a distinct dual-emission rationetric response (716 nm/552\u00a0nm) accompanied by a visible color change. Using chemometrics-based fluorescence analysis, the probe successfully enabled direct quantitative detection of H2S in river and lake water samples. Its near-infrared emission effectively reduced interference from plant autofluorescence, thereby achieving high-contrast dual-channel fluorescence imaging. The probe was successfully applied for high-quality in situ visualization of H2S in living cells and tobacco seedling roots. More importantly, using NIR-Cou-H2S, we observed and recorded in real time the dynamic upregulation trend of endogenous H2S levels in tobacco roots under both drought and flooding stress conditions. SIGNIFICANCE: As a novel near-infrared rationetric probe, NIR-Cou-H2S provides a powerful tool for monitoring endogenous H2S dynamics in plants. Its characteristics significantly improve the reliability of imaging and quantification in complex plant samples, offering a key methodological approach for further elucidating the regulatory mechanisms of H2S in plant stress resistance.",
+  "authors": [
+   "Mo R",
+   "Kang C",
+   "Yuan J",
+   "Redshaw C",
+   "Huang Y",
+   "Zhang Q",
+   "Yan X"
+  ]
+ },
+ {
+  "pmid": "41663225",
+  "title": "Multi-way data modelling for enhancing classification performance: Fluorescence data as a case of study.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345159",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: The exploitation of multidimensional information represents a key challenge in analytical chemistry, particularly for classification tasks involving complex systems. This study systematically investigates the influence of data structure-ranging from first-to third-order-on classification performance using simulated and experimental fluorescence datasets. Chemometric models based on partial least squares-discriminant analysis (PLS-DA), multi-way PLS-DA (N-PLS-DA), and parallel factor analysis combined with discriminant analysis (PARAFAC-DA) were evaluated under varying conditions of class balance, noise, and sample size. Simulated and experimental datasets based on excitation-emission fluorescence spectroscopy were used. RESULTS: Simulated results demonstrated that increasing data dimensionality markedly enhanced discrimination ability, yielding higher accuracy and reduced error rates. Third-order models achieved average accuracies above 93\u00a0%, improving by up to 20\u00a0% and 10\u00a0% compared to the first- and second-order models, respectively. The methodology was further validated using excitation-emission fluorescence data from extra virgin and virgin olive oils subjected to infrared heating. Both N-PLS-DA and PARAFAC-DA provided successful discrimination, with PARAFAC-DA offering superior interpretability through chemically meaningful component profiles describing degradation and oxidation processes. Overall, the findings confirm that third-order chemometric models effectively integrate structural, spectral, and kinetic information, thereby improving classification reliability and interpretability. Even under conditions of class imbalance and limited sample availability, third-order models maintained low error rates and consistently high accuracy values, confirming their robustness and generalizability. SIGNIFICANCE: This study provides a comprehensive evaluation of how data structure influences multivariate classification performance. The proposed approach highlights the analytical potential of higher-order data modelling as a powerful and versatile strategy for classifying complex matrices. The findings firmly establish third-order modelling as a versatile and compelling tool for analytical applications where data complexity and real-world variability are unavoidable.",
+  "authors": [
+   "Zaldarriaga-Heredia J",
+   "Montemerlo AE",
+   "Cami\u00f1a JM",
+   "Alcaraz MR",
+   "Azcarate SM",
+   "Goicoechea HC"
+  ]
+ },
+ {
+  "pmid": "41663218",
+  "title": "A peptide-functionalized quantum Dots/MOF nanosheets fluorescence biosensor for glutathione sensing and cellular imaging.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345120",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE AND NOVELTY"
+  ],
+  "abstract": "BACKGROUND: Glutathione (GSH), the most abundant cellular non-protein thiol and a central antioxidant, plays essential roles in regulating redox homeostasis, signal transduction, and detoxification processes. Altered GSH levels are closely associated with various pathological conditions, including neurodegenerative disorders, and liver injury. Notably, tumor tissues exhibit markedly elevated GSH concentrations (up to 4-10 times higher than in normal cells), where it promotes tumor proliferation, invasion, and chemoresistance by sustaining a reduced microenvironment, these characteristics make GSH an important biomarker and therapeutic target in oncology. RESULTS: We developed a novel \"switch-on\" near-infrared (NIR) fluorescence nanoprobe, Ag2S-CH@Cu-TCPP, for the highly sensitive and selective detection and imaging of GSH. The nanoprobe was constructed by conjugating histidine-rich CH peptides to carboxyl-capped Ag2S quantum dots (Ag2S QDs), which were then self-assembled onto two-dimensional Cu-TCPP metal-organic framework (MOF) nanosheets via coordination between Cu2+ and imidazole groups. In this design, Cu-TCPP acts as an efficient quencher for the Ag2S-CH fluorescence via a fluorescence resonance energy transfer (FRET) mechanism. Upon encountering GSH, the reduction of Cu2+ to Cu\u00a0+\u00a0disrupts the FRET process, leading to the recovery of the NIR fluorescence signal. This nanoprobe demonstrated a low detection limit of 5.33\u00a0\u03bcM and a wide linear range from 0.625 to 10\u00a0mM for GSH quantification, with excellent selectivity, high reproducibility, and favorable biocompatibility. We successfully applied the platform for monitoring intracellular GSH levels and distinguishing between cancer cells and normal cells based on their differential GSH expression. SIGNIFICANCE AND NOVELTY: The \"switch-on\" probe demonstrates excellent biocompatibility and is applicable for cellular imaging. It enables discrimination between normal and cancer cells while supporting semi-quantitative analysis of both endogenous and exogenous GSH. This work provides a novel and reliable strategy for tumor diagnosis and advanced investigations into GSH-related biological processes.",
+  "authors": [
+   "Chen T",
+   "Liang J",
+   "Liu W",
+   "Zhou F",
+   "Qiu C",
+   "Peng Y",
+   "Zhou X"
+  ]
+ },
+ {
+  "pmid": "41611409",
+  "title": "Non-contact identification of opportunistic pathogens in mixed biofilm contaminations by hyperspectral imaging.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345098",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Biofilms are present on almost all surfaces in households, healthcare and medical equipment, foods, industrial and water supply systems, and often contain opportunistic pathogens that represent one of the key public health hazards. The highest risks are imposed by ESKAPEE pathogens, as well as mixed bacterial-fungal communities often exhibiting multiple drug resistance, this way challenging public healthcare. RESULTS: Here we show how recent developments in hyperspectral imaging technology, complemented by advanced image analysis and machine learning methods, create a unique framework for the potential design of non-contact monitoring systems operating at the macroscale. We could successfully identify five key pathogenic bacteria and a common pathogenic yeast, C. albicans, that frequently occur on surfaces in monospecies and mixed biofilms consisting of combinations of various strains using hyperspectral imaging in the visible, near-infrared, and short-wave infrared spectral bands. Our results indicate that the above pathogenic species could be identified in monocultural biofilms with 95-99.5\u00a0% accuracy, while in more frequently occurring mixed biofilms obtained by combining different microorganisms, the accuracy ranges from 90 to 92\u00a0% for gram-negative E. coli, K. pneumoniae, and P. aeruginosa to 96-99\u00a0% for fungi and gram-positive E. faecalis and S. aureus, respectively, under in vitro conditions. SIGNIFICANCE: Based on our results, we believe that hyperspectral imaging represents a promising and highly efficient technology for the rapid, regular, non-contact monitoring of various equipment and surfaces to detect bacterial and fungal pathogens in situ.",
+  "authors": [
+   "Bogachev MI",
+   "Baranov PS",
+   "Sinitca AM",
+   "Mironova AV",
+   "Sharivzyanov DR",
+   "Basmanov AA",
+   "Trizna EY",
+   "Gorshkova AS",
+   "Pyko NS",
+   "Kayumov AR"
+  ]
+ },
+ {
+  "pmid": "41577415",
+  "title": "Comprehensive micellar / reversed-phase two-dimensional liquid chromatography for separation and identification of phenolic compounds in herbal tea by multivariate statistical analysis.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2026.345084",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Comprehensive two-dimensional liquid chromatography (LC\u00a0\u00d7\u00a0LC) is an advanced chromatographic technique that considerably enhances peak capacity and separation ability through combining two distinct separation mechanisms. Currently, a micellar mobile phase provides a dynamic chemical environment for chromatographic separation. This dynamic characteristic may result in a separation mechanism different from that of the traditional static mobile phase, thereby enabling more optimal separation conditions. Herein, an innovative and efficient LC\u00a0\u00d7\u00a0LC method was presented that combined micellar and reversed-phase liquid chromatography for the determination of bioactive compounds in herbal tea. RESULTS: A concentration of 10\u00a0mM sodium dodecyl sulfate was identified as optimal for the micellar mobile phase. Under optimal LC\u00a0\u00d7\u00a0LC conditions, Eclipse Plus C18 (2.1\u00a0mm\u00a0\u00d7\u00a0100\u00a0mm, 3.5\u00a0\u03bcm, Agilent) and Poroshell 120 SB-C18 (3.0 mm\u00a0\u00d7\u00a050\u00a0mm, 2.7\u00a0\u03bcm, Agilent) columns were used for first-dimension (1D) and second-dimension (2D) separations, respectively. Flow rates of 0.1\u00a0mL/min (1D) and 2.4\u00a0mL/min (2D) yielded improved resolution and peak shape of the analytes. In addition, the shifted gradient elution mode was adopted to enhance the chromatographic resolution. At the 1D stage, the developed method reduced organic solvent consumption by 9.71\u00a0mL per injection compared to traditional reversed-phase liquid chromatography, while peak capacity increased from 10 to 20. The resolution was also significantly improved; for example, catechin and procyanidin A2 increased from 0.86 to 3.18 and 1.34 to 7.23, respectively. Principal component analysis (PCA), with first three principal components explaining 60.53\u00a0% of the variance; partial least squares discriminant analysis (PLS-DA), 73.3\u00a0% model accuracy; and hierarchical cluster analysis (HCA) revealed significant differences between Rosa chinensis varieties from different regions. SIGNIFICANCE: The use of micellar mobile phase systems reduces the need for conventional organic solvents while increasing the peak capacity and separation efficiency for compounds. This method indicates that LC\u00a0\u00d7\u00a0LC, in conjunction with PCA, PLS-DA, and HCA, is effective for the classification and quality control of Rosa chinensis. This provides an effective solution for future separation technologies for natural complex matrices.",
+  "authors": [
+   "Shen QX",
+   "Wu YW",
+   "Ma XR",
+   "Cao J",
+   "Ye LH"
+  ]
+ },
+ {
+  "pmid": "41545115",
+  "title": "Lysosome-targeted sequential dual-activatable NIR fluorescent probe for imaging HClO and viscosity in acute kidney injury.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.345034",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Acute kidney injury (AKI) is a common condition among hospitalized patients, with high morbidity and mortality. Accumulating evidence suggests that hypochlorous acid (HClO)/viscosity in lysosome is closely associated with the progression of AKI, with their abnormal levels emerging as promising biomarkers for AKI. Near-infrared (NIR) fluorescent probes hold potential for tracking changes in HClO and viscosity, whereas the previous single-response/dual-channel fluorescent probes (HClO or/and viscosity) are prone to false-positive signals in biological environments, thereby compromising diagnostic accuracy. Therefore, it is of great significance to develop a lysosome-targeted sequential dual-activatable NIR fluorescent probe for imaging HClO and viscosity. RESULTS: We present a lysosome-targeted NIR fluorescent probe (LNX-HClO), which operates through a sequential dual-activation mechanism requiring the simultaneous presence of elevated HClO levels and increased viscosity. In the presence of HClO, the HClO-responsive moiety within LNX-HClO undergoes self-immolative cleavage to generate LNX-OH, which can facilitate intramolecular charge transfer (ICT) process. Subsequently, the high viscosity restricts bond rotation in LNX-OH, thereby suppressing the twisted intramolecular charge transfer (TICT) pathway. As a result, a significant fluorescence enhancement at 700\u00a0nm with a large Stokes shift of 150\u00a0nm is observed. Furthermore, in vitro experiments and cellular fluorescence imaging demonstrate that the probe possesses high selectivity, sensitivity, and excellent lysosome-targeting ability. Crucially, LNX-HClO has enabled the accurate diagnosis of AKI (drug-induced/ischemia-reperfusion injury-induced AKI) and the assessment of therapeutic efficacy. SIGNIFICANCE: This probe (LNX-HClO) has been successfully utilized for imaging HClO and viscosity in vitro and in vivo. It leverages specific small biological molecules and biophysical parameters to offer the potential to substantially minimize false positive signals, thereby improving diagnostic accuracy. It was expected to provide a valuable tool for AKI-related research and clinical applications.",
+  "authors": [
+   "Zou B",
+   "Qin J",
+   "Yang M",
+   "Ding Y",
+   "Peng Y",
+   "Gao X",
+   "Shao C"
+  ]
+ },
+ {
+  "pmid": "41526119",
+  "title": "A recyclable and tunable fluorescent sensor for rapid detection of biogenic amines in food.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.345006",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: The development of rapid, sensitive, and in-situ methods for detecting biogenic amines is essential for assessing food freshness. In particular, creating recyclable sensing platforms is crucial for enabling continuous monitoring and fostering sustainable analytical practices. However, the limited availability of reversible amine sensors presents a significant challenge in the research field. RESULTS: Herein, we report the design and synthesis of a push-pull type triphenylamine-dithieno[3,2-b:2',3'-d]pyrrole-based near-infrared fluorescent sensor EBTN1, which demonstrates exceptional selectivity and sensitivity toward primary amines, achieving a detection limit of 160\u00a0nM. The sensing mechanism relies on a reversible nucleophilic addition reaction, enabling sensor recycling and minimizing reagent consumption. The methoxyl moiety in EBTN1 serves as a programmable modification site, allowing functionalization without compromising amine-sensing performance, which exemplifies atom-economic design. As a proof-of-concept, a derivative EBTNAld-NHS was synthesized to anchor the sensor onto glass surfaces, fabricating a portable, recyclable sensing device for biogenic amines. SIGNIFICANCE: Sensor EBTN1 can be considered as a reusable platform for primary amine detection, offering high selectivity and sensitivity. When fabricated into a sensing glass, it enables real-time monitoring of fish freshness and can be regenerated for at least six cycles, underscoring its viability for sustainable analytical applications in food safety.",
+  "authors": [
+   "Bu L",
+   "Xu D",
+   "Zhou Y",
+   "Liu P",
+   "Li L",
+   "Gao C",
+   "Bao X",
+   "Yang G",
+   "Ji D",
+   "Ding Y",
+   "Xie Y"
+  ]
+ },
+ {
+  "pmid": "41526114",
+  "title": "Fe3O4 nanozyme integrated upconversion luminescence synergistic energy transfer composite nanoplatform for the ultrasensitive detection of proGRP.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344997",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Progastrin-releasing peptide (proGRP) is a potential high-specificity biomarker for Ewing sarcoma and has important clinical value in early diagnosis and risk stratification. However, the existing detection methods such as enzyme-linked immunosorbent assay (ELISA), chemiluminescence immunoassay (CLIA), and cytometric bead array (CBA) often face the problems of insufficient sensitivity and limited reliability in complex biological matrices, lead to the difficulty of accurate quantification. Therefore, it is of great significance to develop new sensing strategies with higher detection performance for promoting clinical accurate diagnosis. RESULTS: This study developed a novel biosensing system based on fluorescence enhancement with F\u00f6rster resonance energy transfer (FRET) for highly sensitive detection of proGRP. The signal amplification unit of this system is composed of DNA1-modified upconversion nanoparticles (UCNPs) as FRET donor and DNA2-modified magnetic nanozyme complexes (Fe3O4Ns) as acceptor. Upon competitive binding with proGRP, the dissociated DNA1-UCNPs pair with DNA2-Fe3O4Ns. This pairing reduces the donor-acceptor distance, thus activating the FRET process and prompting Fe3O4Ns to generate substantial hydroxyl radicals (\u00b7OH), which subsequently oxidizes specific substrates to transduce the detection signal. The detection limit of the method was 0.14\u00a0pg/mL in PBS and 0.76\u00a0pg/mL in serum. The method demonstrated high specificity, excellent reproducibility, and robust anti-interference performance, rendering it robust for the analysis of complex serum matrices. SIGNIFICANCE: This work presents an innovative sensing platform that combines near-infrared light-excited luminescence with nanozyme-mediated signal amplification for the detection of proGRP. The method surpasses conventional assays in sensitivity and operational stability, showing great promise for clinical translation. Its robust performance in serum underscores potential applications in early cancer diagnostics and biomarker-based disease management, providing a valuable tool for disease diagnosis.",
+  "authors": [
+   "Jian S",
+   "Niu X",
+   "Li F",
+   "Zhang P",
+   "Zhang H",
+   "Yang H",
+   "Liu Y"
+  ]
+ },
+ {
+  "pmid": "41526108",
+  "title": "Multi-condition machine learning models for understanding retention mechanisms and predicting retention time in supercritical fluid chromatography/mass spectrometry.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.345026",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Modern supercritical fluid chromatography (SFC) enables fast and efficient separations owing to the low viscosity and high diffusivity of supercritical mobile phases. However, its retention mechanisms remain incompletely understood, limiting method development and confident compound identification in SFC/MS. In this study, the retention times (RTs) of 1217 compounds measured under 51 chromatographic conditions-covering 15 stationary phases, three modifier chemistries (neutral, acidic, and basic), and two gradient programs-were analyzed to develop RT prediction models and elucidate the underlying retention mechanisms. RESULTS: Gradient boosting (GB) models were first trained separately for each condition using the measured RTs together with 2285 molecular descriptors. Then, for the first time, system descriptors encoding chromatographic conditions (i.e., stationary phase, modifier, and gradient type) were introduced to integrate these individual models into multi-condition models. These models achieved high predictive accuracy, with R2 values of 0.951 and 0.923 and mean absolute errors (MAE) of 0.613 and 0.520\u00a0min for Gradients 1 (G1) and 2 (G2), respectively. To interpret retention mechanisms, GB-selected descriptors were quantified using partial least squares (PLS), classified into 10 physicochemical categories, and evaluated using the normalized combination effect (nCE) across conditions. Subsequently, RT shift analysis revealed the most pronounced differences between neutral and acidic media. Finally, heatmaps for each stationary phase summarized peak quality and detection percentages for functional group clusters. SIGNIFICANCE: By introducing system descriptors, this study established multi-condition RT prediction models that accurately predict retention across diverse SFC conditions. Moreover, comprehensive descriptor-based analysis under 51 conditions elucidated the underlying retention mechanisms and provided a practical framework for selecting optimal analytical conditions.",
+  "authors": [
+   "Heravizadeh O",
+   "Nakatani K",
+   "Tomiyasu N",
+   "Torigoe T",
+   "Yamashita T",
+   "Takahashi M",
+   "Izumi Y",
+   "Bamba T"
+  ]
+ },
+ {
+  "pmid": "41513376",
+  "title": "A near-infrared hemicyanine-derived fluorescent probe for sulfite detection in biomedical investigate.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344984",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Sulfite (SO32-) plays a crucial role in the transfer of substances and information between organisms and their environments. This study developed a novel hemicyanine-based sensor, named HD-TT, for the real-time and highly sensitive detection of to track the SO32- in the biosystem. The HD-TT probe is selectively activated by SO32-, resulting in simultaneous enhancement of both absorption and fluorescence signals. It displays a linear response to sulfite concentrations and achieves a detection limit of 151.61\u00a0nM, reflecting high sensitivity under physiologically relevant conditions. In cellular models, HD-TT effectively monitored dynamic changes in SO32- levels, confirming its capability for real-time tracking in biological environments. In addition, the probe successfully expressed a remarked fluorescence intensity in RA serum samples, underscoring its detecting potential towards SO32-. Furthermore, the probe also exhibited an excellent specificity against common biological interferents and maintained stability across a range of physiological conditions, supporting its suitability in biosystem. These attributes position HD-TT as a promising non-invasive tool for dynamic monitoring SO32-, facilitating an novel perspective in biomedical research.",
+  "authors": [
+   "Wang K",
+   "Cai DX",
+   "Jiang HX",
+   "Luo ZR",
+   "Zhan HR"
+  ]
+ },
+ {
+  "pmid": "41513338",
+  "title": "Bioorthogonally activatable methylene blue platform for selective prodrug activation and fluorescent imaging in living systems.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344988",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: The development of fluorescent prodrugs based on bioorthogonal chemistry involves broadening the range of fluorophores that exhibit changes in fluorescence signals and the spatiotemporally regulated release of therapeutic agents upon biorthogonal ligation. However, there are still certain gaps including shallow tissue-penetrating and low drug release efficiency, which limit its application. RESULTS: Herein, we present a flexible and effective bioorthogonal scaffold that allows targeted medication release with simultaneous fluorescence emission when the targeting groups or prodrugs are conjugated. The scaffold consists of a tetrazine-caged methylene blue (MB-Tz), which serves as a dual switch for the activation of fluorophore and drug. Further encountering the TCO-caged molecular partner (TCO-RGD or TCO-Dox) triggers the NIR fluorescence reinstatement and simultaneously leads to spatiotemporal targeting and selective activation of prodrugs inside cancer cells. It was also demonstrated that bioorthogonal activation successfully inhibited tumor growth by controlled activation in vivo, with minimal systemic toxicity observed. SIGNIFICANCE: We envision that integration of fluorescence and bioorthogonal reactions will serve as a general small-molecule-based strategy for precisely targeted imaging and treatment in chemotherapy.",
+  "authors": [
+   "Yang L",
+   "Bai S",
+   "Nie Y",
+   "Li Y",
+   "Xin F",
+   "Song P",
+   "Gao N",
+   "Ji L",
+   "Li L",
+   "He G"
+  ]
+ },
+ {
+  "pmid": "41513337",
+  "title": "The importance of choosing a proper validation strategy in predictive models. Part 2: Recipes for (avoiding) overfitting-A tutorial.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344838",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Overfitting remains one of the most pervasive and deceptive pitfalls in predictive modeling. It leads to models that perform exceptionally well on training data but cannot be transferred nor generalized to real-world scenarios. Although overfitting is usually attributed to excessive model complexity, it is often the result of inadequate validation strategies, faulty data preprocessing and biased model selection, problems that can inflate apparent accuracy and compromise predictive reliability. In this second part of our series, we examine the most common yet overlooked practices that contribute to overfitting, ranging from data leakage in preprocessing to the pressures of scientific publishing that encourage result-driven overoptimization. By identifying these pitfalls and providing practical guidelines for performing robust validation protocols, this work serves as a blueprint for researchers to ensure their models are not only high-performing but also trustworthy, reproducible, and generalizable.",
+  "authors": [
+   "Lopez E",
+   "Gorla G",
+   "Etxebarria-Elezgarai J",
+   "Amigo JM",
+   "Seifert A"
+  ]
+ },
+ {
+  "pmid": "41352943",
+  "title": "Synthesis of a hemicyanine-based near-infrared fluorescent probe for the diagnosis of pulmonary fibrosis and acute lung injury.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344906",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Pulmonary fibrosis (PF) and acute lung injury (ALI) are severe and often fatal pulmonary conditions with high morbidity and limited treatment options, characterized by progressive interstitial scarring or acute diffuse alveolar damage, respectively. Mitochondrial dysfunction is increasingly implicated in their pathogenesis, and LACTB (Lactamase beta), a mitochondrial serine protease, is a potential regulator of these. However, current diagnostics cannot capture early molecular or organelle-level changes. This gap highlights the need for a noninvasive, mitochondria-targeted imaging approach to monitor disease-related biochemical alterations in vivo. RESULTS: HD-LACTB is a hemicyanine-based Near-Infrared (NIR) fluorescent probe, whose activation is triggered by enzymatic bond cleavage. LACTB recognizes the peptide sequence within the probe and catalyzes hydrolysis at the cleavage site, releasing a free hemicyanine fluorophore and the corresponding peptide fragment. It features emission in the NIR spectrum (725\u00a0nm) for enhanced tissue penetration, along with high selectivity for LACTB and low cytotoxicity, outperforming previous fluorescent probes. The cationic hemicyanine moiety drives selective mitochondrial accumulation, ensuring that the fluorescence signal specifically reports mitochondrial LACTB activity in cells. In murine models of PF and ALI (bleomycin- and LPS-induced, respectively), systemic administration of HD-LACTB enabled noninvasive lung imaging with robust, organ-specific NIR signals. The probe readily distinguished fibrotic or acutely injured lungs from normal controls by visualizing LACTB-mediated metabolic alterations, with fluorescence intensities correlating with disease severity, thereby improving diagnostic precision over prior non-targeted imaging approaches. SIGNIFICANCE: The development of HD-LACTB showcases a conceptual advance in probe design: a mitochondria-targeted, enzyme-responsive NIR fluorophore that bridges a critical gap in lung disease imaging. This strategy illustrates how rationally engineered chemical probes can provide unprecedented molecular specificity in vivo, heralding a new class of materials-based diagnostics for respiratory diseases. By enabling precise, noninvasive visualization of pathological processes at the organelle level, HD-LACTB paves the way for innovative diagnostic approaches in pulmonary medicine.",
+  "authors": [
+   "Fan L",
+   "Guo Y",
+   "Pan ZZ",
+   "Ying S",
+   "Cheng ZY",
+   "Wang K",
+   "Li L"
+  ]
+ },
+ {
+  "pmid": "41352932",
+  "title": "Using Rayleigh-Mie scattered light and polarised multidimensional fluorescence emission in combination for protein quantification in a model clarified bioreactor harvest.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344894",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE & NOVELTY"
+  ],
+  "abstract": "BACKGROUND: Accurate monitoring and control of bioprocesses require the measurement of critical parameters, such as product and interfering protein concentrations, particularly in the bioreactor harvest prior to during downstream purification. One promising approach is to combine polarised multidimensional fluorescence measurements of intrinsic emission with light scattering measurements. This offers a non-invasive and sensitive method for protein quantification that can be implemented using either polarised Excitation Emission Matrix (pEEM) or Total Synchronous Fluorescence (pTSFS) measurement modes which can deal with matrix interferences from the complex cell culture media which is also fluorescent. RESULTS: Polarised Synchronous Light Scattering (pSyLS), pTSFS, and pEEM measurements on a sample set of 45 unique samples with varying protein (Immunoglobulin G and Bovine Serum Albumin) and media (yeastolate) concentrations (the model for a clarified, multi-protein bioreactor harvest) were made. Spectral data were evaluated using Principal Component Analysis (PCA) and Partial Least Squares (PLS) regression used for quantifying IgG and total protein content. Best results were achieved with parallel polarised (||) measurements for both total protein content with prediction errors of 11\u00a0%, 14\u00a0%, and 14\u00a0% using TSFS||, EEM||, and SyLS|| measurements respectively, and IgG content, with prediction errors of 10\u00a0% for both TSFS|| and EEM||. Quantification was best when the Rayleigh-Mie scattered light signal was included. The primary limitations were a combination of low sample numbers (n\u00a0=\u00a045) along with a relatively low target analyte range (max 1.8 gL-1), with reference method accuracy being a secondary consideration. SIGNIFICANCE & NOVELTY: Demonstrated for the first time that pSyLS can be used for protein quantification in a complex clarified bioreactor harvest model. This is also the first comparison between polarised TSFS, SyLS, and EEM measurements for estimating total protein and IgG content in a complex interfering matrix. For pEEM measurements the significant result is that for samples with a constrained particle size distribution, including Rayleigh-Mie scatter signal in the model enables better protein quantification. This shows the strong potential of pSyLS, pTSFS, and pEEM measurements for real time bioprocess monitoring of protein content.",
+  "authors": [
+   "Boateng BO",
+   "Ryder AG"
+  ]
+ },
+ {
+  "pmid": "41352930",
+  "title": "GC-orbitrap-HRMS with ROIMCR and MSident targeted and non-targeted analysis of persistent organic pollutants in fish-based certified reference materials.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344892",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The use of fish-based reference materials allows the validation of analytical methods used for the monitoring of persistent organic pollutants (POPs) in environmental samples. Thus, the aim of this work has been to apply and validate the Regions of Interest Multivariate Curve Resolution (ROIMCR) procedure, in a first instance, to quantify POPs using two fish-based certified reference materials (CRM) provided by the Institute of Reference Materials (IRMM); and also to identify, with the MSident program, the presence of more POPs in the same samples. Samples were extracted and analyzed by gas chromatography coupled to an Orbitrap mass spectrometer (GC-HRMS). A targeted analysis was performed to quantify the four certified POPs: hexachlorobenzene (HCBz) and hexachlorobutadiene (HCBu) in ERM\u00ae-CE100 and pentachlorobenzene (PeCB) and \u03b1, \u03b2, \u03b3, and \u03b4-hexachlorocyclohexane (HCH) in ERM\u00ae-CE103. Quantitative estimations obtained with ROIMCR method were compared with those obtained using the instrument vendor's Xcalibur software. Two tailed t-tests were performed and good agreement was observed between the two approaches and with the certified values. A non-targeted analysis approach was then performed to characterize other unknown POPs present in the samples. Data processed with the ROIMCR method in the non-targeted acquisition mode was complemented with the MSident chemical identification procedure, which allowed the annotation of several polycyclic aromatic hydrocarbons (PAHs), organochlorine pesticides (OCPs), phthalates, and polychlorinated biphenyls (PCBs). The presence of some of these compounds was confirmed with the analysis of validation standard mixture samples containing 43 POPs. The ROIMCR methodology herein proposed allows, in a first instance, the quantitative analysis of multiple unknown contaminants present in the analyzed fish-based certified samples by using GC-HRMS data and also, combined with the MSident program, enables a qualitative analysis which could provide a comprehensive assessment of POP pollution patterns in fish or other environmental samples.",
+  "authors": [
+   "Queral-Beltran A",
+   "Lacorte S",
+   "Tauler R"
+  ]
+ },
+ {
+  "pmid": "41352928",
+  "title": "Toward rapid testing for molecular authentication: Novel method for multianalyte identification of olive, sunflower, soy, sesame and corn DNA by visual biosensing.",
+  "journal": "Anal Chim Acta",
+  "year": "2026",
+  "doi": "10.1016/j.aca.2025.344890",
+  "abstract_sections": [
+   "BACKGROUND",
+   "RESULTS",
+   "SIGNIFICANCE"
+  ],
+  "abstract": "BACKGROUND: Product authentication ensures consumer safety by verifying composition. Two main strategies exist: (i) instrumental methods (NMR, FTIR, Raman, chromatography, mass spectrometry) with chemometrics to create metabolite fingerprints, (ii) DNA-based molecular authentication. DNA methods are robust against environmental or harvest variations. They start with PCR amplification, followed by capillary electrophoresis with laser-induced fluorescence for high-resolution DNA fragment separation. Additional tools, including high-resolution melting analysis and flow cytometry, further confirm DNA amplification. There is a need for methodological platforms in the simple rapid test format amenable to field testing for molecular authentication. RESULTS: Unlike existing methods that require costly equipment and specialized personnel, we present a novel method combining multiplex conventional PCR with direct multiplex visual identification of five species by a dry-reagent strip biosensor. Olive, sunflower, soybean, sesame, and corn DNA are differentiated during PCR, as amplification occurs only when the corresponding species is present. PCR products are applied directly to the biosensor eliminating the need for post-PCR enzymic reactions, purification, pretreatment, or heat denaturation, thereby reducing assay time and user steps. The biosensor delivers results within 15-20\u00a0min, detecting olive DNA adulteration with as low as 5\u00a0% sesame, soybean, and sunflower, and 10\u00a0% corn. Measurement variability is below 5\u00a0%. SIGNIFICANCE: The proposed method integrates multiplex conventional PCR and direct multiplex biosensor, addressing the challenge of multiplex adulteration detection in a rapid, field-deployable format. It offers unique advantages of simplicity, portability, and low cost, with detection by the naked eye eliminating the need for expensive instrumentation. The multiplexing capability allows simultaneous identification of several potential adulterants, making the method broadly applicable for molecular authenticity assessment of various products.",
+  "authors": [
+   "Bellou N",
+   "Christopoulou NM",
+   "Kalligosfyri PM",
+   "Christopoulos TK"
+  ]
+ }
+]
