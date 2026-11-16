@@ -39,6 +39,11 @@ class SpectralData:
     def __len__(self) -> int:
         return self.X.shape[0]
 
+    def __post_init__(self):
+        # pandas>=3 copy-on-write returns read-only arrays; keep our own writable copies.
+        self.X = np.array(self.X, dtype=float, copy=True)
+        self.wl = np.array(self.wl, dtype=float, copy=True)
+
 
 def _extract(zip_rel: str) -> None:
     EXTRACT.mkdir(parents=True, exist_ok=True)
