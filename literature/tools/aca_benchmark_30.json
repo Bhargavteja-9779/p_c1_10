@@ -1,0 +1,426 @@
+[
+ {
+  "doi": "10.1016/j.aca.2023.341560",
+  "pmid": "37455078",
+  "year": "2023",
+  "title": "An improved successive projections algorithm version to variable selection in multiple linear regression.",
+  "authors": [
+   "Canova LDS",
+   "Vallese FD",
+   "Pistonesi MF",
+   "de Ara\u00fajo Gomes A"
+  ],
+  "citations_crossref": 42,
+  "abstract": "The aim of the successive projections algorithm (SPA) is to enhance the accuracy of multiple linear regressions (MLR) by minimizing the impact of collinearity effects in the calibration data set. Combining SPA with MLR as a variable selection approach has resulted in the SPA-MLR method, which has been reported in literature to produce models with good prediction ability compared to conventional full-spectrum models obtained with partial-least-squares (PLS) in some cases. This paper proposes the addition of a filter step to the current version of the SPA algorithm to reduce the number of uninformative variables before the projection phase and assist the algorithm in selecting the best variables on subsequent steps. The proposed fSPA-MLR algorithm is evaluated in two case studies involving the near-infrared spectrometric analysis of pharmaceutical tablet and diesel/biodiesel mixture samples. Compared to PLS, the fSPA-MLR models demonstrate similar or better performance. Moreover, the fSPA-MLR models outperform the original SPA-MLR in both cross-validation and external prediction. The fSPA-MLR models deliver superior results regardless of the pre-processing algorithm tested, including first-derivative Savitzky-Golay (SG) and Standard Normal Variate (SNV), or even in raw spectra data."
+ },
+ {
+  "doi": "10.1016/j.aca.2024.342312",
+  "pmid": "38355231",
+  "year": "2024",
+  "title": "An intuitive approach for spike removal in Raman spectra based on peaks' prominence and width.",
+  "authors": [
+   "Coca-Lopez N"
+  ],
+  "citations_crossref": 29,
+  "abstract": "BACKGROUND: Raman spectroscopists are familiar with the challenge of dealing with spikes caused by cosmic rays. These artifacts may lead to errors in subsequent data processing steps, such as for example calibration, normalization or spectral search. Spike removal is therefore a fundamental step in Raman spectral data pre-treatment, but access to publicly accessible code for spike removal tools is limited, and their performance for spectra correction often unknown. Therefore, there is a need for development and testing open-source and easy-to-implement algorithms that improve the Raman data processing workflow. RESULTS: In this work, we present and validate two approaches for spike detection and correction in Raman spectral data from graphene: i) An algorithm based on the peaks' widths and prominences and ii) an algorithm based on the ratio of these two peak features. The first algorithm provides an efficient and reliable approach for spike detection in real and synthetic Raman spectra by imposing thresholds on the peaks' width and prominence. The second approach leverages the prominence/width ratio for outlier detection. It relies on the calculation of a limit of detection based on either one or several spectra, enabling the automatic identification of cosmic ray and low-intensity noise-originated spikes alike. Both algorithms detect low-intensity spikes down to at least \u224810% of the highest Raman peak of spectra with different noise levels. To address their limitations and prove their versatility, the algorithms were further tested in Raman spectra from calcite and polystyrene. SIGNIFICANCE: Our intuitive, open-source algorithms have been validated and allow automatic correction for a given set of samples. They do not require any pre-processing steps such as calibration or baseline subtraction, and their implementation with Python libraries is computationally efficient, allowing for immediate utilization within existing open-source packages for Raman spectra processing."
+ },
+ {
+  "doi": "10.1016/j.aca.2023.341782",
+  "pmid": "37827679",
+  "year": "2023",
+  "title": "A Monte Carlo resampling based multiple feature-spaces ensemble (MFE) strategy for consistency-enhanced spectral variable selection.",
+  "authors": [
+   "Li H",
+   "Wu P",
+   "Dai J",
+   "Zou X"
+  ],
+  "citations_crossref": 24,
+  "abstract": "BACKGROUND: Variable selection has gained significant attention as a means to enhance spectroscopic calibration performance. However, existing methods still have certain limitations. Firstly, the selection results are sensitive to the choice of training samples, indicating that the selected variables may not be truly relevant. Secondly, the number of the selected variables is still too large in some situations, and modelling with too many predictors may lead to over-fitting issues. To address these challenges, we propose and implement a novel multiple feature-spaces ensemble (MFE) strategy with the least absolute shrinkage and selection operator (LASSO) method. RESULTS: The MFE strategy synergizes the advantages of LASSO regression and ensemble strategy, thereby facilitating a more robust identification of key variables. We demonstrated the efficacy of our approach through extensive experimentation on publicly available datasets. The results not only demonstrate enhanced consistency in variable selection but also manifest improved prediction performance compared to benchmark methods. SIGNIFICANT: The MFE strategy provided a comprehensive framework for conducting variable importance analysis, leading to robust and consistent variable selection. Furthermore, the improved consistency in variable selection contributes to enhanced prediction performance for spectroscopic calibration, making it more robust and accurate."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.343766",
+  "pmid": "40024653",
+  "year": "2025",
+  "title": "A comparative analysis of deep learning and chemometric approaches for spectral data modeling.",
+  "authors": [
+   "Gariso R",
+   "Coutinho JPL",
+   "Rato TJ",
+   "Reis MS"
+  ],
+  "citations_crossref": 17,
+  "abstract": "BACKGROUND: This study presents a comprehensive comparison of five different modeling approaches for spectroscopic data analysis. The first approach uses PLS combined with classical chemometric pre-processing (9 models). The second and third approaches use interval PLS (iPLS) with either classical pre-processing or wavelet transforms (28 models). The fourth uses LASSO with wavelet transforms (5 models). Finally, the fifth approach combines CNN with spectral pre-processing (9 models). RESULTS: In this paper we consider two low dimensional case studies: a regression problem for a beer dataset (40 training samples) and a classification problem for a waste lubricant oil dataset (273 training samples). The results show that, after exhaustive pre-processing selection, iPLS variants show better performance for the first case study and remain competitive in the second case study. Wavelet transforms proved to be a viable alternative to classical pre-processing, improving performance for both linear and CNN models while maintaining interpretability. For the second case study, with more data, CNNs present good performance when applied on raw spectra and could potentially be used to avoid exhaustive pre-processing selection. However, it was found that CNNs can benefit from some types of pre-processing, leading to improved performance for the first case study and overall better performance for the second case study. Significance and Novelty: This study provides a critical and exhaustive comparison of combinations of pre-processing methods and models for spectroscopic data analysis. It was found that no single combination of pre-processing and model that can be identified as optimal beforehand in low data settings."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.344658",
+  "pmid": "41167877",
+  "year": "2025",
+  "title": "Raman and NIR spectroscopy: A discussion of calibration robustness for food quality measurements through two case studies.",
+  "authors": [
+   "Lintvedt TA",
+   "Andersen PV",
+   "Afseth NK",
+   "Wold JP"
+  ],
+  "citations_crossref": 13,
+  "abstract": "BACKGROUND: Fast and nondestructive spectroscopic measurements of food quality are of great interest to the food industry due to their huge potential in decision support and optimization of processes and food value chains. Choosing the type of spectroscopic technique to invest in is not always straight-forward. In this work, we discuss the robustness aspect of Raman and NIR spectroscopy as a relevant factor to consider. We hypothesize that Raman spectroscopy has an advantage in calibration development and maintenance due to the higher degree of chemical details in the spectra, lower degree of band overlap and lower sensitivity to water. RESULTS: Robustness was discussed through two case studies, assessing (1) the transferability of intact strawberry sugar calibrations between seasons and (2) the transferability of fat models between different meat grinding degrees. The work indicates that Raman spectroscopy has an inherent chemometric advantage for robustness. This was particularly pronounced in the strawberry case, where Raman models of around half the complexity (number of PLSR components) of NIR-based models reached similar performances and provided more interpretable regression vectors. The meat case demonstrated that the robustness of the techniques may depend on the sensitivity to different sample textures and heterogeneity. A Raman probe with a spot size of 3 mm diameter suffered from higher prediction errors than a probe with 6 mm diameter spot size. We also demonstrated an additional challenge of increasing fluorescence with longer meat storage time for Raman spectroscopy. Still, a Raman system with 6 mm spot size outperformed a reflection geometry NIR system with approximate illumination spot of 1 cm. SIGNIFICANCE: Few studies that compare Raman and NIR spectroscopy within food applications, focus on the differences regarding robustness. This work shows that the cost of developing and maintaining a calibration industrially should be considered to a higher extent and be part of the evaluation on final cost and implementation ease, when deciding between Raman and NIR spectroscopy or what type of sampling optic to invest in. The findings should motivate critical comparisons of the two techniques prior to long-term sensing implementation."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.344151",
+  "pmid": "40414673",
+  "year": "2025",
+  "title": "A systematic calibration transfer and quantification method based on principal components extreme learning machine for near-infrared spectroscopy.",
+  "authors": [
+   "Fan X",
+   "Gao L",
+   "Lv J",
+   "Li B",
+   "Xu K",
+   "Li X"
+  ],
+  "citations_crossref": 12,
+  "abstract": "BACKGROUND: Near-infrared spectroscopy (NIR) is widely used in online monitoring and quality control, due to its fast and non-destructive characteristics. Successful NIR analysis often requires accurate calibration models, relating spectral data to sample properties of interest. However, the same sample has different spectral responses in different instruments, preventing quantitative model established on high-quality instruments being directly applied across instruments. Calibration transfer address the above problem and replace the time-consuming and labor-intensive recalibration process. Through calibration transfer, spectra obtained from different instruments can be predicted using established calibration models with ideal performance. RESULTS: This study proposes a systematic calibration transfer method, combing principal component analysis and extreme learning machine, followed by an ELM based quantitative calibration model (PCELM-ELM). Three NIR benchmarking datasets of corn, tobacco and pharmaceutical tablets were used to test the reliability of proposed method. Comparing with competitive methods, PCELM-ELM method demonstrated state-of-the-art transfer capabilities and quantitative capabilities, and it achieved generally smaller root mean square errors of prediction (RMSEPs) than that of other methods. The introduction of partial least squares principal components significantly improves the performance of calibration transfer. The visualized variable importance and the weight of principal components in partial least squares explained the good transfer capabilities of PCELM. Thousands of modeling results with random parameters also demonstrate the robustness of the PCELM method. SIGNIFICANCE: The comprehensive results guarantee that PCELM-ELM is an accurate and practical method to transfer the NIR spectra of the slave instrument toward a well-established and maintained calibration model without costly and time-consuming recalibration. Results across diverse datasets confirm PCELM-ELM is a promising calibration transfer and quantitative method in NIR application."
+ },
+ {
+  "doi": "10.1016/j.aca.2024.343346",
+  "pmid": "39580162",
+  "year": "2024",
+  "title": "Enhancing decision confidence in AI using Monte Carlo dropout for Raman spectra classification.",
+  "authors": [
+   "Contreras J",
+   "Bocklitz T"
+  ],
+  "citations_crossref": 11,
+  "abstract": "BACKGROUND: Machine learning algorithms for bacterial strain identification using Raman spectroscopy have been widely used in microbiology. During the training phase, existing datasets are augmented and used to optimize model architecture and hyperparameters. After training, it is presumed that the models have reached their peak performance and are used for inference without being further enhanced. Our methodology combines Monte Carlo Dropout (MCD) with convolutional neural networks (CNNs) by utilizing dropout during the inference phase, which enables to measure the model uncertainty, a critical but often ignored aspect in deep learning models. RESULTS: We categorize unseen input data into two subsets based on the uncertainty of their prediction by employing MCD and defining the threshold using the Gaussian Mixture Model (GMM). The final prediction is obtained on the subset of testing data that exhibits lower model uncertainty, thereby enhancing the reliability of the results. To validate our method, we applied it to two Raman spectra datasets. As a result, we have observed an increase in accuracy of 9\u00a0% for Dataset 1 (from 83.10\u00a0% to 92.10\u00a0%) and 12.82\u00a0% for Dataset 2 (from 83.86\u00a0% to 96.68\u00a0%). These improvements were observed within specific subsets of the data: 826 out of 1206 spectra in Dataset 1 and 1700 out of 3000 spectra in Dataset 2. This demonstrates the effectiveness of our approach in improving prediction accuracy by focusing on data with lower uncertainty. SIGNIFICANCE: Different from routine prediction based on mere probabilities, we believe this uncertainty-guided prediction is more effective to ensure a high prediction rate rather than the prediction on the entire dataset. By guiding the decision-making of a model on higher-confidence subsets, our methodology can enhance the accuracy of classification in critical areas like disease diagnosis and safety monitoring. This targeted approach is to advance microbial identification and produces more trustworthy predictions."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.343705",
+  "pmid": "39947796",
+  "year": "2025",
+  "title": "Quantification of spectral measurement errors to guide preprocessing method selection: A case study on cannabinoid prediction across multiple NIR instruments.",
+  "authors": [
+   "Ezenarro J",
+   "Schorn-Garc\u00eda D",
+   "Plans M",
+   "Busto O",
+   "Boqu\u00e9 R"
+  ],
+  "citations_crossref": 11,
+  "abstract": "This study investigates the influence of spectral measurement errors on the accuracy and reliability of Near-Infrared (NIR) spectroscopy in predicting cannabinoid content, specifically examining the variability across multiple NIR instruments of the same model and virtual instruments. Through a detailed case study using NeoSpectra miniaturised spectrometers, we explore the sources and structures of measurement errors, their covariance and correlation patterns, the implications on preprocessing, and subsequent model performance. This study also introduces the Integral Error Correlation Index (IECI), a novel metric designed to objectively quantify measurement error correlation, as meeting the independent and identically distributed (iid) error assumption is critical for Partial Least Squares (PLS) regression models. This metric is proposed for aiding in the systematic exploration of preprocessing methods through their impact on error correlations, and their subsequent model performance. The results underscore that preprocessing methods yielding lower IECI values lead to simplified, more accurate PLS models, demonstrating the potential for improved prediction reliability. This research contributes to the optimisation of NIR spectroscopy in cannabinoid determination or other applications, offering a robust framework for managing measurement errors coming from different sources and refining multivariate predictive models in analytical methods."
+ },
+ {
+  "doi": "10.1016/j.aca.2024.342965",
+  "pmid": "39122277",
+  "year": "2024",
+  "title": "PROSAC as a selection tool for SO-PLS regression: A strategy for multi-block data fusion.",
+  "authors": [
+   "Diaz-Olivares JA",
+   "Bendoula R",
+   "Saeys W",
+   "Ryckewaert M",
+   "Adriaens I",
+   "Fu X"
+  ],
+  "citations_crossref": 10,
+  "abstract": "BACKGROUND: Spectral data from multiple sources can be integrated into multi-block fusion chemometric models, such as sequentially orthogonalized partial-least squares (SO-PLS), to improve the prediction of sample quality features. Pre-processing techniques are often applied to mitigate extraneous variability, unrelated to the response variables. However, the selection of suitable pre-processing methods and identification of informative data blocks becomes increasingly complex and time-consuming when dealing with a large number of blocks. The problem addressed in this work is the efficient pre-processing, selection, and ordering of data blocks for targeted applications in SO-PLS. RESULTS: We introduce the PROSAC-SO-PLS methodology, which employs pre-processing ensembles with response-oriented sequential alternation calibration (PROSAC). This approach identifies the best pre-processed data blocks and their sequential order for specific SO-PLS applications. The method uses a stepwise forward selection strategy, facilitated by the rapid Gram-Schmidt process, to prioritize blocks based on their effectiveness in minimizing prediction error, as indicated by the lowest prediction residuals. To validate the efficacy of our approach, we showcase the outcomes of three empirical near-infrared (NIR) datasets. Comparative analyses were performed against partial-least-squares (PLS) regressions on single-block pre-processed datasets and a methodology relying solely on PROSAC. The PROSAC-SO-PLS approach consistently outperformed these methods, yielding significantly lower prediction errors. This has been evidenced by a reduction in the root-mean-squared error of prediction (RMSEP) ranging from 5 to 25\u00a0% across seven out of the eight response variables analyzed. SIGNIFICANCE: The PROSAC-SO-PLS methodology offers a versatile and efficient technique for ensemble pre-processing in NIR data modeling. It enables the use of SO-PLS minimizing concerns about pre-processing sequence or block order and effectively manages a large number of data blocks. This innovation significantly streamlines the data pre-processing and model-building processes, enhancing the accuracy and efficiency of chemometric models."
+ },
+ {
+  "doi": "10.1016/j.aca.2023.341354",
+  "pmid": "37244664",
+  "year": "2023",
+  "title": "A new constraint to model background signals when processing chromatographic-spectral second-order data with multivariate curve resolution.",
+  "authors": [
+   "Carabajal MD",
+   "Vidal RP",
+   "Arancibia JA",
+   "Olivieri AC"
+  ],
+  "citations_crossref": 10,
+  "abstract": "BACKGROUND: the chemometric processing of second-order chromatographic-spectral data is usually carried out with the aid of multivariate curve resolution-alternating least-squares (MCR-ALS). When baseline contributions occur in the data, the background profile retrieved with MCR-ALS may show abnormal lumps or negative dips at the position of the remaining component peaks. RESULTS: The phenomenon is shown to be due to remaining rotational ambiguity in the obtained profiles, as confirmed by the estimation of the boundaries of the range of feasible bilinear profiles. To avoid the abnormal features in the retrieved profile, a new background interpolation constraint is proposed and described in detail. Both simulated and experimental data are employed to support the need of the new MCR-ALS constraint. In the latter case, the estimated analyte concentrations agreed with those previously reported. SIGNIFICANCE: The developed procedure helps to reduce the extent of rotational ambiguity in the solution and to better interpret the results on physicochemical grounds."
+ },
+ {
+  "doi": "10.1016/j.aca.2023.341762",
+  "pmid": "37827663",
+  "year": "2023",
+  "title": "Robust statistical methods for high-dimensional data, with applications in tribology.",
+  "authors": [
+   "Pfeiffer P",
+   "Filzmoser P"
+  ],
+  "citations_crossref": 9,
+  "abstract": "Data sets derived from practical experiments often pose challenges for (robust) statistical methods. In high-dimensional data sets, more variables than observations are recorded and often, there are also data present that do not follow the structure of the data majority. In order to handle such data with outlying observations, a variety of robust regression and classification methods have been developed for low-dimensional data. The high-dimensional case, however, is more challenging, and the variety of robust methods is much more limited. The choice of the method depends on the specific data structure, and numerical problems are more likely to occur. We give an overview of selected robust methods as well as implementations and demonstrate the application with two high-dimensional data sets from tribology. We show that robust statistical methods combined with appropriate pre-processing and sampling strategies yield increased prediction performance and insight into data differing from the majority."
+ },
+ {
+  "doi": "10.1016/j.aca.2024.343291",
+  "pmid": "39489972",
+  "year": "2024",
+  "title": "A novel variable selection algorithm based on neural network for near-infrared spectral modeling.",
+  "authors": [
+   "Zhang P",
+   "Xu Z",
+   "Ma H",
+   "Zheng L",
+   "Li X",
+   "Zhang Z"
+  ],
+  "citations_crossref": 9,
+  "abstract": "BACKGROUND: Partial least squares (PLS) is a widely used technique for modeling spectral data. Researchers have developed numerous PLS-based variable selection algorithms to enhance model predictive ability and interpretability. In recent years, as neural network technology has advanced, these algorithms have been increasingly applied to spectral data modeling. However, current research on neural network modeling tends to prioritize network structure over variable selection. RESULTS: Our study introduces a neural network-based variable selection algorithm called VSNN (Variable Selection based on Neural Network). By iteratively eliminating unimportant variables using an exponentially decreasing function (EDF), the algorithm achieves the selection of variables in spectral data. VSNN can easily integrate different types of neural networks. In this study, we analyzed the impact of neural network types, activation functions, and variable importance vectors on algorithm performance. We tested the algorithm on four datasets: corn moisture, corn oil, tablets, and meat. The results indicate that VSNN significantly enhances the predictive ability of the model compared to partial least squares (PLS), neural networks (NN), and Joint Mutual Information Maximisation (JMIM). Specifically, non-linear activation functions markedly improve performance on non-linear meat datasets. Compared to PLS, the Root Mean Square Error of Prediction (RMSEP) values for the four datasets-corn moisture, corn oil, tablets, and meat-decreased from 0.0409, 0.0728, 3.97, and 3.2 to 0.002, 0.0236, 3.12, and 0.36, respectively, after applying the VSNN variable selection algorithm. SIGNIFICANCE: VSNN can serve as a versatile framework to enhance variable selection, modeling, and predictive performance by adapting neural network types and variable importance evaluation indicators. As machine learning technology advances, the strength of VSNN is poised to increase. This study highlights the potential of VSNN as an effective algorithmic framework for variable selection in spectroscopy applications."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.344304",
+  "pmid": "40610146",
+  "year": "2025",
+  "title": "Hazards of using multivariate curve resolution for processing first-order spectral data. A rotational ambiguity analysis.",
+  "authors": [
+   "Olivieri AC"
+  ],
+  "citations_crossref": 9,
+  "abstract": "BACKGROUND: A growing number of reports are discussing the use of multivariate curve resolution - alternating least-squares (MCR-ALS) to process matrices built with first-order data, e.g., spectra. Although the results are promising, almost no complementary analysis of the impact of rotational ambiguity on the obtained solutions has been reported. RESULTS: Several experimental data sets involving spectra (near infrared, UV-visible absorption, fluorescence emission) were processed with MCR-ALS, and then analyzed with channel-wise N-BANDS regarding the presence of rotational ambiguity. In cases of low spectral overlapping, almost unique profiles were found in the retrieved analyte concentration profiles. In cases of high spectral overlapping, however, substantial ambiguity was estimated in the analyte concentration profiles, making the analytical results less reliable. This is even more pronounced when uncalibrated components occur in the test samples. Channel-wise N-BANDS calculations agreed with the results from randomly initialized MCR-ALS models. SIGNIFICANCE: Researchers using MCR-ALS in multivariate calibration protocols based on first-order data should always accompany the decomposition results with a rotational ambiguity analysis. This would provide insight into the reliability of the retrieved profiles, the estimation of the analyte concentrations and the qualitative interpretation of the spectra."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.343655",
+  "pmid": "39880499",
+  "year": "2025",
+  "title": "A novel interval sparse evolutionary algorithm for efficient spectral variable selection.",
+  "authors": [
+   "Li M",
+   "Li Y",
+   "Yang C",
+   "Zhu H",
+   "Zhou C"
+  ],
+  "citations_crossref": 9,
+  "abstract": "In spectral analysis, selecting the right spectral variables is crucial for effective modeling. It reduces data dimensionality, removes irrelevant wavelength points, and improves both the generalization ability and computational efficiency of the model. However, the number of available samples often falls short of the total possible combinations of wavelengths, making variable selection a non-deterministic polynomial-time (NP) hard optimization problem. The current dedicated variable selection and heuristic algorithms fail to balance the effectiveness and speed of variable selection. Therefore, there is a great need for a more advanced approach to address this problem. (92) RESULTS: In this paper, we adopt a different perspective by considering variable selection as a large-scale sparse multi-objective optimization problem, modeled with fewer variables to achieve lower prediction errors. Then a novel interval sparse evolutionary algorithm (ISEA) was proposed, merging the benefits of dedicated variable selection algorithms and evolutionary algorithms. It incorporates a roulette probability mechanism and enhances the selection probability of key informative variables through a sparse population initialization strategy (SPIS) and a regional sparse evolution strategy (RSES). Specifically, the SPIS prioritizes variable regions through interval partial least squares (iPLS) and initializes the sparse population based on regional roulette probability, thereby enhancing the likelihood of selection of important regional variables in the initial sparse population. The RSES further focuses on more important regions, ensuring the variables in more important regions have a higher survival probability in subsequent generations. (138) SIGNIFICANCE: Applied to datasets of corn oil, soil, and diesel fuels, ISEA outperforms nine state-of-the-art methods by maintaining both the effectiveness of variable selection and running speed. Additionally, unlike dedicated variable selection algorithms, it is suitable for both specific variable selection scenarios and other large-scale sparse problems, such as critical node detection, frequent pattern mining, and neural network node training, demonstrating wide application potential. (63)."
+ },
+ {
+  "doi": "10.1016/j.aca.2024.342890",
+  "pmid": "39030020",
+  "year": "2024",
+  "title": "Near-infrared spectral expansion method based on active semi-supervised regression.",
+  "authors": [
+   "Huang Y",
+   "Chen Z",
+   "Liu J"
+  ],
+  "citations_crossref": 8,
+  "abstract": "BACKGROUND: The utilization of near-infrared (NIR) spectroscopy, in conjunction with chemometric techniques, has been widely used in a variety of sectors, including agricultural production and pharmaceutical production. Nevertheless, the laborious and arduous procedure of gathering samples and evaluating their physicochemical properties leads to relatively limited training set sizes for modeling. This problem severely limits the optimization and practical application of NIR spectrum analysis models. The Safer Active Semi-Supervised Sample Augmentation Learning Model (Safer-AS3A) proposed in this paper tries to address the problem by incorporating active learning (AL) and semi-supervised learning (SSL) techniques. RESULTS: Experiments were conducted on two sets of publicly available NIR spectral datasets, and the Safer-AS3A model was compared to other models with similar characteristics. The experimental results indicate that the Safer-AS3A model proposed in our study outperforms comparable models in terms of accuracy and robustness when dealing with scenarios having a limited number of labeled samples. Furthermore, after the training set was expanded with the Safer-AS3A model, the Partial least squares regression (PLSR), Bayesian ridge regression (BRR), and Support vector regression (SVR) models on the Diesel dataset improved their R2 on the test set by 5.923\u00a0%, 3.018\u00a0%, and 7.331\u00a0%, respectively, compared to the models using only the labeled sample set. On the other hand, the Ridge regression (RR), BRR, and SVR models on the test set on the Shoot dataset improved the R2 by 4.169\u00a0%, 4.449\u00a0%, and 11.597\u00a0%, respectively. Overall, the Safer-AS3A model can effectively expand the NIR spectral dataset and considerably improve the performance of the NIR spectral analysis model. SIGNIFICANCE AND NOVELTY: Using the AL method, the SSL method, and the co-training method together, a novel and effective method is presented for generating high-quality pseudo-labels. This method opens up new avenues for enhancing the efficiency and precision of NIR spectrum analysis. It also provides novel perspectives on sample diversification and prospective applications in other disciplines."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.344459",
+  "pmid": "40903127",
+  "year": "2025",
+  "title": "Research on calibration transfer methods in coal quality spectral analysis across instruments and coal types.",
+  "authors": [
+   "Li J",
+   "Yin J",
+   "Gao R",
+   "Zhang Y",
+   "Zhang L",
+   "Dong L"
+  ],
+  "citations_crossref": 7,
+  "abstract": "BACKGROUND: In coal quality analysis, spectroscopic techniques such as near-infrared spectroscopy (NIRS) and X-ray fluorescence (XRF) offer rapid and non-destructive measurements, but differences between instruments and coal types may lead to the failure of established models. Given the complexity of coal, it is important to systematically evaluate the applicability of traditional calibration transfer methods, such as the Slope/Bias (S/B) method and Piecewise Direct Standardization (PDS). Meanwhile, machine learning algorithm such as Domain-Adversarial Neural Networks (DANN), have shown great potential in addressing data distribution differences between source and target domains, offering new possibilities for calibration transfer. RESULTS: To address the challenges of cross-instrument and cross-coal-type model transfer in coal quality analysis, this study systematically compares S/B method, PDS, and DANN for calibration transfer by using two self-developed NIRS-XRF coal quality analyzers and 264 gas coal and fat coal samples. For cross-instrument transfer, DANN achieved a coefficient of determination for prediction (Rp2) of 0.92, a root mean square error of prediction (RMSEp) of 0.68\u00a0% and a mean absolute relative deviation (MARDp) of 6.19\u00a0%., outperforming S/B method (0.84, 0.92\u00a0%, 8.95\u00a0%) and PDS (0.88, 0.82\u00a0%, 6.70\u00a0%). In cross-coal-type transfer, traditional methods failed to provide reliable prediction results (e.g., S/B method with Rp2\u00a0=\u00a00.22, RMSEp\u00a0=\u00a01.10\u00a0%, and MARDp\u00a0=\u00a013.61\u00a0%), whereas DANN demonstrated transfer capability with Rp2\u00a0=\u00a00.75 and RMSEp\u00a0=\u00a00.64\u00a0%, and MARDp\u00a0=\u00a07.89\u00a0%. Notably, DANN required only 18 cross-instrument or 14 cross-coal-type calibration samples to reach optimal performance. Spectral comparisons and elemental analysis further explain the limitations of traditional methods in coal quality analysis. SIGNIFICANCE: The results highlight the superior adaptability of DANN in spectroscopic calibration transfer across instruments and coal types, offering significant accuracy improvements with minimal calibration effort. This study provides an innovative solution for calibration transfer in coal spectroscopic analysis and holds substantial significance for promoting the practical application of spectroscopic technologies in industrial settings."
+ },
+ {
+  "doi": "10.1016/j.aca.2023.341031",
+  "pmid": "36935146",
+  "year": "2023",
+  "title": "Standardization of near infrared spectroscopies via sample spectral correlation equalization.",
+  "authors": [
+   "Xue B",
+   "Cloud G",
+   "Vishnyakov S",
+   "Mehta Z",
+   "Ramer E",
+   "Jin F"
+  ],
+  "citations_crossref": 5,
+  "abstract": "A novel method for near-infrared (NIR) spectroscopy spectra standardization is presented. NIR spectroscopies have been widely used in analytical chemistry, and many methods have been developed for NIR spectra standardization. To establish a robust standardization transformation, most existing methods require spectral data sets from both primal and secondary instruments for 1-1 correspondence validation. However, this limits the usage of standardization methods. This paper investigates an interesting issue, \"Can spectra data in sets be arbitrarily order?\" and further develops a completely different approach from existing methods in view of statistical signal processing. The key idea is to first compensate for the distortion along the wavelength and intensity of the spectra, and then transfer the second order statistic (2OS) from the primal spectra to the secondary spectra via data sphering and an inverse sphering transform so that the 2OS can be estimated regardless of the sample statistic order. To further demonstrate how the developed method can extend the usage of the NIR spectra standardization, several application-driven experiments on classification and regression are conducted for demonstration, and a comparison to the piecewise direct standardization (PDS) is also studied."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.344575",
+  "pmid": "41022511",
+  "year": "2025",
+  "title": "Modeling power-based variable selection for rigorous one-class classification with SIMCA.",
+  "authors": [
+   "Schneider MP",
+   "Malegori C",
+   "Oliveri P",
+   "de Ara\u00fajo Gomes A"
+  ],
+  "citations_crossref": 5,
+  "abstract": "The present study proposes a variable selection algorithm for Soft Independent Modeling of Class Analogy (SIMCA) in the context of rigorous one-class classification (OCC), using Modeling Power (MP) as a central internal metric. The algorithm integrates three complementary criteria: correlation between MP and class compactness, MP non-growth rate across successive principal components, and a minimum MP threshold. These criteria were applied to three experimental datasets: UV-Vis spectra of edible oils, NIR spectra of Argentinean green teas, and HPLC-CAD chromatographic profiles of olive oils. In all cases, the goal was to enhance model parsimony and interpretability without compromising classification performance. The selected variables were chemically meaningful, aligning with known spectral or chromatographic regions associated with key compositional markers. Comparative analyses between the proposed Modeling Power Selector with SIMCA (MPS-SIMCA) and traditional full-spectrum SIMCA showed equivalent or improved classification performance. Additionally, MPS-SIMCA achieved superior model compactness and interpretability, supporting the feasibility of variable selection based solely on internal class structure. This approach offers a robust and interpretable alternative for class modeling in food authentication tasks where only target-class samples are reliably available."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.344229",
+  "pmid": "40480700",
+  "year": "2025",
+  "title": "XYOnion: a layer-based method for splitting datasets into calibration and validation subsets.",
+  "authors": [
+   "Ezenarro J"
+  ],
+  "citations_crossref": 12,
+  "abstract": "BACKGROUND: Chemometric models are widely used in analytical chemistry to interpret complex multivariate data. However, they rely on robust validation, which typically involves splitting the dataset into calibration and validation subsets when an independent set is missing. Dataset splitting methods such as random splitting, Kennard-Stone, SPXY, and Onion each have limitations, including biased performance estimates or unbalanced subset distributions. This study introduces XYOnion, a novel algorithm that addresses these issues by combining the strengths of SPXY and Onion in a unified framework. RESULTS: XYOnion generates representative calibration and validation subsets by combining distances in both the predictor (X) and response (y) spaces, and assigning samples in layered shells based on this combined metric. This layered structure ensures balanced coverage across the entire data space and prevents extrapolation in the validation subset, leading to more robust model assessments. The algorithm was tested on both simulated and real datasets and systematically compared against commonly used methods such as random splitting, Kennard-Stone, SPXY, and Onion. Results demonstrate that XYOnion produces more realistic and stable figures of merit, effectively avoiding the overly optimistic performance estimates that arise from unbalanced or non-representative splits. Additionally, the incorporation of the DISTSLCT algorithm improves computational efficiency by eliminating the need to compute full pairwise distance matrices, thereby enhancing scalability and making XYOnion suitable for large and high-dimensional datasets encountered in chemometric applications. SIGNIFICANCE AND NOVELTY: In conclusion, XYOnion offers a practical and reliable approach for dataset splitting in situations where independent test sets are unavailable. By integrating distance information from both predictor and response variables with a layered sampling strategy, the method ensures balanced and representative calibration and validation subsets. This leads to more realistic, reproducible, and trustworthy model evaluations."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.346104",
+  "pmid": "42838646",
+  "year": "2026",
+  "title": "UCT-LMIR: A standard-free unsupervised calibration transfer method without model recalibration.",
+  "authors": [
+   "Huang X",
+   "Chen X",
+   "Huang G",
+   "Xie Z",
+   "Shi W",
+   "Chen X"
+  ],
+  "citations_crossref": 0,
+  "abstract": "BACKGROUND: Cross-instrument spectral variations in intensity, baseline, and noise structure severely undermine the transferability of multivariate calibration models, limiting their practical deployment across spectroscopic platforms. Existing calibration transfer methods typically rely on standard samples, target domain reference labels, or model recalibration, all of which incur substantial experimental or computational costs. RESULTS: This work proposes unsupervised calibration transfer via likelihood maximization inverse regression (UCT-LMIR), which simultaneously eliminates the need for standard samples, target domain reference labels, and model recalibration. UCT-LMIR constructs an error covariance model within a latent space and performs prediction by maximizing the likelihood of a target spectrum under the learned error structure. An optional covariance compensation term accounts for the additional dispersion induced by cross-domain spectral discrepancies, enabling the method to accommodate varying degrees of instrumental mismatch. Validation on three spectroscopic datasets with distinct distributional characteristics showed that UCT-LMIR outperformed representative unsupervised calibration transfer methods in the majority of transfer tasks, with particularly pronounced improvements under large inter-instrument distribution shifts where competing methods often failed. SIGNIFICANCE: UCT-LMIR provides a standard-free and unsupervised calibration transfer strategy that does not require model recalibration. By combining physical interpretability with ease of implementation, it offers a practical and robust solution for calibration transfer in real-world spectroscopic applications."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.345651",
+  "pmid": "42219635",
+  "year": "2026",
+  "title": "When spectral libraries are too complex to search: Evolutionary subset selection for domain-adaptive calibration.",
+  "authors": [
+   "Ramirez-Lopez L",
+   "Viscarra Rossel R",
+   "Orellano C",
+   "Kooijman L",
+   "Perez-Fernandez E",
+   "Wadoux AMJ"
+  ],
+  "citations_crossref": 2,
+  "abstract": "BACKGROUND: The increasing availability of large spectral libraries offers new opportunities to reduce the costs and efforts required to develop spectroscopy-based sensing techniques for rapidly and non-destructively estimating key properties across environmental and agricultural matrices. These libraries can provide training samples for developing models adapted to specific target domains. However, identifying which samples are most relevant for a given target domain remains challenging. This study introduces gesearch, a non-linear evolutionary algorithm for selecting target-domain-relevant training samples from complex spectral libraries to build accurate and interpretable quantitative models. RESULTS: The gesearch, method was used to extract a subset of relevant samples from a large North American infrared soil spectral library to build predictive models of total carbon for an independent target area in the Democratic Republic of the Congo. In this challenging cross-domain test case, simple linear models built with the training samples found by gesearch achieved superior accuracy compared with established modelling approaches, including LOCAL, Cubist, convolutional neural networks, and global partial least squares regression. SIGNIFICANCE: The proposed method provides a practical framework for exploiting large heterogeneous spectral libraries when only limited target-domain reference data are available. By selecting samples that are spectrally and compositionally coherent with the target domain, gesearch supports accurate, compact, and interpretable calibration models. It can also operate when only unlabelled target-domain spectra are available."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.345682",
+  "pmid": "42242800",
+  "year": "2026",
+  "title": "Rethinking local spectral modelling: From per-query refitting to model libraries.",
+  "authors": [
+   "Ramirez-Lopez L",
+   "Metz M",
+   "Lesnoff M",
+   "Orellano C",
+   "Perez-Fernandez E",
+   "Plans M"
+  ],
+  "citations_crossref": 2,
+  "abstract": "BACKGROUND: This work introduces liblex, a simple yet powerful algorithmic framework to streamline the use of complex spectral libraries. It converts diffuse reflectance spectroscopy (DRS) libraries into libraries of pre-computed localised models (experts) that can be retrieved and combined at prediction time. RESULTS: The liblex algorithmic framework was evaluated in a challenging cross-continental test case. A large and heterogeneous DRS library of North American soils was used to construct a library of predictive models for total carbon (TC), which were then applied to samples from a region in the Democratic Republic of the Congo. In this scenario, liblex achieved high predictive accuracy and produced RMSE values that were competitive with, and in this case lower than, those obtained with the benchmark methods considered, including LOCAL, Cubist, global PLS variants, and a convolutional neural network with transfer learning. This work also shows how liblex intrinsically provides uncertainty proxies via prediction dispersion and supports interpretability through stored regression coefficients and variable-importance profiles. SIGNIFICANCE: The liblex framework addresses several long-standing drawbacks of conventional local modelling methods by replacing per-query model refitting with the retrieval and aggregation of pre-computed localised experts. This design reduces computational burden at prediction time, enables deployment without access to the full reference library, preserves interpretability, and supports robust prediction across heterogeneous domains. The dispersion among retrieved expert predictions also provides an intrinsic, low-cost proxy for sample-specific uncertainty. These features make liblex a scalable, interpretable, and privacy-preserving strategy for operationalising large spectral libraries."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.345485",
+  "pmid": "42009426",
+  "year": "2026",
+  "title": "Cross-instrument coal quality spectral analysis via a PDS-assisted fine-tuning calibration transfer method.",
+  "authors": [
+   "Gao J",
+   "Li J",
+   "Yin J",
+   "Gao R",
+   "Tian Z",
+   "Zhao Y"
+  ],
+  "citations_crossref": 0,
+  "abstract": "BACKGROUND: Device-related variations in X-ray fluorescence (XRF) instruments often lead to spectral inconsistencies, which significantly degrade the accuracy and generalization of quantitative coal quality models, particularly for ash content prediction. Conventional calibration transfer methods or single-stage transfer learning approaches struggle to effectively handle large inter-instrument spectral discrepancies, especially under limited sample conditions. RESULTS: In this study, a two-stage transfer learning framework integrating piecewise direct standardization (PDS) with feature fine-tuning (FT), termed PDS-FT, is proposed to enhance cross-instrument ash content prediction. Using 140 coal samples measured on two different XRF instruments, five approaches-PDS, FT, Domain-Adversarial Neural Network (DANN), PDS-DANN, and PDS-FT-were systematically evaluated. The results show that standalone PDS and FT exhibit limited test-set performance, achieving average R2 values of 0.33 and 0.51 with root mean square error (RMSE) of 1.86% and 1.55%, respectively. DANN improves cross-domain prediction performance (R2\u202f=\u202f0.74, RMSE\u202f=\u202f1.36%) but is constrained by training instability. The hybrid PDS-DANN method further enhances performance, reaching R2\u202f=\u202f0.78 and RMSE\u202f=\u202f1.0%. In contrast, the proposed PDS-FT framework achieves the best performance, with a test-set R2 of 0.95 and a substantially reduced RMSE of 0.59%, demonstrating superior accuracy, robustness, and cross-device generalization capability. SIGNIFICANCE: By combining spectral-level physical correction with feature-level model adaptation, the proposed PDS-FT framework establishes a hierarchical domain alignment mechanism that progressively mitigates inter-instrument discrepancies. This dual-stage strategy significantly enhances the transferability and reliability of XRF-based ash content models, providing a practical and generalizable solution for coal quality analysis across heterogeneous XRF instruments in industrial applications."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.346227",
+  "pmid": "42887971",
+  "year": "2026",
+  "title": "Mislabeling (label noise) - an often overlooked issue in chemometrics.",
+  "authors": [
+   "Pomerantsev AL",
+   "Rodionova OY"
+  ],
+  "citations_crossref": 1,
+  "abstract": "BACKGROUND: In supervised learning, errors can arise in label values. This fact is well known in machine learning (ML), where it has been studied since the late 1960s, but is often ignored in chemometrics. The main reason for mislabeling is human errors when supervision is carried out by a person. It is also inevitable in cases where a continuous process is divided into stages for their subsequent supervised discrimination. Another reason is the imperfection of an instrumental method, which poorly reflects the differences between classes. RESULTS: This paper pursues two goals. The first one is to introduce the concept of mislabeling in chemometrics. The second goal is to share our experience in solving mislabeling problems that arise in real-world examples. In our opinion, the most appropriate approach is the integration of the domain knowledge with the outlier detection methods, which should be based on probabilistic (soft) classifiers. This approach is used systematically and is illustrated by three cases that employ both well-established and new methods. SIGNIFICANCE: Mislabeling is a real problem that can occur across a variety of applications, reaching up to 20%, and in some areas, such as medicine, this rate can be even higher. There is no doubt that mislabeling deserves investigation and correction. In mission-critical fields, particularly in medicine, the cost of an error caused by mislabeled data can be significant, measured not only in financial losses but also in human lives."
+ },
+ {
+  "doi": "10.1016/j.aca.2025.344838",
+  "pmid": "41513337",
+  "year": "2026",
+  "title": "The importance of choosing a proper validation strategy in predictive models. Part 2: Recipes for (avoiding) overfitting-A tutorial.",
+  "authors": [
+   "Lopez E",
+   "Gorla G",
+   "Etxebarria-Elezgarai J",
+   "Amigo JM",
+   "Seifert A"
+  ],
+  "citations_crossref": 38,
+  "abstract": "Overfitting remains one of the most pervasive and deceptive pitfalls in predictive modeling. It leads to models that perform exceptionally well on training data but cannot be transferred nor generalized to real-world scenarios. Although overfitting is usually attributed to excessive model complexity, it is often the result of inadequate validation strategies, faulty data preprocessing and biased model selection, problems that can inflate apparent accuracy and compromise predictive reliability. In this second part of our series, we examine the most common yet overlooked practices that contribute to overfitting, ranging from data leakage in preprocessing to the pressures of scientific publishing that encourage result-driven overoptimization. By identifying these pitfalls and providing practical guidelines for performing robust validation protocols, this work serves as a blueprint for researchers to ensure their models are not only high-performing but also trustworthy, reproducible, and generalizable."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.345155",
+  "pmid": "41791803",
+  "year": "2026",
+  "title": "Old advice on multivariate calibration: still in force, but not always followed. A tutorial.",
+  "authors": [
+   "Olivieri AC"
+  ],
+  "citations_crossref": 3,
+  "abstract": "BACKGROUND: A growing number of multivariate calibration protocols use deep learning for estimating target properties from spectra, without considering simpler alternatives such as partial least-squares (PLS) regression. In addition, rational analyses are lacking on the following issues: (1) the real need of mathematically pre-processing the spectra before model building, (2) the proper statistical comparison of root mean square prediction errors for different models, and (3) the impact of the uncertainty associated to the primary reference technique used to train the models. RESULTS: To illustrate the above general concepts, a specific experimental example is analyzed: a publicly available data set regarding the estimation of dry matter content in fruits from UV-visible-near infrared spectra. Literature results using various shallow and deep learning methods, and those presently achieved by global and local PLS models are compared, concluding that the latter may be preferred due to its simplicity, accuracy, and prediction errors which are close to the uncertainty of the reference technique. The implications regarding general multivariate calibration protocols are highlighted in view of these results. SIGNIFICANCE: Multivariate calibration reports will benefit from the application of parsimonious concepts, producing more robust and reliable procedures, with prediction errors that are in reasonable agreement with those associated to the reference values in the calibration target variables."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.345885",
+  "pmid": "42618096",
+  "year": "2026",
+  "title": "Measurement replicates under the lens: evaluating NIR spectroscopic error quality through multivariate error analysis.",
+  "authors": [
+   "Riu J",
+   "Gorla G",
+   "Monti M",
+   "Campeny M",
+   "Quesada J",
+   "Giussani B"
+  ],
+  "citations_crossref": 0,
+  "abstract": "The optimal number of replicates for reliable measurements is a recurring issue in analytical chemistry, particularly for inherently multivariate techniques (e.g. spectroscopy) often coupled with chemometrics. Replicates allow error estimation, incorporation of error into models, and quantification of the multivariate error structure, described by the Error Covariance Matrix (ECM). This study proposes an ECM-based approach to determine the optimal number of measurement replicates necessary for proper error estimation. A new, easy-to-compute index, ECM-SI (ECM similarity index), is introduced to study the effect of sample number and replicates on ECM estimation, demonstrated on real world datasets obtained with NIR portable sensors. The approach uses intuitive graphical representations without imposing strict rules, allowing flexible evaluation. Accurately characterizing measurement error is fundamental to understanding the data acquired but requires enough samples and replicates. In practice, the proposed methodology allows two objectives to be achieved simultaneously: determining the optimal number of measurement replicates through the best possible estimation of the ECM, while obtaining the most accurate estimate of the ECM itself. This study offers a methodological strategy framed into a practical perspective to determine replicates needed for describing data uncertainty in multivariate data, avoiding the assumption that a stable mean implies fully characterized data variability. Applicable to spectroscopic systems, the approach can also be extended to other multivariate analytical techniques and other sources of error, improving model reliability for both novices and experienced practitioners."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.345655",
+  "pmid": "42242809",
+  "year": "2026",
+  "title": "Cross-study validation and guidance for resampling approaches for partial least squares discriminant analysis in spectral machine learning.",
+  "authors": [
+   "Holman AP",
+   "Kurouski D"
+  ],
+  "citations_crossref": 4,
+  "abstract": "Resampling strategies are central to model selection and performance estimation in spectroscopic machine learning (SML), yet their impact is often treated as secondary to model choice. In this tutorial study, we systematically evaluated how common resampling methods influence model selection, predictive performance, and estimation bias within a fixed partial least squares-discriminant analysis (PLS-DA) framework across twelve independent spectroscopic datasets. Model tuning was performed using both the one-standard-error (1SE) rule and highest Macro F1 (HMF1) selection, and performance was assessed at the sample level using repeated external validation. Bootstrap and jackknife methods demonstrated the strongest ability to preserve predictive performance, whereas LOOCV and selected Venetian blinds and some K-fold approaches achieved a more favorable balance between performance stability and model parsimony. However, resampling strategies differed substantially in their ability to estimate true test performance. A Bayesian Bradley-Terry analysis revealed that K-fold cross-validation with five folds consistently produced the least biased estimates of external test Macro F1, outperforming both bootstrap and leave-one-out approaches. In contrast, LOOCV, jackknife, and Venetian blinds methods exhibited increased bias due to small or unrepresentative validation sets under sample-level resampling. These findings demonstrate that resampling strategy is a primary determinant of both model selection behavior and performance estimation accuracy in SML. This work provides a practical framework for selecting resampling methods that improve the reliability and interpretability of spectroscopic machine learning models."
+ },
+ {
+  "doi": "10.1016/j.aca.2024.342895",
+  "pmid": "39067938",
+  "year": "2024",
+  "title": "Strategies for multivariate characterization and classification of pulps and papers by near-infrared spectroscopy.",
+  "authors": [
+   "Khaliliyan H",
+   "Rinnan \u00c5",
+   "V\u00f6lkel L",
+   "Gasteiger F",
+   "Mahler K",
+   "R\u00f6der T"
+  ],
+  "citations_crossref": 7,
+  "abstract": "BACKGROUND: Multivariate calibration by Partial Least Squares (PLS) on near-infrared data has been applied successfully in several industrial sectors, including pulp and paper. The creation of multivariate calibration models relies on a set of well-characterised samples that cover the range of the intended application. However, sample sets that originate from an industrial process often show an uneven distribution of reference values. This can be addressed by curation of the reference data and the methodology for multivariate calibration. It needs to be better understood, how these approaches affect the quality and scope of the final model. RESULTS: We describe the effect of log10 transformation of the reference values, regular PLS, robust PLS, the newly introduced bin PLS, and their combinations to select more evenly distributed reference values for the quantification of five pulp characteristics (kappa number, R18, R10, cuen viscosity, and brightness; 200 samples) by near-infrared spectroscopy. The quality of the models was assessed by root mean squared error of prediction, calibration range, and coverage of sample types. The best models yielded uncertainty levels equivalent to that of the reference measurement. The optimal approach depended on the investigated reference value. SIGNIFICANCE: Robust PLS commonly gives the model with the lowest error, but this usually comes at the cost of a notably reduced calibration range. The other approaches rarely impacted the calibration range. None of them stood out as superior; their performance depended on the calibrated parameter. It is therefore worthwhile to investigate various calibration options to obtain a model that matches the requirements of the application without compromising calibration range and sample coverage."
+ },
+ {
+  "doi": "10.1016/j.aca.2026.345242",
+  "pmid": "41903983",
+  "year": "2026",
+  "title": "A step-by-step tutorial to local partial least squares analyses for near-infrared spectroscopic data analysis.",
+  "authors": [
+   "Deryck A",
+   "Fern\u00e1ndez Pierna JA",
+   "Baeten V",
+   "Lesnoff M"
+  ],
+  "citations_crossref": 3,
+  "abstract": "Partial least squares (PLS) methods are key algorithms in chemometrics, particularly in near-infrared spectroscopy. Their ability to handle multicollinearity and high-dimensional data makes them an effective tool for regression and discrimination tasks. Nevertheless, PLS performance can be limited when dealing with highly complex datasets. To address this, local PLS analyses were introduced. Instead of calibrating a model on the entire dataset and ignoring local variations, local PLS selects a subset of nearest neighbours for each new sample to predict and calibrate a PLS model on this subset. This ensures that each sample is predicted using a model trained on a more relevant local context. Such an approach is easy to implement and especially valuable with the growing availability of large spectroscopic datasets. Despite its advantages, local PLS remains underutilized, perhaps due to a lack of accessible resources. This tutorial aims to bridge that gap by providing a step-by-step framework for implementing local PLS, combining theoretical insights with hands-on applications. Readers will gain practical knowledge through detailed explanations, examples, and best practices for avoiding common mistakes. Ready-to-use scripts written in R and Julia languages are provided to facilitate adoption and integration into research workflows."
+ }
+]

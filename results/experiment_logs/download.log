@@ -1,0 +1,5 @@
+corn -> /home/user/p_c1_10/data/raw/corn/corn.mat_.zip
+tablets -> /home/user/p_c1_10/data/raw/tablets/nir_shootout_2002.mat_.zip
+diesel -> /home/user/p_c1_10/data/raw/diesel/SWRI_Diesel_NIR_CSV.zip
+mango_v3 -> /home/user/p_c1_10/data/raw/mango_v3/MangoDMC_NIR_Data_v3.csv
+mango_v4 -> /home/user/p_c1_10/data/raw/mango_v4/MangoDMC_NIR_Data_v4.csv
