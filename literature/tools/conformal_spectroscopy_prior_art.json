@@ -1,0 +1,1005 @@
+[
+ {
+  "pmid": "38778234",
+  "title": "Transcranial volumetric imaging using a conformal ultrasound patch.",
+  "journal": "Nature",
+  "year": "2024",
+  "doi": "10.1038/s41586-024-07381-5",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Accurate and continuous monitoring of cerebral blood flow is valuable for clinical neurocritical care and fundamental neurovascular research. Transcranial Doppler (TCD) ultrasonography is a widely used non-invasive method for evaluating cerebral blood flow1, but the conventional rigid design severely limits the measurement accuracy of the complex three-dimensional (3D) vascular networks and the practicality for prolonged recording2. Here we report a conformal ultrasound patch for hands-free volumetric imaging and continuous monitoring of cerebral blood flow. The 2\u2009MHz ultrasound waves reduce the attenuation and phase aberration caused by the skull, and the copper mesh shielding layer provides conformal contact to the skin while improving the signal-to-noise ratio by 5\u2009dB. Ultrafast ultrasound imaging based on diverging waves can accurately render the circle of Willis in 3D and minimize human errors during examinations. Focused ultrasound waves allow the recording of blood flow spectra at selected locations continuously. The high accuracy of the conformal ultrasound patch was confirmed in comparison with a conventional TCD probe on 36 participants, showing a mean difference and standard deviation of difference as -1.51\u2009\u00b1\u20094.34\u2009cm\u2009s-1, -0.84\u2009\u00b1\u20093.06\u2009cm\u2009s-1 and -0.50\u2009\u00b1\u20092.55\u2009cm\u2009s-1 for peak systolic velocity, mean flow velocity, and end diastolic velocity, respectively. The measurement success rate was 70.6%, compared with 75.3% for a conventional TCD probe. Furthermore, we demonstrate continuous blood flow spectra during different interventions and identify cascades of intracranial B waves during drowsiness within 4\u2009h of recording.",
+  "authors": [
+   "Zhou S",
+   "Gao X",
+   "Park G",
+   "Yang X",
+   "Qi B",
+   "Lin M",
+   "Huang H",
+   "Bian Y",
+   "Hu H",
+   "Chen X",
+   "Wu RS",
+   "Liu B",
+   "Yue W",
+   "Lu C",
+   "Wang R",
+   "Bheemreddy P",
+   "Qin S",
+   "Lam A",
+   "Wear KA",
+   "Andre M",
+   "Kistler EB",
+   "Newell DW",
+   "Xu S"
+  ]
+ },
+ {
+  "pmid": "39590922",
+  "title": "Enhancing Confidence in Microplastic Spectral Identification via Conformal Prediction.",
+  "journal": "Environ Sci Technol",
+  "year": "2024",
+  "doi": "10.1021/acs.est.4c05167",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Microplastics are an emerging pollutant of concern, with environmental observations recorded across the world. Identifying the type of microplastic is challenging due to spectral similarities among the most common polymers, necessitating methods that can confidently distinguish plastic identities. In practice, a researcher chooses the reference vibrational spectrum that is most like the unknown spectrum, where the likeness between the two spectra is expressed numerically as the hit quality index (HQI). Despite the widespread use of HQI thresholds in the literature, acceptance of a spectral label often lacks any associated confidence. To address this gap, we apply a machine-learning framework called conformal prediction to output a set of possible labels that contain the true identity of the unknown spectrum with a user-defined probability (e.g., 90%). Microplastic reference libraries of environmentally aged and pristine polymeric materials, as well as unknown environmental plastic spectra, were employed to illustrate the benefits of this approach when used with two similarity metrics to compute HQI. We present an adaptable workflow using our open-access code to ensure spectral matching confidence for the microplastic community, reducing manual inspection of spectral matches and enhancing the robustness of quantification in the field.",
+  "authors": [
+   "Clough ME",
+   "Ochoa Rivera E",
+   "Parham RL",
+   "Ault AP",
+   "Zimmerman PM",
+   "McNeil AJ",
+   "Tewari A"
+  ]
+ },
+ {
+  "pmid": "37255502",
+  "title": "Conformal CVD-Grown MoS2 on Three-Dimensional Woodpile Photonic Crystals for Photonic Bandgap Engineering.",
+  "journal": "ACS Appl Opt Mater",
+  "year": "2023",
+  "doi": "10.1021/acsaom.3c00055",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "To achieve the modification of photonic band structures and realize the dispersion control toward functional photonic devices, composites of photonic crystal templates with high-refractive-index material are fabricated. A two-step process is used: 3D polymeric woodpile templates are fabricated by a direct laser writing method followed by chemical vapor deposition of MoS2. We observed red-shifts of partial bandgaps at the near-infrared region when the thickness of deposited MoS2 films increases. A \u223c10 nm red-shift of fundamental and high-order bandgap is measured after each 1 nm MoS2 thin film deposition and confirmed by simulations and optical measurements using an angle-resolved Fourier imaging spectroscopy system.",
+  "authors": [
+   "Taverne MPC",
+   "Zheng X",
+   "Chen YJ",
+   "Morgan KA",
+   "Chen L",
+   "Palakkool NM",
+   "Rezaie D",
+   "Awachi H",
+   "Rarity JG",
+   "Hewak DW",
+   "Huang CC",
+   "Ho YD"
+  ]
+ },
+ {
+  "pmid": "35479416",
+  "title": "Strain-durable dark current in near-infrared organic photodetectors for skin-conformal photoplethysmographic sensors.",
+  "journal": "iScience",
+  "year": "2022",
+  "doi": "10.1016/j.isci.2022.104194",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Sensitive detection of near-infrared (NIR) light is applicable to variety of optical, chemical, and biomedical sensors. Of these diverse applications, NIR photodetectors have been used as a key component for photoplethysmography (PPG) sensors. In particular, because NIR organic photodetectors (OPDs) enable fabrication of stretchable and skin-conformal PPG sensors, they are attaining tremendously increasing interest in both academia and industry. Herein, we report strain-durable and highly sensitive NIR OPDs using an organic bulk heterojunction (BHJ) layer. For effective suppression of dark current, we employed BHJ combination consisting of PTB7-Th:Y6 which forms high energy barrier against transport-injected holes. The optimized OPDs exhibited high specific detectivity up to 2.2\u00a0\u00d7\u00a01012 Jones at 800\u00a0nm. By constructing the devices on the parylene substrates, we successfully demonstrated stretchable NIR OPDs and high-performance skin-conformal PPG sensors.",
+  "authors": [
+   "Eun HJ",
+   "Lee H",
+   "Shim Y",
+   "Seo GU",
+   "Lee AY",
+   "Park JJ",
+   "Heo J",
+   "Park S",
+   "Kim JH"
+  ]
+ },
+ {
+  "pmid": "38642041",
+  "title": "Uncooled Broadband Photodetection via Light Trapping in Conformal PtTe2-Silicon Nanopillar Heterostructures.",
+  "journal": "ACS Appl Mater Interfaces",
+  "year": "2024",
+  "doi": "10.1021/acsami.4c00827",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Dirac semimetals have demonstrated significant attraction in the field of optoelectronics due to their unique bandgap structure and high carrier mobility. Combining them with classical semiconductor materials to form heterojunctions enables broadband optoelectronic conversion at room temperature. However, the low light absorption of layered Dirac semimetals substantially limits the device's responsivity in the infrared band. Herein, a three-dimensional (3D) heterostructure, composed of silicon nanopillars (SiNPs) and a conformal PtTe2 film, is proposed and demonstrated to enhance the photoresponsivity for uncooled broadband detection. The light trapping effect in the 3D heterostructure efficiently promotes the interaction between light and PtTe2, while also enhancing the light absorption efficiency of silicon, which enables the enhancement of the device responsivity across a broadband spectrum. Experimentally, the PtTe2-SiNPs heterojunction device demonstrates excellent photoelectric conversion behavior across the visible, near-infrared, and long-wave infrared (LWIR) bands, with its responsivity demonstrating an order-of-magnitude improvement compared to the counterparts with planar silicon heterojunctions. Under 11 \u03bcm laser irradiation, the noise equivalent power (NEP) can reach 1.76 nW\u00b7Hz-1/2 (@1 kHz). These findings offer a strategic approach to the design and fabrication of high-performance broadband photodetectors based on Dirac semimetals.",
+  "authors": [
+   "Wu Y",
+   "Nie C",
+   "Sun F",
+   "Jiang X",
+   "Zhang X",
+   "Fu J",
+   "Peng Y",
+   "Wei X"
+  ]
+ },
+ {
+  "pmid": "41397975",
+  "title": "Skin-conformal MHz-speed organic photodetectors for angle-free and long-range near-infrared communication.",
+  "journal": "Nat Commun",
+  "year": "2025",
+  "doi": "10.1038/s41467-025-66649-0",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Near-infrared (NIR) organic photodetectors (OPDs) offer a promising platform for skin-integrated optical communication systems, but achieving high-speed operation under mechanical stress remains a central obstacle. Here, we report a skin-conformable OPD with a 3 \u03bcm total thickness that achieves a specific detectivity calculated from noise-equivalent power of 0.84\u2009\u00d7\u20091014 Jones at 790\u2009nm and a\u2009-\u20093\u2009dB cut-off frequency exceeding 1\u2009MHz, maintained under 66% compressive strain and sub-5\u2009\u03bcm bending radius. This performance is enabled by an engineered Br-functionalized PACz hole transport layer, which facilitates efficient charge extraction without compromising mechanical resilience. When conformally mounted on human skin, the device supports angle-independent responsivity across a 0-90\u00b0 range and enables wireless reception of audio-modulated signals from a 100\u2009m distant source with a bit-error rate of 10-3. These results define a new performance regime for ultrathin, deformable NIR photodetectors by overcoming the trade-off between speed and flexibility, and demonstrate their scalable integration into skin-mounted, interactive communication systems.",
+  "authors": [
+   "Kim JH",
+   "Choi H",
+   "Fukuda K",
+   "Jeong J",
+   "Choi JG",
+   "Lee S",
+   "Yokota T",
+   "Won SM",
+   "Kang J",
+   "Jung YH",
+   "Hong J",
+   "Song S",
+   "Someya T",
+   "Kim H",
+   "Park S"
+  ]
+ },
+ {
+  "pmid": "35749193",
+  "title": "Critical Lattice Model for a Haagerup Conformal Field Theory.",
+  "journal": "Phys Rev Lett",
+  "year": "2022",
+  "doi": "10.1103/PhysRevLett.128.231602",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "We use the formalism of strange correlators to construct a critical classical lattice model in two dimensions with the Haagerup fusion category H_{3} as input data. We present compelling numerical evidence in the form of finite entanglement scaling to support a Haagerup conformal field theory (CFT) with central charge c=2. Generalized twisted CFT spectra are numerically obtained through exact diagonalization of the transfer matrix, and the conformal towers are separated in the spectra through their identification with the topological sectors. It is further argued that our model can be obtained through an orbifold procedure from a larger lattice model with input Z(H_{3}), which is the simplest modular tensor category that does not admit an algebraic construction. This provides a counterexample for the conjecture that all rational CFT can be constructed from standard methods.",
+  "authors": [
+   "Vanhove R",
+   "Lootens L",
+   "Van Damme M",
+   "Wolf R",
+   "Osborne TJ",
+   "Haegeman J",
+   "Verstraete F"
+  ]
+ },
+ {
+  "pmid": "38838651",
+  "title": "Conformal zinc sulfide coating of vertically aligned ZnO nanorods by two-step hydrothermal synthesis on wide bandgap seed layers for lead-free perovskite solar cells.",
+  "journal": "Nanotechnology",
+  "year": "2024",
+  "doi": "10.1088/1361-6528/ad544a",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Vertically aligned ZnO nanorods (NRs) were grown hydrothermally on the wide bandgap (\u223c3.86 - 4.04 eV) seed layers (SLs) of grain size \u223c162 \u00b1 35 nm, prepared using ball-milled derived ZnO powder. The synthesized ZnO NRs were further decorated with ZnS nanocrystals to achieve a ZnO NR-ZnS core-shell (CS)-like nano-scaffolds by a subsequent hydrothermal synthesis at 70 \u00b0C for 1 h. UV-Vis-NIR spectroscopy, x-ray diffractometry (XRD), Raman spectroscopy and Field emission scanning electron microscopy (FESEM) coupled with Energy dispersive x-ray spectroscopy (EDX) analyses confirmed the formation of ZnS atop the vertically aligned ZnO NR arrays of \u223c1.79 \u00b1 0.17\u00b5m length and \u223c165 \u00b1 27 nm diameter. Transmission electron microscopy (TEM)/EDX analyses revealed that vertically aligned ZnO NRs (core dia. \u223c181 \u00b1 12 nm) arrays are conformally coated by an ultrathin ZnS (\u223c25 \u00b1 7 nm) shell layer with a preferential ZnS{111}/ZnO{10-10}-like partial epitaxy. The ZnO NRs exhibited a sharp band edge near \u223c384 nm having optical bandgap energy (Eg) of \u223c3.23 eV. However, the ZnO NR-ZnS CS exhibited double absorption bands atEg\u223c 3.20 eV (ZnO-core) andEg\u223c 3.78 eV (ZnS-shell). The ZnS{111}/ZnO{10-10}-nano-scaffolds could be utilized to facilitate the enhanced absorption of UV photons as well as the radial junction formation between the Pb-free perovskite absorber and ZnS/ZnO NRs layers.",
+  "authors": [
+   "Farhad SFU",
+   "Tanvir NI",
+   "Bitu MNA",
+   "Hossain E",
+   "Mamun MA",
+   "Quddus MS",
+   "Alam MS",
+   "Moniruzzaman M",
+   "Nandigana P",
+   "Panda SK"
+  ]
+ },
+ {
+  "pmid": "41805076",
+  "title": "Skin-Conformal Sandwich-Structured SERS Superlattice Platform for Non-Invasive Depression Detection.",
+  "journal": "ACS Sens",
+  "year": "2026",
+  "doi": "10.1021/acssensors.5c04789",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Flexible wearable biochemical sensors hold great promise for personalized health monitoring. However, achieving ultrahigh molecular sensitivity, conformal skin adhesion, and efficient sweat handling within a single device remains a critical challenge. Here, we present a fully integrated wearable sweat-sensing platform that seamlessly combines a biocompatible adhesive hydrogel, an ultrasensitive sandwich-structured surface-enhanced Raman scattering (SERS) architecture, and microfluidic sweat-collection channels for non-invasive monitoring of dopamine, a key biomarker associated with depression. The central component of the system is a dual-layer heterogeneous superstructure. Specifically, a highly ordered Au nanoparticle (Au NP) superlattice forms the bottom layer, offering uniform and dense plasmonic hotspots, while the top layer is based on double-shelled hollow Au@Au-Ag nanocages functionalized with Raman reporters and aptamer sequences. Furthermore, DNA-guided hybridization forms a robust \"nanolock\" junction that ensures strong interparticle coupling and provides excellent specificity. This configuration yields an exceptional SERS enhancement factor of 1.57 \u00d7 1011, enabling nanomole-level dopamine detection (limit of detection: 3.78 \u00d7 10-14 M) with excellent reproducibility (RSD = 9.02%) and high chemical specificity. To adapt the sensing unit for on-body use, the SERS chip is embedded within an adhesive, deformable, and biocompatible polyethylene glycol hydrogel. Featuring engineered microfluidic channels, this hydrogel autonomously transports sweat to the sensing area, thereby guaranteeing precise detection alongside consistent conformal contact and comfort. This multifunctional, integrated platform has the potential to overcome longstanding limitations in sensitivity, stability, biocompatibility, and sweat management that hinder conventional wearable sensors. It provides a powerful route toward a versatile design framework for next-generation wearable bioelectronics.",
+  "authors": [
+   "Shao H",
+   "Wu S",
+   "Zhang L",
+   "Ye B",
+   "Luo Q",
+   "Tong K",
+   "Song L",
+   "Huang Y"
+  ]
+ },
+ {
+  "pmid": "31334351",
+  "title": "Ultrathin conformal polycyclosiloxane films to improve silicon cycling stability.",
+  "journal": "Sci Adv",
+  "year": "2019",
+  "doi": "10.1126/sciadv.aaw4856",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Electrochemical reduction of lithium ion battery electrolyte on Si anodes was mitigated by synthesizing nanoscale, conformal polymer films as artificial solid electrolyte interface (SEI) layers. Initiated chemical vapor deposition (iCVD) was used to deposit poly(1,3,5,7-tetravinyl-1,3,5,7-tetramethylcyclotetrasiloxane) (pV4D4) onto silicon thin film electrodes. pV4D4 films (25 nm) on Si electrodes improved initial coulombic efficiency by 12.9% and capacity retention over 100 cycles by 64.9% relative to untreated electrodes. pV4D4 coatings improved rate capabilities, enabling higher lithiation capacity at all current densities. Impedance spectroscopy showed that SEI resistance grew from 50 to 191 ohms in untreated Si and only 34 to 90 ohms in pV4D4-coated Si over 30 cycles. Post-cycling Fourier transform infrared and x-ray photoelectron spectroscopy showed that pV4D4 moderated electrolyte reduction and altered SEI composition, with LiF formation being favored. This work will guide further development of polymeric artificial SEIs to mitigate electrolyte reduction and enhance capacity retention in Si electrodes.",
+  "authors": [
+   "Shen BH",
+   "Wang S",
+   "Tenhaeff WE"
+  ]
+ },
+ {
+  "pmid": "25275708",
+  "title": "Conformal atomic layer deposition of alumina on millimeter tall, vertically-aligned carbon nanotube arrays.",
+  "journal": "ACS Appl Mater Interfaces",
+  "year": "2014",
+  "doi": "10.1021/am505107s",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Atomic layer deposition (ALD) can be used to coat high aspect ratio and high surface area substrates with conformal and precisely controlled thin films. Vertically aligned arrays of multiwalled carbon nanotubes (MWCNTs) with lengths up to 1.5 mm were conformally coated with alumina from base to tip. The nucleation and growth behaviors of Al2O3 ALD precursors on the MWCNTs were studied as a function of CNT surface chemistry. CNT surfaces were modified through a series of post-treatments including pyrolytic carbon deposition, high temperature thermal annealing, and oxygen plasma functionalization. Conformal coatings were achieved where post-treatments resulted in increased defect density as well as the extent of functionalization, as characterized by X-ray photoelectron spectroscopy and Raman spectroscopy. Using thermogravimetric analysis, it was determined that MWCNTs treated with pyrolytic carbon and plasma functionalization prior to ALD coating were more stable to thermal oxidation than pristine ALD coated samples. Functionalized and ALD coated arrays had a compressive modulus more than two times higher than a pristine array coated for the same number of cycles. Cross-sectional energy dispersive X-ray spectroscopy confirmed that Al2O3 could be uniformly deposited through the entire thickness of the vertically aligned MWCNT array by manipulating sample orientation and mounting techniques. Following the ALD coating, the MWCNT arrays demonstrated hydrophilic wetting behavior and also exhibited foam-like recovery following compressive strain.",
+  "authors": [
+   "Stano KL",
+   "Carroll M",
+   "Padbury R",
+   "McCord M",
+   "Jur JS",
+   "Bradford PD"
+  ]
+ },
+ {
+  "pmid": "35474361",
+  "title": "Raman spectrum matching with contrastive representation learning.",
+  "journal": "Analyst",
+  "year": "2022",
+  "doi": "10.1039/d2an00403h",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Raman spectroscopy is an important, low-cost, non-intrusive technique often used for chemical identification. Typical approaches identify a spectrum by comparing it with a reference database using supervised machine learning, which usually requires careful preprocessing and multiple spectra available per analyte. We propose a new machine learning technique for spectrum identification using contrastive representation learning. Our approach requires no preprocessing and works with as little as a single reference spectrum per analyte. We have significantly improved or are on par with the existing state-of-the-art analyte identification accuracy on two Raman spectral datasets and one SERS dataset that include a single component. We demonstrate that the identification accuracy can be further increased by slightly increasing the candidate set size using conformal prediction on the SERS dataset. Based on our findings, we believe contrastive representation learning is a promising alternative to the existing methods for Raman spectrum matching.",
+  "authors": [
+   "Li B",
+   "Schmidt MN",
+   "Alstr\u00f8m TS"
+  ]
+ },
+ {
+  "pmid": "20731433",
+  "title": "Electroless deposition of conformal nanoscale iron oxide on carbon nanoarchitectures for electrochemical charge storage.",
+  "journal": "ACS Nano",
+  "year": "2010",
+  "doi": "10.1021/nn100572a",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "We describe a simple self-limiting electroless deposition process whereby conformal, nanoscale iron oxide (FeO(x)) coatings are generated at the interior and exterior surfaces of macroscopically thick ( approximately 90 microm) carbon nanofoam paper substrates via redox reaction with aqueous K(2)FeO(4). The resulting FeO(x)-carbon nanofoams are characterized as device-ready electrode structures for aqueous electrochemical capacitors and they demonstrate a 3-to-7 fold increase in charge-storage capacity relative to the native carbon nanofoam when cycled in a mild aqueous electrolyte (2.5 M Li(2)SO(4)), yielding mass-, volume-, and footprint-normalized capacitances of 84 F g(-1), 121 F cm(-3), and 0.85 F cm(-2), respectively, even at modest FeO(x) loadings (27 wt %). The additional charge-storage capacity arises from faradaic pseudocapacitance of the FeO(x) coating, delivering specific capacitance >300 F g(-1) normalized to the content of FeO(x) as FeOOH, as verified by electrochemical measurements and in situ X-ray absorption spectroscopy. The additional capacitance is electrochemically addressable within tens of seconds, a time scale of relevance for high-rate electrochemical charge storage. We also demonstrate that the addition of borate to buffer the Li(2)SO(4) electrolyte effectively suppresses the electrochemical dissolution of the FeO(x) coating, resulting in <20% capacitance fade over 1000 consecutive cycles.",
+  "authors": [
+   "Sassin MB",
+   "Mansour AN",
+   "Pettigrew KA",
+   "Rolison DR",
+   "Long JW"
+  ]
+ },
+ {
+  "pmid": "30411961",
+  "title": "Mapping Topological to Conformal Field Theories through strange Correlators.",
+  "journal": "Phys Rev Lett",
+  "year": "2018",
+  "doi": "10.1103/PhysRevLett.121.177203",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "We extend the concept of strange correlators, defined for symmetry-protected phases in You et\u00a0al. [Phys. Rev. Lett. 112, 247202 (2014)PRLTAO0031-900710.1103/PhysRevLett.112.247202], to topological phases of matter by taking the inner product between string-net ground states and product states. The resulting two-dimensional partition functions are shown to be either critical or symmetry broken, since the corresponding transfer matrices inherit all matrix product operator symmetries of the string-net states. For the case of critical systems, these nonlocal matrix product operator symmetries are the lattice remnants of topological conformal defects in the field theory description. Following Aasen et\u00a0al. [J. Phys. A 49, 354001 (2016)JPAMB51751-811310.1088/1751-8113/49/35/354001], we argue that the different conformal boundary conditions can be obtained by applying the strange correlator concept to the different topological sectors of the string net obtained from Ocneanu's tube algebra. This is demonstrated on the lattice by calculating the conformal field theory spectra in the different topological sectors for the Fibonacci (hard-hexagon) and Ising string net. Additionally, we provide a complementary perspective on symmetry-preserving real-space renormalization by showing how known tensor network renormalization methods can be understood as the approximate truncation of an exactly coarse-grained strange correlator.",
+  "authors": [
+   "Vanhove R",
+   "Bal M",
+   "Williamson DJ",
+   "Bultinck N",
+   "Haegeman J",
+   "Verstraete F"
+  ]
+ },
+ {
+  "pmid": "25821688",
+  "title": "Conformal SiO2 coating of sub-100 nm diameter channels of polycarbonate etched ion-track channels by atomic layer deposition.",
+  "journal": "Beilstein J Nanotechnol",
+  "year": "2015",
+  "doi": "10.3762/bjnano.6.48",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Polycarbonate etched ion-track membranes with about 30 \u00b5m long and 50 nm wide cylindrical channels were conformally coated with SiO2 by atomic layer deposition (ALD). The process was performed at 50 \u00b0C to avoid thermal damage to the polymer membrane. Analysis of the coated membranes by small angle X-ray scattering (SAXS) reveals a homogeneous, conformal layer of SiO2 in the channels at a deposition rate of 1.7-1.8 \u00c5 per ALD cycle. Characterization by infrared and X-ray photoelectron spectroscopy (XPS) confirms the stoichiometric composition of the SiO2 films. Detailed XPS analysis reveals that the mechanism of SiO2 formation is based on subsurface crystal growth. By dissolving the polymer, the silica nanotubes are released from the ion-track membrane. The thickness of the tube wall is well controlled by the ALD process. Because the track-etched channels exhibited diameters in the range of nanometres and lengths in the range of micrometres, cylindrical tubes with an aspect ratio as large as 3000 have been produced.",
+  "authors": [
+   "Sobel N",
+   "Hess C",
+   "Lukas M",
+   "Spende A",
+   "St\u00fchn B",
+   "Toimil-Molares ME",
+   "Trautmann C"
+  ]
+ },
+ {
+  "pmid": "31357733",
+  "title": "Conformal High-K Dielectric Coating of Suspended Single-Walled Carbon Nanotubes by Atomic Layer Deposition.",
+  "journal": "Nanomaterials (Basel)",
+  "year": "2019",
+  "doi": "10.3390/nano9081085",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "As one of the highest mobility semiconductor materials, carbon nanotubes (CNTs) have been extensively studied for use in field effect transistors (FETs). To fabricate surround-gate FETs- which offer the best switching performance-deposition of conformal, weakly-interacting dielectric layers is necessary. This is challenging due to the chemically inert surface of CNTs and a lack of nucleation sites-especially for defect-free CNTs. As a result, a technique that enables integration of uniform high-k dielectrics, while preserving the CNT's exceptional properties is required. In this work, we show a method that enables conformal atomic layer deposition (ALD) of high-k dielectrics on defect-free CNTs. By depositing a thin Ti metal film, followed by oxidation to TiO2 under ambient conditions, a nucleation layer is formed for subsequent ALD deposition of Al2O3. The technique is easy to implement and is VLSI-compatible. We show that the ALD coatings are uniform, continuous and conformal, and Raman spectroscopy reveals that the technique does not induce defects in the CNT. The resulting bilayer TiO2/Al2O3 thin-film shows an improved dielectric constant of 21.7 and an equivalent oxide thickness of 2.7 nm. The electrical properties of back-gated and top-gated devices fabricated using this method are presented.",
+  "authors": [
+   "Kemelbay A",
+   "Tikhonov A",
+   "Aloni S",
+   "Kuykendall TR"
+  ]
+ },
+ {
+  "pmid": "42577962",
+  "title": "Conformal Growth of Stable 1T-Phase WS2 by Alkali Metal-Halide-Assisted Chemical Vapor Deposition.",
+  "journal": "Cryst Growth Des",
+  "year": "2026",
+  "doi": "10.1021/acs.cgd.6c00304",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The potential exploitation of two-dimensional transition metal dichalcogenides (TMDs) like WS2 in nanotechnology applications still require the development of efficient synthesis protocols for their large-scale growth as well as their polymorphic phase selection. Indeed, in the former framework, the growth protocols developed for chemical vapor deposition (CVD) typically use seeding promoters and/or salts (e.g., alkali metal halides) to enhance the adhesion to the substrate and lower the temperature for metal oxide precursor (e.g., WO3) dissociation. In the latter framework, the wealth of electronic properties of WS2 make it semiconducting or metallic depending on the crystallographic phase. In this work, we use potassium chloride-assisted CVD to produce the metastable 1T phase of WS2 without the need of additional seeding promoter even on patterned substrates demonstrating conformal and stable (over months and up to 200 \u00b0C) deposition. Furthermore, thermal Raman spectroscopy measurements were carried out determining the temperature coefficients, even for the specific 1T-phase sensitive Raman mode. Our findings demonstrate that the chemistry of salt-assisted CVD growth process can be exploited for TMDs phase filtration without constraints on the large-scale and conformal growth.",
+  "authors": [
+   "Motta A",
+   "Serafini A",
+   "Targa P",
+   "Codegoni D",
+   "Grazianetti C",
+   "Martella C"
+  ]
+ },
+ {
+  "pmid": "30004671",
+  "title": "Conformal BiVO4-Layer/WO3-Nanoplate-Array Heterojunction Photoanode Modified with Cobalt Phosphate Cocatalyst for Significantly Enhanced Photoelectrochemical Performances.",
+  "journal": "ACS Appl Mater Interfaces",
+  "year": "2019",
+  "doi": "10.1021/acsami.8b05477",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Constructing semiconductor heterojunctions via surface/interface engineering is an effective way to enhance the charge carrier separation/transport ability and thus the photoelectrochemical (PEC) properties of a photoelectrode. Herein, we report a conformal BiVO4-layer/WO3-nanoplate-array heterojunction photoanode modified with cobalt phosphate (Co-Pi) as oxygen evolution cocatalyst (OEC) for significant enhancement in PEC performances. The BiVO4/WO3 nanocomposite is fabricated by coating a thin conformal BiVO4 layer on the surface of presynthesized WO3 nanoplate arrays (NPAs) via stepwise spin-coating, and the decoration of Co-Pi OEC is realized by photoassisted electrodeposition method. The optimized Co-Pi@BiVO4/WO3 heterojunction photoanode shows a maximum photocurrent of 1.8 mA/cm2 at 1.23 V vs RHE in a phosphate buffer electrolyte under an AM1.5G solar simulator, which is 5 and 12 times higher than those of bare WO3 and BiVO4 photoanode, respectively. Measurements of UV-vis absorption spectra, electrochemical impedance spectra (EIS) and photoluminescence (PL) spectra reveal that the enhanced PEC performances can be attributed to the increased charge carrier separation/transport benefited from the type II nature of BiVO4/WO3 heterojunction and the promoted water oxidation kinetics and photostability owing to the decoration of Co-Pi cocatalyst.",
+  "authors": [
+   "Zhang X",
+   "Wang X",
+   "Wang D",
+   "Ye J"
+  ]
+ },
+ {
+  "pmid": "42618796",
+  "title": "Observation of conformal field theory spectra in a quantum simulator.",
+  "journal": "Nature",
+  "year": "2026",
+  "doi": "10.1038/s41586-026-10904-x",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Conformal field theories (CFTs) feature prominently in high-energy physics1,2, statistical mechanics3 and condensed matter4-6. For example, CFTs govern emergent universal properties of systems tuned to quantum phase transitions4,7, including their entanglement, correlations and low-energy excitation spectra. Much of the rich structure predicted by CFTs nevertheless remains unobserved in experiment. Here we directly observe the energy excitation spectra of emergent CFTs at quantum phase transitions-recovering universal energy ratios characteristic of the underlying field theories8,9. Specifically, we develop and implement a modulation technique to resolve the finite-size spectra of a Rydberg chain, variably tuned to quantum phase transitions described by either Ising or tricritical Ising CFTs. We also use local control to distinguish parities of excitations under reflection and, in the tricritical Ising chain, to induce transitions between distinct CFT spectra associated with changing boundary conditions. By using a variant of the modulation technique, we furthermore study the dynamical structure factor of the critical system, which is closely related to the correlation of an underlying Ising conformal field. Our work not only probes the emergence of CFT features in a quantum simulator but also provides a technique for diagnosing a priori unknown universality classes in future experiments.",
+  "authors": [
+   "Sun X",
+   "Le Y",
+   "Naus S",
+   "Tsai RB",
+   "Picard LRB",
+   "Murciano S",
+   "Knap M",
+   "Alicea J",
+   "Endres M"
+  ]
+ },
+ {
+  "pmid": "38784970",
+  "title": "A birdcage transmit, 24-channel conformal receive array coil for sensitive 31P magnetic resonance spectroscopic imaging of the human brain at 7\u2009T.",
+  "journal": "NMR Biomed",
+  "year": "2024",
+  "doi": "10.1002/nbm.5178",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Phosphorus (31P) magnetic resonance spectroscopic imaging (MRSI) can serve as a critical tool for more direct quantification of brain energy metabolism, tissue pH, and cell membrane turnover. However, the low concentration of 31P metabolites in biological tissue may result in low signal-to-noise ratio (SNR) in 31P MRS images. In this work, we present an innovative design and construction of a 31P radiofrequency coil for whole-brain MRSI at 7\u2009T. Our coil builds on current literature in ultra-high field 31P coil design and offers complete coverage of the brain, including the cerebellum and brainstem. The coil consists of an actively detunable volume transmit (Tx) resonator and a custom 24-channel receive (Rx) array. The volume Tx resonator is a 16-rung high-pass birdcage coil. The Rx coil consists of a 24-element phased array composed of catered loop shapes and sizes built onto a custom, close-fitting, head-shaped housing. The Rx array was designed to provide complete coverage of the head, while minimizing mutual coupling. The Rx configuration had a mean S 11  reflection coefficient better than -20\u2009decibels (dB) when the coil was loaded with a human head. The mean mutual coupling ( S 21  ) among Rx elements, when loaded with a human head, was -16\u2009dB. In phantom imaging, the phased array produced a central SNR that was 4.4-fold higher than the corresponding central SNR when operating the 31P birdcage as a transceiver. The peripheral SNR was 12-fold higher when applying the optimized phased array. In vivo 3D 31P MRSI experiments produced high-quality spectra in the cerebrum gray and white matter, as well as in the cerebellum. Characteristic phosphorus metabolites related to adenosine triphosphate metabolism and cell membrane turnover were distinguishable across all brain regions. In summary, our results demonstrate the potential of our novel coil for accurate, whole-brain 31P metabolite quantification.",
+  "authors": [
+   "Hovagimian J",
+   "Yazdanbakhsh P",
+   "Halilibrahimoglu H",
+   "Couch MJ",
+   "Hoge R",
+   "Rudko DA"
+  ]
+ },
+ {
+  "pmid": "42326868",
+  "title": "Improved Microplastic Identification from Simultaneously Collected Photothermal Infrared and Raman Spectra Using Multiview Conformal Prediction.",
+  "journal": "ACS Meas Sci Au",
+  "year": "2026",
+  "doi": "10.1021/acsmeasuresciau.6c00002",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Microplastics (MPs) have been documented in urban and remote locations across the globe. Further identification and quantification of MPs are required to determine how widespread they are in the environment. One of the most popular chemometric methods for identifying microplastics (MPs) is database matching, in which an unknown spectrum is compared with reference library spectra by calculating likeness scores. Threshold minima determine if the score is high enough to consider the reference spectrum as a potential match, yet these thresholds are frequently set arbitrarily. There is a growing consensus that MP identification should involve multiple measurement techniques, but statistically robust methods to relate multiple database matching scores are lacking. Herein, multiview conformal prediction (MVCP) incorporates two views (i.e., photothermal infrared (PTIR) and Raman spectra) to calculate multidimensional thresholds for MP identification with statistical confidence. The chemical identities returned for an unknown particle have a statistical assurance that one of the identities is the correct match based on a user-defined uncertainty parameter. The average number of potential matches returned by MVCP was closer to one chemical identity\ue5f8the ideal number of identities returned\ue5f8when compared to single-view CP methods that used either the PTIR or Raman spectra. Moreover, MVCP was less affected than its single-view counterparts when one of the two spectra was difficult, or impossible, to identify. To show the utility of MVCP for real-world samples, an ambient particle sample with MPs deposited on it was used to demonstrate that an MVCP threshold at 73% theoretical confidence maximized the fraction of MP particles correctly identified as plastic (0.80 \u00b1 0.07), while limiting the fraction of non-MP environmental particles misidentified as plastic (0.10 \u00b1 0.06). This initial application of MVCP to spectroscopy demonstrates the benefits of utilizing multiple spectral methods with data analysis routines for identifying MPs with statistical confidence.",
+  "authors": [
+   "Parham RL",
+   "Ochoa Rivera E",
+   "Ayala AM",
+   "Clough ME",
+   "Patel Y",
+   "McNeil AJ",
+   "Tewari A",
+   "Ault AP"
+  ]
+ },
+ {
+  "pmid": "39492657",
+  "title": "Viscoelastic-Support-Layer-Based Macroscopic Conformal Transfer of van der Waals Materials Compatible with Plasmonic Application.",
+  "journal": "ACS Appl Mater Interfaces",
+  "year": "2024",
+  "doi": "10.1021/acsami.4c11742",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "This study showcases the conformal geometries of van der Waals materials with metallic structures utilizing viscoelastic support layers. Mechanically exfoliated nanometer-thick graphite flakes were transferred onto metal structures with various side slopes using two different polymers: polycarbonate (PC) and polyethylene (PE). We proposed a morphology-based evaluation of the macroscale conformity that can contribute to the selection of a proper support layer. Although both support layers ensured high conformity on the sloped side, the PE layer offered superior conformity on the vertical metal structure. To further investigate the impact of conformal structures, we compared the terahertz transmission changes of a metal bowtie antenna before and after transferring graphite onto the bowtie gap for two distinct conformal structures. The conformity of graphite to the metal gap structure significantly influenced the optical response in the terahertz frequency regime. This suggests that the conformal structuring technique can be leveraged in various terahertz devices composed of metals and van der Waals materials, opening avenues for quantitative analysis in light-matter interactions.",
+  "authors": [
+   "Moon C",
+   "Moon D",
+   "Kim N",
+   "Park H",
+   "Im J",
+   "Lee H",
+   "Kwon J",
+   "Park S",
+   "Chung S",
+   "Oh DH",
+   "Bae JM",
+   "Choi S",
+   "Park SR",
+   "Hong SJ",
+   "Bahk YM"
+  ]
+ },
+ {
+  "pmid": "22162346",
+  "title": "Automatic conformal prescription of very selective saturation bands for in vivo 1H-MRSI of the prostate.",
+  "journal": "NMR Biomed",
+  "year": "2012",
+  "doi": "10.1002/nbm.1780",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "An important step in the implementation of three-dimensional in vivo proton magnetic resonance spectroscopic imaging ((1)H-MRSI) of the prostate is the placement of spatial saturation pulses around the region of interest (ROI) for the removal of unwanted contaminating signals from peripheral tissue. The present study demonstrates the use of a technique called conformal voxel magnetic resonance spectroscopy (CV-MRS). This method automates the placement, orientation, timing and flip angle of very selective saturation (VSS) pulses around an irregularly-shaped, user-defined ROI. The method employs a user adjustable number of automatically positioned VSS pulses (20 used in the present study) which null the signal from periprostatic lipids while closely conforming the shape of the excitation voxel to the shape of the prostate. A standard endorectal coil in combination with a torso-phased array coil was used for all in vivo prostate studies. Three-dimensional in vivo prostate (1)H-MRSI data were obtained using the proposed semi-automated CV-MRS technique, and compared with a standard point resolved spectroscopy (PRESS) technique at TE = 130 ms using manual placement of saturation pulses. The in vivo prostate (1)H-MRSI data collected from 12 healthy subjects using the CV-MRS method showed significantly reduced lipid contamination throughout the prostate, and reduced baseline distortions. On average there was a 50 \u00b1 17% (range 12% - 68%) reduction in lipids throughout the prostate. A voxel-by-voxel benchmark test of over 850 voxels showed that there were 63% more peaks fitted using the LCModel when using a Cramer-Rao Lower Bound (CRLB) cut-off of 40% when using the optimized conformal voxel technique in comparison to the manual placement approach. The evaluation of this CV-MRS technique has demonstrated the potential for easy automation of the graphical prescription of saturation bands for use in (1)H-MRSI.",
+  "authors": [
+   "Venugopal N",
+   "McCurdy B",
+   "Hovdebo J",
+   "Al Mehairi S",
+   "Alamri A",
+   "Sandhu GS",
+   "Sivalingam S",
+   "Drachenberg D",
+   "Ryner L"
+  ]
+ },
+ {
+  "pmid": "35299574",
+  "title": "Rapid customized design of a conformal optical transparent metamaterial absorber based on the circuit analog optimization method.",
+  "journal": "Opt Express",
+  "year": "2022",
+  "doi": "10.1364/OE.452694",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "In this paper, a conformal optical transparent metamaterial absorber (COTMA) is proposed based on the circuit analog optimization method (CAOM), which can effectively enhance the optimization speed in the metamaterial absorber structure design by quantifying the equivalent circuit parameters. The operating frequency band can be customized at any band through CAOM, such as microwave, terahertz, and near-infrared frequencies. Here, a five-square-patch structure absorber with transparency and flexible properties is achieved. The simulated and measured incident electromagnetic (EM) wave absorptions of COTMA can reach above 90% in 15.77 - 38.69 GHz band. Meanwhile, COTMA exhibits excellent conformal EM absorption, a thinner substrate (0.078 wavelength at 15.77 GHz), lower structure complexity and polarization independence, and it can also be adapted to the EM absorption of different curved screens. This design is expected to have potential applications for wearable electronics, curved surface screens and OLED displays.",
+  "authors": [
+   "Dong L",
+   "Si L",
+   "Xu H",
+   "Shen Q",
+   "Lv X",
+   "Zhuang Y",
+   "Zhang Q"
+  ]
+ },
+ {
+  "pmid": "11285550",
+  "title": "Three-dimensional conformal radiation treatment planning and delivery for low- and intermediate-grade gliomas.",
+  "journal": "Semin Radiat Oncol",
+  "year": "2001",
+  "doi": "10.1053/srao.2001.22060",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Three-Dimensional conformal radiation treatment (3D-CRT) planning and delivery is an external beam radiation therapy modality that has the general goal of conforming the shape of a prescribed dose volume to the shape of a 3-dimensional target volume, simultaneously limiting dose to critical normal structures. 3-Dimensional conformal therapy should include at least one volumetric imaging study of the patient. This image should be obtained in the treatment position for visualizing the target and normal anatomic structures that are potentially within the irradiated volume. Most often, computed tomography (CT) and/or magnetic resonance imaging (MRI) are used; however, recently, other imaging modalities such as functional MRI, MR spectroscopy, and positron emission tomography (PET) scans have been used to visualize the clinically relevant volumes. This article will address the clinically relevant issues with regard to low- and intermediate-grade gliomas and the role of 3D-CRT planning. Specific issues that will be addressed will include normal tissue tolerance, target definition, treatment field design in regard to isodose curves and dose-volume histograms, and immobilization.",
+  "authors": [
+   "Morris DE",
+   "Bourland JD",
+   "Rosenman JG",
+   "Shaw EG"
+  ]
+ },
+ {
+  "pmid": "40602133",
+  "title": "Conformal predictors in chemometric study of mid-infrared food adulteration: quantification of prediction uncertainty.",
+  "journal": "Food Chem",
+  "year": "2025",
+  "doi": "10.1016/j.foodchem.2025.145387",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "This study introduces a novel application of Conformal Predictor Regression to mid-infrared spectroscopic datasets of adulterated foods. Two datasets were analyzed, and 12 high-accuracy underlying models were tested using normalized inductive nonconformity functions. In all cases, significantly lower margins of error, on average 32.1\u00a0% lower, were obtained with normalized nonconformity functions compared to absolute residuals at a 99\u00a0% confidence level, without any loss of validity. A significant positive correlation (p\u00a0<\u00a00.05) was found between the generated error margins and the underlying model's accuracy for all studied cases, and this correlation was independent of the set confidence level. Based on the findings of this study, it is recommended to use a robust solution involving multiple combined normalized Conformal Predictors, with optimal efficiency selected in each case, for quantitative determinations of adulteration using mid-infrared data. Conformal predictors can serve as quantitative estimators of accuracy in vibrational spectroscopy for every individual test sample.",
+  "authors": [
+   "Jovic O"
+  ]
+ },
+ {
+  "pmid": "39918912",
+  "title": "Conformal Reconstruction and Dual-Vacancy Engineering Breaks Kinetics Limitations for Energetic Aqueous Dual-Cation Storage.",
+  "journal": "Angew Chem Int Ed Engl",
+  "year": "2025",
+  "doi": "10.1002/anie.202422403",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Efficient aqueous energy storage with non-metallic ions is highly desired but challenged by achieving kinetically favorable surface/interface storage chemistry. Herein, by refining the surface proton environment, layered double hydroxides (LDHs) with hydrogen-aluminum dual vacancies and 3D diffusion channels are demonstrated upon conformal surface reconstruction. An energetic NH4 +/H+ dual-ion co-intercalation chemistry is enabled, leading to a remarkable gravimetric specific capacity of up to 604\u2005mAh\u2009g-1 and long-cycle stability. Combining in-situ Raman spectroscopy and in-situ electrochemical quartz crystal microbalance (EQCM) techniques, we reveal and visualize the conformal reconstruction process and the reversible dual-cation storage mechanism. Density functional theory (DFT) calculation shows that the dual-vacancy coupling helps the dissolution of inert Al from LDHs for enriching active sites. At the same time, the residual Al shows the pining effect on the [MnO6] octahedron to restrain the Jahn-Teller distortion. The manganese sites adjacent to Al vacancies promote the adsorption of NH4 +/H+ and the H vacancies facilitate the adsorption of NH4 +, responsible for an optimal dual-cation storage chemistry. This work demonstrates how the dual vacancies emerge to modulate the carrier migration and thereby the capacity, providing a viable solution of surface/interface optimization for efficient aqueous energy storage.",
+  "authors": [
+   "Li C",
+   "Guo W",
+   "Wang J",
+   "Dang W",
+   "Zhang Q"
+  ]
+ },
+ {
+  "pmid": "31008664",
+  "title": "Conformal Prediction Based on Raman Spectra for the Classification of Chinese Liquors.",
+  "journal": "Appl Spectrosc",
+  "year": "2019",
+  "doi": "10.1177/0003702819831017",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "This work extends the conventional back-propagation neural network (BPNN) to the classification of Chinese liquors of different flavors according to their Raman spectra. Conformal prediction is applied to assign reliable confidence measures for each classification and support an effective framework to make the machine learning on classification trustable. The BPNN can be used to predict the flavors of Chinese liquors according to their Raman spectra, and a classification rate of 88.96% can be achieved. In order to evaluate each classification, a non-conformity score is defined to generate a P-value for each classification. Moreover, the validity of conformal prediction in online mode is discussed. The number of cumulative errors in the conformal prediction is much less than that without conformal prediction. The relationship between the cumulative error and confidence levels shows that a high confidence level leads to low cumulative errors, but many cumulative errors will occur under a very high confidence level. The result implies that conformal prediction is a useful framework, which can employ classification satisfying a certain level of confidence. Meanwhile, the conformal prediction can improve our classification using a BPNN, when the number of data points is limited.",
+  "authors": [
+   "Gu J",
+   "Liu H",
+   "Ma C",
+   "Li L",
+   "Zhu C",
+   "Glorieux C",
+   "Chen G"
+  ]
+ },
+ {
+  "pmid": "39912566",
+  "title": "Conformal chemical vapor deposition of B4C thin films onto carbon nanotubes.",
+  "journal": "Nanoscale",
+  "year": "2025",
+  "doi": "10.1039/d4nr04704d",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The unique attributes of carbon nanotubes (CNTs) establish them as the preferred material for fabricating sophisticated membrane architectures. However, CNT membranes are also susceptible to degradation under harsh environmental conditions, necessitating protective measures to maintain their functionalities. This study presents deposition of boron carbide (B4C) thin films as protective coatings on CNT membranes using chemical vapor deposition. Electron microscopy shows that B4C films were uniformly deposited on the CNTs. Raman spectroscopy shows the preservation of the G and D bands, with a notable stability in the RBM bands, while XPS measurements show sp2 hybridized C-C bonds and an additional shoulder characteristic of the deposited B4C film. This suggests that the CVD process does not degrade the CNTs, but merely adds a layer of B4C to their outer surface. This deposition process also allows for precise control over the membrane's pore size, offering the potential to fine-tune the properties of CNT membranes.",
+  "authors": [
+   "Choolakkal AH",
+   "Persson I",
+   "Etula J",
+   "Salmi E",
+   "Juntunen T",
+   "Persson PO\u00c5",
+   "Birch J",
+   "Pedersen H"
+  ]
+ },
+ {
+  "pmid": "32546706",
+  "title": "Near Zero Index Perfect Metasurface Absorber using Inverted Conformal Mapping.",
+  "journal": "Sci Rep",
+  "year": "2020",
+  "doi": "10.1038/s41598-020-66476-x",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The geometry of the characteristic element forming the artificial structure of an electromagnetic metamaterial defines the way the metamaterial will interact with electromagnetic waves, and accordingly, how it will transmit, reflect, and absorb electromagnetic energy. Metamaterials have been discovered that can manipulate electromagnetic waves to create perfect absorption of incident electromagnetic energy using relatively simple elemental geometries. But the phenomenon is confined to very narrow frequency bandwidths owing to the mono-resonance characteristics of simple cellular structures. Complex cellular geometries based on the combination of many different fundamental building blocks may be able to constructively couple many more resonances and broaden the perfect absorption bandwidth. We describe here a metasurface based upon geometric inversion of a set of conformal mapping contours. The resulting geometry forms a nearly continuous series of perfect absorption resonances within an ultrathin (\u03bb/165) metasurface to develop broadband absorption in a frequency range of interest for downhole chemical spectroscopy. The metasurface is derived from a geometric inversion of the Rhodonea, or more commonly called four-leaf roses, conformal mapping contours and was found to exhibit a near zero index metamaterial (NZIM) behavior. An uncooled microbolometer design is described that uses the metasurface geometry on a single VO2 thermometric substrate leading to an infrared detector with predicted maximum absorption of 99.94% at 4.3 \u03bcm and an absorption bandwidth of 170% FWHM on 15.8 \u03bcm center wavelength, coincident with important chemical spectra of downhole hydrocarbons. The infrared detector design has a predicted maximum detectivity D*\u2009=\u20091.5\u2009\u00d7\u2009109\u2009cm[Formula: see text]/W and noise equivalent difference temperature NEDT of 70\u2009mK at a frame rate of 60\u2009Hz. These levels of detector performance conventionally would be achievable only with cryogenically cooled technologies and could represent a significant step in the effort towards deploying an in situ infrared chemical spectroscopy sensor into downhole logging applications.",
+  "authors": [
+   "Swett DW"
+  ]
+ },
+ {
+  "pmid": "36610042",
+  "title": "Modeling scatter through sides of island blocks used for intensity-modulated bolus electron conformal therapy.",
+  "journal": "J Appl Clin Med Phys",
+  "year": "2023",
+  "doi": "10.1002/acm2.13889",
+  "abstract_sections": [
+   "PURPOSE",
+   "METHODS",
+   "RESULTS",
+   "CONCLUSIONS"
+  ],
+  "abstract": "PURPOSE: Passive Radiotherapy Intensity Modulators for Electrons (PRIME) devices are comprised of cylindrical tungsten island blocks imbedded in a machinable foam slab within the patient's cutout. Intensity-modulated bolus electron conformal therapy (IM-BECT) uses PRIME devices to reduce dose heterogeneity caused by the irregular bolus surface. Heretofore, IM-BECT dose calculations used the pencil beam redefinition algorithm (PBRA) assuming perfect collimation. This study investigates modeling electron scatter into and out the sides of island blocks. METHODS: Dose distributions were measured in a water phantom at 7, 13, and 20 MeV for devices having nominal intensity reduction factors of 1.000 (foam only), 0.937, 0.812, and 0.688, corresponding to nominal island block diameters (dnom ) of 0.158, 0.273, and 0.352\u00a0cm, respectively. Pencil beam theory derived an effective diameter (dIS ) to account for in-scattered electrons as a function of dnom and beam energy (Ep,0 ). However, for out-scattered electrons, an effective diameter (dmod ) was estimated by best fitting measured data. RESULTS: In the modulated region (under island blocks, depth\u00a0<\u00a0R90 ), modified PBRA-calculated dose distributions showed 2%/2\u00a0mm passing rates for dnom \u00a0=\u00a00.158, 0.273, and 0.352\u00a0cm of (100%, 100%, 100%) at 7 MeV, (100%, 100%, 93.5%) at 13 MeV, and (99.8%, 85.4%, and 71.5%) at 20 MeV. The largest dose differences (\u2264\u00a06%) occurred at the highest energy (20 MeV), largest dnom , shallowest depths (\u2264\u00a02\u00a0cm), and on central axis. CONCLUSIONS: An equation for modeling island block scatter, dmod (dnom , Ep,0 ), has been developed for use in the PBRA, insignificantly impacting calculation time. Although inaccuracy sometimes exceeded our 2%/2\u00a0mm criteria, it could be clinically acceptable, as superficial dose differences often fall inside the bolus. Also, patient PRIME devices are expected to have fewer large diameter island blocks than did test devices. Inaccuracies are attributed to out-scattered electrons having energy spectra different than the primary beams.",
+  "authors": [
+   "Scotto JG",
+   "Pitcher GM",
+   "Carver RL",
+   "Erhart KJ",
+   "McGuffey AS",
+   "Hogstrom KR"
+  ]
+ },
+ {
+  "pmid": "27991757",
+  "title": "Conformal Coating of a Phase Change Material on Ordered Plasmonic Nanorod Arrays for Broadband All-Optical Switching.",
+  "journal": "ACS Nano",
+  "year": "2017",
+  "doi": "10.1021/acsnano.6b07042",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Actively tunable optical transmission through artificial metamaterials holds great promise for next-generation nanophotonic devices and metasurfaces. Plasmonic nanostructures and phase change materials have been extensively studied to this end due to their respective strong interactions with light and tunable dielectric constants under external stimuli. Seamlessly integrating plasmonic components with phase change materials, as demonstrated in the present work, can facilitate phase change by plasmonically enabled light confinement and meanwhile make use of the high sensitivity of plasmon resonances to the variation of dielectric constant associated with the phase change. The hybrid platform here is composed of plasmonic indium-tin-oxide nanorod arrays (ITO-NRAs) conformally coated with an ultrathin layer of a prototypical phase change material, vanadium dioxide (VO2), which enables all-optical modulation of the infrared as well as the visible spectral ranges. The interplay between the intrinsic plasmonic nonlinearity of ITO-NRAs and the phase transition induced permittivity change of VO2 gives rise to spectral and temporal responses that cannot be achieved with individual material components alone.",
+  "authors": [
+   "Guo P",
+   "Weimer MS",
+   "Emery JD",
+   "Diroll BT",
+   "Chen X",
+   "Hock AS",
+   "Chang RP",
+   "Martinson AB",
+   "Schaller RD"
+  ]
+ },
+ {
+  "pmid": "24808799",
+  "title": "Tunable antireflection from conformal Al-doped ZnO films on nanofaceted Si templates.",
+  "journal": "Nanoscale Res Lett",
+  "year": "2014",
+  "doi": "10.1186/1556-276X-9-192",
+  "abstract_sections": [
+   "UNLABELLED",
+   "PACS"
+  ],
+  "abstract": "UNLABELLED: Photon harvesting by reducing reflection loss is the basis of photovoltaic devices. Here, we show the efficacy of Al-doped ZnO (AZO) overlayer on ion beam-synthesized nanofaceted silicon for suppressing reflection loss. In particular, we demonstrate thickness-dependent tunable antireflection (AR) from conformally grown AZO layer, showing a systematic shift in the reflection minima from ultraviolet to visible to near-infrared ranges with increasing thickness. Tunable AR property is understood in light of depth-dependent refractive index of nanofaceted silicon and AZO overlayer. This improved AR property significantly increases the fill factor of such textured heterostructures, which reaches its maximum for 60-nm AZO compared to the ones based on planar silicon. This thickness matches with the one that shows the maximum reduction in surface reflectance. PACS: 81.07.-b; 42.79.Wc; 81.16.Rf; 81.15.Cd.",
+  "authors": [
+   "Basu T",
+   "Kumar M",
+   "Sahoo PK",
+   "Kanjilal A",
+   "Som T"
+  ]
+ },
+ {
+  "pmid": "34634111",
+  "title": "Development of Standard X-Ray Beams for Calibration of Radiobiology Cabinet and Conformal Irradiators.",
+  "journal": "Radiat Res",
+  "year": "2022",
+  "doi": "10.1667/RADE-21-00121.1",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "This work seeks to develop standard X-ray beams that are matched to radiobiology X-ray irradiators. The calibration of detectors used for dose determination of these irradiators is performed with a set of standard X rays that are more heavily filtered and/or lower energy, which leads to a higher uncertainty in the dose measurement. Models of the XRad320, SARRP, and the X-ray tube at the University of Wisconsin Medical Radiation Research Center (UWMRRC) were created using the BEAMnrc user code of the EGSnrc Monte Carlo code system. These models were validated against measurements, and the resultant modeled spectra were used to determine the amount of added filtration needed to match the X-ray beams at the UWMRRC to those of the XRad320 and SARRP. The depth profiles and half-value layer (HVL) simulations performed using BEAMnrc agreed to measurements within 3% and 3.6%, respectively. A primary measurement device, a free-air chamber, was developed to measure air kerma in the medium energy range of X rays. The resultant spectra of the matched beams had HVL's that matched the HVL's of the radiobiology irradiators well within the 3% criteria recommended by the International Atomic Energy Agency (IAEA) and the average energies agreed within 2.4%. In conclusion, three standard X-ray beams were developed at the UWMRRC with spectra that more closely match the spectra of the XRad320 and SARRP radiobiology irradiators, which will aid in a more accurate dose determination during calibration of these irradiators.",
+  "authors": [
+   "King EJ",
+   "Viscariello NN",
+   "DeWerd LA"
+  ]
+ },
+ {
+  "pmid": "20533069",
+  "title": "Dielectric and conformal studies of 1-propanol and 1-butanol in methanol.",
+  "journal": "J Mol Model",
+  "year": "2011",
+  "doi": "10.1007/s00894-010-0772-y",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Hydrogen bonds in small chain alcohol-alcohol binary systems alter the dielectric permittivity of the binary system. With a view to obtain a better understanding of the interactions in such systems, the complex permittivity spectra of mixtures of methanol (ME) with 1propanol (1PR) and 1butanol (1BU) have been measured in the frequency range 10 MHz to 20 GHz using time domain reflectometry at 288 K, 298 K, 308 K and 318 K. The dielectric parameters such as static dielectric constant and relaxation time were obtained using the calibration method based on nonlinear least squares fit method. Using these parameters excess permittivity, excess inverse relaxation time, Kirkwood correlation factor, and thermodynamic parameters were determined. It is observed that the static permittivity decreases with increase in mole fractions of 1PR/1BU in ME whereas the relaxation time increases for both the binary systems. Computational conformational analysis was performed using ab initio Hartree-Fock using Gaussian-03 program. The present studies indicate a difference in the solvation of ME by 1PR/1BU and vice versa. Further, the interaction of ME-1PR is distinctly different at the 0.55 molar concentration of 1PR while the ME-1BU system shows strong interactions in both the methanol and the 1BU rich regions.",
+  "authors": [
+   "Lone B",
+   "Madhurima V"
+  ]
+ },
+ {
+  "pmid": "21727455",
+  "title": "Conformal nanocoating of zirconia nanoparticles by atomic layer deposition in a fluidized bed reactor.",
+  "journal": "Nanotechnology",
+  "year": "2005",
+  "doi": "10.1088/0957-4484/16/7/010",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Primary zirconia nanoparticles were conformally coated with alumina ultrathin films using atomic layer deposition (ALD) in a fluidized bed reactor. Alternating doses of trimethylaluminium and water vapour were performed to deposit Al(2)O(3) nanolayers on the surface of 26\u00a0nm zirconia nanoparticles. Transmission Fourier transform infrared spectroscopy was performed ex situ. Bulk Al(2)O(3) vibrational modes were observed for coated particles after 50 and 70\u00a0cycles. Coated nanoparticles were also examined with transmission electron microscopy, high-resolution field emission scanning electron microscopy and energy dispersive spectroscopy. Analysis revealed highly conformal and uniform alumina nanofilms throughout the surface of zirconia nanoparticles. The particle size distribution and surface area of the nanoparticles are not affected by the coating process. Primary nanoparticles are coated individually despite their high aggregation tendency during fluidization. The dynamic aggregation behaviour of zirconia nanoparticles in the fluidized bed plays a key role in the individual coating of nanoparticles.",
+  "authors": [
+   "Hakim LF",
+   "George SM",
+   "Weimer AW"
+  ]
+ },
+ {
+  "pmid": "39642497",
+  "title": "Duality Constraints on Thermal Spectra of 3D Conformal Field Theories and 4D Quasinormal Modes.",
+  "journal": "Phys Rev Lett",
+  "year": "2024",
+  "doi": "10.1103/PhysRevLett.133.211601",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Thermal spectra of correlation functions in holographic 3D large-N conformal field theories (CFTs) correspond to quasinormal modes of classical gravity and other fields in asymptotically anti-de Sitter black hole spacetimes. Using general properties of such spectra along with constraints imposed by the S duality (or the particle-vortex duality), we derive a spectral duality relation that all such spectra must obey. Its form is universal and relates infinite products over QNMs with bulk algebraically special frequencies. In the process, we also derive a new sum rule constraining products over QNMs. The spectral duality relation, which imposes an infinite set of constraints on the QNMs, is then investigated and a number of well-known holographic examples that demonstrate its validity are examined. Our results also allow us to understand several new aspects of the pole-skipping phenomenon.",
+  "authors": [
+   "Grozdanov S",
+   "Vrbica M"
+  ]
+ },
+ {
+  "pmid": "29072750",
+  "title": "Nanoscale, conformal films of graphitic carbon nitride deposited at room temperature: a method for construction of heterojunction devices.",
+  "journal": "Nanoscale",
+  "year": "2017",
+  "doi": "10.1039/c7nr06489f",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Graphitic carbon nitrides (GCNs) represent a family of 2D materials composed of carbon and nitrogen with variable amounts of hydrogen, used in a wide variety of applications. We report a method of room temperature thin film deposition which allows ordered GCN layers to be deposited on a very wide variety of substrates, including conductive glass, flexible plastics, nanoparticles and nano-structured surfaces, where they form a highly conformal coating on the nanoscale. Film thicknesses of below 20 nm are achievable. In this way we construct functional nanoscale heterojunctions between TiO2 nanoparticles and GCN, capable of producing H2 photocatalytically under visible light irradiation. The films are hydrogen rich, have a band gap around 1.7 eV, display transmission electron microscopy lattice fringes as well as X-ray diffraction peaks despite being deposited at room temperature, and show characteristic Raman and IR bands. We use cluster etching to reveal the chemical environments of C and N in GCN using X-ray photoelectron spectroscopy. We elucidate the mechanism of this deposition, which operates via sequential surface adsorption and reaction analogous to atomic layer deposition. The mechanism may have implications for current models of carbon nitride formation.",
+  "authors": [
+   "Ladva SA",
+   "Travis W",
+   "Quesada-Cabrera R",
+   "Rosillo-Lopez M",
+   "Afandi A",
+   "Li Y",
+   "Jackman RB",
+   "Bear JC",
+   "Parkin IP",
+   "Blackman C",
+   "Salzmann CG",
+   "Palgrave RG"
+  ]
+ },
+ {
+  "pmid": "42113637",
+  "title": "Reliable Molecular Retrieval from Mass Spectra Using Conformal Prediction.",
+  "journal": "J Chem Inf Model",
+  "year": "2026",
+  "doi": "10.1021/acs.jcim.6c00727",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "A key task in the computational analysis of liquid chromatography-tandem mass spectrometry (LC-MS/MS) data is identifying the molecular structure underlying a measured spectrum. A common approach ranks candidate molecules retrieved from chemical databases using predicted fingerprint similarities, yet standard metrics such as top-k accuracy summarize performance only at the data set level and provide no spectrum-specific reliability statement. In this work, we apply conformal prediction to candidate-based molecular retrieval to construct spectrum-specific prediction sets that contain the true molecule with a user-specified probability. We evaluate marginal and conditional conformal prediction across three experimental scenarios representing in-distribution, partially shifted, and fully out-of-distribution settings on the MassSpecGym benchmark. When calibration and test data are aligned, conformal prediction attains the target coverage with small candidate sets for most spectra. Under distribution shift, prediction sets become larger as rankings grow more ambiguous, although candidates can still be reduced when calibration remains representative. Conditional conformal prediction improves subgroup reliability across spectra of different difficulty, with the best gains obtained using confidence-based grouping. Overall, conformal prediction turns candidate rankings into reliable, spectrum-specific candidate sets with an explicit reliability-efficiency trade-off.",
+  "authors": [
+   "Rakhshaninejad M",
+   "De Waele G",
+   "J\u00fcrgens M",
+   "Waegeman W"
+  ]
+ },
+ {
+  "pmid": "11038145",
+  "title": "Intraoperative conformal optimization for transperineal prostate implantation using magnetic resonance spectroscopic imaging.",
+  "journal": "Cancer J",
+  "year": "2000",
+  "doi": null,
+  "abstract_sections": [
+   "PURPOSE",
+   "MATERIALS AND METHODS",
+   "RESULTS",
+   "CONCLUSIONS"
+  ],
+  "abstract": "PURPOSE: Recent studies have demonstrated that magnetic resonance spectroscopic imaging (MRSI) of the prostate may effectively distinguish between regions of cancer and normal prostatic epithelium. This diagnostic imaging tool takes advantage of the increased choline and creatine versus citrate ratio found in malignant, compared with normal, prostate tissue. The purpose of this report is to present our initial experience integrating MRSI data into an intraoperative computer-based optimization planning system for prostate cancer patients who underwent permanent interstitial I 125 implantation. The goal of this approach was to achieve dose escalation to intraprostatic tumor deposits on the basis of MRSI findings without exceeding the tolerance of adjacent normal tissue structures. MATERIALS AND METHODS: MRSI was obtained before surgery for four consecutive patients with clinically localized prostate cancer. The ratios of choline and citrate for the prostate were analyzed, and regions in which malignant cells were suspected to be present were identified. These ratios were calculated on a spatial grid overlying the axial MRSI of the prostate. MRSI coordinates containing these suspicious regions were registered to the intraoperative ultrasound images. A computer-based treatment planning system, which relied on a genetic algorithm, was used to determine the optimal seed distribution necessary to achieve maximal target volume coverage with the prescription dose and to maintain urethra and rectal doses within tolerance ranges. The treatment planning system was specifically designed to escalate the dose to MRS-positive voxels while at the same time achieving preferential sparing of surrounding normal tissues. Patients underwent transperineal interstitial implantation with I 125 by use of this intraoperatively generated plan. Postimplant computed tomographic scans were performed on the same day of the procedure in all cases, and dosimetric guidelines of the American Brachytherapy Society were used to assess implant quality. RESULTS: Based on the postimplant computed tomographic evaluation, the intraoperative optimization treatment planning program was able to achieve a minimum dose of 139% to 192% of the 144-Gy prescription dose to the MRS-positive voxels. The percentage of the prostate volume receiving 100% of the prescription dose ranged from 92% to 97%, and the dose delivered to 90% of the target for the target volume ranged from 96% to 124%. Despite the dose escalation achieved for the positive voxels, the urethral and rectal doses were maintained within tolerance ranges. The average and maximal rectal doses ranged from 28% to 43% and 69% to 115% of the prescription dose, respectively. The average and maximal urethral doses ranged from 66% to 144% and 118% to 166% of the prescription dose, respectively. CONCLUSIONS: Using this brachytherapy optimization system, we could demonstrate the feasibility of MRS-optimized dose distributions for I 125 permanent prostate implants. This approach may have an impact on the ability to select regions within the prostate to safely employ dose escalation for patients treated with permanent interstitial implantation and to improve outcome for patients with organ-confined prostatic cancers.",
+  "authors": [
+   "Zelefsky MJ",
+   "Cohen G",
+   "Zakian KL",
+   "Dyke J",
+   "Koutcher JA",
+   "Hricak H",
+   "Schwartz L",
+   "Zaider M"
+  ]
+ },
+ {
+  "pmid": "40521552",
+  "title": "Substrate Activated Conformal Deposition Through Interfacial Control by a Soft Energy Intensification Process for Functional Integration in High Performance Artificial Intelligence Computing.",
+  "journal": "ACS Omega",
+  "year": "2025",
+  "doi": "10.1021/acsomega.5c02453",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "We demonstrate a soft energy vapor deposition process that enables atomic level control of the interface between the substrate surface and the growing multilayer film, while ensuring enhanced environmental sustainability and reduced energy consumption. The process combines the use of a low substrate temperature designed to induce selective ligand removal upon precursor interaction with the substrate surface, which we refer to as the \"substrate surface activated\" process, with the subsequent application of a soft plasma (ion energies below 5 eV and plasma power density below 0.05 W/cm2) that reacts with the adsorbed partially converted precursor species to complete the formation of a monolayer of the desired film. The soft plasma serves the additional role of pretreating the substrate surface and the interface between the successive film monolayers to micromodulate the chemical reactivity and density of active surface atomic sites to maximize reaction efficiency, leading to elimination of any potential incubation period (nucleation delay). One advantage of this methodology is that the low temperature deposition enables the use of thermally or electrically fragile substrates. Other benefits include conformality in aggressive substrate surface topographies and significant decrease in energy consumption, leading to enhancement of growth rate per cycle. In this proof-of-concept study, cobalt tricarbonyl nitrosyl (Co-(CO)3NO) and 1,3,5-tri-(isopropyl)-cyclotrisilazane (TICZ, C9H27N3Si3) were employed as the source precursors for cobalt (Co) and silicon nitride (SiN), respectively. Cobalt was selected due to its current role as a conductor, liner, and cap layer in integrated circuitry (IC) metallization applications, while SiN was chosen given its multiple usages in IC technologies. Si3N4 and Co thin films were grown from the reaction of Co-(CO)3NO with an argon (Ar) + 5 atom % hydrogen (H2) plasma. In situ ellipsometry analyses demonstrated the effectiveness of the interfacial treatment in ensuring immediate film nucleation and elucidated the mechanisms of precursor-substrate surface interactions, leading to functional control of precursor decomposition pathways at low processing temperatures. X-ray photoelectron spectroscopy (XPS) investigations yielded stoichiometric Si3N4 and contaminant-free Co, while atomic force microscopy (AFM) shed light on the effects of post-deposition annealing on film microstructure and surface morphology.",
+  "authors": [
+   "Kaloyeros AE",
+   "Arkles B"
+  ]
+ },
+ {
+  "pmid": "25247481",
+  "title": "Conformal encapsulation of three-dimensional, bioresorbable polymeric scaffolds using plasma-enhanced chemical vapor deposition.",
+  "journal": "Langmuir",
+  "year": "2014",
+  "doi": "10.1021/la502596f",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Bioresorbable polymers such as poly(\u03b5-caprolactone) (PCL) have a multitude of potential biomaterial applications such as controlled-release drug delivery and regenerative tissue engineering. For such biological applications, the fabrication of porous three-dimensional bioresorbable materials with tunable surface chemistry is critical to maximize their surface-to-volume ratio, mimic the extracellular matrix, and increase drug-loading capacity. Here, two different fluorocarbon (FC) precursors (octofluoropropane (C3F8) and hexafluoropropylene oxide (HFPO)) were used to deposit FC films on PCL scaffolds using plasma-enhanced chemical vapor deposition (PECVD). These two coating systems were chosen with the intent of modifying the scaffold surfaces to be bio-nonreactive while maintaining desirable bulk properties of the scaffold. X-ray photoelectron spectroscopy showed high-CF2 content films were deposited on both the exterior and interior of PCL scaffolds and that deposition behavior is PECVD system specific. Scanning electron microscopy data confirmed that FC film deposition yielded conformal rather than blanket coatings as the porous scaffold structure was maintained after plasma treatment. Treated scaffolds seeded with human dermal fibroblasts (HDF) demonstrate that the cells do not attach after 72 h and that the scaffolds are noncytotoxic to HDF. This work demonstrates conformal FC coatings can be deposited on 3D polymeric scaffolds using PECVD to fabricate 3D bio-nonreactive materials.",
+  "authors": [
+   "Hawker MJ",
+   "Pegalajar-Jurado A",
+   "Fisher ER"
+  ]
+ },
+ {
+  "pmid": "28078888",
+  "title": "Low-Temperature Wet Conformal Nickel Silicide Deposition for Transistor Technology through an Organometallic Approach.",
+  "journal": "ACS Appl Mater Interfaces",
+  "year": "2017",
+  "doi": "10.1021/acsami.6b13852",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "The race for performance of integrated circuits is nowadays facing a downscale limitation. To overpass this nanoscale limit, modern transistors with complex geometries have flourished, allowing higher performance and energy efficiency. Accompanying this breakthrough, challenges toward high-performance devices have emerged on each significant step, such as the inhomogeneous coverage issue and thermal-induced short circuit issue of metal silicide formation. In this respect, we developed a two-step organometallic approach for nickel silicide formation under near-ambient temperature. Transmission electron and atomic force microscopy show the formation of a homogeneous and conformal layer of NiSix on pristine silicon surface. Post-treatment decreases the carbon content to a level similar to what is found for the original wafer (\u223c6%). X-ray photoelectron spectroscopy also reveals an increasing ratio of Si content in the layer after annealing, which is shown to be NiSi2 according to X-ray absorption spectroscopy investigation on a Si nanoparticle model. I-V characteristic fitting reveals that this NiSi2 layer exhibits a competitive Schottky barrier height of 0.41 eV and series resistance of 8.5 \u03a9, thus opening an alternative low-temperature route for metal silicide formation on advanced devices.",
+  "authors": [
+   "Lin TH",
+   "Margossian T",
+   "De Marchi M",
+   "Thammasack M",
+   "Zemlyanov D",
+   "Kumar S",
+   "Jagielski J",
+   "Zheng LQ",
+   "Shih CJ",
+   "Zenobi R",
+   "De Micheli G",
+   "Baudouin D",
+   "Gaillardon PE",
+   "Cop\u00e9ret C"
+  ]
+ },
+ {
+  "pmid": "16959345",
+  "title": "Esophageal cancer: determination of internal target volume for conformal radiotherapy.",
+  "journal": "Radiother Oncol",
+  "year": "2006",
+  "doi": "10.1016/j.radonc.2006.08.003",
+  "abstract_sections": [
+   "BACKGROUND AND PURPOSE",
+   "MATERIAL AND METHOD",
+   "RESULTS",
+   "CONCLUSION"
+  ],
+  "abstract": "BACKGROUND AND PURPOSE: To evaluate esophageal tumor and OAR movement during the respiratory cycle in order to obtain optimal values for ITV and PRV. To correlate tumor motion with chest wall displacement - information of value in the free-breathing gating system. MATERIAL AND METHOD: Inclusion criteria were: histologically proven squamous-cell carcinoma (SCC) or adenocarcinoma at stage T3 - T4 NX or TX N1 M0 according to the UICC 1997 classification. Two spiral scans were performed with breath-hold respiration under spirometric control: one at end expiration (EBH) and the other at end inspiration (IBH). Displacements between exhalation and inhalation were calculated according to ICRU report 42 recommendations. For the correlation study, CT-scan acquisition was performed at the isocenter over a 20 - 40 s period. After Fourier Transform, frequency spectra for amplitude and phase of tumor and chest wall motions were performed for each patient. RESULTS: Cumulative distribution of CTV motion in absolute values showed that 95% of data ranged from 0 to 1 cm. Cumulative distribution of GTV motion in absolute values showed that 95% of data ranged from 0 to 0.8 cm. The correlation study demonstrated no specific relationship between respiratory and esophageal motions. CONCLUSION: The ITV margin for 3D conformal radiotherapy in esophageal cancer was 1 cm when 95% of motions were taken into account in this clinical study involving eight patients. Before using a free-breathing gating system, the correlation between external markers and target displacement during irradiation must be established for each patient.",
+  "authors": [
+   "Lorchel F",
+   "Dumas JL",
+   "No\u00ebl A",
+   "Wolf D",
+   "Bosset JF",
+   "Aletti P"
+  ]
+ },
+ {
+  "pmid": "2779424",
+  "title": "Conformal NMR spectroscopy: accurate localization to noncuboidal volumes with optimum SNR.",
+  "journal": "Magn Reson Med",
+  "year": "1989",
+  "doi": "10.1002/mrm.1910110312",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "\"Conformal Spectroscopy\" is a general method for the acquisition of accurately localized NMR spectra from noncuboidal regions with optimum signal-to-noise ratio (SNR). The method is based upon the localization of volumes defined by a number of intersecting oblique slices and may be implemented using standard imager hardware. Conformal techniques can enhance many existing localization sequences such as ISIS (31P) and STEAM (1H) resulting in typical SNR improvements of around 1.8, equivalent to a more than threefold reduction in acquisition time. Applications include in vivo tumor spectroscopy.",
+  "authors": [
+   "Sharp JC",
+   "Leach MO"
+  ]
+ },
+ {
+  "pmid": "41042886",
+  "title": "Enhanced spectral purity of WSe2 quantum emitters via conformal organic adlayers.",
+  "journal": "Sci Adv",
+  "year": "2025",
+  "doi": "10.1126/sciadv.ady7557",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Quantum emitters in solid-state materials are typically embedded in the bulk of their hosts, making their electronic transitions inaccessible to surface modification. In contrast, two-dimensional materials, with their all-surface nature, offer a platform for tuning quantum emitters via chemical functionalization. Because of its semiconducting properties that enable electrical addressability, monolayer WSe2 is a promising candidate for quantum emission, although the complex interplay between point defects and the localized strain needed to activate quantum emission leads to poor spectral purity. Here, we demonstrate that functionalizing monolayer WSe2 with conformal adlayers of 3,4,9,10-perylenetetracarboxylic dianhydride (PTCDA) improves quantum emission spectral purity. Optical spectroscopy reveals that PTCDA functionalization lowers defect activation energies by 10 meV and induces a 30 nm redshift in quantum emission wavelength, while preserving the bright and dark exciton energies of monolayer WSe2. First-principles calculations corroborate these findings, thus providing molecular-level insight into the underlying mechanism of enhanced spectral purity.",
+  "authors": [
+   "Ananth R",
+   "Utama MIB",
+   "Xu DD",
+   "Vong AF",
+   "Sadhukhan T",
+   "Zeng H",
+   "L\u00f3pez-Arteaga R",
+   "Wang W",
+   "Namgung SD",
+   "Gavin SC",
+   "Dasgupta A",
+   "Liang Y",
+   "Bennett A",
+   "Mahdikhany F",
+   "Watanabe K",
+   "Taniguchi T",
+   "Sangwan VK",
+   "Mirkin CA",
+   "Marks TJ",
+   "Ma X",
+   "Stern NP",
+   "Schatz GC",
+   "Weiss EA",
+   "Hersam MC"
+  ]
+ },
+ {
+  "pmid": "32114763",
+  "title": "Flexible DNA Hydrogel SERS Active Biofilms for Conformal Ultrasensitive Detection of Uranyl Ions from Aquatic Products.",
+  "journal": "Langmuir",
+  "year": "2020",
+  "doi": "10.1021/acs.langmuir.9b03845",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "It is of great significance to sensitively and conveniently detect trace UO22+ ions in biological and environmental samples due to severe health risks. However, such suitable sensors are still scarce. In this work, DNAzyme-based hydrogels modified on Ag NP-grafted PAN nanorods array as flexible SERS biosensor have been developed for ultrasensitive UO22+ ion detection. They were first formed by the substrate strand and enzyme strand comprising the main cleavage-reaction stem-loop complex. Then, a UO22+ ions responsive smart hydrogel capsule was achieved by DNAzyme complex hybridized with DNA polyacrylamide chains. Raman reporter RhB was introduced and intentionally trapped inside the hydrogel. In the absence of UO22+ ions, a tiny Raman signal was presented because RhB was trapped inside the hydrogel and far away from SERS substrates. Conversely, the responsive hydrogel could be specifically attacked by UO22+ ions to release RhB, leading to a strong Raman signal. With the amplified signal procedure, this flexible SERS biofilm accomplished sensitive and selective detection of UO22+ ions with a wide linear range from 1 pM to 0.1 \u03bcM and a low detection limit of 0.838 pM. This result is nearly five orders below the EPA-defined maximum contaminant level (180 nM). Furthermore, this biofilm gives full play to the advantages of a flexible biosensor. It can directly detect the aquatic products (such as fish and kelp) polluted by UO22+ ions, demonstrating that this flexible SERS biofilm has promising potential for applications in a rapid environmental safety inspection.",
+  "authors": [
+   "He X",
+   "Zhou X",
+   "Liu W",
+   "Liu Y",
+   "Wang X"
+  ]
+ },
+ {
+  "pmid": "25927250",
+  "title": "Low-Temperature Conformal Atomic Layer Deposition of SiNx Films Using Si\u2082Cl\u2086 and NH\u2083 Plasma.",
+  "journal": "ACS Appl Mater Interfaces",
+  "year": "2015",
+  "doi": "10.1021/acsami.5b01531",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "A plasma-enhanced atomic layer deposition (ALD) process was developed for the growth of SiNx thin films using Si2Cl6 and NH3 plasma. At substrate temperatures \u2264400 \u00b0C, we show that this ALD process leads to films with >95% conformality over high aspect ratio nanostructures with a growth per cycle of \u223c1.2 \u00c5. The film growth mechanism was studied using in situ attenuated total reflection Fourier transform infrared spectroscopy. Our data show that on the SiNx growth surface, Si2Cl6 reacts with surface -NH2 groups to form surface -NH species, which are incorporated into the growing film. In the subsequent half cycle, radicals generated in the NH3 plasma abstract surface Cl atoms, and restore an NHx (x = 1,2)-terminated surface. Surface Si-N-Si bonds are also primarily formed during the NH3 plasma half-cycle. The infrared data and Rutherford backscattering combined with hydrogen forward scattering shows that the films contain \u223c23% H atoms primarily incorporated as -NH groups.",
+  "authors": [
+   "Ovanesyan RA",
+   "Hausmann DM",
+   "Agarwal S"
+  ]
+ },
+ {
+  "pmid": "21644556",
+  "title": "Conformal polymeric thin films by low-temperature rapid initiated chemical vapor deposition (iCVD) using tert-butyl peroxybenzoate as an initiator.",
+  "journal": "ACS Appl Mater Interfaces",
+  "year": "2011",
+  "doi": "10.1021/am200322k",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Conformal poly(cyclohexyl methacrylate) (pCHMA) thin films were synthesized via initiated chemical vapor deposition (iCVD), with tert-butyl peroxybenzoate (TBPOB) as the initiator, representing the first time that TBPOB has been used as an initiator for iCVD synthesis. Using TBPOB instead of tert-butyl peroxide (TBPO), the rate of iCVD film growth increased by a factor of up to seven at comparable conformality and lower the filament temperature from 257 to 170 \u00b0C at a comparable deposition rate of 3 nm/min. The conformal deposition of functional thin films is desired for applications including microfluidics, medical devices and membranes. Lower filament temperatures reduce the heat load to the deposition surface and thus are advantageous for polymeric substrates that are temperature sensitive or monomers that decompose at high temperatures. Fourier transform infrared spectroscopy (FTIR) and X-ray photoelectron spectroscopy (XPS) results demonstrate the similarity of the TBPOB- to the TBPO-initiated pCHMA main chains. However, the aromatic group in TBPOB provided a unique spectral signature of the polymer chain end group in the FTIR and the peak intensity increased with increase of filament temperature. Scanning electron micrographs (SEMs) revealed that the pCHMA coatings are conformal over non-planar structures; however, at identical process conditions, TBPO-initiated films showed a slightly better conformality due to the lower sticking coefficient of TBPO. At a monomer partial pressure of 0.45, TBPOB has a sticking coefficient value of 0.1188 \u00b1 0.0092, which is \u223c3 times as high as that of TBPO (0.0413 \u00b1 0.0058). The step coverage is insensitive to filament temperature if the surface concentration of the monomer is fixed.",
+  "authors": [
+   "Xu J",
+   "Gleason KK"
+  ]
+ },
+ {
+  "pmid": "41346025",
+  "title": "Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Detection with MALDI-TOF Mass Spectra.",
+  "journal": "J Comput Biol",
+  "year": "2026",
+  "doi": "10.1177/15578666251396558",
+  "abstract_sections": [
+   null
+  ],
+  "abstract": "Bacterial antimicrobial resistance is one of the most pressing global health challenges. Infections with resistant pathogens increase patient morbidity and mortality due to limited treatment options. Rapid and reliable identification of resistance is therefore crucial. However, conventional culture-based diagnostics are slow, typically requiring at least 48 hours from patient sample arrival to result. In contrast, matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF) mass spectrometry, routinely used for species identification, can provide data 24 hours earlier. Repurposing this technique for antimicrobial resistance prediction has shown promise, but limited predictive performance and a lack of statistically grounded uncertainty estimates have hindered clinical integration. To address these issues, we propose an antimicrobial resistance detection framework using a knowledge-graph-enhanced conformal predictor. Conformal prediction outputs sets of likely effective antibiotics with statistical guarantees, ensuring that resistance detection meets a predefined error rate. Our approach improves upon standard conformal prediction by integrating domain knowledge through a drug- and species-specific knowledge graph that captures interdependencies between antibiotics, such as inferable resistance patterns between broad- and narrow-spectrum agents, as well as co-resistance patterns within antibiotic classes. This predictor is layered on top of a novel classifier that surpasses state-of-the-art models and overcomes key technical limitations of earlier approaches. We evaluated our framework on two clinically relevant species, Klebsiella pneumoniae and Escherichia coli, using the DRIAMS dataset. Our results demonstrate that our conformal predictor consistently achieved the expected coverage guarantees and that the knowledge-graph enhancement significantly reduced false discovery rates compared to standard conformal approaches. By adding statistically grounded uncertainty estimates and improving predictive performance, our framework strengthens the reliability of early antimicrobial resistance predictions from MALDI-TOF data. This could support the clinical integration of such rapid diagnostics by increasing trust in their results and enabling better-informed early treatment decisions.1.",
+  "authors": [
+   "Corvelo Benz N",
+   "Miranda L",
+   "Chen D",
+   "Sattler J",
+   "Borgwardt K"
+  ]
+ }
+]

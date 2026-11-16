@@ -19,6 +19,9 @@ See journal_selection/selected_journal.md.
 - [ ] Review cycles (10 agents x 10 cycles)
 - [ ] Final packaging
 
+## Topic-discovery findings so far
+- See literature/prior_art_notes.md. Label-free conformal NIR intervals under shift are PRE-EMPTED by Talanta 2026 (likely the user's own paper).
+- Data hosts reachable: Mendeley Data, Eigenvector, ucphchemometrics.com, soilspectroscopy.org, Zenodo, figshare, Dryad, OSF, UCI, HF, GitHub. Not: Kaggle, models.life.ku.dk.
+
 ## Exact next step
-Literature search on uncertainty quantification / conformal prediction / calibration maintenance in
-multivariate (NIR) calibration under domain shift; generate >= 15 candidate directions; stress test.
+Run topic-discovery workflow (7 sub-domain generators x 3 candidates -> adversarial stress test each -> 3-judge panel), then select ONE topic.

@@ -35,9 +35,16 @@ def pubmed_fetch(ids):
                    "journal": a.findtext(".//Journal/ISOAbbreviation"),
                    "year": a.findtext(".//PubDate/Year") or (a.findtext(".//PubDate/MedlineDate") or "")[:4],
                    "doi": None, "abstract_sections": [], "abstract": ""}
-            for aid in a.findall(".//ArticleIdList/ArticleId"):
-                if aid.get("IdType") == "doi":
-                    rec["doi"] = aid.text
+            # Only the article's own IDs (PubmedData/ArticleIdList), NOT IDs inside the reference list.
+            own = a.find("PubmedData/ArticleIdList")
+            if own is not None:
+                for aid in own.findall("ArticleId"):
+                    if aid.get("IdType") == "doi":
+                        rec["doi"] = aid.text
+            if rec["doi"] is None:
+                for el in a.findall("MedlineCitation/Article/ELocationID"):
+                    if el.get("EIdType") == "doi":
+                        rec["doi"] = el.text
             parts = []
             for e in a.findall(".//Abstract/AbstractText"):
                 lab = e.get("Label")
