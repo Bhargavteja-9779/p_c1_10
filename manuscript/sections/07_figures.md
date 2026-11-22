@@ -4,11 +4,11 @@
 
 ![](figures/fig1_workflow.png){width=100%}
 
-**Fig. 2.** Label-free prediction of the error of a calibration on an individual unit. Predicted RMSEP (Eq. (5), using only the master's cross-validation and replicate scans and the unit's scans of transfer items) against the RMSEP realised on independent paired test items, for (a) the master PLS and (b) FR-PLS. Each point is one target unit (averaged over item-split repetitions); dashed line, identity. Log–log axes.
+**Fig. 2.** Target-label-free prediction of the error of the master calibration on individual units. Predicted RMSEP (Eq. (5): master cross-validation and replicate scans, and the unit's scans of transfer items, without reference values) against the RMSEP realised on independent paired test items. (a) Mango, random item split (62 unit × season cases); (b) mango, population-grouped split — transfer and test fruit from different orchard populations (26 cases); (c) soil (6 properties) and corn, both axes divided by the master's cross-validated RMSE. Each point is one target unit, averaged over split repetitions; dashed line, identity; log–log axes.
 
 ![](figures/fig2_unit_risk.png){width=100%}
 
-**Fig. 3.** Error on unseen units relative to the master PLS (leave-one-unit-out; paired test items). Points, individual target units; bars, interquartile range; ticks, median. Methods marked * use information unavailable in label-free deployment (oracle: parameter chosen on the target unit's own reference values; pooled: reference values of all transfer items on all fleet units).
+**Fig. 3.** Error on unseen units relative to the master PLS (leave-one-unit-out; paired test items). Points, physical units (mango and soil: log-ratios averaged over seasons or properties per unit; corn: instrument × property); bars, interquartile range; ticks, median. Orange, proposed; blue, existing transfer methods; grey, reference methods that use information unavailable in target-label-free deployment.
 
 ![](figures/fig3_methods.png){width=100%}
 
