@@ -15,20 +15,36 @@ import pandas as pd
 
 from src.fleet import methods as M
 from src.fleet.data import Fleet, paired_differences, replicate_cov
-from src.fleet.risk import fleet_risk
+from src.fleet.risk import fleet_risk, noise_term
 
 
-def split_items(fl: Fleet, master: str, seed: int):
+def split_items(fl: Fleet, master: str, seed: int, grouped: str | None = None):
+    """grouped=None: random item split; 'session': whole acquisition sessions (date) go to one part;
+    'population': whole fruit populations (date|population) go to one part."""
     rng = np.random.default_rng(seed)
     cov = fl.coverage() > 0
     on_m = cov[master]
-    n_units = cov.sum(1)
+    n_units = cov.sum(axis=1)
     multi = np.array(cov.index[on_m & (n_units >= 2)])
     solo = np.array(cov.index[on_m & (n_units == 1)])
     off = np.array(cov.index[~on_m])
-    multi = rng.permutation(multi)
-    t = len(multi) // 3
-    T, E, C = multi[:t], multi[t:2 * t], multi[2 * t:]
+    if grouped is None or fl.group is None:
+        multi = rng.permutation(multi)
+        t = len(multi) // 3
+        T, E, C = multi[:t], multi[t:2 * t], multi[2 * t:]
+    else:
+        g_of = pd.Series(fl.group, index=fl.item).groupby(level=0).first()
+        key = g_of.loc[multi].astype(str)
+        if grouped == 'session':
+            key = key.str.split('|').str[0]
+        groups = rng.permutation(np.unique(key))
+        # greedy assignment of whole groups to the part with the fewest items so far (T, E, C)
+        parts = {0: [], 1: [], 2: []}
+        sizes = key.value_counts()
+        for gname in groups:
+            j = min(parts, key=lambda q: sum(sizes[x] for x in parts[q]))
+            parts[j].append(gname)
+        T, E, C = (np.array(key.index[key.isin(parts[j])]) for j in (0, 1, 2))
     return set(np.concatenate([C, solo]).tolist()), set(T.tolist()), set(np.concatenate([E, off]).tolist()), set(E.tolist())
 
 
@@ -37,18 +53,33 @@ def _err(model, X, y):
     return float(np.sqrt(np.mean(e ** 2))), float(np.mean(e)), float(np.std(e, ddof=1)) if len(e) > 1 else np.nan
 
 
-def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5, A=20, oracle=True, targets=None):
-    C, T, E, Ep = split_items(fl, master, seed)
+def _lfbc_offset_var(b, D, units, items):
+    """Pooled (over fleet units) between-item variance of the per-item mean projection b'd: the sampling variance
+    of a label-free offset estimated from m items is this value / m (used to correct the predicted LFBC risk)."""
+    v = []
+    for u in np.unique(units):
+        s = units == u
+        df = pd.DataFrame({"i": items[s], "p": D[s] @ b}).groupby("i").p.mean()
+        if len(df) > 1:
+            v.append(df.var(ddof=1))
+    return float(np.mean(v)) if v else 0.0
+
+
+def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5, A=30, oracle=True, targets=None, grouped=None):
+    C, T, E, Ep = split_items(fl, master, seed, grouped)
     cm = (fl.unit == master) & np.isin(fl.item, list(C))
     Xc, yc, gc = fl.X[cm], fl.y[cm], fl.item[cm]
     Sigma0, _ = replicate_cov(Xc, gc)
     base = M.master_pls(Xc, yc, gc, A=A, seed=seed)
-    lvA = base.info["A"]
     units = [u for u in np.unique(fl.unit) if u != master]
-    # transfer-item counts per unit
     tcount = {u: len(set(fl.item[fl.unit == u]) & T) for u in units}
+    # master means of transfer items (for the labelled cross-term check only)
+    tm = (fl.unit == master) & np.isin(fl.item, list(T))
+    from src.fleet.data import item_means
+    ti, tX, _ = item_means(fl.X[tm], fl.item[tm])
+    ty = pd.Series(fl.y[tm], index=fl.item[tm]).groupby(level=0).first().reindex(ti).to_numpy()
+    tpos = {it: j for j, it in enumerate(ti)}
     rows = []
-    # master test error (reference, same items type as targets)
     mt = (fl.unit == master) & np.isin(fl.item, list(E))
     for k in (targets or units):
         te = (fl.unit == k) & np.isin(fl.item, list(E))
@@ -59,74 +90,76 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
             continue
         D, Du, Di, r0 = paired_differences(fl, master, F, T)
         Xk, yk = fl.X[te], fl.y[te]
-        tp = te & np.isin(fl.item, list(Ep))  # paired test items (also scanned on the master): pure unit effect
+        tp = te & np.isin(fl.item, list(Ep))
         Xp, yp = fl.X[tp], fl.y[tp]
         npair = len(np.unique(fl.item[tp]))
-        res = {"dataset": fl.name, "master": master, "seed": seed, "target": k, "n_fleet": len(F), "n_D": len(D),
-               "n_test_scans": int(te.sum()), "n_test_paired_items": int(npair), "n_test_items": int(len(np.unique(fl.item[te]))), "n_cal": int(cm.sum())}
-        models = [base, M.fr_lv(base, D, Du, Sigma0, r0)]
-        models.append(M.fr_pls(Xc, yc, gc, D, Du, Sigma0, r0, A=A, seed=seed, ditems=Di))
-        # labelled pooled reference: fleet scans of transfer items WITH labels
+        res = {"dataset": fl.name, "master": master, "seed": seed, "grouped": grouped or "none", "target": k,
+               "n_fleet": len(F), "n_D": len(D), "n_test_scans": int(te.sum()), "n_test_paired_items": int(npair),
+               "n_test_items": int(len(np.unique(fl.item[te]))), "n_cal": int(cm.sum())}
+        frlv = M.fr_lv(base, D, Du, Sigma0, r0)
+        frpls = M.fr_pls(Xc, yc, gc, D, Du, Sigma0, r0, A=A, seed=seed, ditems=Di)
         fm = np.isin(fl.unit, F) & np.isin(fl.item, list(T))
-        models.append(M.pooled_pls(Xc, yc, gc, fl.X[fm], fl.y[fm], fl.item[fm], A=A, seed=seed))
-        # default-parameter baselines (as commonly used)
+        pooled = M.pooled_pls(Xc, yc, gc, fl.X[fm], fl.y[fm], fl.item[fm], A=A, seed=seed)
         epo = M.epo_models(Xc, yc, gc, D, A=A, seed=seed)
         gls = M.glsw_models(Xc, yc, gc, D, A=A, seed=seed)
-        tik = M.tikhonov_path(Xc, yc, D, Du, models[2].info["lv"], [0.01, 0.1, 0.3, 1, 3, 10, 100])
+        epo_fr = M.fr_select(epo, "EPO", Xc, yc, D, Du, Sigma0, r0, seed)
+        gls_fr = M.fr_select(gls, "GLSW", Xc, yc, D, Du, Sigma0, r0, seed)
+        epo_def = [m for m in epo if m.name == "EPO(k=2)"][0]; epo_def = M.LinearModel(epo_def.b0, epo_def.b, "EPO-default", epo_def.info)
+        gls_def = [m for m in gls if m.name == "GLSW(a=0.01)"][0]; gls_def = M.LinearModel(gls_def.b0, gls_def.b, "GLSW-default", gls_def.info)
+        tik = M.tikhonov_path(Xc, yc, D, Du, frpls.info["lv"], [0.01, 0.03, 0.1, 0.3, 3, 10, 30, 100])  # tau2=1 excluded (= FR-PLS)
+        models = [base, frlv, frpls, pooled, epo_def, gls_def, epo_fr, gls_fr]
+        res["param|EPO-FR"], res["param|GLSW-FR"] = epo_fr.info["k"], gls_fr.info["alpha"]
         for m in models:
-            r, b, s = _err(m, Xk, yk)
-            res[f"rmse|{m.name}"], res[f"bias|{m.name}"], res[f"sep|{m.name}"] = r, b, s
+            r, bb, sd = _err(m, Xk, yk)
+            res[f"rmse|{m.name}"], res[f"bias|{m.name}"], res[f"sep|{m.name}"] = r, bb, sd
             res[f"lv|{m.name}"] = m.info.get("lv")
             if npair >= 10:
                 res[f"rmseP|{m.name}"] = _err(m, Xp, yp)[0]
-        for fam, lst, default in (("EPO", epo, "EPO(k=2)"), ("GLSW", gls, "GLSW(a=0.01)"), ("Tikhonov", tik, None)):
-            errs = [(_err(m, Xk, yk)[0], m) for m in lst]
-            best = min(errs, key=lambda t: t[0])
-            res[f"rmse|{fam}-oracle"] = best[0]
-            res[f"param|{fam}-oracle"] = best[1].name
-            if default:
-                dm = [m for m in lst if m.name == default][0]
-                res[f"rmse|{fam}-default"] = _err(dm, Xk, yk)[0]
-            res[f"rmseall|{fam}"] = ";".join(f"{m.name}={e:.4f}" for e, m in errs)
-            if npair >= 10:
-                ep = [(_err(m, Xp, yp)[0], m) for m in lst]
-                res[f"rmseP|{fam}-oracle"] = min(e for e, _ in ep)
-                if default:
-                    res[f"rmseP|{fam}-default"] = [e for e, m in ep if m.name == default][0]
-        # master error on master test items
+        for fam, lst in (("EPO", epo), ("GLSW", gls), ("Tikhonov", tik)):
+            for key, Xe, ye, ok in (("rmse", Xk, yk, True), ("rmseP", Xp, yp, npair >= 10)):
+                if not ok:
+                    continue
+                errs = [(_err(m, Xe, ye)[0], m) for m in lst]
+                e, mbest = min(errs, key=lambda t: t[0])
+                res[f"{key}|{fam}-oracle"] = e
+                res[f"param{key}|{fam}-oracle"] = mbest.name
         res["rmse_master_on_master"] = _err(base, fl.X[mt], fl.y[mt])[0] if mt.sum() > 2 else np.nan
         res["rmse_master_cv"] = float(np.sqrt(base.info["mse_cv"][base.info["lv"] - 1]))
-        # ---- risk predictions (label-free) for the master PLS and FR-LV and FR-PLS
-        for m in models[:3]:
+        # ---- label-free fleet-risk predictions (+ labelled cross-term check)
+        jpos = np.array([tpos[it] for it in Di])
+        for m in (base, frlv, frpls):
+            mse0 = m.info["mse_cv"][m.info["lv"] - 1] if m.name == "FR-PLS" else base.info["mse_cv"][m.info["lv"] - 1]
             if m.name == "FR-PLS":
                 pred = float(m.info["risk_cv"][m.info["lv"] - 1])
             else:
-                a = m.info["lv"]
-                pred = float(fleet_risk(base.info["B"][:, a - 1], base.info["mse_cv"][a - 1], D, Du, Sigma0, r0))
+                pred = float(fleet_risk(m.b, mse0, D, Du, Sigma0, r0))
             res[f"predF|{m.name}"] = np.sqrt(pred)
-            # per-unit risks in the fleet (for predictive interval)
-            Ru, _ = fleet_risk(m.b, (base.info["mse_cv"][m.info["lv"] - 1] if m.name != "FR-PLS" else m.info["mse_cv"][m.info["lv"] - 1]),
-                               D, Du, Sigma0, r0, per_unit=True)
+            Ru, _ = fleet_risk(m.b, mse0, D, Du, Sigma0, r0, per_unit=True)
             res[f"predUnitsF|{m.name}"] = ";".join(f"{np.sqrt(v):.4f}" for v in np.atleast_1d(Ru))
-        # ---- scenario B: unit-specific (target's own unlabelled transfer scans)
+            e0 = m.b0 + tX[jpos] @ m.b - ty[jpos]
+            pdx = D @ m.b
+            res[f"cross|{m.name}"] = float(np.mean([2 * np.mean(e0[Du == u] * pdx[Du == u]) for u in np.unique(Du)]))
+            res[f"quad|{m.name}"] = float(np.mean([np.mean(pdx[Du == u] ** 2) for u in np.unique(Du)]))
+        # ---- scenario B: the target's own unlabelled transfer scans (qualification + LFBC)
         Dk, Duk, Dik, r0k = paired_differences(fl, master, [k], T)
-        res["n_pairs_target"] = int(len(np.unique(Dik))) if len(Dik) else 0
+        mk = int(len(np.unique(Dik))) if len(Dik) else 0
+        res["n_pairs_target"] = mk
         if len(Dk) >= 3:
-            for m in models[:3]:
-                mse0 = (base.info["mse_cv"][m.info["lv"] - 1] if m.name != "FR-PLS" else m.info["mse_cv"][m.info["lv"] - 1])
-                res[f"predK|{m.name}"] = float(np.sqrt(fleet_risk(m.b, mse0, Dk, Duk, Sigma0, r0k)))
-                # label-free bias correction from the target's paired items
-                off = float(np.mean(Dk @ m.b))
+            for m in models:
+                mse0 = (m.info["mse_cv"][m.info["lv"] - 1] if m.name == "FR-PLS" else
+                        base.info["mse_cv"][m.info["lv"] - 1] if m.name in ("PLS-master", "FR-LV") else m.info.get("mse0", np.nan))
+                pk = Dk @ m.b
+                off = float(np.mean(pk))
                 mc = M.LinearModel(m.b0 - off, m.b, m.name + "+LFBC")
-                r, b, s = _err(mc, Xk, yk)
-                res[f"rmse|{m.name}+LFBC"], res[f"bias|{m.name}+LFBC"] = r, b
+                r, bb, _ = _err(mc, Xk, yk)
+                res[f"rmse|{m.name}+LFBC"], res[f"bias|{m.name}+LFBC"] = r, bb
                 if npair >= 10:
                     res[f"rmseP|{m.name}+LFBC"] = _err(mc, Xp, yp)[0]
-                # predicted risk after correction: remove the squared mean term
-                q = np.mean((Dk @ m.b) ** 2) - off ** 2
-                from src.fleet.risk import noise_term
-                pr = mse0 + q - noise_term(m.b, Sigma0, r0k)[0]
-                res[f"predK|{m.name}+LFBC"] = float(np.sqrt(max(pr, 1e-12)))
+                if m.name in ("PLS-master", "FR-LV", "FR-PLS"):
+                    nt = noise_term(m.b, Sigma0, r0k)[0]
+                    res[f"predK|{m.name}"] = float(np.sqrt(max(mse0 + np.mean(pk ** 2) - nt, 1e-12)))
+                    vo = _lfbc_offset_var(m.b, D, Du, Di)
+                    res[f"predK|{m.name}+LFBC"] = float(np.sqrt(max(mse0 + np.mean(pk ** 2) - off ** 2 - nt + vo / max(mk, 1), 1e-12)))
         rows.append(res)
     return pd.DataFrame(rows)
 

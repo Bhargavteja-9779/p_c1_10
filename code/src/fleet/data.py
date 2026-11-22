@@ -22,10 +22,12 @@ class Fleet:
     unit: np.ndarray       # (n_scans,) instrument unit id (str)
     wl: np.ndarray
     property: str
+    group: np.ndarray | None = None  # (n_scans,) acquisition session/population of the item (for grouped splits)
 
     def mask(self, m) -> "Fleet":
         m = np.asarray(m)
-        return Fleet(self.name, self.X[m], self.y[m], self.item[m], self.unit[m], self.wl, self.property)
+        return Fleet(self.name, self.X[m], self.y[m], self.item[m], self.unit[m], self.wl, self.property,
+                     None if self.group is None else self.group[m])
 
     def items_on(self, unit) -> np.ndarray:
         return np.unique(self.item[self.unit == unit])

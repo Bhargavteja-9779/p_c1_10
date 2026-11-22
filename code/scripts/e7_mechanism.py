@@ -18,7 +18,7 @@ def analyse(fl, tag):
     xbar = mX.mean(0)
     wl = fl.wl
     d1 = np.gradient(xbar, wl); d2 = np.gradient(d1, wl)
-    Z = np.c_[np.ones_like(xbar), xbar - xbar.mean(), d1, d2]
+    Z = np.c_[np.ones_like(xbar), xbar - xbar.mean(), d1, d2]  # shift coef: d ~ -dlambda * dxbar/dlambda (nm)
     for u in units:
         D, du, di, _ = paired_differences(fl, master, [u], allitems)
         if len(np.unique(di)) < 10:
@@ -26,16 +26,27 @@ def analyse(fl, tag):
         d = D.mean(0)
         coef, *_ = np.linalg.lstsq(Z, d, rcond=None)
         fit = Z @ coef
-        r2 = 1 - np.sum((d - fit) ** 2) / np.sum((d - d.mean()) ** 2)
-        # partial R2 contributions (drop-one)
-        part = {}
+        sst = np.sum(d ** 2)  # uncentred: the offset is part of the unit effect to be explained
+        r2 = 1 - np.sum((d - fit) ** 2) / sst
+        part = {}  # unique (drop-one) contributions, uncentred
         for j, nm in enumerate(['offset', 'gain', 'shift', 'bandwidth']):
             Zr = np.delete(Z, j, axis=1)
             cr, *_ = np.linalg.lstsq(Zr, d, rcond=None)
-            part[nm] = (np.sum((d - Zr @ cr) ** 2) - np.sum((d - fit) ** 2)) / np.sum((d - d.mean()) ** 2)
-        rows.append({'dataset': tag, 'master': master, 'unit': u, 'n_items': len(np.unique(di)), 'R2': r2,
-                     'shift_nm': -coef[2], 'gain': coef[1], 'offset': coef[0],
-                     'rms_diff': float(np.sqrt(np.mean(d ** 2))), **{f'partR2_{k}': v for k, v in part.items()}})
+            part[nm] = (np.sum((d - Zr @ cr) ** 2) - np.sum((d - fit) ** 2)) / sst
+        # shape part: offset removed (what a derivative pre-treatment leaves); centred R2 of gain+shift+bandwidth
+        dc = d - d.mean(); Zs = np.c_[xbar - xbar.mean(), d1, d2]; Zs = Zs - Zs.mean(0)
+        cs, *_ = np.linalg.lstsq(Zs, dc, rcond=None); sss = np.sum(dc ** 2)
+        r2s = 1 - np.sum((dc - Zs @ cs) ** 2) / sss
+        shp = {}
+        for j, nm in enumerate(['gain', 'shift', 'bandwidth']):
+            Zr = np.delete(Zs, j, axis=1); cr, *_ = np.linalg.lstsq(Zr, dc, rcond=None)
+            shp[f'shapeR2_unique_{nm}'] = (np.sum((dc - Zr @ cr) ** 2) - np.sum((dc - Zs @ cs) ** 2)) / sss
+        shp['offset_share'] = 1 - sss / sst
+        shp['R2_shape'] = r2s
+        rows.append({**shp, 'dataset': tag, 'master': master, 'unit': u, 'n_items': len(np.unique(di)), 'R2': r2,
+                     'shift_nm': float(-coef[2]), 'gain_rel': float(coef[1]), 'offset': float(coef[0]),
+                     'rms_diff': float(np.sqrt(np.mean(d ** 2))),
+                     'rel_diff': float(np.sqrt(np.mean(d ** 2)) / np.std(xbar)), **{f'partR2_{k}': v for k, v in part.items()}})
 
 
 d = load_mango('v4')
@@ -53,4 +64,4 @@ A = np.log10(100 / np.clip(neo[spec].to_numpy(float)[:, o], 1e-3, None))
 analyse(Fleet('neospectra', A, np.zeros(len(A)), neo.kssl_id.astype(str).to_numpy(), neo.SCANNER.astype(str).to_numpy(), wl[o], 'none'), 'neospectra')
 df = pd.DataFrame(rows); df.to_csv(f'{OUT}/unit_effect_decomposition.csv', index=False)
 print(df.round(3).to_string())
-print(df.groupby('dataset')[['R2', 'partR2_offset', 'partR2_gain', 'partR2_shift', 'partR2_bandwidth']].median().round(3))
+print(df.groupby('dataset')[['R2', 'offset_share', 'R2_shape', 'shapeR2_unique_gain', 'shapeR2_unique_shift', 'shapeR2_unique_bandwidth', 'rel_diff']].median().round(3))

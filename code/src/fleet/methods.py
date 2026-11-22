@@ -187,18 +187,18 @@ def _epo_P(D, kcomp):
     return np.eye(D.shape[1]) - V @ V.T
 
 
-def epo_models(X, y, groups, D, ks=(1, 2, 3, 4, 5, 6, 8, 10), A=20, k=5, seed=0):
+def epo_models(X, y, groups, D, ks=(1, 2, 3, 4, 6, 8, 10, 12, 15, 20), A=20, k=5, seed=0):
     out = []
     _, _, Vt = np.linalg.svd(D, full_matrices=False)
     for kc in ks:
         V = Vt[:kc].T
         P = np.eye(D.shape[1]) - V @ V.T
         m = master_pls(X @ P, y, groups, A, k, seed)
-        out.append(LinearModel(m.b0, P @ m.b, f"EPO(k={kc})", {"k": kc, "lv": m.info["lv"]}))
+        out.append(LinearModel(m.b0, P @ m.b, f"EPO(k={kc})", {"k": kc, "lv": m.info["lv"], "mse0": m.info["mse_cv"][m.info["lv"] - 1]}))
     return out
 
 
-def glsw_models(X, y, groups, D, alphas=(1e-4, 1e-3, 1e-2, 3e-2, 1e-1, 3e-1, 1.0), A=20, k=5, seed=0):
+def glsw_models(X, y, groups, D, alphas=(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1.0), A=20, k=5, seed=0):
     C = D.T @ D / max(len(D) - 1, 1)
     s2, V = np.linalg.eigh(C)
     s2 = np.clip(s2, 0, None)
@@ -207,5 +207,47 @@ def glsw_models(X, y, groups, D, alphas=(1e-4, 1e-3, 1e-2, 3e-2, 1e-1, 3e-1, 1.0
         a_abs = al * s2.max()
         G = V @ np.diag(1.0 / np.sqrt(s2 / a_abs + 1.0)) @ V.T
         m = master_pls(X @ G, y, groups, A, k, seed)
-        out.append(LinearModel(m.b0, G @ m.b, f"GLSW(a={al:g})", {"alpha": al, "lv": m.info["lv"]}))
+        out.append(LinearModel(m.b0, G @ m.b, f"GLSW(a={al:g})", {"alpha": al, "lv": m.info["lv"], "mse0": m.info["mse_cv"][m.info["lv"] - 1]}))
+    return out
+
+
+def _epo_transform(D, kc):
+    _, _, Vt = np.linalg.svd(D, full_matrices=False)
+    V = Vt[:kc].T
+    return np.eye(D.shape[1]) - V @ V.T
+
+
+def _glsw_transform(D, al):
+    C = D.T @ D / max(len(D) - 1, 1)
+    s2, V = np.linalg.eigh(C)
+    s2 = np.clip(s2, 0, None)
+    return V @ np.diag(1.0 / np.sqrt(s2 / (al * s2.max()) + 1.0)) @ V.T
+
+
+def fr_select(models, kind, X, y, D, units, Sigma0, r0, seed=0):
+    """Label-free tuning of EPO/GLSW by fleet risk with a 2-fold split of the fleet UNITS: the projection is built
+    from the D rows of one half of the units and the quadratic term is evaluated on the other half (and vice
+    versa); LV count and master CV MSE are taken from each candidate's full-data fit. Returns the chosen model."""
+    from src.fleet.risk import noise_term
+    uu = np.random.default_rng(seed).permutation(np.unique(units))
+    if len(uu) < 2:
+        return min(models, key=lambda m: m.info["mse0"])
+    halves = [set(uu[0::2].tolist()), set(uu[1::2].tolist())]
+    xm, ym = X.mean(0), y.mean()
+    best, bestR = None, np.inf
+    for m in models:
+        par = m.info["k"] if kind == "EPO" else m.info["alpha"]
+        q = []
+        for h in (0, 1):
+            fit = np.isin(units, list(halves[h])); ev = ~fit
+            T_ = _epo_transform(D[fit], par) if kind == "EPO" else _glsw_transform(D[fit], par)
+            pm = PLS1(m.info["lv"]).fit(X @ T_, y)
+            b = T_ @ pm.coefs_[:, min(m.info["lv"], pm.n_fitted_) - 1]
+            for u in np.unique(units[ev]):
+                q.append(np.mean((D[units == u] @ b) ** 2))
+            nt = noise_term(b, Sigma0, r0)[0]
+        R = m.info["mse0"] + np.mean(q) - nt
+        if R < bestR:
+            best, bestR = m, R
+    out = LinearModel(best.b0, best.b, f"{kind}-FR", dict(best.info, risk=bestR))
     return out

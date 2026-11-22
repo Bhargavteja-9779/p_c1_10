@@ -120,16 +120,16 @@ ax.set_ylim(0, None); ax.legend(loc='lower center', ncol=2, fontsize=6); panel_l
 fig.tight_layout()
 save(fig, f'{FIG}/fig4_design_curves', pd.concat([tabA.assign(panel='a'), pd.concat(tabB).assign(panel='b')]))
 
-# ---------------- Fig 5: physical decomposition of unit effects
+# ---------------- Fig 5: physical decomposition of unit effects (offset-free shape)
 e7 = pd.read_csv('../results/e7/unit_effect_decomposition.csv')
-e7['family'] = np.where(e7.dataset.str.startswith('mango'), 'Mango (Si-PDA, 2016-2018)', 'Soil (MEMS FT-NIR)')
+e7['family'] = np.where(e7.dataset.str.startswith('mango'), 'Mango, Si-PDA units', 'Soil, MEMS FT-NIR units')
 apply_style()
-fig, ax = plt.subplots(figsize=(WIDTH['single'], 60 * MM))
+fig, ax = plt.subplots(figsize=(WIDTH['single'], 62 * MM))
 for i, (f, d) in enumerate(e7.groupby('family')):
     st = series_style([0, 2][i])
-    ax.scatter(d.rms_diff, d.R2, s=16, color=st['color'], marker=st['marker'], edgecolor=SURFACE, lw=0.5, label=f'{f} (n={len(d)})')
-ax.set_xscale('log'); ax.set_ylim(0, 1.02)
-ax.set_xlabel('RMS of mean unit difference spectrum (absorbance)'); ax.set_ylabel('R² explained by offset + gain\n+ wavelength shift + bandwidth')
-ax.legend(loc='lower right')
+    ax.scatter(d.rel_diff, d.R2_shape, s=16, color=st['color'], marker=st['marker'], edgecolor=SURFACE, lw=0.5, label=f'{f} (n={len(d)})')
+ax.set_xscale('log'); plain_log(ax, 'x'); ax.set_ylim(0, 1.02)
+ax.set_xlabel('Size of mean unit difference\n(RMS / SD of master mean spectrum)'); ax.set_ylabel('Offset-free difference explained\nby gain + shift + bandwidth (R²)')
+ax.legend(loc='lower left', fontsize=6)
 save(fig, f'{FIG}/fig5_unit_effects', e7)
 print('figures written')

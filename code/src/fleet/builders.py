@@ -23,7 +23,8 @@ def mango(season: int, window=13, lo=684, hi=990) -> Fleet:
     Z = savgol(d.X[m][:, r], window, 2, 2)
     keep = (d.wl[r] >= lo) & (d.wl[r] <= hi)
     return Fleet(f"mango{season}", Z[:, keep], d.Y.dm.to_numpy()[m], d.meta.sample_id.to_numpy()[m].astype(str),
-                 d.meta.instrument.to_numpy()[m].astype(str), d.wl[r][keep], "DM (%)")
+                 d.meta.instrument.to_numpy()[m].astype(str), d.wl[r][keep], "DM (%)",
+                 (d.meta.date.astype(str) + "|" + d.meta.population.astype(str)).to_numpy()[m])
 
 
 _NEO = None
