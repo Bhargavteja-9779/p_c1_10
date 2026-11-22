@@ -34,7 +34,9 @@ def run(fl, tag, seeds=(0, 1, 2), Ns=(1, 2, 4, 8, 99), ms=(3, 5, 10, 20, 999), m
             F = [u for u in units if u != k and len(tc[u]) >= 5]
             # --- N curve (all transfer items of chosen units) and m curve (all units, m items per unit)
             for kind, grid in (('N', Ns), ('m', ms)):
-                for g in grid:
+                for g, rep in [(g, rep) for g in grid for rep in range(3 if kind == 'N' else 1)]:
+                    if kind == 'N' and (g >= len(F) or g == 99) and rep > 0:
+                        continue
                     if kind == 'N':
                         if g > len(F) and g != 99:
                             continue
@@ -48,7 +50,7 @@ def run(fl, tag, seeds=(0, 1, 2), Ns=(1, 2, 4, 8, 99), ms=(3, 5, 10, 20, 999), m
                             items |= set(rng.choice(its, size=min(g, len(its)), replace=False).tolist())
                     D, Du, Di, r0 = paired_differences(fl, master, Fs, items)
                     m = M.fr_pls(Xc, yc, gc, D, Du, S0, r0, seed=seed, ditems=Di)
-                    rows.append({'tag': tag, 'seed': seed, 'target': k, 'curve': kind, 'value': g, 'n_units': len(Fs),
+                    rows.append({'tag': tag, 'seed': seed, 'target': k, 'curve': kind, 'value': g, 'rep': rep, 'n_units': len(Fs),
                                  'n_D': len(D), 'rmseP_FRPLS': rm(m, Xp, yp), 'rmseP_master': rm(base, Xp, yp),
                                  'predF_FRPLS': float(np.sqrt(m.info['risk_cv'][m.info['lv'] - 1]))})
             # --- E3b: target paired items for LFBC + unit-specific risk (master PLS and FR-PLS with full fleet)
