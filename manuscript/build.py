@@ -24,7 +24,7 @@ for r in refs:
                 'page': pages if '-' in pages else None, 'number': None if '-' in pages else (pages or None), 'DOI': r['doi']})
 csl = [{k: v for k, v in c.items() if v is not None} for c in csl]
 json.dump(csl, open(H / 'references.json', 'w'), indent=1, ensure_ascii=False)
-order = ['00_front.md', '01_intro.md', '02_theory.md', '03_methods.md', '04_results.md', '05_conclusion.md',
+order = ['00_front.md', '01_intro.md', '02_theory.md', '03_methods.md', '04_results.md', '04b_table1.md', '05_conclusion.md',
          '06_backmatter.md', '07_figures.md']
 text = '\n\n'.join((H / 'sections' / f).read_text() for f in order if (H / 'sections' / f).exists())
 text += '\n\n## References\n\n::: {#refs}\n:::\n'
