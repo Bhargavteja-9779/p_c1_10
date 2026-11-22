@@ -11,11 +11,11 @@ title: "Fleet calibration of handheld near-infrared spectrometers: label-free pr
 
 ## Highlights
 
-- Handheld NIR units are treated as a random population, not as master–slave pairs.
-- An exact identity predicts a model's RMSEP on any unit without reference analyses.
-- Predicted and realised errors agree (r = 0.98) across 62 handheld mango units.
-- Fleet-risk PLS cuts error on unseen units by 41 % with no tuning or target labels.
-- Five paired items qualify a new unit: accept, bias-correct or reject, lab-free.
+- Handheld NIR units are modelled as a random population, not master–slave pairs.
+- A model's error on unseen units is predicted without fleet reference values.
+- Predicted and realised unit errors agree closely across 25 handheld mango units.
+- Fleet-risk PLS fixes its penalty weight from the risk it minimises.
+- Five paired items qualify a new unit: accept, bias-correct or reject.
 
 ## Graphical abstract
 
