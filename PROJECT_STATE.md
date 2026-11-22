@@ -47,12 +47,22 @@ UCT-LMIR ACA 2026; Talanta 2026 group-conformal (intervals); Kayaoglu & Erdem (A
 - [ ] E6 simulation figure (optional), figures, manuscript (sections in manuscript/sections/; 01_intro, 02_theory drafted)
 - [ ] internal review, final packaging (docx via pandoc + CSL in manuscript/tools)
 
-## Early findings (mango 2015, preliminary)
-- Label-free unit risk for master PLS: r=0.86 vs realised, median pred/real 0.99, MAPE 8%.
-- FR-PLS halves master RMSE (median ratio 0.51), ~= labelled pooled PLS, EPO/GLSW oracle; Tikhonov-oracle (uses
-  target labels to tune) ~10% better. FR-PLS+LFBC best label-free.
+## Key results (final for mango/corn; soil pending)
+- Mango (62 target units w/ paired test): label-free unit risk r=0.98, MAPE 6.9%, ratio 0.99; corn r=1.00.
+- Fleet-level (LOUO): master predicted 2.42 vs realised 2.40 %DM; range coverage 77%.
+- RMS RMSEP unseen units: master 2.39, FR-LV 1.82, FR-PLS 1.40 (-41%), pooled-labelled 1.34, GLSW-oracle 1.32,
+  EPO-oracle 1.15, Tikhonov-oracle 1.10, master+LFBC 1.15, FR-PLS+LFBC 0.98. FR-PLS vs master: 81% wins, p<1e-4.
+- E4: N units: 1 unit already helps; prediction reliable from N>=4. m=5 paired fruit: LFBC 1.85->0.96 (master),
+  1.24->0.82 (FR-PLS); single-draw unit risk r=0.95, MAPE 16%.
+- E7: mango unit effects 91% explained by offset/gain/shift/bandwidth (gain dominant); soil tiny & unstructured.
+
+## Manuscript
+- manuscript/sections/*.md ; build: `cd manuscript && python build.py` -> manuscript.docx, supplementary.docx
+- Figures: `cd code && python scripts/analyse_e1e2.py && python scripts/make_figures.py && python scripts/make_fig1.py`
+- Abstract contains "[SOIL]" placeholder; results 4.x lacks soil paragraph -> fill when neo runs finish.
 
 ## Exact next step (resume here)
-1. If results/e1e2 incomplete: rerun missing jobs (script skips finished): `cd code && nohup python scripts/run_e1e2.py mango 5 &` (also neo 5, corn 20).
-2. `python scripts/analyse_e1e2.py` -> results/e1e2/summary/.
-3. Run E4 (`python scripts/run_e4.py 2016 2017 2018 oc`), make figures, write remaining manuscript sections.
+1. Wait/finish NeoSpectra jobs: results/e1e2/neo_{oc,clay,ph,n,cec,sand}.csv (relaunch missing ones:
+   `cd code && nohup python scripts/run_e1e2.py neo 5 <props> &`), and results/e4/neo_oc_*.csv (`python scripts/run_e4.py oc`).
+2. analyse_e1e2.py -> add soil paragraph (negative control) in 04_results.md, replace [SOIL] in 00_front.md, Fig 2/3 regenerate.
+3. Internal review pass (reviewer-style critique), polish, build docx, final commit. Then delete scheduled task trig_015TacCvu2DnPWKUau3fRNyv.

@@ -1,0 +1,3516 @@
+[
+ {
+  "id": "Workman2018",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Workman",
+    "given": "J.J."
+   }
+  ],
+  "title": "A Review of Calibration Transfer Practices and Instrument Differences in Spectroscopy",
+  "container-title": "Applied Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "volume": "72",
+  "issue": "3",
+  "page": "340-365",
+  "DOI": "10.1177/0003702817736064"
+ },
+ {
+  "id": "Feudale2002",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Feudale",
+    "given": "R.N."
+   },
+   {
+    "family": "Woody",
+    "given": "N.A."
+   },
+   {
+    "family": "Tan",
+    "given": "H."
+   },
+   {
+    "family": "Myles",
+    "given": "A.J."
+   },
+   {
+    "family": "Brown",
+    "given": "S.D."
+   },
+   {
+    "family": "Ferré",
+    "given": "J."
+   }
+  ],
+  "title": "Transfer of multivariate calibration models: a review",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     2002
+    ]
+   ]
+  },
+  "volume": "64",
+  "issue": "2",
+  "page": "181-192",
+  "DOI": "10.1016/s0169-7439(02)00085-0"
+ },
+ {
+  "id": "Fearn2001",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Fearn",
+    "given": "T."
+   }
+  ],
+  "title": "Standardisation and Calibration Transfer for near Infrared Instruments: A Review",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2001
+    ]
+   ]
+  },
+  "volume": "9",
+  "issue": "4",
+  "page": "229-244",
+  "DOI": "10.1255/jnirs.309"
+ },
+ {
+  "id": "Bouveresse1996rev",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Bouveresse",
+    "given": "E."
+   },
+   {
+    "family": "Massart",
+    "given": "D.L."
+   }
+  ],
+  "title": "Standardisation of near-infrared spectrometric instruments: A review",
+  "container-title": "Vibrational Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "volume": "11",
+  "issue": "1",
+  "page": "3-15",
+  "DOI": "10.1016/0924-2031(95)00055-0"
+ },
+ {
+  "id": "Roger2025",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Roger",
+    "given": "J.M."
+   },
+   {
+    "family": "Diaz",
+    "given": "V.F."
+   },
+   {
+    "family": "Nikzad-Langerodi",
+    "given": "R."
+   }
+  ],
+  "title": "Cloning instruments, model maintenance and calibration transfer",
+  "container-title": "TrAC Trends in Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "volume": "191",
+  "number": "118319",
+  "DOI": "10.1016/j.trac.2025.118319"
+ },
+ {
+  "id": "Wang1991",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Wang",
+    "given": "Y."
+   },
+   {
+    "family": "Veltkamp",
+    "given": "D.J."
+   },
+   {
+    "family": "Kowalski",
+    "given": "B.R."
+   }
+  ],
+  "title": "Multivariate instrument standardization",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     1991
+    ]
+   ]
+  },
+  "volume": "63",
+  "issue": "23",
+  "page": "2750-2756",
+  "DOI": "10.1021/ac00023a016"
+ },
+ {
+  "id": "Wang1992",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Wang",
+    "given": "Y."
+   },
+   {
+    "family": "Lysaght",
+    "given": "M.J."
+   },
+   {
+    "family": "Kowalski",
+    "given": "B.R."
+   }
+  ],
+  "title": "Improvement of multivariate calibration through instrument standardization",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     1992
+    ]
+   ]
+  },
+  "volume": "64",
+  "issue": "5",
+  "page": "562-564",
+  "DOI": "10.1021/ac00029a021"
+ },
+ {
+  "id": "Bouveresse1996",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Bouveresse",
+    "given": "E."
+   },
+   {
+    "family": "Hartmann",
+    "given": "C."
+   },
+   {
+    "family": "Massart",
+    "given": "D.L."
+   },
+   {
+    "family": "Last",
+    "given": "I.R."
+   },
+   {
+    "family": "Prebble",
+    "given": "K.A."
+   }
+  ],
+  "title": "Standardization of Near-Infrared Spectrometric Instruments",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "volume": "68",
+  "issue": "6",
+  "page": "982-990",
+  "DOI": "10.1021/ac9510595"
+ },
+ {
+  "id": "Wold1998",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Wold",
+    "given": "S."
+   },
+   {
+    "family": "Antti",
+    "given": "H."
+   },
+   {
+    "family": "Lindgren",
+    "given": "F."
+   },
+   {
+    "family": "Öhman",
+    "given": "J."
+   }
+  ],
+  "title": "Orthogonal signal correction of near-infrared spectra",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "volume": "44",
+  "issue": "1-2",
+  "page": "175-185",
+  "DOI": "10.1016/s0169-7439(98)00109-9"
+ },
+ {
+  "id": "Sjoblom1998",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Sjöblom",
+    "given": "J."
+   },
+   {
+    "family": "Svensson",
+    "given": "O."
+   },
+   {
+    "family": "Josefson",
+    "given": "M."
+   },
+   {
+    "family": "Kullberg",
+    "given": "H."
+   },
+   {
+    "family": "Wold",
+    "given": "S."
+   }
+  ],
+  "title": "An evaluation of orthogonal signal correction applied to calibration transfer of near infrared spectra",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "volume": "44",
+  "issue": "1-2",
+  "page": "229-244",
+  "DOI": "10.1016/s0169-7439(98)00112-9"
+ },
+ {
+  "id": "Andrew2004",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Andrew",
+    "given": "A."
+   },
+   {
+    "family": "Fearn",
+    "given": "T."
+   }
+  ],
+  "title": "Transfer by orthogonal projection: making near-infrared calibrations robust to between-instrument variation",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "volume": "72",
+  "issue": "1",
+  "page": "51-56",
+  "DOI": "10.1016/j.chemolab.2004.02.004"
+ },
+ {
+  "id": "Roger2003",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Roger",
+    "given": "J.M."
+   },
+   {
+    "family": "Chauchard",
+    "given": "F."
+   },
+   {
+    "family": "Bellon-Maurel",
+    "given": "V."
+   }
+  ],
+  "title": "EPO–PLS external parameter orthogonalisation of PLS application to temperature-independent measurement of sugar content of intact fruits",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "volume": "66",
+  "issue": "2",
+  "page": "191-204",
+  "DOI": "10.1016/s0169-7439(03)00051-0"
+ },
+ {
+  "id": "Martens2003",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Martens",
+    "given": "H."
+   },
+   {
+    "family": "Høy",
+    "given": "M."
+   },
+   {
+    "family": "Wise",
+    "given": "B.M."
+   },
+   {
+    "family": "Bro",
+    "given": "R."
+   },
+   {
+    "family": "Brockhoff",
+    "given": "P.B."
+   }
+  ],
+  "title": "Pre‐whitening of data by covariance‐weighted pre‐processing",
+  "container-title": "Journal of Chemometrics",
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "volume": "17",
+  "issue": "3",
+  "page": "153-165",
+  "DOI": "10.1002/cem.780"
+ },
+ {
+  "id": "Woody2004",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Woody",
+    "given": "N.A."
+   },
+   {
+    "family": "Feudale",
+    "given": "R.N."
+   },
+   {
+    "family": "Myles",
+    "given": "A.J."
+   },
+   {
+    "family": "Brown",
+    "given": "S.D."
+   }
+  ],
+  "title": "Transfer of Multivariate Calibrations between Four Near-Infrared Spectrometers Using Orthogonal Signal Correction",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "volume": "76",
+  "issue": "9",
+  "page": "2595-2600",
+  "DOI": "10.1021/ac035382g"
+ },
+ {
+  "id": "Igne2009",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Igne",
+    "given": "B."
+   },
+   {
+    "family": "Roger",
+    "given": "J.M."
+   },
+   {
+    "family": "Roussel",
+    "given": "S."
+   },
+   {
+    "family": "Bellon-Maurel",
+    "given": "V."
+   },
+   {
+    "family": "Hurburgh",
+    "given": "C.R."
+   }
+  ],
+  "title": "Improving the transfer of near infrared prediction models by orthogonal methods",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "volume": "99",
+  "issue": "1",
+  "page": "57-65",
+  "DOI": "10.1016/j.chemolab.2009.07.007"
+ },
+ {
+  "id": "Igne2008",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Igne",
+    "given": "B."
+   },
+   {
+    "family": "Hurburgh",
+    "given": "C.R."
+   }
+  ],
+  "title": "Standardisation of near Infrared Spectrometers: Evaluation of Some Common Techniques for Intra- and Inter-Brand Calibration Transfer",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "volume": "16",
+  "issue": "6",
+  "page": "539-550",
+  "DOI": "10.1255/jnirs.819"
+ },
+ {
+  "id": "Capron2005",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Capron",
+    "given": "X."
+   },
+   {
+    "family": "Walczak",
+    "given": "B."
+   },
+   {
+    "family": "de Noord",
+    "given": "O.E."
+   },
+   {
+    "family": "Massart",
+    "given": "D.L."
+   }
+  ],
+  "title": "Selection and weighting of samples in multivariate regression model updating",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     2005
+    ]
+   ]
+  },
+  "volume": "76",
+  "issue": "2",
+  "page": "205-214",
+  "DOI": "10.1016/j.chemolab.2004.11.003"
+ },
+ {
+  "id": "Swierenga1999",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Swierenga",
+    "given": "H."
+   },
+   {
+    "family": "de Weijer",
+    "given": "A.P."
+   },
+   {
+    "family": "van Wijk",
+    "given": "R.J."
+   },
+   {
+    "family": "Buydens",
+    "given": "L.M.C."
+   }
+  ],
+  "title": "Strategy for constructing robust multivariate calibration models",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     1999
+    ]
+   ]
+  },
+  "volume": "49",
+  "issue": "1",
+  "page": "1-17",
+  "DOI": "10.1016/s0169-7439(99)00028-3"
+ },
+ {
+  "id": "Swierenga2000",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Swierenga",
+    "given": "H."
+   },
+   {
+    "family": "Wülfert",
+    "given": "F."
+   },
+   {
+    "family": "de Noord",
+    "given": "O.E."
+   },
+   {
+    "family": "de Weijer",
+    "given": "A.P."
+   },
+   {
+    "family": "Smilde",
+    "given": "A.K."
+   },
+   {
+    "family": "Buydens",
+    "given": "L.M.C."
+   }
+  ],
+  "title": "Development of robust calibration models in near infra-red spectrometric applications",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2000
+    ]
+   ]
+  },
+  "volume": "411",
+  "issue": "1-2",
+  "page": "121-135",
+  "DOI": "10.1016/s0003-2670(00)00718-2"
+ },
+ {
+  "id": "Zeaiter2004",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Zeaiter",
+    "given": "M."
+   },
+   {
+    "family": "Roger",
+    "given": "J.M."
+   },
+   {
+    "family": "Bellon-Maurel",
+    "given": "V."
+   },
+   {
+    "family": "Rutledge",
+    "given": "D.N."
+   }
+  ],
+  "title": "Robustness of models developed by multivariate calibration. Part I",
+  "container-title": "TrAC Trends in Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "volume": "23",
+  "issue": "2",
+  "page": "157-170",
+  "DOI": "10.1016/s0165-9936(04)00307-3"
+ },
+ {
+  "id": "Kalivas2009",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Kalivas",
+    "given": "J.H."
+   },
+   {
+    "family": "Siano",
+    "given": "G.G."
+   },
+   {
+    "family": "Andries",
+    "given": "E."
+   },
+   {
+    "family": "Goicoechea",
+    "given": "H.C."
+   }
+  ],
+  "title": "Calibration Maintenance and Transfer Using Tikhonov Regularization Approaches",
+  "container-title": "Applied Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "volume": "63",
+  "issue": "7",
+  "page": "800-809",
+  "DOI": "10.1366/000370209788701206"
+ },
+ {
+  "id": "Kunz2010AC",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Kunz",
+    "given": "M.R."
+   },
+   {
+    "family": "Kalivas",
+    "given": "J.H."
+   },
+   {
+    "family": "Andries",
+    "given": "E."
+   }
+  ],
+  "title": "Model Updating for Spectral Calibration Maintenance and Transfer Using 1-Norm Variants of Tikhonov Regularization",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "volume": "82",
+  "issue": "9",
+  "page": "3642-3649",
+  "DOI": "10.1021/ac902881m"
+ },
+ {
+  "id": "Kunz2010JC",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Kunz",
+    "given": "M.R."
+   },
+   {
+    "family": "Ottaway",
+    "given": "J."
+   },
+   {
+    "family": "Kalivas",
+    "given": "J.H."
+   },
+   {
+    "family": "Andries",
+    "given": "E."
+   }
+  ],
+  "title": "Impact of standardization sample design on Tikhonov regularization variants for spectroscopic calibration maintenance and transfer",
+  "container-title": "Journal of Chemometrics",
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "volume": "24",
+  "issue": "3-4",
+  "page": "218-229",
+  "DOI": "10.1002/cem.1302"
+ },
+ {
+  "id": "Kalivas2012",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Kalivas",
+    "given": "J.H."
+   }
+  ],
+  "title": "Overview of two‐norm (L 2 ) and one‐norm (L 1 ) Tikhonov regularization variants for full wavelength or sparse spectral multivariate calibration models or maintenance",
+  "container-title": "Journal of Chemometrics",
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "volume": "26",
+  "issue": "6",
+  "page": "218-230",
+  "DOI": "10.1002/cem.2429"
+ },
+ {
+  "id": "Spiers2021AC",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Spiers",
+    "given": "R.C."
+   },
+   {
+    "family": "Kalivas",
+    "given": "J.H."
+   }
+  ],
+  "title": "Calibration Model Updating to Novel Sample and Measurement Conditions without Reference Values",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "volume": "93",
+  "issue": "28",
+  "page": "9688-9696",
+  "DOI": "10.1021/acs.analchem.1c00578"
+ },
+ {
+  "id": "Spiers2021JCIM",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Spiers",
+    "given": "R.C."
+   },
+   {
+    "family": "Kalivas",
+    "given": "J.H."
+   }
+  ],
+  "title": "Reliable Model Selection without Reference Values by Utilizing Model Diversity with Prediction Similarity",
+  "container-title": "Journal of Chemical Information and Modeling",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "volume": "61",
+  "issue": "5",
+  "page": "2220-2230",
+  "DOI": "10.1021/acs.jcim.0c01493"
+ },
+ {
+  "id": "Hoerl1970",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Hoerl",
+    "given": "A.E."
+   },
+   {
+    "family": "Kennard",
+    "given": "R.W."
+   }
+  ],
+  "title": "Ridge Regression: Biased Estimation for Nonorthogonal Problems",
+  "container-title": "Technometrics",
+  "issued": {
+   "date-parts": [
+    [
+     1970
+    ]
+   ]
+  },
+  "volume": "12",
+  "issue": "1",
+  "page": "55-67",
+  "DOI": "10.1080/00401706.1970.10488634"
+ },
+ {
+  "id": "NikzadLangerodi2018AC",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Nikzad-Langerodi",
+    "given": "R."
+   },
+   {
+    "family": "Zellinger",
+    "given": "W."
+   },
+   {
+    "family": "Lughofer",
+    "given": "E."
+   },
+   {
+    "family": "Saminger-Platz",
+    "given": "S."
+   }
+  ],
+  "title": "Domain-Invariant Partial-Least-Squares Regression",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "volume": "90",
+  "issue": "11",
+  "page": "6693-6701",
+  "DOI": "10.1021/acs.analchem.8b00498"
+ },
+ {
+  "id": "Mikulasek2023",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Mikulasek",
+    "given": "B."
+   },
+   {
+    "family": "Fonseca Diaz",
+    "given": "V."
+   },
+   {
+    "family": "Gabauer",
+    "given": "D."
+   },
+   {
+    "family": "Herwig",
+    "given": "C."
+   },
+   {
+    "family": "Nikzad‐Langerodi",
+    "given": "R."
+   }
+  ],
+  "title": "Partial least squares regression with multiple domains",
+  "container-title": "Journal of Chemometrics",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "volume": "37",
+  "issue": "5",
+  "number": "e3477",
+  "DOI": "10.1002/cem.3477"
+ },
+ {
+  "id": "NikzadLangerodi2021",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Nikzad‐Langerodi",
+    "given": "R."
+   },
+   {
+    "family": "Sobieczky",
+    "given": "F."
+   }
+  ],
+  "title": "Graph‐based calibration transfer",
+  "container-title": "Journal of Chemometrics",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "volume": "35",
+  "issue": "4",
+  "number": "e3319",
+  "DOI": "10.1002/cem.3319"
+ },
+ {
+  "id": "NikzadLangerodi2018ACA",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Nikzad-Langerodi",
+    "given": "R."
+   },
+   {
+    "family": "Lughofer",
+    "given": "E."
+   },
+   {
+    "family": "Cernuda",
+    "given": "C."
+   },
+   {
+    "family": "Reischer",
+    "given": "T."
+   },
+   {
+    "family": "Kantner",
+    "given": "W."
+   },
+   {
+    "family": "Pawliczek",
+    "given": "M."
+   },
+   {
+    "family": "Brandstetter",
+    "given": "M."
+   }
+  ],
+  "title": "Calibration model maintenance in melamine resin production: Integrating drift detection, smart sample selection and model adaptation",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "volume": "1013",
+  "page": "1-12",
+  "DOI": "10.1016/j.aca.2018.02.003"
+ },
+ {
+  "id": "Robert2024",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Robert",
+    "given": "G."
+   },
+   {
+    "family": "Gosselin",
+    "given": "R."
+   }
+  ],
+  "title": "Calibration transfer by likelihood maximization: A standard-free method for multiple instruments",
+  "container-title": "Infrared Physics & Technology",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "volume": "140",
+  "number": "105386",
+  "DOI": "10.1016/j.infrared.2024.105386"
+ },
+ {
+  "id": "Ren2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Ren",
+    "given": "T."
+   },
+   {
+    "family": "Yu",
+    "given": "P."
+   },
+   {
+    "family": "Ji",
+    "given": "F."
+   }
+  ],
+  "title": "Instrument-shift-informed source-domain augmentation for calibration transfer in near-infrared spectroscopy",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "279",
+  "number": "105901",
+  "DOI": "10.1016/j.chemolab.2026.105901"
+ },
+ {
+  "id": "Andries2024",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Andries",
+    "given": "J.P.M."
+   },
+   {
+    "family": "Vander Heyden",
+    "given": "Y."
+   }
+  ],
+  "title": "Calibration transfer between NIR instruments using optimally predictive calibration subsets",
+  "container-title": "Analytical and Bioanalytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "volume": "416",
+  "issue": "24",
+  "page": "5351-5364",
+  "DOI": "10.1007/s00216-024-05468-6"
+ },
+ {
+  "id": "Ciza2022",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Ciza",
+    "given": "P.H."
+   },
+   {
+    "family": "Sacre",
+    "given": "P.Y."
+   },
+   {
+    "family": "Waffo",
+    "given": "C."
+   },
+   {
+    "family": "Kimbeni",
+    "given": "T.M."
+   },
+   {
+    "family": "Masereel",
+    "given": "B."
+   },
+   {
+    "family": "Hubert",
+    "given": "P."
+   },
+   {
+    "family": "Ziemons",
+    "given": "E."
+   },
+   {
+    "family": "Marini",
+    "given": "R.D."
+   }
+  ],
+  "title": "Comparison of several strategies for the deployment of a multivariate regression model on several handheld NIR instruments. Application to the quality control of medicines",
+  "container-title": "Journal of Pharmaceutical and Biomedical Analysis",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "volume": "215",
+  "number": "114755",
+  "DOI": "10.1016/j.jpba.2022.114755"
+ },
+ {
+  "id": "Sun2019",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Sun",
+    "given": "L."
+   },
+   {
+    "family": "Hsiung",
+    "given": "C."
+   },
+   {
+    "family": "Smith",
+    "given": "V."
+   }
+  ],
+  "title": "Investigation of Direct Model Transferability Using Miniature Near-Infrared Spectrometers",
+  "container-title": "Molecules",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "volume": "24",
+  "issue": "10",
+  "number": "1997",
+  "DOI": "10.3390/molecules24101997"
+ },
+ {
+  "id": "Zhang2022",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Zhang",
+    "given": "X."
+   },
+   {
+    "family": "Chen",
+    "given": "X."
+   },
+   {
+    "family": "Xiong",
+    "given": "Z."
+   },
+   {
+    "family": "Siesler",
+    "given": "H.W."
+   },
+   {
+    "family": "Liang",
+    "given": "L."
+   }
+  ],
+  "title": "Transfer of a calibration model for the prediction of lignin in pulpwood among four portable near infrared spectrometers",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "volume": "30",
+  "issue": "4",
+  "page": "208-218",
+  "DOI": "10.1177/09670335221110013"
+ },
+ {
+  "id": "Cooper2011",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Cooper",
+    "given": "J.B."
+   },
+   {
+    "family": "Larkin",
+    "given": "C.M."
+   },
+   {
+    "family": "Abdelkader",
+    "given": "M.F."
+   }
+  ],
+  "title": "Virtual Standard Slope and Bias Calibration Transfer of Partial Least Squares Jet Fuel Property Models to Multiple near Infrared Spectroscopy Instruments",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "volume": "19",
+  "issue": "2",
+  "page": "139-150",
+  "DOI": "10.1255/jnirs.922"
+ },
+ {
+  "id": "Grelet2015",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Grelet",
+    "given": "C."
+   },
+   {
+    "family": "Fernández Pierna",
+    "given": "J.A."
+   },
+   {
+    "family": "Dardenne",
+    "given": "P."
+   },
+   {
+    "family": "Baeten",
+    "given": "V."
+   },
+   {
+    "family": "Dehareng",
+    "given": "F."
+   }
+  ],
+  "title": "Standardization of milk mid-infrared spectra from a European dairy network",
+  "container-title": "Journal of Dairy Science",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "volume": "98",
+  "issue": "4",
+  "page": "2150-2160",
+  "DOI": "10.3168/jds.2014-8764"
+ },
+ {
+  "id": "Grelet2017",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Grelet",
+    "given": "C."
+   },
+   {
+    "family": "Pierna",
+    "given": "J.A.F."
+   },
+   {
+    "family": "Dardenne",
+    "given": "P."
+   },
+   {
+    "family": "Soyeurt",
+    "given": "H."
+   },
+   {
+    "family": "Vanlierde",
+    "given": "A."
+   },
+   {
+    "family": "Colinet",
+    "given": "F."
+   },
+   {
+    "family": "Bastin",
+    "given": "C."
+   },
+   {
+    "family": "Gengler",
+    "given": "N."
+   },
+   {
+    "family": "Baeten",
+    "given": "V."
+   },
+   {
+    "family": "Dehareng",
+    "given": "F."
+   }
+  ],
+  "title": "Standardization of milk mid-infrared spectrometers for the transfer and use of multiple models",
+  "container-title": "Journal of Dairy Science",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "volume": "100",
+  "issue": "10",
+  "page": "7910-7921",
+  "DOI": "10.3168/jds.2017-12720"
+ },
+ {
+  "id": "Lou2024",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Lou",
+    "given": "W."
+   },
+   {
+    "family": "Lu",
+    "given": "H."
+   },
+   {
+    "family": "Ren",
+    "given": "X."
+   },
+   {
+    "family": "Zhao",
+    "given": "X."
+   },
+   {
+    "family": "Wang",
+    "given": "Y."
+   },
+   {
+    "family": "Bonfatti",
+    "given": "V."
+   }
+  ],
+  "title": "Standardization method, testing scenario, and accuracy of the infrared prediction model affect the standardization accuracy of milk mid-infrared spectra",
+  "container-title": "Journal of Dairy Science",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "volume": "107",
+  "issue": "11",
+  "page": "9404-9414",
+  "DOI": "10.3168/jds.2023-24472"
+ },
+ {
+  "id": "Dhanoa1999",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Dhanoa",
+    "given": "M.S."
+   },
+   {
+    "family": "Lister",
+    "given": "S.J."
+   },
+   {
+    "family": "France",
+    "given": "J."
+   },
+   {
+    "family": "Barnes",
+    "given": "R.J."
+   }
+  ],
+  "title": "Use of Mean Square Prediction Error Analysis and Reproducibility Measures to Study near Infrared Calibration Equation Performance",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     1999
+    ]
+   ]
+  },
+  "volume": "7",
+  "issue": "3",
+  "page": "133-143",
+  "DOI": "10.1255/jnirs.244"
+ },
+ {
+  "id": "Walsh2020",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Walsh",
+    "given": "K.B."
+   },
+   {
+    "family": "Blasco",
+    "given": "J."
+   },
+   {
+    "family": "Zude-Sasse",
+    "given": "M."
+   },
+   {
+    "family": "Sun",
+    "given": "X."
+   }
+  ],
+  "title": "Visible-NIR ‘point’ spectroscopy in postharvest fruit and vegetable assessment: The science behind three decades of commercial use",
+  "container-title": "Postharvest Biology and Technology",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "volume": "168",
+  "number": "111246",
+  "DOI": "10.1016/j.postharvbio.2020.111246"
+ },
+ {
+  "id": "Greensill2002",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Greensill",
+    "given": "C.V."
+   },
+   {
+    "family": "Walsh",
+    "given": "K.B."
+   }
+  ],
+  "title": "Calibration Transfer between Miniature Photodiode Array-Based Spectrometers in the near Infrared Assessment of Mandarin Soluble Solids Content",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2002
+    ]
+   ]
+  },
+  "volume": "10",
+  "issue": "1",
+  "page": "27-35",
+  "DOI": "10.1255/jnirs.318"
+ },
+ {
+  "id": "Hayes2016",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Hayes",
+    "given": "C.J."
+   },
+   {
+    "family": "Walsh",
+    "given": "K.B."
+   },
+   {
+    "family": "Greensill",
+    "given": "C.V."
+   }
+  ],
+  "title": "Improving Calibration Transfer between Shortwave near Infrared Silicon Photodiode Array Instruments",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "volume": "24",
+  "issue": "1",
+  "page": "59-68",
+  "DOI": "10.1255/jnirs.1194"
+ },
+ {
+  "id": "Hayes2019",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Hayes",
+    "given": "C."
+   },
+   {
+    "family": "Walsh",
+    "given": "K."
+   },
+   {
+    "family": "Lerud",
+    "given": "R."
+   }
+  ],
+  "title": "Calibration transfer between short wave near infrared photodiode array instruments",
+  "container-title": "Proceedings of the 18th International Conference on Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "page": "71-76",
+  "DOI": "10.1255/nir2017.071"
+ },
+ {
+  "id": "Acharya2016",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Acharya",
+    "given": "U.K."
+   },
+   {
+    "family": "Walsh",
+    "given": "K.B."
+   },
+   {
+    "family": "Hayes",
+    "given": "C."
+   },
+   {
+    "family": "Subedi",
+    "given": "P.P."
+   }
+  ],
+  "title": "Spectrophotometer Ageing and Prediction of Fruit Attributes",
+  "container-title": "Journal of Near Infrared Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "volume": "24",
+  "issue": "4",
+  "page": "337-344",
+  "DOI": "10.1255/jnirs.1218"
+ },
+ {
+  "id": "Anderson2020",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Anderson",
+    "given": "N.T."
+   },
+   {
+    "family": "Walsh",
+    "given": "K.B."
+   },
+   {
+    "family": "Subedi",
+    "given": "P.P."
+   },
+   {
+    "family": "Hayes",
+    "given": "C.H."
+   }
+  ],
+  "title": "Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content",
+  "container-title": "Postharvest Biology and Technology",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "volume": "168",
+  "number": "111202",
+  "DOI": "10.1016/j.postharvbio.2020.111202"
+ },
+ {
+  "id": "Anderson2021",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Anderson",
+    "given": "N.T."
+   },
+   {
+    "family": "Walsh",
+    "given": "K.B."
+   },
+   {
+    "family": "Flynn",
+    "given": "J.R."
+   },
+   {
+    "family": "Walsh",
+    "given": "J.P."
+   }
+  ],
+  "title": "Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. II. Local PLS and nonlinear models",
+  "container-title": "Postharvest Biology and Technology",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "volume": "171",
+  "number": "111358",
+  "DOI": "10.1016/j.postharvbio.2020.111358"
+ },
+ {
+  "id": "Sun2020",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Sun",
+    "given": "X."
+   },
+   {
+    "family": "Subedi",
+    "given": "P."
+   },
+   {
+    "family": "Walsh",
+    "given": "K.B."
+   }
+  ],
+  "title": "Achieving robustness to temperature change of a NIRS-PLSR model for intact mango fruit dry matter content",
+  "container-title": "Postharvest Biology and Technology",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "volume": "162",
+  "number": "111117",
+  "DOI": "10.1016/j.postharvbio.2019.111117"
+ },
+ {
+  "id": "Mishra2021",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Mishra",
+    "given": "P."
+   },
+   {
+    "family": "Passos",
+    "given": "D."
+   }
+  ],
+  "title": "Deep chemometrics: Validation and transfer of a global deep near‐infrared fruit model to use it on a new portable instrument",
+  "container-title": "Journal of Chemometrics",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "volume": "35",
+  "issue": "10",
+  "number": "e3367",
+  "DOI": "10.1002/cem.3367"
+ },
+ {
+  "id": "Mishra2023",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Mishra",
+    "given": "P."
+   },
+   {
+    "family": "Woltering",
+    "given": "E."
+   }
+  ],
+  "title": "Semi-supervised robust models for predicting dry matter in mango fruit with near-infrared spectroscopy",
+  "container-title": "Postharvest Biology and Technology",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "volume": "200",
+  "number": "112335",
+  "DOI": "10.1016/j.postharvbio.2023.112335"
+ },
+ {
+  "id": "WalshJ2024",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Walsh",
+    "given": "J."
+   },
+   {
+    "family": "Neupane",
+    "given": "A."
+   },
+   {
+    "family": "Li",
+    "given": "M."
+   }
+  ],
+  "title": "Evaluation of 1D convolutional neural network in estimation of mango dry matter content",
+  "container-title": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "volume": "311",
+  "number": "124003",
+  "DOI": "10.1016/j.saa.2024.124003"
+ },
+ {
+  "id": "MangoData",
+  "type": "dataset",
+  "author": [
+   {
+    "family": "Anderson",
+    "given": "N."
+   },
+   {
+    "family": "Walsh",
+    "given": "K."
+   },
+   {
+    "family": "Subedi",
+    "given": "P."
+   },
+   {
+    "family": "Walsh",
+    "given": "J."
+   }
+  ],
+  "title": "Mango DMC and NIR spectra",
+  "container-title": "Mendeley Data",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "DOI": "10.17632/46htwnp833.6"
+ },
+ {
+  "id": "NeoSpectraData",
+  "type": "dataset",
+  "author": [
+   {
+    "family": "Sanderman",
+    "given": "J."
+   },
+   {
+    "family": "Partida",
+    "given": "C."
+   },
+   {
+    "family": "Safanelli",
+    "given": "J.L."
+   },
+   {
+    "family": "Mitu",
+    "given": "S.M."
+   },
+   {
+    "family": "Ge",
+    "given": "Y."
+   },
+   {
+    "family": "Murad",
+    "given": "O."
+   },
+   {
+    "family": "Shepherd",
+    "given": "K."
+   }
+  ],
+  "title": "Near-infrared (NIR) soil spectral library using the NeoSpectra Handheld NIR Analyzer by Si-Ware",
+  "container-title": "Zenodo",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "DOI": "10.5281/zenodo.13122321"
+ },
+ {
+  "id": "Mitu2024",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Mitu",
+    "given": "S.M."
+   },
+   {
+    "family": "Smith",
+    "given": "C."
+   },
+   {
+    "family": "Sanderman",
+    "given": "J."
+   },
+   {
+    "family": "Ferguson",
+    "given": "R.R."
+   },
+   {
+    "family": "Shepherd",
+    "given": "K."
+   },
+   {
+    "family": "Ge",
+    "given": "Y."
+   }
+  ],
+  "title": "Evaluating consistency across multiple NeoSpectra (compact Fourier transform near‐infrared) spectrometers for estimating common soil properties",
+  "container-title": "Soil Science Society of America Journal",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "volume": "88",
+  "issue": "4",
+  "page": "1324-1339",
+  "DOI": "10.1002/saj2.20678"
+ },
+ {
+  "id": "Partida2025",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Partida",
+    "given": "C."
+   },
+   {
+    "family": "Safanelli",
+    "given": "J.L."
+   },
+   {
+    "family": "Mitu",
+    "given": "S.M."
+   },
+   {
+    "family": "Murad",
+    "given": "M.O.F."
+   },
+   {
+    "family": "Ge",
+    "given": "Y."
+   },
+   {
+    "family": "Ferguson",
+    "given": "R."
+   },
+   {
+    "family": "Shepherd",
+    "given": "K."
+   },
+   {
+    "family": "Sanderman",
+    "given": "J."
+   }
+  ],
+  "title": "Building a near-infrared (NIR) soil spectral dataset and predictive machine learning models using a handheld NIR spectrophotometer",
+  "container-title": "Data in Brief",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "volume": "58",
+  "number": "111229",
+  "DOI": "10.1016/j.dib.2024.111229"
+ },
+ {
+  "id": "Sanderman2025",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Sanderman",
+    "given": "J."
+   },
+   {
+    "family": "Partida",
+    "given": "C."
+   },
+   {
+    "family": "Safanelli",
+    "given": "J.L."
+   },
+   {
+    "family": "Shepherd",
+    "given": "K."
+   },
+   {
+    "family": "Ge",
+    "given": "Y."
+   },
+   {
+    "family": "Mitu",
+    "given": "S.M."
+   },
+   {
+    "family": "Ferguson",
+    "given": "R."
+   }
+  ],
+  "title": "Application of a Handheld Near Infrared Spectrophotometer to Farm‐Scale Soil Carbon Monitoring",
+  "container-title": "European Journal of Soil Science",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "volume": "76",
+  "issue": "1",
+  "number": "e70053",
+  "DOI": "10.1111/ejss.70053"
+ },
+ {
+  "id": "Safanelli2025",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Safanelli",
+    "given": "J.L."
+   },
+   {
+    "family": "Hengl",
+    "given": "T."
+   },
+   {
+    "family": "Parente",
+    "given": "L.L."
+   },
+   {
+    "family": "Minarik",
+    "given": "R."
+   },
+   {
+    "family": "Bloom",
+    "given": "D.E."
+   },
+   {
+    "family": "Todd-Brown",
+    "given": "K."
+   },
+   {
+    "family": "Gholizadeh",
+    "given": "A."
+   },
+   {
+    "literal": "Mendes WdS"
+   },
+   {
+    "family": "Sanderman",
+    "given": "J."
+   }
+  ],
+  "title": "Open Soil Spectral Library (OSSL): Building reproducible soil calibration models through open development and community engagement",
+  "container-title": "PLOS ONE",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "volume": "20",
+  "issue": "1",
+  "number": "e0296545",
+  "DOI": "10.1371/journal.pone.0296545"
+ },
+ {
+  "id": "Safanelli2023",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Safanelli",
+    "given": "J.L."
+   },
+   {
+    "family": "Sanderman",
+    "given": "J."
+   },
+   {
+    "family": "Bloom",
+    "given": "D."
+   },
+   {
+    "family": "Todd-Brown",
+    "given": "K."
+   },
+   {
+    "family": "Parente",
+    "given": "L.L."
+   },
+   {
+    "family": "Hengl",
+    "given": "T."
+   },
+   {
+    "family": "Adam",
+    "given": "S."
+   },
+   {
+    "family": "Albinet",
+    "given": "F."
+   },
+   {
+    "family": "Ben-Dor",
+    "given": "E."
+   },
+   {
+    "family": "Boot",
+    "given": "C.M."
+   },
+   {
+    "family": "Bridson",
+    "given": "J.H."
+   },
+   {
+    "family": "Chabrillat",
+    "given": "S."
+   },
+   {
+    "family": "Deiss",
+    "given": "L."
+   },
+   {
+    "family": "Demattê",
+    "given": "J.A.M."
+   },
+   {
+    "family": "Scott Demyan",
+    "given": "M."
+   },
+   {
+    "family": "Dercon",
+    "given": "G."
+   },
+   {
+    "family": "Doetterl",
+    "given": "S."
+   },
+   {
+    "family": "van Egmond",
+    "given": "F."
+   },
+   {
+    "family": "Ferguson",
+    "given": "R."
+   },
+   {
+    "family": "Garrett",
+    "given": "L.G."
+   },
+   {
+    "family": "Haddix",
+    "given": "M.L."
+   },
+   {
+    "family": "Haefele",
+    "given": "S.M."
+   },
+   {
+    "family": "Heiling",
+    "given": "M."
+   },
+   {
+    "family": "Hernandez-Allica",
+    "given": "J."
+   },
+   {
+    "family": "Huang",
+    "given": "J."
+   },
+   {
+    "family": "Jastrow",
+    "given": "J.D."
+   },
+   {
+    "family": "Karyotis",
+    "given": "K."
+   },
+   {
+    "family": "Machmuller",
+    "given": "M.B."
+   },
+   {
+    "family": "Khesuoe",
+    "given": "M."
+   },
+   {
+    "family": "Margenot",
+    "given": "A."
+   },
+   {
+    "family": "Matamala",
+    "given": "R."
+   },
+   {
+    "family": "Miesel",
+    "given": "J.R."
+   },
+   {
+    "family": "Mouazen",
+    "given": "A.M."
+   },
+   {
+    "family": "Nagel",
+    "given": "P."
+   },
+   {
+    "family": "Patel",
+    "given": "S."
+   },
+   {
+    "family": "Qaswar",
+    "given": "M."
+   },
+   {
+    "family": "Ramakhanna",
+    "given": "S."
+   },
+   {
+    "family": "Resch",
+    "given": "C."
+   },
+   {
+    "family": "Robertson",
+    "given": "J."
+   },
+   {
+    "family": "Roudier",
+    "given": "P."
+   },
+   {
+    "family": "Sabetizade",
+    "given": "M."
+   },
+   {
+    "family": "Shabtai",
+    "given": "I."
+   },
+   {
+    "family": "Sherif",
+    "given": "F."
+   },
+   {
+    "family": "Sinha",
+    "given": "N."
+   },
+   {
+    "family": "Six",
+    "given": "J."
+   },
+   {
+    "family": "Summerauer",
+    "given": "L."
+   },
+   {
+    "family": "Thomas",
+    "given": "C.L."
+   },
+   {
+    "family": "Toloza",
+    "given": "A."
+   },
+   {
+    "family": "Tomczyk-Wójtowicz",
+    "given": "B."
+   },
+   {
+    "family": "Tsakiridis",
+    "given": "N.L."
+   },
+   {
+    "family": "van Wesemael",
+    "given": "B."
+   },
+   {
+    "family": "Woodings",
+    "given": "F."
+   },
+   {
+    "family": "Zalidis",
+    "given": "G.C."
+   },
+   {
+    "family": "Żelazny",
+    "given": "W.R."
+   }
+  ],
+  "title": "An interlaboratory comparison of mid-infrared spectra acquisition: Instruments and procedures matter",
+  "container-title": "Geoderma",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "volume": "440",
+  "number": "116724",
+  "DOI": "10.1016/j.geoderma.2023.116724"
+ },
+ {
+  "id": "Sanderman2023",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Sanderman",
+    "given": "J."
+   },
+   {
+    "family": "Gholizadeh",
+    "given": "A."
+   },
+   {
+    "family": "Pittaki‐Chrysodonta",
+    "given": "Z."
+   },
+   {
+    "family": "Huang",
+    "given": "J."
+   },
+   {
+    "family": "Safanelli",
+    "given": "J.L."
+   },
+   {
+    "family": "Ferguson",
+    "given": "R."
+   }
+  ],
+  "title": "Transferability of a large mid‐infrared soil spectral library between two Fourier‐transform infrared spectrometers",
+  "container-title": "Soil Science Society of America Journal",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "volume": "87",
+  "issue": "3",
+  "page": "586-599",
+  "DOI": "10.1002/saj2.20513"
+ },
+ {
+  "id": "Shepherd2022",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Shepherd",
+    "given": "K.D."
+   },
+   {
+    "family": "Ferguson",
+    "given": "R."
+   },
+   {
+    "family": "Hoover",
+    "given": "D."
+   },
+   {
+    "family": "van Egmond",
+    "given": "F."
+   },
+   {
+    "family": "Sanderman",
+    "given": "J."
+   },
+   {
+    "family": "Ge",
+    "given": "Y."
+   }
+  ],
+  "title": "A global soil spectral calibration library and estimation service",
+  "container-title": "Soil Security",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "volume": "7",
+  "number": "100061",
+  "DOI": "10.1016/j.soisec.2022.100061"
+ },
+ {
+  "id": "Potash2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Potash",
+    "given": "E."
+   },
+   {
+    "family": "Partida",
+    "given": "C."
+   },
+   {
+    "family": "Safanelli",
+    "given": "J."
+   },
+   {
+    "family": "Forbes",
+    "given": "E."
+   },
+   {
+    "family": "Polussa",
+    "given": "A."
+   },
+   {
+    "family": "Runge",
+    "given": "T."
+   },
+   {
+    "family": "Sheffer",
+    "given": "M."
+   },
+   {
+    "family": "Sanderman",
+    "given": "J."
+   }
+  ],
+  "title": "Transfer and uncertainty for soil spectroscopy: a parsimonious approach using linear mixed models and soil surveys.",
+  "container-title": "CABI Publishing (posted-content)",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "DOI": "10.31220/agrirxiv.2026.00451"
+ },
+ {
+  "id": "UCTLMIR2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Huang",
+    "given": "X."
+   },
+   {
+    "family": "Chen",
+    "given": "X."
+   },
+   {
+    "family": "Huang",
+    "given": "G."
+   },
+   {
+    "family": "Xie",
+    "given": "Z."
+   },
+   {
+    "family": "Shi",
+    "given": "W."
+   },
+   {
+    "family": "Chen",
+    "given": "X."
+   },
+   {
+    "family": "Yuan",
+    "given": "L."
+   },
+   {
+    "family": "Liang",
+    "given": "P."
+   },
+   {
+    "family": "Zhu",
+    "given": "J."
+   },
+   {
+    "family": "He",
+    "given": "Y."
+   }
+  ],
+  "title": "UCT-LMIR: A standard-free unsupervised calibration transfer method without model recalibration",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1423",
+  "number": "346104",
+  "DOI": "10.1016/j.aca.2026.346104"
+ },
+ {
+  "id": "PDSFT2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Gao",
+    "given": "J."
+   },
+   {
+    "family": "Li",
+    "given": "J."
+   },
+   {
+    "family": "Yin",
+    "given": "J."
+   },
+   {
+    "family": "Gao",
+    "given": "R."
+   },
+   {
+    "family": "Tian",
+    "given": "Z."
+   },
+   {
+    "family": "Zhao",
+    "given": "Y."
+   },
+   {
+    "family": "Bai",
+    "given": "Y."
+   },
+   {
+    "family": "Dong",
+    "given": "L."
+   },
+   {
+    "family": "Ma",
+    "given": "W."
+   },
+   {
+    "family": "Zhang",
+    "given": "L."
+   },
+   {
+    "family": "Yin",
+    "given": "W."
+   },
+   {
+    "family": "Jia",
+    "given": "S."
+   }
+  ],
+  "title": "Cross-instrument coal quality spectral analysis via a PDS-assisted fine-tuning calibration transfer method",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1405",
+  "number": "345485",
+  "DOI": "10.1016/j.aca.2026.345485"
+ },
+ {
+  "id": "gesearch2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Ramirez-Lopez",
+    "given": "L."
+   },
+   {
+    "family": "Viscarra Rossel",
+    "given": "R."
+   },
+   {
+    "family": "Orellano",
+    "given": "C."
+   },
+   {
+    "family": "Kooijman",
+    "given": "L."
+   },
+   {
+    "family": "Perez-Fernandez",
+    "given": "E."
+   },
+   {
+    "family": "Wadoux",
+    "given": "A.M.J.C."
+   },
+   {
+    "family": "Plans",
+    "given": "M."
+   },
+   {
+    "family": "Breure",
+    "given": "T."
+   },
+   {
+    "family": "Summerauer",
+    "given": "L."
+   },
+   {
+    "family": "Safanelli",
+    "given": "J.L."
+   },
+   {
+    "family": "Behrens",
+    "given": "T."
+   },
+   {
+    "family": "Boqué",
+    "given": "R."
+   }
+  ],
+  "title": "When spectral libraries are too complex to search: Evolutionary subset selection for domain-adaptive calibration",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1412",
+  "number": "345651",
+  "DOI": "10.1016/j.aca.2026.345651"
+ },
+ {
+  "id": "ECMreplicates2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Riu",
+    "given": "J."
+   },
+   {
+    "family": "Gorla",
+    "given": "G."
+   },
+   {
+    "family": "Monti",
+    "given": "M."
+   },
+   {
+    "family": "Campeny",
+    "given": "M."
+   },
+   {
+    "family": "Quesada",
+    "given": "J."
+   },
+   {
+    "family": "Giussani",
+    "given": "B."
+   }
+  ],
+  "title": "Measurement replicates under the lens: evaluating NIR spectroscopic error quality through multivariate error analysis",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1419",
+  "number": "345885",
+  "DOI": "10.1016/j.aca.2026.345885"
+ },
+ {
+  "id": "liblex2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Ramirez-Lopez",
+    "given": "L."
+   },
+   {
+    "family": "Metz",
+    "given": "M."
+   },
+   {
+    "family": "Lesnoff",
+    "given": "M."
+   },
+   {
+    "family": "Orellano",
+    "given": "C."
+   },
+   {
+    "family": "Perez-Fernandez",
+    "given": "E."
+   },
+   {
+    "family": "Plans",
+    "given": "M."
+   },
+   {
+    "family": "Breure",
+    "given": "T."
+   },
+   {
+    "family": "Behrens",
+    "given": "T."
+   },
+   {
+    "family": "Viscarra Rossel",
+    "given": "R."
+   },
+   {
+    "family": "Peng",
+    "given": "Y."
+   }
+  ],
+  "title": "Rethinking local spectral modelling: From per-query refitting to model libraries",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1415",
+  "number": "345682",
+  "DOI": "10.1016/j.aca.2026.345682"
+ },
+ {
+  "id": "OldAdvice2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Olivieri",
+    "given": "A.C."
+   }
+  ],
+  "title": "Old advice on multivariate calibration: still in force, but not always followed. A tutorial",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1396",
+  "number": "345155",
+  "DOI": "10.1016/j.aca.2026.345155"
+ },
+ {
+  "id": "Validation2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Lopez",
+    "given": "E."
+   },
+   {
+    "family": "Gorla",
+    "given": "G."
+   },
+   {
+    "family": "Etxebarria-Elezgarai",
+    "given": "J."
+   },
+   {
+    "family": "Amigo",
+    "given": "J.M."
+   },
+   {
+    "family": "Seifert",
+    "given": "A."
+   }
+  ],
+  "title": "The importance of choosing a proper validation strategy in predictive models. Part 2: Recipes for (avoiding) overfitting-A tutorial",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1384",
+  "number": "344838",
+  "DOI": "10.1016/j.aca.2025.344838"
+ },
+ {
+  "id": "Multisensor2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Saveliev",
+    "given": "M."
+   },
+   {
+    "family": "Kirsanov",
+    "given": "D."
+   }
+  ],
+  "title": "Transfer of multivariate calibrations for potentiometric multisensor systems to account for non-calibrated interferences",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "volume": "1401",
+  "number": "345387",
+  "DOI": "10.1016/j.aca.2026.345387"
+ },
+ {
+  "id": "GroupConformal2026",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Bhargav Teja",
+    "given": "P.N."
+   },
+   {
+    "family": "S",
+    "given": "D.M."
+   }
+  ],
+  "title": "Group-conformal calibration of near-infrared prediction intervals for new seasons, instruments and regions using PLS diagnostics",
+  "container-title": "Talanta",
+  "issued": {
+   "date-parts": [
+    [
+     2027
+    ]
+   ]
+  },
+  "volume": "314",
+  "number": "130941",
+  "DOI": "10.1016/j.talanta.2026.130941"
+ },
+ {
+  "id": "Fearn2025",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Fearn",
+    "given": "T."
+   },
+   {
+    "family": "Beleites",
+    "given": "C."
+   },
+   {
+    "family": "Fernández Pierna",
+    "given": "J.A."
+   },
+   {
+    "family": "Baeten",
+    "given": "V."
+   },
+   {
+    "family": "Lagerholm",
+    "given": "M."
+   },
+   {
+    "family": "Roger",
+    "given": "J.M."
+   },
+   {
+    "family": "Koidis",
+    "given": "A."
+   }
+  ],
+  "title": "Multivariate calibration of non-destructive spectral sensors with a particular focus on food applications: Validation issues and guidelines",
+  "container-title": "TrAC Trends in Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "volume": "192",
+  "number": "118410",
+  "DOI": "10.1016/j.trac.2025.118410"
+ },
+ {
+  "id": "Pasquini2018",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Pasquini",
+    "given": "C."
+   }
+  ],
+  "title": "Near infrared spectroscopy: A mature analytical technique with new perspectives – A review",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "volume": "1026",
+  "page": "8-36",
+  "DOI": "10.1016/j.aca.2018.04.004"
+ },
+ {
+  "id": "Bec2021",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Beć",
+    "given": "K.B."
+   },
+   {
+    "family": "Grabska",
+    "given": "J."
+   },
+   {
+    "family": "Huck",
+    "given": "C.W."
+   }
+  ],
+  "title": "Principles and Applications of Miniaturized Near‐Infrared (NIR) Spectrometers",
+  "container-title": "Chemistry – A European Journal",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "volume": "27",
+  "issue": "5",
+  "page": "1514-1532",
+  "DOI": "10.1002/chem.202002838"
+ },
+ {
+  "id": "Wold2001",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Wold",
+    "given": "S."
+   },
+   {
+    "family": "Sjöström",
+    "given": "M."
+   },
+   {
+    "family": "Eriksson",
+    "given": "L."
+   }
+  ],
+  "title": "PLS-regression: a basic tool of chemometrics",
+  "container-title": "Chemometrics and Intelligent Laboratory Systems",
+  "issued": {
+   "date-parts": [
+    [
+     2001
+    ]
+   ]
+  },
+  "volume": "58",
+  "issue": "2",
+  "page": "109-130",
+  "DOI": "10.1016/s0169-7439(01)00155-1"
+ },
+ {
+  "id": "Savitzky1964",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Savitzky",
+    "given": "A."
+   },
+   {
+    "family": "Golay",
+    "given": "M.J.E."
+   }
+  ],
+  "title": "Smoothing and Differentiation of Data by Simplified Least Squares Procedures.",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     1964
+    ]
+   ]
+  },
+  "volume": "36",
+  "issue": "8",
+  "page": "1627-1639",
+  "DOI": "10.1021/ac60214a047"
+ },
+ {
+  "id": "Barnes1989",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Barnes",
+    "given": "R.J."
+   },
+   {
+    "family": "Dhanoa",
+    "given": "M.S."
+   },
+   {
+    "family": "Lister",
+    "given": "S.J."
+   }
+  ],
+  "title": "Standard Normal Variate Transformation and De-Trending of Near-Infrared Diffuse Reflectance Spectra",
+  "container-title": "Applied Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     1989
+    ]
+   ]
+  },
+  "volume": "43",
+  "issue": "5",
+  "page": "772-777",
+  "DOI": "10.1366/0003702894202201"
+ },
+ {
+  "id": "LedoitWolf2004",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Ledoit",
+    "given": "O."
+   },
+   {
+    "family": "Wolf",
+    "given": "M."
+   }
+  ],
+  "title": "A well-conditioned estimator for large-dimensional covariance matrices",
+  "container-title": "Journal of Multivariate Analysis",
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "volume": "88",
+  "issue": "2",
+  "page": "365-411",
+  "DOI": "10.1016/s0047-259x(03)00096-4"
+ },
+ {
+  "id": "Efron1979",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Efron",
+    "given": "B."
+   }
+  ],
+  "title": "Bootstrap Methods: Another Look at the Jackknife",
+  "container-title": "The Annals of Statistics",
+  "issued": {
+   "date-parts": [
+    [
+     1979
+    ]
+   ]
+  },
+  "volume": "7",
+  "issue": "1",
+  "page": "1-26",
+  "DOI": "10.1214/aos/1176344552"
+ },
+ {
+  "id": "Wilcoxon1945",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Wilcoxon",
+    "given": "F."
+   }
+  ],
+  "title": "Individual Comparisons by Ranking Methods",
+  "container-title": "Biometrics Bulletin",
+  "issued": {
+   "date-parts": [
+    [
+     1945
+    ]
+   ]
+  },
+  "volume": "1",
+  "issue": "6",
+  "number": "80",
+  "DOI": "10.2307/3001968"
+ },
+ {
+  "id": "Fearn1996",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Fearn",
+    "given": "T."
+   }
+  ],
+  "title": "Comparing Standard Deviations",
+  "container-title": "NIR news",
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "volume": "7",
+  "issue": "5",
+  "page": "5-6",
+  "DOI": "10.1255/nirn.378"
+ },
+ {
+  "id": "Faber1997",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Faber",
+    "given": "K."
+   },
+   {
+    "family": "Kowalski",
+    "given": "B.R."
+   }
+  ],
+  "title": "Improved Prediction Error Estimates for Multivariate Calibration by Correcting for the Measurement Error in the Reference Values",
+  "container-title": "Applied Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "volume": "51",
+  "issue": "5",
+  "page": "660-665",
+  "DOI": "10.1366/0003702971941061"
+ },
+ {
+  "id": "BlandAltman1986",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Martin Bland",
+    "given": "J."
+   },
+   {
+    "family": "Altman",
+    "given": "D."
+   }
+  ],
+  "title": "STATISTICAL METHODS FOR ASSESSING AGREEMENT BETWEEN TWO METHODS OF CLINICAL MEASUREMENT",
+  "container-title": "The Lancet",
+  "issued": {
+   "date-parts": [
+    [
+     1986
+    ]
+   ]
+  },
+  "volume": "327",
+  "issue": "8476",
+  "page": "307-310",
+  "DOI": "10.1016/s0140-6736(86)90837-8"
+ },
+ {
+  "id": "Schuirmann1987",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Schuirmann",
+    "given": "D.J."
+   }
+  ],
+  "title": "A comparison of the Two One-Sided Tests Procedure and the Power Approach for assessing the equivalence of average bioavailability",
+  "container-title": "Journal of Pharmacokinetics and Biopharmaceutics",
+  "issued": {
+   "date-parts": [
+    [
+     1987
+    ]
+   ]
+  },
+  "volume": "15",
+  "issue": "6",
+  "page": "657-680",
+  "DOI": "10.1007/bf01068419"
+ },
+ {
+  "id": "Bates2015",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Bates",
+    "given": "D."
+   },
+   {
+    "family": "Mächler",
+    "given": "M."
+   },
+   {
+    "family": "Bolker",
+    "given": "B."
+   },
+   {
+    "family": "Walker",
+    "given": "S."
+   }
+  ],
+  "title": "Fitting Linear Mixed-Effects Models Using lme4",
+  "container-title": "Journal of Statistical Software",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "volume": "67",
+  "issue": "1",
+  "DOI": "10.18637/jss.v067.i01"
+ },
+ {
+  "id": "Zhou2022",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Zhou",
+    "given": "K."
+   },
+   {
+    "family": "Liu",
+    "given": "Z."
+   },
+   {
+    "family": "Qiao",
+    "given": "Y."
+   },
+   {
+    "family": "Xiang",
+    "given": "T."
+   },
+   {
+    "family": "Loy",
+    "given": "C.C."
+   }
+  ],
+  "title": "Domain Generalization: A Survey",
+  "container-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "page": "1-20",
+  "DOI": "10.1109/tpami.2022.3195549"
+ },
+ {
+  "id": "HeinzeDeml2021",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Heinze-Deml",
+    "given": "C."
+   },
+   {
+    "family": "Meinshausen",
+    "given": "N."
+   }
+  ],
+  "title": "Conditional variance penalties and domain shift robustness",
+  "container-title": "Machine Learning",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "volume": "110",
+  "issue": "2",
+  "page": "303-348",
+  "DOI": "10.1007/s10994-020-05924-1"
+ },
+ {
+  "id": "Rothenhausler2021",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Rothenhäusler",
+    "given": "D."
+   },
+   {
+    "family": "Meinshausen",
+    "given": "N."
+   },
+   {
+    "family": "Bühlmann",
+    "given": "P."
+   },
+   {
+    "family": "Peters",
+    "given": "J."
+   }
+  ],
+  "title": "Anchor Regression: Heterogeneous Data Meet Causality",
+  "container-title": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "volume": "83",
+  "issue": "2",
+  "page": "215-246",
+  "DOI": "10.1111/rssb.12398"
+ },
+ {
+  "id": "ASTME1655",
+  "type": "standard",
+  "author": [
+   {
+    "literal": "E13 Committee"
+   }
+  ],
+  "title": "Practices for Infrared Multivariate Quantitative Analysis",
+  "container-title": "ASTM International (standard)",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "DOI": "10.1520/e1655-17"
+ },
+ {
+  "id": "ASTMD6122",
+  "type": "standard",
+  "author": [
+   {
+    "literal": "D02 Committee"
+   }
+  ],
+  "title": "Practice for Validation of the Performance of Multivariate Online, At-Line, and Laboratory Infrared Spectrophotometer Based Analyzer Systems",
+  "container-title": "ASTM International (standard)",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "DOI": "10.1520/d6122-18"
+ },
+ {
+  "id": "JCGM100",
+  "type": "standard",
+  "author": [],
+  "title": "Evaluation of measurement data — Guide to the expression of uncertainty in measurement",
+  "container-title": "Bureau International des Poids et Mesures (posted-content)",
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "DOI": "10.59161/jcgm100-2008e"
+ },
+ {
+  "id": "Olivieri2006",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Olivieri",
+    "given": "A.C."
+   },
+   {
+    "family": "Faber",
+    "given": "N.M."
+   },
+   {
+    "family": "Ferré",
+    "given": "J."
+   },
+   {
+    "family": "Boqué",
+    "given": "R."
+   },
+   {
+    "family": "Kalivas",
+    "given": "J.H."
+   },
+   {
+    "family": "Mark",
+    "given": "H."
+   }
+  ],
+  "title": "Uncertainty estimation and figures of merit for multivariate calibration (IUPAC Technical Report)",
+  "container-title": "Pure and Applied Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     2006
+    ]
+   ]
+  },
+  "volume": "78",
+  "issue": "3",
+  "page": "633-661",
+  "DOI": "10.1351/pac200678030633"
+ },
+ {
+  "id": "Lorber1997",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Lorber",
+    "given": "A."
+   },
+   {
+    "family": "Faber",
+    "given": "K."
+   },
+   {
+    "family": "Kowalski",
+    "given": "B.R."
+   }
+  ],
+  "title": "Net Analyte Signal Calculation in Multivariate Calibration",
+  "container-title": "Analytical Chemistry",
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "volume": "69",
+  "issue": "8",
+  "page": "1620-1626",
+  "DOI": "10.1021/ac960862b"
+ },
+ {
+  "id": "FernandezAhumada2012",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Fernandez-Ahumada",
+    "given": "E."
+   },
+   {
+    "family": "Roger",
+    "given": "J.M."
+   },
+   {
+    "family": "Palagos",
+    "given": "B."
+   }
+  ],
+  "title": "A new formulation to estimate the variance of model prediction. Application to near infrared spectroscopy calibration",
+  "container-title": "Analytica Chimica Acta",
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "volume": "721",
+  "page": "28-34",
+  "DOI": "10.1016/j.aca.2012.01.044"
+ },
+ {
+  "id": "Mark2018",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Mark",
+    "given": "H."
+   },
+   {
+    "family": "Workman",
+    "given": "J."
+   }
+  ],
+  "title": "Calibration Transfer, Part 4: Measuring the Agreement Between Instruments Following Calibration Transfer",
+  "container-title": "Chemometrics in Spectroscopy",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "page": "777-785",
+  "DOI": "10.1016/b978-0-12-805309-6.00104-5"
+ },
+ {
+  "id": "Hossam2020",
+  "type": "article-journal",
+  "author": [
+   {
+    "family": "Hossam",
+    "given": "M."
+   },
+   {
+    "family": "Wassal",
+    "given": "A."
+   },
+   {
+    "family": "Medhat",
+    "given": "M."
+   },
+   {
+    "family": "El-Kharashi",
+    "given": "M.W."
+   }
+  ],
+  "title": "Experimental Studies of Variations Reduction in Chemometric Model Transfer for FT-NIR Miniaturized Sensors",
+  "container-title": "Studies in Big Data",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "page": "469-491",
+  "DOI": "10.1007/978-3-030-59338-4_23"
+ }
+]
