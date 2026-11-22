@@ -53,7 +53,6 @@ UCT-LMIR ACA 2026; Talanta 2026 group-conformal (intervals); Kayaoglu & Erdem (A
   cover_letter.md. Figures 1-6 in manuscript/figures (scripts: code/scripts/make_figures.py, make_fig1.py, make_table1.py).
 - Round-3 number audit running -> manuscript/review_round3.md
 
-## Exact next step (resume here)
-1. Apply fixes from manuscript/review_round3.md; rebuild docx; commit.
-2. Mark COMPLETE here and delete scheduled task trig_015TacCvu2DnPWKUau3fRNyv.
-3. User must fill: second author name/affiliation, own affiliation, e-mail, CRediT for author 2.
+## PROJECT STATUS: COMPLETE (2026-11-22)
+Manuscript package in manuscript/ (see manuscript/README.md). Only author-information placeholders remain for the user.
+Scheduled auto-resume task trig_015TacCvu2DnPWKUau3fRNyv deleted.
