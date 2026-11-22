@@ -1,0 +1,1799 @@
+[
+ {
+  "key": "Workman2018",
+  "doi": "10.1177/0003702817736064",
+  "authors": [
+   "Workman JJ"
+  ],
+  "title": "A Review of Calibration Transfer Practices and Instrument Differences in Spectroscopy",
+  "journal": "Applied Spectroscopy",
+  "year": 2017,
+  "volume": "72",
+  "issue": "3",
+  "pages_or_article_number": "340-365",
+  "why_cited": "Review of calibration-transfer practice and sources of instrument differences; frames the fleet problem.",
+  "metadata_source": "Crossref",
+  "note": "Crossref issued year = 2017 (online); print issue is 2018, vol 72(3)."
+ },
+ {
+  "key": "Feudale2002",
+  "doi": "10.1016/s0169-7439(02)00085-0",
+  "authors": [
+   "Feudale RN",
+   "Woody NA",
+   "Tan H",
+   "Myles AJ",
+   "Brown SD",
+   "Ferré J"
+  ],
+  "title": "Transfer of multivariate calibration models: a review",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 2002,
+  "volume": "64",
+  "issue": "2",
+  "pages_or_article_number": "181-192",
+  "why_cited": "Classic review of transfer of multivariate calibration models (PDS, DS, SBC, OSC, FIR).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Fearn2001",
+  "doi": "10.1255/jnirs.309",
+  "authors": [
+   "Fearn T"
+  ],
+  "title": "Standardisation and Calibration Transfer for near Infrared Instruments: A Review",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 2001,
+  "volume": "9",
+  "issue": "4",
+  "pages_or_article_number": "229-244",
+  "why_cited": "Review of NIR standardisation/transfer; robust-calibration vs standardisation distinction.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Bouveresse1996rev",
+  "doi": "10.1016/0924-2031(95)00055-0",
+  "authors": [
+   "Bouveresse E",
+   "Massart DL"
+  ],
+  "title": "Standardisation of near-infrared spectrometric instruments: A review",
+  "journal": "Vibrational Spectroscopy",
+  "year": 1996,
+  "volume": "11",
+  "issue": "1",
+  "pages_or_article_number": "3-15",
+  "why_cited": "Early review of NIR instrument standardisation.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Roger2025",
+  "doi": "10.1016/j.trac.2025.118319",
+  "authors": [
+   "Roger JM",
+   "Diaz VF",
+   "Nikzad-Langerodi R"
+  ],
+  "title": "Cloning instruments, model maintenance and calibration transfer",
+  "journal": "TrAC Trends in Analytical Chemistry",
+  "year": 2025,
+  "volume": "191",
+  "issue": null,
+  "pages_or_article_number": "118319",
+  "why_cited": "Recent unified vocabulary for instrument cloning/model maintenance under dataset shift; positions fleet risk as a maintenance problem.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Wang1991",
+  "doi": "10.1021/ac00023a016",
+  "authors": [
+   "Wang Y",
+   "Veltkamp DJ",
+   "Kowalski BR"
+  ],
+  "title": "Multivariate instrument standardization",
+  "journal": "Analytical Chemistry",
+  "year": 1991,
+  "volume": "63",
+  "issue": "23",
+  "pages_or_article_number": "2750-2756",
+  "why_cited": "Original DS/PDS instrument standardisation (Wang, Veltkamp, Kowalski) - scenario-B baseline.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Wang1992",
+  "doi": "10.1021/ac00029a021",
+  "authors": [
+   "Wang Y",
+   "Lysaght MJ",
+   "Kowalski BR"
+  ],
+  "title": "Improvement of multivariate calibration through instrument standardization",
+  "journal": "Analytical Chemistry",
+  "year": 1992,
+  "volume": "64",
+  "issue": "5",
+  "pages_or_article_number": "562-564",
+  "why_cited": "Improvement of multivariate calibration through instrument standardisation (PDS).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Bouveresse1996",
+  "doi": "10.1021/ac9510595",
+  "authors": [
+   "Bouveresse E",
+   "Hartmann C",
+   "Massart DL",
+   "Last IR",
+   "Prebble KA"
+  ],
+  "title": "Standardization of Near-Infrared Spectrometric Instruments",
+  "journal": "Analytical Chemistry",
+  "year": 1996,
+  "volume": "68",
+  "issue": "6",
+  "pages_or_article_number": "982-990",
+  "why_cited": "Slope/bias correction and standardisation of NIR instruments - SBC baseline.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Wold1998",
+  "doi": "10.1016/s0169-7439(98)00109-9",
+  "authors": [
+   "Wold S",
+   "Antti H",
+   "Lindgren F",
+   "Öhman J"
+  ],
+  "title": "Orthogonal signal correction of near-infrared spectra",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 1998,
+  "volume": "44",
+  "issue": "1-2",
+  "pages_or_article_number": "175-185",
+  "why_cited": "Orthogonal signal correction (OSC).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Sjoblom1998",
+  "doi": "10.1016/s0169-7439(98)00112-9",
+  "authors": [
+   "Sjöblom J",
+   "Svensson O",
+   "Josefson M",
+   "Kullberg H",
+   "Wold S"
+  ],
+  "title": "An evaluation of orthogonal signal correction applied to calibration transfer of near infrared spectra",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 1998,
+  "volume": "44",
+  "issue": "1-2",
+  "pages_or_article_number": "229-244",
+  "why_cited": "OSC applied to calibration transfer.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Andrew2004",
+  "doi": "10.1016/j.chemolab.2004.02.004",
+  "authors": [
+   "Andrew A",
+   "Fearn T"
+  ],
+  "title": "Transfer by orthogonal projection: making near-infrared calibrations robust to between-instrument variation",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 2004,
+  "volume": "72",
+  "issue": "1",
+  "pages_or_article_number": "51-56",
+  "why_cited": "Transfer by orthogonal projection (TOP) - robust to between-instrument variation using multi-instrument difference spectra.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Roger2003",
+  "doi": "10.1016/s0169-7439(03)00051-0",
+  "authors": [
+   "Roger JM",
+   "Chauchard F",
+   "Bellon-Maurel V"
+  ],
+  "title": "EPO–PLS external parameter orthogonalisation of PLS application to temperature-independent measurement of sugar content of intact fruits",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 2003,
+  "volume": "66",
+  "issue": "2",
+  "pages_or_article_number": "191-204",
+  "why_cited": "External parameter orthogonalisation (EPO) - baseline using difference spectra.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Martens2003",
+  "doi": "10.1002/cem.780",
+  "authors": [
+   "Martens H",
+   "Høy M",
+   "Wise BM",
+   "Bro R",
+   "Brockhoff PB"
+  ],
+  "title": "Pre‐whitening of data by covariance‐weighted pre‐processing",
+  "journal": "Journal of Chemometrics",
+  "year": 2003,
+  "volume": "17",
+  "issue": "3",
+  "pages_or_article_number": "153-165",
+  "why_cited": "Covariance-weighted pre-whitening (basis of GLSW) - baseline.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Woody2004",
+  "doi": "10.1021/ac035382g",
+  "authors": [
+   "Woody NA",
+   "Feudale RN",
+   "Myles AJ",
+   "Brown SD"
+  ],
+  "title": "Transfer of Multivariate Calibrations between Four Near-Infrared Spectrometers Using Orthogonal Signal Correction",
+  "journal": "Analytical Chemistry",
+  "year": 2004,
+  "volume": "76",
+  "issue": "9",
+  "pages_or_article_number": "2595-2600",
+  "why_cited": "Transfer between four NIR spectrometers with OSC; early >2-instrument study.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Igne2009",
+  "doi": "10.1016/j.chemolab.2009.07.007",
+  "authors": [
+   "Igne B",
+   "Roger JM",
+   "Roussel S",
+   "Bellon-Maurel V",
+   "Hurburgh CR"
+  ],
+  "title": "Improving the transfer of near infrared prediction models by orthogonal methods",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 2009,
+  "volume": "99",
+  "issue": "1",
+  "pages_or_article_number": "57-65",
+  "why_cited": "Orthogonal methods for transfer of NIR prediction models across instruments (grain network context).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Igne2008",
+  "doi": "10.1255/jnirs.819",
+  "authors": [
+   "Igne B",
+   "Hurburgh CR"
+  ],
+  "title": "Standardisation of near Infrared Spectrometers: Evaluation of Some Common Techniques for Intra- and Inter-Brand Calibration Transfer",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 2008,
+  "volume": "16",
+  "issue": "6",
+  "pages_or_article_number": "539-550",
+  "why_cited": "Intra- and inter-brand calibration transfer evaluation across several NIR spectrometers.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Capron2005",
+  "doi": "10.1016/j.chemolab.2004.11.003",
+  "authors": [
+   "Capron X",
+   "Walczak B",
+   "de Noord OE",
+   "Massart DL"
+  ],
+  "title": "Selection and weighting of samples in multivariate regression model updating",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 2005,
+  "volume": "76",
+  "issue": "2",
+  "pages_or_article_number": "205-214",
+  "why_cited": "Model updating by selection/weighting of new samples - labelled-updating baseline.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Swierenga1999",
+  "doi": "10.1016/s0169-7439(99)00028-3",
+  "authors": [
+   "Swierenga H",
+   "de Weijer AP",
+   "van Wijk RJ",
+   "Buydens LMC"
+  ],
+  "title": "Strategy for constructing robust multivariate calibration models",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 1999,
+  "volume": "49",
+  "issue": "1",
+  "pages_or_article_number": "1-17",
+  "why_cited": "Strategy for robust multivariate calibration models (robustness to instrumental change).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Swierenga2000",
+  "doi": "10.1016/s0003-2670(00)00718-2",
+  "authors": [
+   "Swierenga H",
+   "Wülfert F",
+   "de Noord OE",
+   "de Weijer AP",
+   "Smilde AK",
+   "Buydens LMC"
+  ],
+  "title": "Development of robust calibration models in near infra-red spectrometric applications",
+  "journal": "Analytica Chimica Acta",
+  "year": 2000,
+  "volume": "411",
+  "issue": "1-2",
+  "pages_or_article_number": "121-135",
+  "why_cited": "Robust NIR calibration via variable selection against instrumental variation (ACA) - closest LV/variable robustness precedent.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Zeaiter2004",
+  "doi": "10.1016/s0165-9936(04)00307-3",
+  "authors": [
+   "Zeaiter M",
+   "Roger JM",
+   "Bellon-Maurel V",
+   "Rutledge DN"
+  ],
+  "title": "Robustness of models developed by multivariate calibration. Part I",
+  "journal": "TrAC Trends in Analytical Chemistry",
+  "year": 2004,
+  "volume": "23",
+  "issue": "2",
+  "pages_or_article_number": "157-170",
+  "why_cited": "Review of robustness of multivariate calibration models.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Kalivas2009",
+  "doi": "10.1366/000370209788701206",
+  "authors": [
+   "Kalivas JH",
+   "Siano GG",
+   "Andries E",
+   "Goicoechea HC"
+  ],
+  "title": "Calibration Maintenance and Transfer Using Tikhonov Regularization Approaches",
+  "journal": "Applied Spectroscopy",
+  "year": 2009,
+  "volume": "63",
+  "issue": "7",
+  "pages_or_article_number": "800-809",
+  "why_cited": "Tikhonov regularisation calibration transfer with augmented standardisation rows and tuned weights - closest precedent for item (2).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Kunz2010AC",
+  "doi": "10.1021/ac902881m",
+  "authors": [
+   "Kunz MR",
+   "Kalivas JH",
+   "Andries E"
+  ],
+  "title": "Model Updating for Spectral Calibration Maintenance and Transfer Using 1-Norm Variants of Tikhonov Regularization",
+  "journal": "Analytical Chemistry",
+  "year": 2010,
+  "volume": "82",
+  "issue": "9",
+  "pages_or_article_number": "3642-3649",
+  "why_cited": "1-norm Tikhonov variants for model updating/transfer.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Kunz2010JC",
+  "doi": "10.1002/cem.1302",
+  "authors": [
+   "Kunz MR",
+   "Ottaway J",
+   "Kalivas JH",
+   "Andries E"
+  ],
+  "title": "Impact of standardization sample design on Tikhonov regularization variants for spectroscopic calibration maintenance and transfer",
+  "journal": "Journal of Chemometrics",
+  "year": 2010,
+  "volume": "24",
+  "issue": "3-4",
+  "pages_or_article_number": "218-229",
+  "why_cited": "Effect of standardisation-sample design on TR transfer - relevant to number of paired items.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Kalivas2012",
+  "doi": "10.1002/cem.2429",
+  "authors": [
+   "Kalivas JH"
+  ],
+  "title": "Overview of two‐norm (L 2 ) and one‐norm (L 1 ) Tikhonov regularization variants for full wavelength or sparse spectral multivariate calibration models or maintenance",
+  "journal": "Journal of Chemometrics",
+  "year": 2012,
+  "volume": "26",
+  "issue": "6",
+  "pages_or_article_number": "218-230",
+  "why_cited": "Overview of L2/L1 Tikhonov regularisation in chemometrics.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Spiers2021AC",
+  "doi": "10.1021/acs.analchem.1c00578",
+  "authors": [
+   "Spiers RC",
+   "Kalivas JH"
+  ],
+  "title": "Calibration Model Updating to Novel Sample and Measurement Conditions without Reference Values",
+  "journal": "Analytical Chemistry",
+  "year": 2021,
+  "volume": "93",
+  "issue": "28",
+  "pages_or_article_number": "9688-9696",
+  "why_cited": "Model updating without reference values; label-free model selection (MDPS).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Spiers2021JCIM",
+  "doi": "10.1021/acs.jcim.0c01493",
+  "authors": [
+   "Spiers RC",
+   "Kalivas JH"
+  ],
+  "title": "Reliable Model Selection without Reference Values by Utilizing Model Diversity with Prediction Similarity",
+  "journal": "Journal of Chemical Information and Modeling",
+  "year": 2021,
+  "volume": "61",
+  "issue": "5",
+  "pages_or_article_number": "2220-2230",
+  "why_cited": "Label-free model selection by model diversity/prediction similarity - competitor for label-free LV choice.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Hoerl1970",
+  "doi": "10.1080/00401706.1970.10488634",
+  "authors": [
+   "Hoerl AE",
+   "Kennard RW"
+  ],
+  "title": "Ridge Regression: Biased Estimation for Nonorthogonal Problems",
+  "journal": "Technometrics",
+  "year": 1970,
+  "volume": "12",
+  "issue": "1",
+  "pages_or_article_number": "55-67",
+  "why_cited": "Ridge regression / generalized ridge theory underlying augmented least squares.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "NikzadLangerodi2018AC",
+  "doi": "10.1021/acs.analchem.8b00498",
+  "authors": [
+   "Nikzad-Langerodi R",
+   "Zellinger W",
+   "Lughofer E",
+   "Saminger-Platz S"
+  ],
+  "title": "Domain-Invariant Partial-Least-Squares Regression",
+  "journal": "Analytical Chemistry",
+  "year": 2018,
+  "volume": "90",
+  "issue": "11",
+  "pages_or_article_number": "6693-6701",
+  "why_cited": "Domain-invariant PLS (di-PLS).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Mikulasek2023",
+  "doi": "10.1002/cem.3477",
+  "authors": [
+   "Mikulasek B",
+   "Fonseca Diaz V",
+   "Gabauer D",
+   "Herwig C",
+   "Nikzad‐Langerodi R"
+  ],
+  "title": "Partial least squares regression with multiple domains",
+  "journal": "Journal of Chemometrics",
+  "year": 2023,
+  "volume": "37",
+  "issue": "5",
+  "pages_or_article_number": "e3477",
+  "why_cited": "Multiple-domain di-PLS (mdi-PLS) - multi-domain PLS baseline.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "NikzadLangerodi2021",
+  "doi": "10.1002/cem.3319",
+  "authors": [
+   "Nikzad‐Langerodi R",
+   "Sobieczky F"
+  ],
+  "title": "Graph‐based calibration transfer",
+  "journal": "Journal of Chemometrics",
+  "year": 2020,
+  "volume": "35",
+  "issue": "4",
+  "pages_or_article_number": "e3319",
+  "why_cited": "Graph-based calibration transfer: PLS penalty making paired standards' scores invariant (tuned).",
+  "metadata_source": "Crossref",
+  "note": "Crossref issued 2020 (online); print 2021 vol 35(4)."
+ },
+ {
+  "key": "NikzadLangerodi2018ACA",
+  "doi": "10.1016/j.aca.2018.02.003",
+  "authors": [
+   "Nikzad-Langerodi R",
+   "Lughofer E",
+   "Cernuda C",
+   "Reischer T",
+   "Kantner W",
+   "Pawliczek M",
+   "Brandstetter M"
+  ],
+  "title": "Calibration model maintenance in melamine resin production: Integrating drift detection, smart sample selection and model adaptation",
+  "journal": "Analytica Chimica Acta",
+  "year": 2018,
+  "volume": "1013",
+  "issue": null,
+  "pages_or_article_number": "1-12",
+  "why_cited": "Drift detection and model adaptation in ACA.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Robert2024",
+  "doi": "10.1016/j.infrared.2024.105386",
+  "authors": [
+   "Robert G",
+   "Gosselin R"
+  ],
+  "title": "Calibration transfer by likelihood maximization: A standard-free method for multiple instruments",
+  "journal": "Infrared Physics & Technology",
+  "year": 2024,
+  "volume": "140",
+  "issue": null,
+  "pages_or_article_number": "105386",
+  "why_cited": "Standard-free likelihood-maximisation transfer for multiple instruments (4 instruments).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Ren2026",
+  "doi": "10.1016/j.chemolab.2026.105901",
+  "authors": [
+   "Ren T",
+   "Yu P",
+   "Ji F"
+  ],
+  "title": "Instrument-shift-informed source-domain augmentation for calibration transfer in near-infrared spectroscopy",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 2026,
+  "volume": "279",
+  "issue": null,
+  "pages_or_article_number": "105901",
+  "why_cited": "Instrument-shift-informed source-domain augmentation for NIR calibration transfer - close to item (2).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Andries2024",
+  "doi": "10.1007/s00216-024-05468-6",
+  "authors": [
+   "Andries JPM",
+   "Vander Heyden Y"
+  ],
+  "title": "Calibration transfer between NIR instruments using optimally predictive calibration subsets",
+  "journal": "Analytical and Bioanalytical Chemistry",
+  "year": 2024,
+  "volume": "416",
+  "issue": "24",
+  "pages_or_article_number": "5351-5364",
+  "why_cited": "Calibration transfer using optimally predictive calibration subsets.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Ciza2022",
+  "doi": "10.1016/j.jpba.2022.114755",
+  "authors": [
+   "Ciza PH",
+   "Sacre PY",
+   "Waffo C",
+   "Kimbeni TM",
+   "Masereel B",
+   "Hubert P",
+   "Ziemons E",
+   "Marini RD"
+  ],
+  "title": "Comparison of several strategies for the deployment of a multivariate regression model on several handheld NIR instruments. Application to the quality control of medicines",
+  "journal": "Journal of Pharmaceutical and Biomedical Analysis",
+  "year": 2022,
+  "volume": "215",
+  "issue": null,
+  "pages_or_article_number": "114755",
+  "why_cited": "Deploying one PLS model on three handheld NIR units of the same model (global model vs DS/SST/SBC).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Sun2019",
+  "doi": "10.3390/molecules24101997",
+  "authors": [
+   "Sun L",
+   "Hsiung C",
+   "Smith V"
+  ],
+  "title": "Investigation of Direct Model Transferability Using Miniature Near-Infrared Spectrometers",
+  "journal": "Molecules",
+  "year": 2019,
+  "volume": "24",
+  "issue": "10",
+  "pages_or_article_number": "1997",
+  "why_cited": "Direct model transferability across multiple MicroNIR miniature units.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Zhang2022",
+  "doi": "10.1177/09670335221110013",
+  "authors": [
+   "Zhang X",
+   "Chen X",
+   "Xiong Z",
+   "Siesler HW",
+   "Liang L"
+  ],
+  "title": "Transfer of a calibration model for the prediction of lignin in pulpwood among four portable near infrared spectrometers",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 2022,
+  "volume": "30",
+  "issue": "4",
+  "pages_or_article_number": "208-218",
+  "why_cited": "Transfer among four portable NIR spectrometers (one master, three targets).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Cooper2011",
+  "doi": "10.1255/jnirs.922",
+  "authors": [
+   "Cooper JB",
+   "Larkin CM",
+   "Abdelkader MF"
+  ],
+  "title": "Virtual Standard Slope and Bias Calibration Transfer of Partial Least Squares Jet Fuel Property Models to Multiple near Infrared Spectroscopy Instruments",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 2011,
+  "volume": "19",
+  "issue": "2",
+  "pages_or_article_number": "139-150",
+  "why_cited": "Virtual-standard slope/bias transfer of PLS models to multiple NIR instruments.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Grelet2015",
+  "doi": "10.3168/jds.2014-8764",
+  "authors": [
+   "Grelet C",
+   "Fernández Pierna JA",
+   "Dardenne P",
+   "Baeten V",
+   "Dehareng F"
+  ],
+  "title": "Standardization of milk mid-infrared spectra from a European dairy network",
+  "journal": "Journal of Dairy Science",
+  "year": 2015,
+  "volume": "98",
+  "issue": "4",
+  "pages_or_article_number": "2150-2160",
+  "why_cited": "Standardisation of milk MIR spectra in a European dairy network - large instrument fleet.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Grelet2017",
+  "doi": "10.3168/jds.2017-12720",
+  "authors": [
+   "Grelet C",
+   "Pierna JAF",
+   "Dardenne P",
+   "Soyeurt H",
+   "Vanlierde A",
+   "Colinet F",
+   "Bastin C",
+   "Gengler N",
+   "Baeten V",
+   "Dehareng F"
+  ],
+  "title": "Standardization of milk mid-infrared spectrometers for the transfer and use of multiple models",
+  "journal": "Journal of Dairy Science",
+  "year": 2017,
+  "volume": "100",
+  "issue": "10",
+  "pages_or_article_number": "7910-7921",
+  "why_cited": "PDS standardisation of 66 milk MIR instruments to a master; network reproducibility - closest fleet precedent.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Lou2024",
+  "doi": "10.3168/jds.2023-24472",
+  "authors": [
+   "Lou W",
+   "Lu H",
+   "Ren X",
+   "Zhao X",
+   "Wang Y",
+   "Bonfatti V"
+  ],
+  "title": "Standardization method, testing scenario, and accuracy of the infrared prediction model affect the standardization accuracy of milk mid-infrared spectra",
+  "journal": "Journal of Dairy Science",
+  "year": 2024,
+  "volume": "107",
+  "issue": "11",
+  "pages_or_article_number": "9404-9414",
+  "why_cited": "Standardisation of milk MIR spectra across 6 instruments/2 brands; temporal re-testing.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Dhanoa1999",
+  "doi": "10.1255/jnirs.244",
+  "authors": [
+   "Dhanoa MS",
+   "Lister SJ",
+   "France J",
+   "Barnes RJ"
+  ],
+  "title": "Use of Mean Square Prediction Error Analysis and Reproducibility Measures to Study near Infrared Calibration Equation Performance",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 1999,
+  "volume": "7",
+  "issue": "3",
+  "pages_or_article_number": "133-143",
+  "why_cited": "Mean-square prediction error decomposition and reproducibility measures for NIR calibrations.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Walsh2020",
+  "doi": "10.1016/j.postharvbio.2020.111246",
+  "authors": [
+   "Walsh KB",
+   "Blasco J",
+   "Zude-Sasse M",
+   "Sun X"
+  ],
+  "title": "Visible-NIR ‘point’ spectroscopy in postharvest fruit and vegetable assessment: The science behind three decades of commercial use",
+  "journal": "Postharvest Biology and Technology",
+  "year": 2020,
+  "volume": "168",
+  "issue": null,
+  "pages_or_article_number": "111246",
+  "why_cited": "Review of commercial vis-NIR point spectroscopy for fruit (handheld fleet context).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Greensill2002",
+  "doi": "10.1255/jnirs.318",
+  "authors": [
+   "Greensill CV",
+   "Walsh KB"
+  ],
+  "title": "Calibration Transfer between Miniature Photodiode Array-Based Spectrometers in the near Infrared Assessment of Mandarin Soluble Solids Content",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 2002,
+  "volume": "10",
+  "issue": "1",
+  "pages_or_article_number": "27-35",
+  "why_cited": "Calibration transfer between miniature photodiode-array spectrometers (Walsh group).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Hayes2016",
+  "doi": "10.1255/jnirs.1194",
+  "authors": [
+   "Hayes CJ",
+   "Walsh KB",
+   "Greensill CV"
+  ],
+  "title": "Improving Calibration Transfer between Shortwave near Infrared Silicon Photodiode Array Instruments",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 2016,
+  "volume": "24",
+  "issue": "1",
+  "pages_or_article_number": "59-68",
+  "why_cited": "Calibration transfer between Si-PDA instruments; difference-spectrum adjustment + model updating.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Hayes2019",
+  "doi": "10.1255/nir2017.071",
+  "authors": [
+   "Hayes C",
+   "Walsh K",
+   "Lerud R"
+  ],
+  "title": "Calibration transfer between short wave near infrared photodiode array instruments",
+  "journal": "Proceedings of the 18th International Conference on Near Infrared Spectroscopy",
+  "year": 2019,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": "71-76",
+  "why_cited": "Mango DM transfer between Si-PDA units; global model across units.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Acharya2016",
+  "doi": "10.1255/jnirs.1218",
+  "authors": [
+   "Acharya UK",
+   "Walsh KB",
+   "Hayes C",
+   "Subedi PP"
+  ],
+  "title": "Spectrophotometer Ageing and Prediction of Fruit Attributes",
+  "journal": "Journal of Near Infrared Spectroscopy",
+  "year": 2016,
+  "volume": "24",
+  "issue": "4",
+  "pages_or_article_number": "337-344",
+  "why_cited": "Spectrophotometer ageing effects on fruit-attribute prediction.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Anderson2020",
+  "doi": "10.1016/j.postharvbio.2020.111202",
+  "authors": [
+   "Anderson NT",
+   "Walsh KB",
+   "Subedi PP",
+   "Hayes CH"
+  ],
+  "title": "Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content",
+  "journal": "Postharvest Biology and Technology",
+  "year": 2020,
+  "volume": "168",
+  "issue": null,
+  "pages_or_article_number": "111202",
+  "why_cited": "Robustness across season/location/cultivar of mango DM NIRS model (source of mango dataset).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Anderson2021",
+  "doi": "10.1016/j.postharvbio.2020.111358",
+  "authors": [
+   "Anderson NT",
+   "Walsh KB",
+   "Flynn JR",
+   "Walsh JP"
+  ],
+  "title": "Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. II. Local PLS and nonlinear models",
+  "journal": "Postharvest Biology and Technology",
+  "year": 2021,
+  "volume": "171",
+  "issue": null,
+  "pages_or_article_number": "111358",
+  "why_cited": "Local PLS and nonlinear models for mango DM robustness.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Sun2020",
+  "doi": "10.1016/j.postharvbio.2019.111117",
+  "authors": [
+   "Sun X",
+   "Subedi P",
+   "Walsh KB"
+  ],
+  "title": "Achieving robustness to temperature change of a NIRS-PLSR model for intact mango fruit dry matter content",
+  "journal": "Postharvest Biology and Technology",
+  "year": 2020,
+  "volume": "162",
+  "issue": null,
+  "pages_or_article_number": "111117",
+  "why_cited": "Temperature robustness of mango DM PLS model.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Mishra2021",
+  "doi": "10.1002/cem.3367",
+  "authors": [
+   "Mishra P",
+   "Passos D"
+  ],
+  "title": "Deep chemometrics: Validation and transfer of a global deep near‐infrared fruit model to use it on a new portable instrument",
+  "journal": "Journal of Chemometrics",
+  "year": 2021,
+  "volume": "35",
+  "issue": "10",
+  "pages_or_article_number": "e3367",
+  "why_cited": "Transfer of a global mango DM model to a new portable instrument.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Mishra2023",
+  "doi": "10.1016/j.postharvbio.2023.112335",
+  "authors": [
+   "Mishra P",
+   "Woltering E"
+  ],
+  "title": "Semi-supervised robust models for predicting dry matter in mango fruit with near-infrared spectroscopy",
+  "journal": "Postharvest Biology and Technology",
+  "year": 2023,
+  "volume": "200",
+  "issue": null,
+  "pages_or_article_number": "112335",
+  "why_cited": "Robust mango DM models tested on a different instrument without transfer.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "WalshJ2024",
+  "doi": "10.1016/j.saa.2024.124003",
+  "authors": [
+   "Walsh J",
+   "Neupane A",
+   "Li M"
+  ],
+  "title": "Evaluation of 1D convolutional neural network in estimation of mango dry matter content",
+  "journal": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy",
+  "year": 2024,
+  "volume": "311",
+  "issue": null,
+  "pages_or_article_number": "124003",
+  "why_cited": "Benchmark on mango DM dataset (PLS/ANN/CNN; new-season robustness).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "MangoData",
+  "doi": "10.17632/46htwnp833.6",
+  "authors": [
+   "Anderson N",
+   "Walsh K",
+   "Subedi P",
+   "Walsh J"
+  ],
+  "title": "Mango DMC and NIR spectra",
+  "journal": "Mendeley Data",
+  "year": 2026,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": null,
+  "why_cited": "Mango DMC and NIR spectra dataset (multiple F750 units/seasons).",
+  "metadata_source": "DataCite (dataset DOI not registered with Crossref)"
+ },
+ {
+  "key": "NeoSpectraData",
+  "doi": "10.5281/zenodo.13122321",
+  "authors": [
+   "Sanderman J",
+   "Partida C",
+   "Safanelli JL",
+   "Mitu SM",
+   "Ge Y",
+   "Murad O",
+   "Shepherd K"
+  ],
+  "title": "Near-infrared (NIR) soil spectral library using the NeoSpectra Handheld NIR Analyzer by Si-Ware",
+  "journal": "Zenodo",
+  "year": 2024,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": null,
+  "why_cited": "NeoSpectra handheld NIR soil library: 2,106 soils on 9 units.",
+  "metadata_source": "DataCite (dataset DOI not registered with Crossref)"
+ },
+ {
+  "key": "Mitu2024",
+  "doi": "10.1002/saj2.20678",
+  "authors": [
+   "Mitu SM",
+   "Smith C",
+   "Sanderman J",
+   "Ferguson RR",
+   "Shepherd K",
+   "Ge Y"
+  ],
+  "title": "Evaluating consistency across multiple NeoSpectra (compact Fourier transform near‐infrared) spectrometers for estimating common soil properties",
+  "journal": "Soil Science Society of America Journal",
+  "year": 2024,
+  "volume": "88",
+  "issue": "4",
+  "pages_or_article_number": "1324-1339",
+  "why_cited": "Consistency across five NeoSpectra units; cross-unit performance loss - direct fleet evidence.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Partida2025",
+  "doi": "10.1016/j.dib.2024.111229",
+  "authors": [
+   "Partida C",
+   "Safanelli JL",
+   "Mitu SM",
+   "Murad MOF",
+   "Ge Y",
+   "Ferguson R",
+   "Shepherd K",
+   "Sanderman J"
+  ],
+  "title": "Building a near-infrared (NIR) soil spectral dataset and predictive machine learning models using a handheld NIR spectrophotometer",
+  "journal": "Data in Brief",
+  "year": 2025,
+  "volume": "58",
+  "issue": null,
+  "pages_or_article_number": "111229",
+  "why_cited": "Data in Brief describing NeoSpectra handheld soil NIR dataset and models.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Sanderman2025",
+  "doi": "10.1111/ejss.70053",
+  "authors": [
+   "Sanderman J",
+   "Partida C",
+   "Safanelli JL",
+   "Shepherd K",
+   "Ge Y",
+   "Mitu SM",
+   "Ferguson R"
+  ],
+  "title": "Application of a Handheld Near Infrared Spectrophotometer to Farm‐Scale Soil Carbon Monitoring",
+  "journal": "European Journal of Soil Science",
+  "year": 2025,
+  "volume": "76",
+  "issue": "1",
+  "pages_or_article_number": "e70053",
+  "why_cited": "NeoSpectra handheld NIR for farm-scale SOC monitoring with uncertainty.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Safanelli2025",
+  "doi": "10.1371/journal.pone.0296545",
+  "authors": [
+   "Safanelli JL",
+   "Hengl T",
+   "Parente LL",
+   "Minarik R",
+   "Bloom DE",
+   "Todd-Brown K",
+   "Gholizadeh A",
+   "Mendes WdS",
+   "Sanderman J"
+  ],
+  "title": "Open Soil Spectral Library (OSSL): Building reproducible soil calibration models through open development and community engagement",
+  "journal": "PLOS ONE",
+  "year": 2025,
+  "volume": "20",
+  "issue": "1",
+  "pages_or_article_number": "e0296545",
+  "why_cited": "Open Soil Spectral Library (OSSL) including NeoSpectra models.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Safanelli2023",
+  "doi": "10.1016/j.geoderma.2023.116724",
+  "authors": [
+   "Safanelli JL",
+   "Sanderman J",
+   "Bloom D",
+   "Todd-Brown K",
+   "Parente LL",
+   "Hengl T",
+   "Adam S",
+   "Albinet F",
+   "Ben-Dor E",
+   "Boot CM",
+   "Bridson JH",
+   "Chabrillat S",
+   "Deiss L",
+   "Demattê JAM",
+   "Scott Demyan M",
+   "Dercon G",
+   "Doetterl S",
+   "van Egmond F",
+   "Ferguson R",
+   "Garrett LG",
+   "Haddix ML",
+   "Haefele SM",
+   "Heiling M",
+   "Hernandez-Allica J",
+   "Huang J",
+   "Jastrow JD",
+   "Karyotis K",
+   "Machmuller MB",
+   "Khesuoe M",
+   "Margenot A",
+   "Matamala R",
+   "Miesel JR",
+   "Mouazen AM",
+   "Nagel P",
+   "Patel S",
+   "Qaswar M",
+   "Ramakhanna S",
+   "Resch C",
+   "Robertson J",
+   "Roudier P",
+   "Sabetizade M",
+   "Shabtai I",
+   "Sherif F",
+   "Sinha N",
+   "Six J",
+   "Summerauer L",
+   "Thomas CL",
+   "Toloza A",
+   "Tomczyk-Wójtowicz B",
+   "Tsakiridis NL",
+   "van Wesemael B",
+   "Woodings F",
+   "Zalidis GC",
+   "Żelazny WR"
+  ],
+  "title": "An interlaboratory comparison of mid-infrared spectra acquisition: Instruments and procedures matter",
+  "journal": "Geoderma",
+  "year": 2023,
+  "volume": "440",
+  "issue": null,
+  "pages_or_article_number": "116724",
+  "why_cited": "Interlaboratory MIR ring trial: instrument dissimilarity and model transfer.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Sanderman2023",
+  "doi": "10.1002/saj2.20513",
+  "authors": [
+   "Sanderman J",
+   "Gholizadeh A",
+   "Pittaki‐Chrysodonta Z",
+   "Huang J",
+   "Safanelli JL",
+   "Ferguson R"
+  ],
+  "title": "Transferability of a large mid‐infrared soil spectral library between two Fourier‐transform infrared spectrometers",
+  "journal": "Soil Science Society of America Journal",
+  "year": 2023,
+  "volume": "87",
+  "issue": "3",
+  "pages_or_article_number": "586-599",
+  "why_cited": "Transferability of a MIR soil library between two FTIR spectrometers.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Shepherd2022",
+  "doi": "10.1016/j.soisec.2022.100061",
+  "authors": [
+   "Shepherd KD",
+   "Ferguson R",
+   "Hoover D",
+   "van Egmond F",
+   "Sanderman J",
+   "Ge Y"
+  ],
+  "title": "A global soil spectral calibration library and estimation service",
+  "journal": "Soil Security",
+  "year": 2022,
+  "volume": "7",
+  "issue": null,
+  "pages_or_article_number": "100061",
+  "why_cited": "Global soil spectral calibration library and estimation service.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Potash2026",
+  "doi": "10.31220/agrirxiv.2026.00451",
+  "authors": [
+   "Potash E",
+   "Partida C",
+   "Safanelli J",
+   "Forbes E",
+   "Polussa A",
+   "Runge T",
+   "Sheffer M",
+   "Sanderman J"
+  ],
+  "title": "Transfer and uncertainty for soil spectroscopy: a parsimonious approach using linear mixed models and soil surveys.",
+  "journal": "CABI Publishing (posted-content)",
+  "year": 2026,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": null,
+  "why_cited": "Bayesian linear mixed models for soil-spectroscopy transfer and uncertainty (random-effects precedent, not instruments).",
+  "metadata_source": "Crossref",
+  "note": "Preprint (agriRxiv), not peer reviewed."
+ },
+ {
+  "key": "UCTLMIR2026",
+  "doi": "10.1016/j.aca.2026.346104",
+  "authors": [
+   "Huang X",
+   "Chen X",
+   "Huang G",
+   "Xie Z",
+   "Shi W",
+   "Chen X",
+   "Yuan L",
+   "Liang P",
+   "Zhu J",
+   "He Y"
+  ],
+  "title": "UCT-LMIR: A standard-free unsupervised calibration transfer method without model recalibration",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1423",
+  "issue": null,
+  "pages_or_article_number": "346104",
+  "why_cited": "Standard-free unsupervised transfer (ACA 2026) - recent benchmark.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "PDSFT2026",
+  "doi": "10.1016/j.aca.2026.345485",
+  "authors": [
+   "Gao J",
+   "Li J",
+   "Yin J",
+   "Gao R",
+   "Tian Z",
+   "Zhao Y",
+   "Bai Y",
+   "Dong L",
+   "Ma W",
+   "Zhang L",
+   "Yin W",
+   "Jia S"
+  ],
+  "title": "Cross-instrument coal quality spectral analysis via a PDS-assisted fine-tuning calibration transfer method",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1405",
+  "issue": null,
+  "pages_or_article_number": "345485",
+  "why_cited": "PDS-assisted fine-tuning transfer for XRF (ACA 2026).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "gesearch2026",
+  "doi": "10.1016/j.aca.2026.345651",
+  "authors": [
+   "Ramirez-Lopez L",
+   "Viscarra Rossel R",
+   "Orellano C",
+   "Kooijman L",
+   "Perez-Fernandez E",
+   "Wadoux AMJC",
+   "Plans M",
+   "Breure T",
+   "Summerauer L",
+   "Safanelli JL",
+   "Behrens T",
+   "Boqué R"
+  ],
+  "title": "When spectral libraries are too complex to search: Evolutionary subset selection for domain-adaptive calibration",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1412",
+  "issue": null,
+  "pages_or_article_number": "345651",
+  "why_cited": "Evolutionary subset selection for domain-adaptive calibration (ACA 2026).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "ECMreplicates2026",
+  "doi": "10.1016/j.aca.2026.345885",
+  "authors": [
+   "Riu J",
+   "Gorla G",
+   "Monti M",
+   "Campeny M",
+   "Quesada J",
+   "Giussani B"
+  ],
+  "title": "Measurement replicates under the lens: evaluating NIR spectroscopic error quality through multivariate error analysis",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1419",
+  "issue": null,
+  "pages_or_article_number": "345885",
+  "why_cited": "Replicate-based error covariance in portable NIR (ACA 2026) - supports replicate-noise correction.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "liblex2026",
+  "doi": "10.1016/j.aca.2026.345682",
+  "authors": [
+   "Ramirez-Lopez L",
+   "Metz M",
+   "Lesnoff M",
+   "Orellano C",
+   "Perez-Fernandez E",
+   "Plans M",
+   "Breure T",
+   "Behrens T",
+   "Viscarra Rossel R",
+   "Peng Y"
+  ],
+  "title": "Rethinking local spectral modelling: From per-query refitting to model libraries",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1415",
+  "issue": null,
+  "pages_or_article_number": "345682",
+  "why_cited": "Local model libraries for spectral libraries (ACA 2026).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "OldAdvice2026",
+  "doi": "10.1016/j.aca.2026.345155",
+  "authors": [
+   "Olivieri AC"
+  ],
+  "title": "Old advice on multivariate calibration: still in force, but not always followed. A tutorial",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1396",
+  "issue": null,
+  "pages_or_article_number": "345155",
+  "why_cited": "Tutorial on multivariate calibration practice incl. comparing RMSEPs (ACA 2026).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Validation2026",
+  "doi": "10.1016/j.aca.2025.344838",
+  "authors": [
+   "Lopez E",
+   "Gorla G",
+   "Etxebarria-Elezgarai J",
+   "Amigo JM",
+   "Seifert A"
+  ],
+  "title": "The importance of choosing a proper validation strategy in predictive models. Part 2: Recipes for (avoiding) overfitting-A tutorial",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1384",
+  "issue": null,
+  "pages_or_article_number": "344838",
+  "why_cited": "Validation-strategy tutorial on overfitting/leakage (ACA 2026).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Multisensor2026",
+  "doi": "10.1016/j.aca.2026.345387",
+  "authors": [
+   "Saveliev M",
+   "Kirsanov D"
+  ],
+  "title": "Transfer of multivariate calibrations for potentiometric multisensor systems to account for non-calibrated interferences",
+  "journal": "Analytica Chimica Acta",
+  "year": 2026,
+  "volume": "1401",
+  "issue": null,
+  "pages_or_article_number": "345387",
+  "why_cited": "Calibration transfer for potentiometric multisensor systems (di-PLS, DOP) (ACA 2026).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "GroupConformal2026",
+  "doi": "10.1016/j.talanta.2026.130941",
+  "authors": [
+   "Bhargav Teja PN",
+   "S DM"
+  ],
+  "title": "Group-conformal calibration of near-infrared prediction intervals for new seasons, instruments and regions using PLS diagnostics",
+  "journal": "Talanta",
+  "year": 2027,
+  "volume": "314",
+  "issue": null,
+  "pages_or_article_number": "130941",
+  "why_cited": "Group-conformal NIR prediction intervals for new instruments/seasons (Talanta) - must be distinguished.",
+  "metadata_source": "Crossref",
+  "note": "Talanta issue dated 2027 per Crossref; appears to be the authors own prior work."
+ },
+ {
+  "key": "Fearn2025",
+  "doi": "10.1016/j.trac.2025.118410",
+  "authors": [
+   "Fearn T",
+   "Beleites C",
+   "Fernández Pierna JA",
+   "Baeten V",
+   "Lagerholm M",
+   "Roger JM",
+   "Koidis A"
+  ],
+  "title": "Multivariate calibration of non-destructive spectral sensors with a particular focus on food applications: Validation issues and guidelines",
+  "journal": "TrAC Trends in Analytical Chemistry",
+  "year": 2025,
+  "volume": "192",
+  "issue": null,
+  "pages_or_article_number": "118410",
+  "why_cited": "Validation guidelines for multivariate calibration of non-destructive sensors.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Pasquini2018",
+  "doi": "10.1016/j.aca.2018.04.004",
+  "authors": [
+   "Pasquini C"
+  ],
+  "title": "Near infrared spectroscopy: A mature analytical technique with new perspectives – A review",
+  "journal": "Analytica Chimica Acta",
+  "year": 2018,
+  "volume": "1026",
+  "issue": null,
+  "pages_or_article_number": "8-36",
+  "why_cited": "Review of NIR spectroscopy incl. miniaturised instruments.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Bec2021",
+  "doi": "10.1002/chem.202002838",
+  "authors": [
+   "Beć KB",
+   "Grabska J",
+   "Huck CW"
+  ],
+  "title": "Principles and Applications of Miniaturized Near‐Infrared (NIR) Spectrometers",
+  "journal": "Chemistry – A European Journal",
+  "year": 2020,
+  "volume": "27",
+  "issue": "5",
+  "pages_or_article_number": "1514-1532",
+  "why_cited": "Principles and applications of miniaturised NIR spectrometers.",
+  "metadata_source": "Crossref",
+  "note": "Crossref issued 2020 (online); print 2021 vol 27(5)."
+ },
+ {
+  "key": "Wold2001",
+  "doi": "10.1016/s0169-7439(01)00155-1",
+  "authors": [
+   "Wold S",
+   "Sjöström M",
+   "Eriksson L"
+  ],
+  "title": "PLS-regression: a basic tool of chemometrics",
+  "journal": "Chemometrics and Intelligent Laboratory Systems",
+  "year": 2001,
+  "volume": "58",
+  "issue": "2",
+  "pages_or_article_number": "109-130",
+  "why_cited": "PLS regression.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Savitzky1964",
+  "doi": "10.1021/ac60214a047",
+  "authors": [
+   "Savitzky A",
+   "Golay MJE"
+  ],
+  "title": "Smoothing and Differentiation of Data by Simplified Least Squares Procedures.",
+  "journal": "Analytical Chemistry",
+  "year": 1964,
+  "volume": "36",
+  "issue": "8",
+  "pages_or_article_number": "1627-1639",
+  "why_cited": "Savitzky-Golay smoothing/derivatives.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Barnes1989",
+  "doi": "10.1366/0003702894202201",
+  "authors": [
+   "Barnes RJ",
+   "Dhanoa MS",
+   "Lister SJ"
+  ],
+  "title": "Standard Normal Variate Transformation and De-Trending of Near-Infrared Diffuse Reflectance Spectra",
+  "journal": "Applied Spectroscopy",
+  "year": 1989,
+  "volume": "43",
+  "issue": "5",
+  "pages_or_article_number": "772-777",
+  "why_cited": "Standard normal variate (SNV).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "LedoitWolf2004",
+  "doi": "10.1016/s0047-259x(03)00096-4",
+  "authors": [
+   "Ledoit O",
+   "Wolf M"
+  ],
+  "title": "A well-conditioned estimator for large-dimensional covariance matrices",
+  "journal": "Journal of Multivariate Analysis",
+  "year": 2004,
+  "volume": "88",
+  "issue": "2",
+  "pages_or_article_number": "365-411",
+  "why_cited": "Shrinkage covariance estimator for difference-spectrum covariance.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Efron1979",
+  "doi": "10.1214/aos/1176344552",
+  "authors": [
+   "Efron B"
+  ],
+  "title": "Bootstrap Methods: Another Look at the Jackknife",
+  "journal": "The Annals of Statistics",
+  "year": 1979,
+  "volume": "7",
+  "issue": "1",
+  "pages_or_article_number": "1-26",
+  "why_cited": "Bootstrap (unit-bootstrap CIs).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Wilcoxon1945",
+  "doi": "10.2307/3001968",
+  "authors": [
+   "Wilcoxon F"
+  ],
+  "title": "Individual Comparisons by Ranking Methods",
+  "journal": "Biometrics Bulletin",
+  "year": 1945,
+  "volume": "1",
+  "issue": "6",
+  "pages_or_article_number": "80",
+  "why_cited": "Wilcoxon signed-rank test.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Fearn1996",
+  "doi": "10.1255/nirn.378",
+  "authors": [
+   "Fearn T"
+  ],
+  "title": "Comparing Standard Deviations",
+  "journal": "NIR news",
+  "year": 1996,
+  "volume": "7",
+  "issue": "5",
+  "pages_or_article_number": "5-6",
+  "why_cited": "Comparing standard deviations / prediction errors (paired RMSEP comparison).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Faber1997",
+  "doi": "10.1366/0003702971941061",
+  "authors": [
+   "Faber K",
+   "Kowalski BR"
+  ],
+  "title": "Improved Prediction Error Estimates for Multivariate Calibration by Correcting for the Measurement Error in the Reference Values",
+  "journal": "Applied Spectroscopy",
+  "year": 1997,
+  "volume": "51",
+  "issue": "5",
+  "pages_or_article_number": "660-665",
+  "why_cited": "Prediction-error estimates corrected for reference measurement error.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "BlandAltman1986",
+  "doi": "10.1016/s0140-6736(86)90837-8",
+  "authors": [
+   "Martin Bland J",
+   "Altman D"
+  ],
+  "title": "STATISTICAL METHODS FOR ASSESSING AGREEMENT BETWEEN TWO METHODS OF CLINICAL MEASUREMENT",
+  "journal": "The Lancet",
+  "year": 1986,
+  "volume": "327",
+  "issue": "8476",
+  "pages_or_article_number": "307-310",
+  "why_cited": "Paired agreement analysis - basis for unit qualification on paired items.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Schuirmann1987",
+  "doi": "10.1007/bf01068419",
+  "authors": [
+   "Schuirmann DJ"
+  ],
+  "title": "A comparison of the Two One-Sided Tests Procedure and the Power Approach for assessing the equivalence of average bioavailability",
+  "journal": "Journal of Pharmacokinetics and Biopharmaceutics",
+  "year": 1987,
+  "volume": "15",
+  "issue": "6",
+  "pages_or_article_number": "657-680",
+  "why_cited": "TOST equivalence testing - acceptance test framing.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Bates2015",
+  "doi": "10.18637/jss.v067.i01",
+  "authors": [
+   "Bates D",
+   "Mächler M",
+   "Bolker B",
+   "Walker S"
+  ],
+  "title": "Fitting Linear Mixed-Effects Models Using lme4",
+  "journal": "Journal of Statistical Software",
+  "year": 2015,
+  "volume": "67",
+  "issue": "1",
+  "pages_or_article_number": null,
+  "why_cited": "Linear mixed-effects models (random-effects population of units).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Zhou2022",
+  "doi": "10.1109/tpami.2022.3195549",
+  "authors": [
+   "Zhou K",
+   "Liu Z",
+   "Qiao Y",
+   "Xiang T",
+   "Loy CC"
+  ],
+  "title": "Domain Generalization: A Survey",
+  "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "year": 2022,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": "1-20",
+  "why_cited": "Domain generalization survey (unseen-domain generalisation).",
+  "metadata_source": "Crossref",
+  "note": "Crossref lists early-access pagination only."
+ },
+ {
+  "key": "HeinzeDeml2021",
+  "doi": "10.1007/s10994-020-05924-1",
+  "authors": [
+   "Heinze-Deml C",
+   "Meinshausen N"
+  ],
+  "title": "Conditional variance penalties and domain shift robustness",
+  "journal": "Machine Learning",
+  "year": 2020,
+  "volume": "110",
+  "issue": "2",
+  "pages_or_article_number": "303-348",
+  "why_cited": "Conditional variance penalties using same-object grouping - ML analogue of paired-item augmentation.",
+  "metadata_source": "Crossref",
+  "note": "Crossref issued 2020 (online); print 2021 vol 110."
+ },
+ {
+  "key": "Rothenhausler2021",
+  "doi": "10.1111/rssb.12398",
+  "authors": [
+   "Rothenhäusler D",
+   "Meinshausen N",
+   "Bühlmann P",
+   "Peters J"
+  ],
+  "title": "Anchor Regression: Heterogeneous Data Meet Causality",
+  "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+  "year": 2021,
+  "volume": "83",
+  "issue": "2",
+  "pages_or_article_number": "215-246",
+  "why_cited": "Anchor regression: penalised least squares with distributional-robustness guarantee.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "ASTME1655",
+  "doi": "10.1520/e1655-17",
+  "authors": [
+   "E13 Committee"
+  ],
+  "title": "Practices for Infrared Multivariate Quantitative Analysis",
+  "journal": "ASTM International (standard)",
+  "year": 2018,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": null,
+  "why_cited": "ASTM practice for infrared multivariate quantitative analysis.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "ASTMD6122",
+  "doi": "10.1520/d6122-18",
+  "authors": [
+   "D02 Committee"
+  ],
+  "title": "Practice for Validation of the Performance of Multivariate Online, At-Line, and Laboratory Infrared Spectrophotometer Based Analyzer Systems",
+  "journal": "ASTM International (standard)",
+  "year": 2019,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": null,
+  "why_cited": "ASTM practice for validation of multivariate IR analyser performance (qualification precedent).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "JCGM100",
+  "doi": "10.59161/jcgm100-2008e",
+  "authors": [],
+  "title": "Evaluation of measurement data — Guide to the expression of uncertainty in measurement",
+  "journal": "Bureau International des Poids et Mesures (posted-content)",
+  "year": 2008,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": null,
+  "why_cited": "GUM - measurement uncertainty framework.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Olivieri2006",
+  "doi": "10.1351/pac200678030633",
+  "authors": [
+   "Olivieri AC",
+   "Faber NM",
+   "Ferré J",
+   "Boqué R",
+   "Kalivas JH",
+   "Mark H"
+  ],
+  "title": "Uncertainty estimation and figures of merit for multivariate calibration (IUPAC Technical Report)",
+  "journal": "Pure and Applied Chemistry",
+  "year": 2006,
+  "volume": "78",
+  "issue": "3",
+  "pages_or_article_number": "633-661",
+  "why_cited": "IUPAC report: multivariate prediction uncertainty incl. propagation of spectral error through b (random-noise analogue of b'D).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Lorber1997",
+  "doi": "10.1021/ac960862b",
+  "authors": [
+   "Lorber A",
+   "Faber K",
+   "Kowalski BR"
+  ],
+  "title": "Net Analyte Signal Calculation in Multivariate Calibration",
+  "journal": "Analytical Chemistry",
+  "year": 1997,
+  "volume": "69",
+  "issue": "8",
+  "pages_or_article_number": "1620-1626",
+  "why_cited": "Net analyte signal; sensitivity of predictions to spectral perturbations.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "FernandezAhumada2012",
+  "doi": "10.1016/j.aca.2012.01.044",
+  "authors": [
+   "Fernandez-Ahumada E",
+   "Roger JM",
+   "Palagos B"
+  ],
+  "title": "A new formulation to estimate the variance of model prediction. Application to near infrared spectroscopy calibration",
+  "journal": "Analytica Chimica Acta",
+  "year": 2012,
+  "volume": "721",
+  "issue": null,
+  "pages_or_article_number": "28-34",
+  "why_cited": "Variance of PLS predictions for NIR (ACA) - prediction-uncertainty precedent.",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Mark2018",
+  "doi": "10.1016/b978-0-12-805309-6.00104-5",
+  "authors": [
+   "Mark H",
+   "Workman J"
+  ],
+  "title": "Calibration Transfer, Part 4: Measuring the Agreement Between Instruments Following Calibration Transfer",
+  "journal": "Chemometrics in Spectroscopy",
+  "year": 2018,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": "777-785",
+  "why_cited": "Measuring agreement between instruments after calibration transfer (paired-sample statistics).",
+  "metadata_source": "Crossref"
+ },
+ {
+  "key": "Hossam2020",
+  "doi": "10.1007/978-3-030-59338-4_23",
+  "authors": [
+   "Hossam M",
+   "Wassal A",
+   "Medhat M",
+   "El-Kharashi MW"
+  ],
+  "title": "Experimental Studies of Variations Reduction in Chemometric Model Transfer for FT-NIR Miniaturized Sensors",
+  "journal": "Studies in Big Data",
+  "year": 2020,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": "469-491",
+  "why_cited": "Si-Ware authors: reducing unit-to-unit variation in model transfer for miniaturised FT-NIR (MEMS) sensors.",
+  "metadata_source": "Crossref",
+  "note": "Crossref author fields appear inverted (given/family); verify names before citing."
+ }
+]
