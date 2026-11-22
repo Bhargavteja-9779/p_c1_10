@@ -15,6 +15,7 @@ from src.visualization.style import figure, save, series_style, INK, apply_style
 FIG = '../manuscript/figures'; os.makedirs(FIG, exist_ok=True)
 rms = lambda s: float(np.sqrt(np.nanmean(np.asarray(s, float) ** 2)))
 T = pd.read_csv('../results/summary_v3/per_target.csv')
+T = T[T.mrank == 1]  # primary master only (runner-up-master runs are a separate sensitivity analysis)
 FAMC = {'mango': 0, 'soil': 2, 'corn': 3}
 
 

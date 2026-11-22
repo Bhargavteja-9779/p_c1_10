@@ -21,7 +21,7 @@ def ratio(m):
     t = t.iloc[0]; star = '*' if t.p_holm < 0.05 else ''
     return f"{t.median_ratio:.2f} ({t.ci90_lo:.2f}–{t.ci90_hi:.2f}){star}"
 f = lambda v: '' if v is None or (isinstance(v, float) and np.isnan(v)) else f'{v:.2f}'
-out = ['**Table 1.** Error of the calibration strategies on unseen units (leave-one-unit-out). Mango: RMS of RMSEP (%DM) over target-unit/season cases on paired test fruit (62 cases, 25 physical units) and on all test fruit (89 cases, 30 units). Soil: median over 36 unit × property cases of RMSEP relative to the master PLS. Corn: RMS of RMSEP over 8 instrument × property cases (property units). Last column: median per-physical-unit RMSEP ratio of FR-PLS (or FR-PLS + LFBC for LFBC rows) to the method in the row, with 90 % bootstrap CI; * Holm-adjusted Wilcoxon p < 0.05.', '',
+out = ['**Table 1.** Error of the calibration strategies on unseen units (leave-one-unit-out). Mango: RMS of RMSEP (%DM) over target-unit/season cases on paired test fruit (62 cases, 25 physical units) and on all test fruit (89 cases, 30 units). Soil: median over 36 unit × property cases of RMSEP relative to the master PLS. Corn: RMS of RMSEP over 8 instrument × property cases (property units). Last column: median per-physical-unit RMSEP ratio of FR-PLS (for all rows from “With LFBC” downwards: FR-PLS + LFBC) to the method in the row, with 90 % bootstrap CI; * Holm-adjusted Wilcoxon p < 0.05.', '',
        '| Group | Method | Mango, paired | Mango, all test | Soil (rel.) | Corn | FR-PLS / method |', '|---|---|---|---|---|---|---|']
 for g, k, name in rows:
     out.append(f"| {g} | {name} | {f(mp.get(k))} | {f(ma.get(k))} | {f(so.get(k))} | {f(co.get(k))} | {ratio(k)} |")
