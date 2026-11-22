@@ -20,7 +20,7 @@ import numpy as np
 
 def quad_terms(B: np.ndarray, D: np.ndarray, units: np.ndarray) -> tuple[np.ndarray, list]:
     """Per-unit mean of (b'D)^2 for each column of B. Returns (n_units, n_models) and the unit order."""
-    B = np.atleast_2d(B.T).T if B.ndim == 1 else B
+    B = B[:, None] if B.ndim == 1 else B
     P = D @ B  # (M, n_models)
     uu = list(dict.fromkeys(units.tolist()))
     out = np.vstack([np.mean(P[units == u] ** 2, axis=0) for u in uu])
@@ -43,7 +43,7 @@ def fleet_risk(B, mse0, D, units, Sigma0, r0, per_unit: bool = False, cross=None
     B2 = B[:, None] if B.ndim == 1 else B
     q, uu = quad_terms(B2, D, units)
     nt = noise_term(B2, Sigma0, r0)
-    R_u = np.asarray(mse0, float)[None, :] + q - nt[None, :]
+    R_u = np.atleast_1d(np.asarray(mse0, float))[None, :] + q - nt[None, :]
     if cross is not None:
         R_u = R_u + cross
     R_u = np.maximum(R_u, 1e-12)

@@ -29,7 +29,7 @@ def split_items(fl: Fleet, master: str, seed: int):
     multi = rng.permutation(multi)
     t = len(multi) // 3
     T, E, C = multi[:t], multi[t:2 * t], multi[2 * t:]
-    return set(np.concatenate([C, solo]).tolist()), set(T.tolist()), set(np.concatenate([E, off]).tolist())
+    return set(np.concatenate([C, solo]).tolist()), set(T.tolist()), set(np.concatenate([E, off]).tolist()), set(E.tolist())
 
 
 def _err(model, X, y):
@@ -38,7 +38,7 @@ def _err(model, X, y):
 
 
 def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5, A=20, oracle=True, targets=None):
-    C, T, E = split_items(fl, master, seed)
+    C, T, E, Ep = split_items(fl, master, seed)
     cm = (fl.unit == master) & np.isin(fl.item, list(C))
     Xc, yc, gc = fl.X[cm], fl.y[cm], fl.item[cm]
     Sigma0, _ = replicate_cov(Xc, gc)
@@ -59,8 +59,11 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
             continue
         D, Du, Di, r0 = paired_differences(fl, master, F, T)
         Xk, yk = fl.X[te], fl.y[te]
+        tp = te & np.isin(fl.item, list(Ep))  # paired test items (also scanned on the master): pure unit effect
+        Xp, yp = fl.X[tp], fl.y[tp]
+        npair = len(np.unique(fl.item[tp]))
         res = {"dataset": fl.name, "master": master, "seed": seed, "target": k, "n_fleet": len(F), "n_D": len(D),
-               "n_test_scans": int(te.sum()), "n_test_items": int(len(np.unique(fl.item[te]))), "n_cal": int(cm.sum())}
+               "n_test_scans": int(te.sum()), "n_test_paired_items": int(npair), "n_test_items": int(len(np.unique(fl.item[te]))), "n_cal": int(cm.sum())}
         models = [base, M.fr_lv(base, D, Du, Sigma0, r0)]
         models.append(M.fr_pls(Xc, yc, gc, D, Du, Sigma0, r0, A=A, seed=seed))
         # labelled pooled reference: fleet scans of transfer items WITH labels
@@ -74,6 +77,8 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
             r, b, s = _err(m, Xk, yk)
             res[f"rmse|{m.name}"], res[f"bias|{m.name}"], res[f"sep|{m.name}"] = r, b, s
             res[f"lv|{m.name}"] = m.info.get("lv")
+            if npair >= 10:
+                res[f"rmseP|{m.name}"] = _err(m, Xp, yp)[0]
         for fam, lst, default in (("EPO", epo, "EPO(k=2)"), ("GLSW", gls, "GLSW(a=0.01)"), ("Tikhonov", tik, None)):
             errs = [(_err(m, Xk, yk)[0], m) for m in lst]
             best = min(errs, key=lambda t: t[0])
@@ -83,6 +88,11 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
                 dm = [m for m in lst if m.name == default][0]
                 res[f"rmse|{fam}-default"] = _err(dm, Xk, yk)[0]
             res[f"rmseall|{fam}"] = ";".join(f"{m.name}={e:.4f}" for e, m in errs)
+            if npair >= 10:
+                ep = [(_err(m, Xp, yp)[0], m) for m in lst]
+                res[f"rmseP|{fam}-oracle"] = min(e for e, _ in ep)
+                if default:
+                    res[f"rmseP|{fam}-default"] = [e for e, m in ep if m.name == default][0]
         # master error on master test items
         res["rmse_master_on_master"] = _err(base, fl.X[mt], fl.y[mt])[0] if mt.sum() > 2 else np.nan
         res["rmse_master_cv"] = float(np.sqrt(base.info["mse_cv"][base.info["lv"] - 1]))
@@ -110,6 +120,8 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
                 mc = M.LinearModel(m.b0 - off, m.b, m.name + "+LFBC")
                 r, b, s = _err(mc, Xk, yk)
                 res[f"rmse|{m.name}+LFBC"], res[f"bias|{m.name}+LFBC"] = r, b
+                if npair >= 10:
+                    res[f"rmseP|{m.name}+LFBC"] = _err(mc, Xp, yp)[0]
                 # predicted risk after correction: remove the squared mean term
                 q = np.mean((Dk @ m.b) ** 2) - off ** 2
                 from src.fleet.risk import noise_term
@@ -117,3 +129,10 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
                 res[f"predK|{m.name}+LFBC"] = float(np.sqrt(max(pr, 1e-12)))
         rows.append(res)
     return pd.DataFrame(rows)
+
+
+def choose_master(fl: Fleet) -> str:
+    """Master = unit sharing the most items with other units (pre-registered rule, label-free)."""
+    cov = fl.coverage() > 0
+    multi = cov[cov.sum(axis=1) >= 2]
+    return str(multi.sum(axis=0).idxmax())
