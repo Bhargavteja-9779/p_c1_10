@@ -122,7 +122,7 @@ def _unit_groups(units, k, seed):
     return [set(uu[i::k].tolist()) for i in range(k)], k
 
 
-def fr_pls(X, y, groups, D, units, Sigma0, r0, A=20, k=5, seed=0, tau2=1.0, name="FR-PLS"):
+def fr_pls(X, y, groups, D, units, Sigma0, r0, A=20, k=5, seed=0, tau2=1.0, name="FR-PLS", ditems=None):
     """Fleet-risk-minimising PLS with LV selected by unit-held-out cross-validated fleet risk.
 
     In fold f the model is fitted without master fold f and without the D rows of unit group g_f; the master
@@ -131,21 +131,30 @@ def fr_pls(X, y, groups, D, units, Sigma0, r0, A=20, k=5, seed=0, tau2=1.0, name
     from src.fleet.risk import noise_term
 
     folds = _folds(groups, k, seed)
-    ugr, ku = _unit_groups(units, len(folds), seed)
+    nf = len(folds)
+    n_units = len(np.unique(units))
+    if n_units >= 3:  # hold out whole units (population sampling unit)
+        ugr, ku = _unit_groups(units, nf, seed)
+        dfold = np.full(len(units), -1)
+        for f in range(nf):
+            dfold[np.isin(units, list(ugr[f % ku]))] = f if f < ku else -1
+    else:  # too few units: hold out paired items instead (still no reuse of a difference row)
+        ditems = np.asarray(ditems) if ditems is not None else np.arange(len(units)).astype(str)
+        ui = np.random.default_rng(seed).permutation(np.unique(ditems))
+        fmap = {it: j % nf for j, it in enumerate(ui)}
+        dfold = np.array([fmap[it] for it in ditems])
     A = int(min(A, X.shape[1], min(len(tr) for tr, _ in folds) - 1))
     sse = np.zeros(A)
     qsum, qn = {}, {}
     for f, (tr, te) in enumerate(folds):
-        held = ugr[f % ku] if ku > 1 else set()
-        keep = ~np.isin(units, list(held))
-        b0, B = _fit_aug(X[tr], y[tr], D[keep], units[keep], A, tau2)
+        held = dfold == f
+        b0, B = _fit_aug(X[tr], y[tr], D[~held], units[~held], A, tau2)
         P = b0[None, :] + X[te] @ B
         sse += ((P - y[te][:, None]) ** 2).sum(0)
-        evalu = held if held else set(np.unique(units).tolist())
-        for u in evalu:
-            Pu = D[units == u] @ B
-            qsum[u] = qsum.get(u, 0) + (Pu ** 2).mean(0)
-            qn[u] = qn.get(u, 0) + 1
+        for u in np.unique(units[held]):
+            Pu = D[held & (units == u)] @ B
+            qsum[u] = qsum.get(u, 0) + (Pu ** 2).sum(0)
+            qn[u] = qn.get(u, 0) + len(Pu)
     mse = sse / len(y)
     q = np.mean([qsum[u] / qn[u] for u in qsum], axis=0)
     b0, B = _fit_aug(X, y, D, units, A, tau2)

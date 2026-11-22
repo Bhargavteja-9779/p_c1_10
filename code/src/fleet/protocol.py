@@ -65,7 +65,7 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
         res = {"dataset": fl.name, "master": master, "seed": seed, "target": k, "n_fleet": len(F), "n_D": len(D),
                "n_test_scans": int(te.sum()), "n_test_paired_items": int(npair), "n_test_items": int(len(np.unique(fl.item[te]))), "n_cal": int(cm.sum())}
         models = [base, M.fr_lv(base, D, Du, Sigma0, r0)]
-        models.append(M.fr_pls(Xc, yc, gc, D, Du, Sigma0, r0, A=A, seed=seed))
+        models.append(M.fr_pls(Xc, yc, gc, D, Du, Sigma0, r0, A=A, seed=seed, ditems=Di))
         # labelled pooled reference: fleet scans of transfer items WITH labels
         fm = np.isin(fl.unit, F) & np.isin(fl.item, list(T))
         models.append(M.pooled_pls(Xc, yc, gc, fl.X[fm], fl.y[fm], fl.item[fm], A=A, seed=seed))

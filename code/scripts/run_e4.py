@@ -46,14 +46,14 @@ def run(fl, tag, seeds=(0, 1, 2), Ns=(1, 2, 4, 8, 99), ms=(3, 5, 10, 20, 999), m
                         for u in F:
                             its = tc[u]
                             items |= set(rng.choice(its, size=min(g, len(its)), replace=False).tolist())
-                    D, Du, _, r0 = paired_differences(fl, master, Fs, items)
-                    m = M.fr_pls(Xc, yc, gc, D, Du, S0, r0, seed=seed)
+                    D, Du, Di, r0 = paired_differences(fl, master, Fs, items)
+                    m = M.fr_pls(Xc, yc, gc, D, Du, S0, r0, seed=seed, ditems=Di)
                     rows.append({'tag': tag, 'seed': seed, 'target': k, 'curve': kind, 'value': g, 'n_units': len(Fs),
                                  'n_D': len(D), 'rmseP_FRPLS': rm(m, Xp, yp), 'rmseP_master': rm(base, Xp, yp),
                                  'predF_FRPLS': float(np.sqrt(m.info['risk_cv'][m.info['lv'] - 1]))})
             # --- E3b: target paired items for LFBC + unit-specific risk (master PLS and FR-PLS with full fleet)
-            D, Du, _, r0 = paired_differences(fl, master, F, T)
-            frp = M.fr_pls(Xc, yc, gc, D, Du, S0, r0, seed=seed)
+            D, Du, Di, r0 = paired_differences(fl, master, F, T)
+            frp = M.fr_pls(Xc, yc, gc, D, Du, S0, r0, seed=seed, ditems=Di)
             for mod, mse0 in ((base, base.info['mse_cv'][base.info['lv'] - 1]), (frp, frp.info['mse_cv'][frp.info['lv'] - 1])):
                 its_k = tc[k]
                 for g in mk:

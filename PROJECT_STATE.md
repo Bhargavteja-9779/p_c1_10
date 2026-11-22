@@ -37,22 +37,22 @@ UCT-LMIR ACA 2026; Talanta 2026 group-conformal (intervals); Kayaoglu & Erdem (A
   2,106 soils x up to 8 of 9 units x 6 reps; CC BY 4.0, doi:10.5281/zenodo.13122321).
 
 ## Status
-- [x] Phase 0 journal selection
-- [x] Topic selection (fleet calibration)
-- [~] Method module code/src/fleet/ WRITTEN (data.py, risk.py, methods.py, builders.py, protocol.py); not yet tested  <-- NEXT
-- [ ] Experiments E1-E8 (see EXPERIMENT_LOG.md)
-- [ ] Manuscript (ACA format), figures, SI
-- [ ] Internal review cycles, final packaging
+- [x] Phase 0 journal selection; [x] topic (fleet calibration); [x] novelty audit (literature/novelty_audit.md:
+      items 1,3,4 novel; item 2 partly pre-empted by Kalivas Tikhonov -> claim theory-fixed weight + fleet pooling +
+      FR LV selection; cite Grelet 2017 (66 milk MIR), Mitu 2024 (5 NeoSpectra), Ren 2026 CILS)
+- [x] Method module + 17 unit tests pass
+- [~] E1-E3 grid running: code/scripts/run_e1e2.py {mango,neo,corn} -> results/e1e2/*.csv (skips finished files)
+- [ ] E4 learning curves: code/scripts/run_e4.py 2016 2017 2018 oc   (run AFTER e1e2 finishes)
+- [x] E7 mechanism: results/e7/unit_effect_decomposition.csv (mango: offset+gain+shift explain ~90%; neo ~27%, tiny effects)
+- [ ] E6 simulation figure (optional), figures, manuscript (sections in manuscript/sections/; 01_intro, 02_theory drafted)
+- [ ] internal review, final packaging (docx via pandoc + CSL in manuscript/tools)
+
+## Early findings (mango 2015, preliminary)
+- Label-free unit risk for master PLS: r=0.86 vs realised, median pred/real 0.99, MAPE 8%.
+- FR-PLS halves master RMSE (median ratio 0.51), ~= labelled pooled PLS, EPO/GLSW oracle; Tikhonov-oracle (uses
+  target labels to tune) ~10% better. FR-PLS+LFBC best label-free.
 
 ## Exact next step (resume here)
-1. Re-download data if data/raw missing: `cd code && pip install numpy scipy scikit-learn matplotlib pytest statsmodels pandas && python -m src.data.download`
-2. Debug `python scripts/smoke.py` (mango 2017, master 15006): run_scenario returned an EMPTY DataFrame -> no target
-   passed the filters (check split_items: units' test items/ transfer counts; likely min_test or the 'E' set). Fix,
-   then sanity-check predicted fleet risk (predF) vs realised RMSE per target.
-3. Add unit tests for the identity e_k = e_0bar + b'D and the risk estimator (simulation with known Sigma).
-4. Experiments: E1 risk-prediction validity (mango 2016/2017/2018 + NeoSpectra oc/clay/ph/n/cec/sand + corn), 5 seeds;
-   E2 method comparison (FR-PLS vs master/pooled/EPO/GLSW/Tikhonov oracle); E3 unit qualification (scenario B,
-   LFBC); E4 learning curves (N fleet units, m paired items); E5 cross-season deployment; E6 simulation.
-5. A background literature agent was writing literature/novelty_audit.md + literature/references_verified.json
-   (may be missing if the session ended; re-run the audit if absent).
-6. Manuscript in ACA format (manuscript/), authors per 'Fixed user requirements'.
+1. If results/e1e2 incomplete: rerun missing jobs (script skips finished): `cd code && nohup python scripts/run_e1e2.py mango 5 &` (also neo 5, corn 20).
+2. `python scripts/analyse_e1e2.py` -> results/e1e2/summary/.
+3. Run E4 (`python scripts/run_e4.py 2016 2017 2018 oc`), make figures, write remaining manuscript sections.
