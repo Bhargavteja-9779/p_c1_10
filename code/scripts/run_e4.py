@@ -7,7 +7,7 @@ from src.fleet import builders as B, methods as M
 from src.fleet.data import paired_differences, replicate_cov
 from src.fleet.protocol import split_items, choose_master, _lfbc_offset_var
 from src.fleet.risk import fleet_risk, noise_term
-OUT = '../results/e4_v2'; os.makedirs(OUT, exist_ok=True)
+OUT = '../results/e4_v3'; os.makedirs(OUT, exist_ok=True)
 
 
 def rm(m, X, y):
@@ -64,12 +64,15 @@ def run(fl, tag, seeds=(0, 1, 2), Ns=(1, 2, 4, 8, 99), ms=(3, 5, 10, 20, 999), m
                         continue
                     for rep in range(10):
                         sub = set(rng.choice(its_k, size=g, replace=False).tolist())
-                        Dk, Duk, _, r0k = paired_differences(fl, master, [k], sub)
+                        Dk, Duk, Dik_, r0k = paired_differences(fl, master, [k], sub)
                         pk = Dk @ mod.b
                         off = float(np.mean(pk))
                         q = np.mean(pk ** 2)
                         predK = np.sqrt(max(mse0 + q - noise_term(mod.b, S0, r0k)[0], 1e-12))
-                        predKc = np.sqrt(max(mse0 + q - off ** 2 - noise_term(mod.b, S0, r0k)[0] + vo / g, 1e-12))
+                        dfp = pd.DataFrame({'i': Dik_, 'p': pk}); im = dfp.groupby('i').p.mean()
+                        v_within = float(np.mean((dfp.p - dfp.i.map(im)) ** 2))
+                        v_between = float(im.var(ddof=1)) if len(im) >= 2 else vo
+                        predKc = np.sqrt(max(mse0 - noise_term(mod.b, S0, r0k)[0] + v_within + v_between + vo / g, 1e-12))
                         mc = M.LinearModel(mod.b0 - off, mod.b)
                         rowsB.append({'tag': tag, 'seed': seed, 'target': k, 'model': mod.name, 'm_target': g, 'rep': rep,
                                       'rmseP': rm(mod, Xp, yp), 'rmseP_LFBC': rm(mc, Xp, yp), 'predK': predK, 'predK_LFBC': predKc,
