@@ -76,7 +76,7 @@ def run(fl, tag, seeds=(0, 1, 2), Ns=(1, 2, 4, 8, 99), ms=(3, 5, 10, 20, 999), m
                         mc = M.LinearModel(mod.b0 - off, mod.b)
                         rowsB.append({'tag': tag, 'seed': seed, 'target': k, 'model': mod.name, 'm_target': g, 'rep': rep,
                                       'rmseP': rm(mod, Xp, yp), 'rmseP_LFBC': rm(mc, Xp, yp), 'predK': predK, 'predK_LFBC': predKc,
-                                      'rmse_cv_master': float(np.sqrt(mse0))})
+                                      'rmse_cv_master': float(np.sqrt(base.info['mse_cv'][base.info['lv'] - 1]))})
         print(tag, seed, time.strftime('%X'), flush=True)
     pd.DataFrame(rows).to_csv(f'{OUT}/{tag}_curves.csv', index=False)
     pd.DataFrame(rowsB).to_csv(f'{OUT}/{tag}_targetm.csv', index=False)
