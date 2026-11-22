@@ -1,0 +1,286 @@
+{
+ "mango_seasons": [
+  "mango2015",
+  "mango2016",
+  "mango2017",
+  "mango2018",
+  "mango2019",
+  "mango2020"
+ ],
+ "mango_target_cases_all": 89,
+ "mango_target_cases_paired": 62,
+ "mango_physical_units_paired": 25,
+ "mango_physical_units_all": 30,
+ "mango_masters": [
+  "15014",
+  "15015",
+  "15016",
+  "16048",
+  "17033",
+  "17057"
+ ],
+ "soil_target_cases": 36,
+ "soil_units": 6,
+ "corn_target_cases": 8,
+ "corn_units": 2,
+ "E1unit|mango|PLS-master": {
+  "n": 62,
+  "r": 0.9809066822806695,
+  "rho": 0.9600110800533859,
+  "median_ratio": 0.9930268463441143,
+  "mdape_%": 6.889747057903667
+ },
+ "E1unit|mango|FR-LV": {
+  "n": 62,
+  "r": 0.8466609904680984,
+  "rho": 0.7895797134295284,
+  "median_ratio": 0.9888171771604621,
+  "mdape_%": 8.219720915183867
+ },
+ "E1unit|mango|FR-PLS": {
+  "n": 62,
+  "r": 0.8607490024478585,
+  "rho": 0.7265745007680492,
+  "median_ratio": 0.9894061622677589,
+  "mdape_%": 14.848034373671654
+ },
+ "E1unit|mango|PLS-master+LFBC": {
+  "n": 62,
+  "r": 0.8866344713410007,
+  "rho": 0.764297046158495,
+  "median_ratio": 1.0349516098004619,
+  "mdape_%": 11.010269134154314
+ },
+ "E1unit|mango|FR-PLS+LFBC": {
+  "n": 62,
+  "r": 0.665468868833693,
+  "rho": 0.7730099972299866,
+  "median_ratio": 0.9961983494308613,
+  "mdape_%": 10.143971202175791
+ },
+ "E1unit|soil|PLS-master": {
+  "n": 36,
+  "r": 0.9986160980988249,
+  "rho": 0.9685971685971686,
+  "median_ratio": 1.0047694780866794,
+  "mdape_%": 4.535835733375324
+ },
+ "E1unit|soil|FR-LV": {
+  "n": 36,
+  "r": 0.9986072775489806,
+  "rho": 0.9665379665379665,
+  "median_ratio": 1.0031921308654086,
+  "mdape_%": 5.530022515090476
+ },
+ "E1unit|soil|FR-PLS": {
+  "n": 36,
+  "r": 0.9979072964447256,
+  "rho": 0.9626769626769627,
+  "median_ratio": 1.0107093475549882,
+  "mdape_%": 4.319313081722758
+ },
+ "E1unit|soil|PLS-master+LFBC": {
+  "n": 36,
+  "r": 0.9985080630891904,
+  "rho": 0.9606177606177606,
+  "median_ratio": 1.0187136473988212,
+  "mdape_%": 5.231882580506149
+ },
+ "E1unit|soil|FR-PLS+LFBC": {
+  "n": 36,
+  "r": 0.9980374692807832,
+  "rho": 0.9531531531531532,
+  "median_ratio": 1.0156721205093895,
+  "mdape_%": 4.378999380190015
+ },
+ "E1unit|corn|PLS-master": {
+  "n": 8,
+  "r": 0.9999265399247604,
+  "rho": 1.0,
+  "median_ratio": 1.0050542741841033,
+  "mdape_%": 0.6637419198162868
+ },
+ "E1unit|corn|FR-LV": {
+  "n": 8,
+  "r": 0.9960150258552732,
+  "rho": 1.0,
+  "median_ratio": 1.0295719244884207,
+  "mdape_%": 6.4988835076274505
+ },
+ "E1unit|corn|FR-PLS": {
+  "n": 8,
+  "r": 0.9991380069895718,
+  "rho": 0.9523809523809524,
+  "median_ratio": 0.9548323374686452,
+  "mdape_%": 4.516766253135488
+ },
+ "E1unit|corn|PLS-master+LFBC": {
+  "n": 8,
+  "r": 0.9857126358300452,
+  "rho": 0.9285714285714287,
+  "median_ratio": 1.0618812257144858,
+  "mdape_%": 7.540124787259694
+ },
+ "E1unit|corn|FR-PLS+LFBC": {
+  "n": 8,
+  "r": 0.9987995719364738,
+  "rho": 0.9523809523809524,
+  "median_ratio": 0.9154566210276489,
+  "mdape_%": 8.454337897235114
+ },
+ "E1fleet|mango|PLS-master": {
+  "pred_mean": 2.4162873782386725,
+  "real_mean": 2.3993703616407243,
+  "ratio_median": 0.997755583790422,
+  "n_groups_dataset_x_seed": 30,
+  "range_coverage_%": 77.41935483870968,
+  "range_nominal_%": 80.92165898617509,
+  "n_cases": 310
+ },
+ "cross_over_quad|mango|PLS-master": -0.06603035317464687,
+ "cross_over_risk|mango|PLS-master": -0.057395761732037164,
+ "E1fleet|mango|FR-LV": {
+  "pred_mean": 1.5065179081035855,
+  "real_mean": 1.836273552650817,
+  "ratio_median": 0.86313082557202,
+  "n_groups_dataset_x_seed": 30,
+  "range_coverage_%": 60.967741935483865,
+  "range_nominal_%": 80.92165898617509,
+  "n_cases": 310
+ },
+ "cross_over_quad|mango|FR-LV": -0.04058932106435824,
+ "cross_over_risk|mango|FR-LV": -0.027636850889405852,
+ "E1fleet|mango|FR-PLS": {
+  "pred_mean": 1.1970220821188806,
+  "real_mean": 1.403774739306988,
+  "ratio_median": 0.8847943213986736,
+  "n_groups_dataset_x_seed": 30,
+  "range_coverage_%": 12.580645161290322,
+  "range_nominal_%": 80.92165898617509,
+  "n_cases": 310
+ },
+ "cross_over_quad|mango|FR-PLS": -0.2958988246170102,
+ "cross_over_risk|mango|FR-PLS": -0.03944080188660325,
+ "E1fleet|soil|PLS-master": {
+  "pred_mean": 6.793551216362204,
+  "real_mean": 6.899367838751504,
+  "ratio_median": 1.0146806215749502,
+  "n_groups_dataset_x_seed": 18,
+  "range_coverage_%": 37.03703703703704,
+  "range_nominal_%": 66.66666666666669,
+  "n_cases": 108
+ },
+ "cross_over_quad|soil|PLS-master": -0.012807485763444763,
+ "cross_over_risk|soil|PLS-master": -0.001523675102389882,
+ "E1fleet|soil|FR-LV": {
+  "pred_mean": 6.653530794673917,
+  "real_mean": 6.802685151910792,
+  "ratio_median": 0.9941330050889857,
+  "n_groups_dataset_x_seed": 18,
+  "range_coverage_%": 29.629629629629626,
+  "range_nominal_%": 66.66666666666669,
+  "n_cases": 108
+ },
+ "cross_over_quad|soil|FR-LV": 0.07608550061625313,
+ "cross_over_risk|soil|FR-LV": 0.006279411106159424,
+ "E1fleet|soil|FR-PLS": {
+  "pred_mean": 6.322962000173324,
+  "real_mean": 6.427230295619156,
+  "ratio_median": 0.9918409667312296,
+  "n_groups_dataset_x_seed": 18,
+  "range_coverage_%": 17.59259259259259,
+  "range_nominal_%": 66.66666666666669,
+  "n_cases": 108
+ },
+ "cross_over_quad|soil|FR-PLS": -0.11036144157484322,
+ "cross_over_risk|soil|FR-PLS": -0.010594755983837394,
+ "E1fleet|corn|PLS-master": {
+  "pred_mean": 1.2037661328316667,
+  "real_mean": 1.2080182343048396,
+  "ratio_median": 0.9978719973002902,
+  "n_groups_dataset_x_seed": 80,
+  "range_coverage_%": null,
+  "range_nominal_%": 0.0,
+  "n_cases": 160
+ },
+ "cross_over_quad|corn|PLS-master": -0.003578489036338686,
+ "cross_over_risk|corn|PLS-master": -0.003524490978917422,
+ "E1fleet|corn|FR-LV": {
+  "pred_mean": 0.40481672802693697,
+  "real_mean": 0.4195178659917448,
+  "ratio_median": 0.964440672647205,
+  "n_groups_dataset_x_seed": 80,
+  "range_coverage_%": null,
+  "range_nominal_%": 0.0,
+  "n_cases": 160
+ },
+ "cross_over_quad|corn|FR-LV": -0.6640772965705185,
+ "cross_over_risk|corn|FR-LV": -0.06100766897515775,
+ "E1fleet|corn|FR-PLS": {
+  "pred_mean": 0.21048541515202562,
+  "real_mean": 0.336
+  family    metric  PLS-master  FR-LV  FR-PLS  EPO-default  GLSW-default  EPO-FR  GLSW-FR  PLS-pooled (labelled)  EPO-oracle  GLSW-oracle  Tikhonov-oracle  PLS-master+LFBC  FR-LV+LFBC  FR-PLS+LFBC  EPO-FR+LFBC  GLSW-FR+LFBC  EPO-default+LFBC  GLSW-default+LFBC  PLS-pooled (labelled)+LFBC  PLS-master+PDS  FR-PLS+PDS  PLS-master+SBC(labelled)  FR-PLS+SBC(labelled)  n_cases
+0  mango    paired       2.392  1.823   1.409        2.246         2.283   1.556    1.510                  1.338       1.007        1.091            1.095            1.146       1.200        0.983        1.049         1.037             1.083              1.110                       0.943           1.049       1.051                     1.009                 0.866       62
+1  mango  all-test       2.342  2.209   1.906        2.297         2.221   1.888    2.190                  1.745       1.257        1.333            1.264            1.371       1.386        1.071        1.201         1.121             1.305              1.325                       1.022           1.440       1.210                     1.214                 1.002       89
+2   soil    paired       1.000  0.997   0.946        1.032         0.983   0.997    0.978                  0.917       0.989        0.939            0.943            0.975       0.960        0.923        0.973         0.943             0.999              0.962                       0.924           0.967       0.932                     0.964                 0.917       36
+3   corn    paired       1.346  0.480   0.376        0.445         0.416     NaN      NaN                  0.363       0.278        0.300            0.268            0.262       0.422        0.243          NaN           NaN             0.270              0.255                       0.234           0.250       0.249                     0.251                 0.247        8
+   family metric            A                           B  n_units  median_ratio  ci90_lo  ci90_hi  equivalent_10%  A_better_%      p  p_holm
+0   mango  rmseP       FR-PLS                  PLS-master       25         0.641    0.588    0.703           False      92.000  0.000   0.000
+1   mango  rmseP       FR-PLS                       FR-LV       25         0.789    0.672    0.850           False      96.000  0.000   0.000
+2   mango  rmseP       FR-PLS                 EPO-default       25         0.651    0.587    0.709           False      88.000  0.000   0.000
+3   mango  rmseP       FR-PLS                GLSW-default       25         0.679    0.597    0.692           False      92.000  0.000   0.000
+4   mango  rmseP       FR-PLS                      EPO-FR       25         0.857    0.820    0.938           False      80.000  0.000   0.000
+5   mango  rmseP       FR-PLS                     GLSW-FR       25         0.936    0.889    0.993           False      68.000  0.017   0.035
+6   mango  rmseP       FR-PLS       PLS-pooled (labelled)       25         1.081    0.981    1.173           False      44.000  0.312   0.312
+7   mango  rmseP       FR-PLS                  EPO-oracle       25         1.231    1.173    1.302           False       4.000  0.000   0.000
+8   mango  rmseP       FR-PLS                 GLSW-oracle       25         1.187    1.151    1.205           False       0.000  0.000   0.000
+9   mango  rmseP       FR-PLS             Tikhonov-oracle       25         1.182    1.134    1.241           False       0.000  0.000   0.000
+10  mango  rmseP  FR-PLS+LFBC             PLS-master+LFBC       25         0.898    0.873    0.912           False      92.000  0.000   0.000
+11  mango  rmseP  FR-PLS+LFBC                  FR-LV+LFBC       25         0.834    0.814    0.864           False      96.000  0.000   0.000
+12  mango  rmseP  FR-PLS+LFBC                 EPO-FR+LFBC       25         0.949    0.933    0.959            True      84.000  0.000   0.000
+13  mango  rmseP  FR-PLS+LFBC                GLSW-FR+LFBC       25         0.957    0.943    0.967            True      92.000  0.000   0.002
+14  mango  rmseP  FR-PLS+LFBC            EPO-default+LFBC       25         0.901    0.845    0.962           False      88.000  0.000   0.000
+15  mango  rmseP  FR-PLS+LFBC           GLSW-default+LFBC       25         0.910    0.871    0.928           False      88.000  0.000   0.000
+16  mango  rmseP  FR-PLS+LFBC  PLS-pooled (labelled)+LFBC       25         1.014    1.004    1.027            True      28.000  0.045   0.090
+17  mango  rmseP  FR-PLS+LFBC              PLS-master+PDS       25         0.976    0.912    0.987            True      76.000  0.004   0.017
+18  mango  rmseP  FR-PLS+LFBC                  FR-PLS+PDS       25         0.960    0.942    1.009            True      64.000  0.009   0.026
+19  mango  rmseP  FR-PLS+LFBC    PLS-master+SBC(labelled)       25         0.967    0.914    0.987            True      68.000  0.063   0.090
+20  mango  rmseP  FR-PLS+LFBC        FR-PLS+SBC(labelled)       25         1.114    1.063    1.131           False       0.000  0.000   0.000
+42   soil  rmseP       FR-PLS                  PLS-master        6         0.947    0.918    0.955            True     100.000  0.031   0.312
+43   soil  rmseP       FR-PLS                       FR-LV        6         0.955    0.950    0.961            True     100.000  0.031   0.312
+44   soil  rmseP       FR-PLS                 EPO-default        6         0.918    0.831    0.936           False     100.000  0.031   0.312
+45   soil  rmseP       FR-PLS                GLSW-default        6         0.963    0.955    0.990            True      83.333  0.062   0.312
+46   soil  rmseP       FR-PLS                      EPO-FR        6         0.947    0.912    0.960            True     100.000  0.031   0.312
+47   soil  rmseP       FR-PLS                     GLSW-FR        6         0.971    0.960    1.000            True      83.333  0.156   0.469
+48   soil  rmseP       FR-PLS       PLS-pooled (labelled)        6         1.018    0.999    1.049            True      33.333  0.219   0.469
+49   soil  rmseP       FR-PLS                  EPO-oracle        6         0.960    0.948    0.972            True     100.000  0.031   0.312
+50   soil  rmseP       FR-PLS                 GLSW-oracle        6         0.997    0.992    1.034            True      66.667  0.688   0.688
+51   soil  rmseP       FR-PLS             Tikhonov-oracle        6         1.007    1.001    1.021            True       0.000  0.031   0.312
+52   soil  rmseP  FR-PLS+LFBC             PLS-master+LFBC        6         0.958    0.944    0.969            True     100.000  0.031   0.344
+53   soil  rmseP  FR-PLS+LFBC                  FR-LV+LFBC        6         0.967    0.957    0.982            True     100.000  0.031   0.344
+54   soil  rmseP  FR-PLS+LFBC                 EPO-FR+LFBC        6         0.955    0.934    0.968            True     100.000  0.031   0.344
+55   soil  rmseP  FR-PLS+LFBC                GLSW-FR+LFBC        6         0.975    0.963    1.002            True      83.333  0.219   0.656
+56   soil  rmseP  FR-PLS+LFBC            EPO-default+LFBC        6         0.922    0.869    0.947           False     100.000  0.031   0.344
+57   soil  rmseP  FR-PLS+LFBC           GLSW-default+LFBC        6         0.967    0.958    0.992            True      83.333  0.062   0.344
+58   soil  rmseP  FR-PLS+LFBC  PLS-pooled (labelled)+LFBC        6         0.995    0.977    1.008            True      83.333  0.219   0.656
+59   soil  rmseP  FR-PLS+LFBC              PLS-master+PDS        6         0.961    0.951    0.977            True     100.000  0.031   0.344
+60   soil  rmseP  FR-PLS+LFBC                  FR-PLS+PDS        6         0.994    0.984    1.007            True      66.667  0.562   0.656
+61   soil  rmseP  FR-PLS+LFBC    PLS-master+SBC(labelled)        6         0.974    0.954    0.979            True     100.000  0.031   0.344
+62   soil  rmseP  FR-PLS+LFBC        FR-PLS+SBC(labelled)        6         1.007    1.001    1.011            True      16.667  0.156   0.625
+63   corn  rmseP       FR-PLS                  PLS-master        8         0.271    0.254    0.283           False     100.000  0.008   0.062
+64   corn  rmseP       FR-PLS                       FR-LV        8         0.675    0.603    0.813           False      87.500  0.078   0.234
+65   corn  rmseP       FR-PLS                 EPO-default        8         0.874    0.813    0.975           False      75.000  0.148   0.297
+66   corn  rmseP       FR-PLS                GLSW-default        8         0.895    0.832    0.962           False      87.500  0.023   0.094
+67   corn  rmseP       FR-PLS       PLS-pooled (labelled)        8         0.950    0.885    1.085           False      62.500  0.742   0.742
+68   corn  rmseP       FR-PLS                  EPO-oracle        8         1.196    1.116    1.424           False       0.000  0.008   0.062
+69   corn  rmseP       FR-PLS                 GLSW-oracle        8         1.195    1.136    1.279           False       0.000  0.008   0.062
+70   corn  rmseP       FR-PLS             Tikhonov-oracle        8         1.217    1.134    1.413           False       0.000  0.008   0.062
+71   corn  rmseP  FR-PLS+LFBC             PLS-master+LFBC        8         0.967    0.833    1.007           False      75.000  0.148   0.445
+72   corn  rmseP  FR-PLS+LFBC                  FR-LV+LFBC        8         0.625    0.510    0.685           False     100.000  0.008   0.070
+73   corn  rmseP  FR-PLS+LFBC            EPO-default+LFBC        8         0.937    0.836    0.952           False     100.000  0.008   0.070
+74   corn  rmseP  FR-PLS+LFBC           GLSW-default+LFBC        8         0.978    0.826    1.022           False      50.000  0.312   0.625
+75   corn  rmseP  FR-PLS+LFBC  PLS-pooled (labelled)+LFBC        8         1.008    0.979    1.050            True      37.500  0.641   0.641
+76   corn  rmseP  FR-PLS+LFBC              PLS-master+PDS        8         0.980    0.925    0.993            True      87.500  0.039   0.195
+77   corn  rmseP  FR-PLS+LFBC                  FR-PLS+PDS        8         0.976    0.958    0.988            True      87.500  0.016   0.109
+78   corn  rmseP  FR-PLS+LFBC    PLS-master+SBC(labelled)        8         0.945    0.883    0.996           False      75.000  0.078   0.312
+79   corn  rmseP  FR-PLS+LFBC        FR-PLS+SBC(labelled)        8         0.987    0.954    0.991            True      87.500  0.016   0.109

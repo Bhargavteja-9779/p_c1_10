@@ -105,18 +105,20 @@ tm = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v3/mango*_targe
 apply_style()
 fig, axs = plt.subplots(1, 2, figsize=(WIDTH['double'], 70 * MM))
 ax = axs[0]
-c = cur[cur.curve == 'N'].groupby(['tag', 'target', 'n_units']).mean(numeric_only=True).reset_index()
-c['nb'] = np.where(c.value == 99, 'all', c.value.astype(int).astype(str))
-order = ['1', '2', '4', '8', 'all']
-agg = c.groupby('nb').agg(real=('rmseP_FRPLS', rms), pred=('predF_FRPLS', rms), master=('rmseP_master', rms)).reindex(order)
-xs = np.arange(len(order))
-for i, (col, lab) in enumerate([('real', 'FR-PLS, realised'), ('pred', 'FR-PLS, predicted (label-free)'), ('master', 'Master PLS, realised')]):
+import json as _json
+E4F = _json.load(open('../results/summary_v3/facts_e4.json'))
+cv = pd.DataFrame(E4F['curves']); cv = cv[cv.curve == 'N'].sort_values('value')
+xs = np.arange(len(cv))
+for i, (col, lab) in enumerate([('FRPLS', 'FR-PLS, realised'), ('pred', 'FR-PLS, predicted (target-label-free)'), ('master', 'Master PLS, realised')]):
     st = series_style([1, 0, 4][i])
-    ax.plot(xs, agg[col], color=st['color'], marker=st['marker'], label=lab, ls='-' if i != 1 else '--')
-ax.set_xticks(xs); ax.set_xticklabels(['1', '2', '4', '8', 'all\n(≤ 22)'])
+    ax.plot(xs, cv[col], color=st['color'], marker=st['marker'], label=lab, ls='-' if i != 1 else '--')
+    if col in ('FRPLS', 'pred'):
+        ax.fill_between(xs, cv[col + '_lo'], cv[col + '_hi'], color=st['color'], alpha=0.15, lw=0)
+agg = cv
+ax.set_xticks(xs); ax.set_xticklabels(['1', '2', '4', '8', 'all\n(9–11)'])
 ax.set_xlabel('Fleet units contributing paired spectra, N'); ax.set_ylabel('RMSEP on unseen units (%DM)')
-ax.set_ylim(0, None); ax.legend(loc='upper right'); panel_letter(ax, 'a')
-tabA = agg.reset_index()
+ax.set_ylim(0, None); ax.legend(loc='lower left', fontsize=6); panel_letter(ax, 'a')
+tabA = agg.reset_index(drop=True)
 ax = axs[1]
 t = tm.groupby(['tag', 'target', 'model', 'm_target']).mean(numeric_only=True).reset_index()
 tabB = []
@@ -146,4 +148,20 @@ ax.set_xscale('log'); plain_log(ax, 'x'); ax.set_ylim(0, 1.02)
 ax.set_xlabel('Size of mean unit difference\n(RMS / SD of master mean spectrum)'); ax.set_ylabel('Offset-free difference explained\nby gain + shift + bandwidth (R²)')
 ax.legend(loc='lower left', fontsize=6)
 save(fig, f'{FIG}/fig5_unit_effects', e7)
+# ---------------- Fig 6: fleet-level error of the Tikhonov family vs weight (tau2 = 1: FR-PLS)
+F3 = _json.load(open('../results/summary_v3/facts.json'))
+apply_style()
+fig, ax = plt.subplots(figsize=(WIDTH['single'], 62 * MM))
+rows6 = []
+for i, (key, lab) in enumerate([('tau_curve_paired', 'Mango, paired test fruit (%DM)'), ('tau_curve_all', 'Mango, all test fruit (%DM)')]):
+    t = sorted((float(k), v) for k, v in F3[key].items())
+    st = series_style([1, 0][i])
+    ax.plot([a for a, _ in t], [b for _, b in t], color=st['color'], marker=st['marker'], label=lab)
+    rows6 += [{'curve': key, 'tau2': a, 'rms_rmsep': b} for a, b in t]
+ax.axvline(1, color=INK['muted'], lw=0.8, ls='--')
+ax.set_xscale('log'); ax.set_xticks([0.01, 0.1, 1, 10, 100]); ax.xaxis.set_major_formatter(PLAIN); ax.xaxis.set_minor_formatter(NullFormatter())
+ax.text(1.12, 1.47, 'theory\nτ² = 1', fontsize=6, color=INK['secondary'], va='bottom')
+ax.set_xlabel('Weight multiplier τ² of the paired-difference block'); ax.set_ylabel('RMS of RMSEP on unseen units (%DM)')
+ax.legend(loc='upper right', fontsize=6)
+save(fig, f'{FIG}/fig6_tau_curve', pd.DataFrame(rows6))
 print('figures written')
