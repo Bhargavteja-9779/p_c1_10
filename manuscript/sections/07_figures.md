@@ -12,10 +12,14 @@
 
 ![](figures/fig3_methods.png){width=100%}
 
-**Fig. 4.** Design curves for the mango fleet (seasons 2016–2018, 33 target units). (a) RMSEP of FR-PLS on unseen units and its label-free prediction against the number of fleet units contributing paired spectra (three random unit subsets per size). (b) Qualification of a new unit: RMSEP after label-free bias correction (LFBC) and its prediction against the number of items scanned on the new unit and the master (ten random draws per size); dotted lines, uncorrected RMSEP.
+**Fig. 4.** Design curves for the mango fleet (seasons 2016–2018, 33 target units). (a) RMSEP of FR-PLS on unseen units and its target-label-free prediction against the number of fleet units contributing paired spectra (three random unit subsets per size; full fleets 9–11 units); bands, 90 % bootstrap intervals over target units. (b) Qualification of a new unit: RMSEP after label-free bias correction (LFBC) and its prediction against the number of items scanned on the new unit and the master (ten random draws per size); dotted lines, uncorrected RMSEP.
 
 ![](figures/fig4_design_curves.png){width=100%}
 
 **Fig. 5.** Physical structure of unit effects. Fraction of each unit's mean paired difference spectrum (unit minus master, raw absorbance) explained by offset, gain, wavelength-shift and bandwidth terms, against the size of the difference. Mango units: one point per unit and season (2016–2018); soil units: one point per unit.
 
 ![](figures/fig5_unit_effects.png){width=60%}
+
+**Fig. 6.** Fleet-level error on unseen mango units of the Tikhonov family of calibrations, Eq. (6) with weight $\tau^2 w_{ik}$, at the latent-variable number of FR-PLS (RMS over 62 paired-test and 89 all-test unit × season cases). $\tau^2 = 1$ is FR-PLS, whose weight follows from the fleet risk.
+
+![](figures/fig6_tau_curve.png){width=60%}

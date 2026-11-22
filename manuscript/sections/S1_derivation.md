@@ -20,37 +20,64 @@ The master calibration items are split into 5 grouped folds. When the fleet has 
 
 ## S3. Supplementary Table S1
 
-**Table S1.** Evaluation of the target-label-free qualification rule on the mango fleet (seasons 2016–2018, 33 target units, 10 random draws of m paired fruit per unit). A unit deployment is fit for use if its realised RMSEP ≤ Spec × master cross-validated RMSE.
+**Table S1.** Evaluation of the target-label-free qualification rule on the mango fleet (seasons 2016–2018, 33 target units, 10 random draws of m paired fruit per unit). A unit deployment is fit for use if its realised RMSEP ≤ Spec × the master PLS cross-validated RMSE.
 
 | Model | m | Spec | Unfit without rule (%) | Correct accept decisions (%) | False accept (%) | False reject (%) | Accepted (%) | Bias-corrected (%) | Rejected (%) | Deployed out of spec (%) |
 |---|---|---|---|---|---|---|---|---|---|---|
-| FR-PLS | 1 | 1.2 | 57.6 | 76.3 | 23.0 | 24.8 | 45.2 | 54.5 | 0.3 | 32.2 |
-| FR-PLS | 1 | 1.5 | 39.4 | 79.2 | 29.2 | 15.3 | 62.8 | 37.2 | 0.0 | 16.5 |
-| FR-PLS | 1 | 2.0 | 16.2 | 90.9 | 28.8 | 5.3 | 84.0 | 16.0 | 0.0 | 5.1 |
-| FR-PLS | 3 | 1.2 | 57.6 | 78.8 | 15.8 | 28.6 | 39.4 | 56.2 | 4.4 | 24.4 |
-| FR-PLS | 3 | 1.5 | 39.4 | 84.7 | 22.8 | 10.3 | 63.3 | 35.4 | 1.3 | 10.3 |
-| FR-PLS | 3 | 2.0 | 16.2 | 93.9 | 20.6 | 3.3 | 84.4 | 15.3 | 0.3 | 3.4 |
-| FR-PLS | 5 | 1.2 | 57.6 | 79.9 | 15.3 | 26.7 | 39.9 | 53.8 | 6.3 | 22.0 |
-| FR-PLS | 5 | 1.5 | 39.4 | 87.3 | 19.7 | 8.2 | 63.4 | 35.8 | 0.8 | 9.1 |
-| FR-PLS | 5 | 2.0 | 16.2 | 94.4 | 16.2 | 3.5 | 83.5 | 16.5 | 0.0 | 2.6 |
-| FR-PLS | 10 | 1.2 | 57.6 | 80.4 | 15.3 | 25.5 | 40.4 | 54.5 | 5.1 | 20.1 |
-| FR-PLS | 10 | 1.5 | 39.4 | 90.5 | 15.9 | 5.3 | 63.6 | 35.8 | 0.6 | 6.8 |
-| FR-PLS | 10 | 2.0 | 16.2 | 95.8 | 12.5 | 2.7 | 83.6 | 16.4 | 0.0 | 2.0 |
-| FR-PLS | 20 | 1.2 | 56.2 | 81.0 | 13.5 | 26.0 | 40.0 | 54.2 | 5.8 | 18.4 |
-| FR-PLS | 20 | 1.5 | 38.5 | 92.0 | 14.1 | 4.2 | 64.3 | 34.4 | 1.4 | 5.5 |
-| FR-PLS | 20 | 2.0 | 16.7 | 95.6 | 8.1 | 3.6 | 81.7 | 18.3 | 0.0 | 1.4 |
-| PLS-master | 1 | 1.2 | 81.8 | 79.8 | 18.8 | 26.7 | 28.7 | 44.1 | 27.2 | 47.7 |
-| PLS-master | 1 | 1.5 | 65.7 | 82.3 | 18.8 | 15.6 | 41.3 | 58.2 | 0.5 | 30.3 |
-| PLS-master | 1 | 2.0 | 41.4 | 83.0 | 21.5 | 13.8 | 59.4 | 40.6 | 0.0 | 13.2 |
-| PLS-master | 3 | 1.2 | 81.8 | 87.6 | 10.9 | 19.4 | 23.5 | 54.2 | 22.2 | 35.1 |
-| PLS-master | 3 | 1.5 | 65.7 | 89.6 | 9.2 | 12.6 | 36.1 | 56.4 | 7.6 | 16.6 |
-| PLS-master | 3 | 2.0 | 41.4 | 89.4 | 14.9 | 7.6 | 60.3 | 38.8 | 0.9 | 8.4 |
-| PLS-master | 5 | 1.2 | 81.8 | 88.4 | 10.0 | 18.9 | 22.9 | 53.3 | 23.7 | 32.2 |
-| PLS-master | 5 | 1.5 | 65.7 | 90.0 | 8.9 | 12.1 | 36.1 | 55.2 | 8.8 | 14.1 |
-| PLS-master | 5 | 2.0 | 41.4 | 90.4 | 12.7 | 7.4 | 59.5 | 39.2 | 1.3 | 6.4 |
-| PLS-master | 10 | 1.2 | 81.8 | 88.8 | 8.8 | 22.2 | 21.3 | 55.1 | 23.6 | 26.1 |
-| PLS-master | 10 | 1.5 | 65.7 | 91.0 | 6.6 | 13.5 | 34.0 | 56.9 | 9.1 | 11.0 |
-| PLS-master | 10 | 2.0 | 41.4 | 93.9 | 6.8 | 5.5 | 58.2 | 40.8 | 1.0 | 3.6 |
-| PLS-master | 20 | 1.2 | 81.2 | 90.4 | 7.2 | 20.0 | 20.8 | 53.2 | 25.9 | 22.1 |
-| PLS-master | 20 | 1.5 | 65.6 | 92.2 | 5.7 | 11.8 | 34.1 | 55.2 | 10.7 | 8.4 |
-| PLS-master | 20 | 2.0 | 42.7 | 95.4 | 6.6 | 3.1 | 58.3 | 41.1 | 0.5 | 3.8 |
+| FR-PLS | 1 | 1.25 | 54.5 | 75.2 | 23.7 | 26.2 | 46.5 | 46.6 | 7.0 | 30.8 |
+| FR-PLS | 1 | 1.50 | 40.4 | 79.0 | 31.5 | 13.9 | 64.0 | 35.7 | 0.3 | 18.0 |
+| FR-PLS | 1 | 2.00 | 15.2 | 90.6 | 32.7 | 5.2 | 85.4 | 14.6 | 0.0 | 5.4 |
+| FR-PLS | 3 | 1.25 | 54.5 | 79.9 | 15.2 | 26.0 | 41.9 | 47.9 | 10.2 | 22.8 |
+| FR-PLS | 3 | 1.50 | 40.4 | 86.5 | 24.5 | 6.1 | 65.9 | 31.9 | 2.2 | 11.2 |
+| FR-PLS | 3 | 2.00 | 15.2 | 92.7 | 30.0 | 3.2 | 86.7 | 12.9 | 0.4 | 4.6 |
+| FR-PLS | 5 | 1.25 | 54.5 | 78.9 | 15.0 | 28.4 | 40.7 | 49.2 | 10.1 | 19.7 |
+| FR-PLS | 5 | 1.50 | 40.4 | 88.2 | 21.2 | 5.4 | 64.9 | 33.3 | 1.7 | 9.8 |
+| FR-PLS | 5 | 2.00 | 15.2 | 94.0 | 25.3 | 2.5 | 86.6 | 13.3 | 0.1 | 3.8 |
+| FR-PLS | 10 | 1.25 | 54.5 | 81.6 | 12.8 | 25.1 | 41.0 | 51.5 | 7.5 | 17.4 |
+| FR-PLS | 10 | 1.50 | 40.4 | 90.9 | 17.5 | 3.4 | 64.6 | 34.3 | 1.0 | 7.8 |
+| FR-PLS | 10 | 2.00 | 15.2 | 93.9 | 24.0 | 2.9 | 86.1 | 13.9 | 0.0 | 3.6 |
+| FR-PLS | 20 | 1.25 | 53.1 | 83.2 | 10.4 | 24.0 | 41.1 | 51.1 | 7.7 | 15.9 |
+| FR-PLS | 20 | 1.50 | 39.6 | 92.6 | 15.3 | 2.2 | 65.1 | 33.1 | 1.8 | 6.2 |
+| FR-PLS | 20 | 2.00 | 15.6 | 94.3 | 16.0 | 3.8 | 83.6 | 16.4 | 0.0 | 2.5 |
+| PLS-master | 1 | 1.25 | 81.8 | 79.8 | 18.8 | 26.7 | 28.7 | 13.6 | 57.7 | 44.4 |
+| PLS-master | 1 | 1.50 | 65.7 | 82.3 | 18.8 | 15.6 | 41.3 | 35.7 | 23.0 | 27.3 |
+| PLS-master | 1 | 2.00 | 41.4 | 83.0 | 21.5 | 13.8 | 59.4 | 40.6 | 0.0 | 13.2 |
+| PLS-master | 3 | 1.25 | 81.8 | 87.6 | 10.9 | 19.4 | 23.5 | 46.1 | 30.4 | 32.7 |
+| PLS-master | 3 | 1.50 | 65.7 | 89.6 | 9.2 | 12.6 | 36.1 | 52.0 | 11.9 | 15.8 |
+| PLS-master | 3 | 2.00 | 41.4 | 89.4 | 14.9 | 7.6 | 60.3 | 36.9 | 2.8 | 8.2 |
+| PLS-master | 5 | 1.25 | 81.8 | 88.4 | 10.0 | 18.9 | 22.9 | 47.6 | 29.5 | 29.7 |
+| PLS-master | 5 | 1.50 | 65.7 | 90.0 | 8.9 | 12.1 | 36.1 | 51.8 | 12.1 | 12.8 |
+| PLS-master | 5 | 2.00 | 41.4 | 90.4 | 12.7 | 7.4 | 59.5 | 38.5 | 2.0 | 6.4 |
+| PLS-master | 10 | 1.25 | 81.8 | 88.8 | 8.8 | 22.2 | 21.3 | 50.9 | 27.8 | 25.2 |
+| PLS-master | 10 | 1.50 | 65.7 | 91.0 | 6.6 | 13.5 | 34.0 | 55.6 | 10.4 | 10.3 |
+| PLS-master | 10 | 2.00 | 41.4 | 93.9 | 6.8 | 5.5 | 58.2 | 40.6 | 1.2 | 3.7 |
+| PLS-master | 20 | 1.25 | 81.2 | 90.4 | 7.2 | 20.0 | 20.8 | 50.6 | 28.5 | 21.1 |
+| PLS-master | 20 | 1.50 | 65.6 | 92.2 | 5.7 | 11.8 | 34.1 | 53.9 | 12.1 | 7.8 |
+| PLS-master | 20 | 2.00 | 42.7 | 95.4 | 6.6 | 3.1 | 58.3 | 40.8 | 0.8 | 3.7 |
+
+## S4. Simulation study
+
+Fleets were simulated with 260 items whose master spectra are linear mixtures of six latent profiles (60 channels; reference value a linear function of two latent scores plus noise, SD 0.15). Each of 93 units added a random additive effect (fleet mean offset plus a random combination of three unit-effect profiles), a random gain (SD 3 %) and scan noise (two scans per item and unit). Unit 0 was the master (120 calibration items), units 1–N formed the fleet (paired transfer items: m of 60), and 60 further units were unseen; realised errors were measured on 80 test items on the unseen units. Thirty independent fleets were simulated. Table S2 gives the median ratio of predicted to realised fleet RMSEP.
+
+**Table S2.** Median ratio predicted/realised fleet RMSEP on 60 unseen simulated units (30 simulated fleets).
+
+| Fleet units N | Paired items m | Master PLS | FR-PLS |
+|---|---|---|---|
+| 1 | 5 | 1.036 | 0.968 |
+| 1 | 20 | 1.036 | 0.963 |
+| 1 | 60 | 1.029 | 0.958 |
+| 2 | 5 | 1.025 | 0.989 |
+| 2 | 20 | 1.023 | 0.998 |
+| 2 | 60 | 1.022 | 1.005 |
+| 4 | 5 | 1.013 | 1.002 |
+| 4 | 20 | 1.011 | 1.006 |
+| 4 | 60 | 1.006 | 1.017 |
+| 8 | 5 | 1.037 | 1.018 |
+| 8 | 20 | 1.040 | 1.021 |
+| 8 | 60 | 1.036 | 1.023 |
+| 16 | 5 | 1.035 | 1.020 |
+| 16 | 20 | 1.038 | 1.020 |
+| 16 | 60 | 1.038 | 1.021 |
+| 32 | 5 | 1.037 | 1.020 |
+| 32 | 20 | 1.042 | 1.020 |
+| 32 | 60 | 1.041 | 1.021 |
