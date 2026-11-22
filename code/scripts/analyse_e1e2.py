@@ -13,8 +13,8 @@ for c in [c for c in df.columns if c.startswith('rmse|')]:
     cp = 'rmseP|' + c[5:]
     if cp not in df:
         df[cp] = np.nan
-    df[cp] = df[cp].fillna(df[c]) if not df.family.eq('mango').all() else df[cp]
-    df.loc[df.family != 'mango', cp] = df.loc[df.family != 'mango', c]
+    nm = df.family != 'mango'  # all test items are paired outside mango; mango keeps the paired-only metric
+    df.loc[nm, cp] = df.loc[nm, c]
 g = df.groupby(['dataset', 'target'])
 T = g.mean(numeric_only=True).reset_index()
 T['family'] = T.dataset.str.replace(r'_.*', '', regex=True).str.replace(r'\d{4}', '', regex=True)
