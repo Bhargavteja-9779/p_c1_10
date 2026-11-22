@@ -39,10 +39,20 @@ UCT-LMIR ACA 2026; Talanta 2026 group-conformal (intervals); Kayaoglu & Erdem (A
 ## Status
 - [x] Phase 0 journal selection
 - [x] Topic selection (fleet calibration)
-- [ ] Method module code/src/fleet/ + tests            <-- NEXT
+- [~] Method module code/src/fleet/ WRITTEN (data.py, risk.py, methods.py, builders.py, protocol.py); not yet tested  <-- NEXT
 - [ ] Experiments E1-E8 (see EXPERIMENT_LOG.md)
 - [ ] Manuscript (ACA format), figures, SI
 - [ ] Internal review cycles, final packaging
 
-## Exact next step
-Implement code/src/fleet/{risk.py,methods.py,baselines.py}, loaders for neospectra, then run E1 (risk identity validation).
+## Exact next step (resume here)
+1. Re-download data if data/raw missing: `cd code && pip install numpy scipy scikit-learn matplotlib pytest statsmodels pandas && python -m src.data.download`
+2. Debug `python scripts/smoke.py` (mango 2017, master 15006): run_scenario returned an EMPTY DataFrame -> no target
+   passed the filters (check split_items: units' test items/ transfer counts; likely min_test or the 'E' set). Fix,
+   then sanity-check predicted fleet risk (predF) vs realised RMSE per target.
+3. Add unit tests for the identity e_k = e_0bar + b'D and the risk estimator (simulation with known Sigma).
+4. Experiments: E1 risk-prediction validity (mango 2016/2017/2018 + NeoSpectra oc/clay/ph/n/cec/sand + corn), 5 seeds;
+   E2 method comparison (FR-PLS vs master/pooled/EPO/GLSW/Tikhonov oracle); E3 unit qualification (scenario B,
+   LFBC); E4 learning curves (N fleet units, m paired items); E5 cross-season deployment; E6 simulation.
+5. A background literature agent was writing literature/novelty_audit.md + literature/references_verified.json
+   (may be missing if the session ended; re-run the audit if absent).
+6. Manuscript in ACA format (manuscript/), authors per 'Fixed user requirements'.

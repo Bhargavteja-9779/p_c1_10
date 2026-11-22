@@ -11,8 +11,9 @@ import numpy as np
 
 
 class PLS1:
-    def __init__(self, n_components: int = 20):
+    def __init__(self, n_components: int = 20, center: bool = True):
         self.n_components = n_components
+        self.center = center
 
     def fit(self, X, y, sample_weight=None):
         X = np.asarray(X, float)
@@ -23,8 +24,12 @@ class PLS1:
         else:
             w_s = np.asarray(sample_weight, float)
         w_s = w_s / w_s.sum()
-        self.x_mean_ = w_s @ X
-        self.y_mean_ = float(w_s @ y)
+        if self.center:
+            self.x_mean_ = w_s @ X
+            self.y_mean_ = float(w_s @ y)
+        else:  # caller supplies centred data (e.g. augmented rows that must not be re-centred)
+            self.x_mean_ = np.zeros(p)
+            self.y_mean_ = 0.0
         sw = np.sqrt(w_s * n)
         Xa = (X - self.x_mean_) * sw[:, None]
         ya = (y - self.y_mean_) * sw
