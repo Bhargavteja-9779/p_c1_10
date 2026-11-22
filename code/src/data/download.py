@@ -56,10 +56,17 @@ def fetch(name: str, retries: int = 4) -> Path:
     digest = sha256(dest)
     if expected and digest != expected:
         raise RuntimeError(f"{name}: checksum mismatch {digest} != {expected}")
+    if spec.get("md5"):
+        h = hashlib.md5()
+        with open(dest, "rb") as f:
+            for chunk in iter(lambda: f.read(1 << 20), b""):
+                h.update(chunk)
+        if h.hexdigest() != spec["md5"]:
+            raise RuntimeError(f"{name}: publisher MD5 mismatch")
     man[name] = {"file": str(dest.relative_to(ROOT)), "sha256": digest, "bytes": dest.stat().st_size,
                  "url": spec["url"], "licence": spec["licence"], "citation": spec["citation"],
                  "downloaded_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                 "checksum_source": "publisher" if spec.get("sha256") else "first-download"}
+                 "checksum_source": "publisher" if (spec.get("sha256") or spec.get("md5")) else "first-download"}
     MANIFEST.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST.write_text(json.dumps(man, indent=2))
     return dest
