@@ -1,0 +1,53 @@
+ANALYTICA CHIMICA ACTA - EDITORIAL MANAGER ENTRIES
+(Reference sheet for filling the online form. Not to be uploaded.)
+
+Article type: Research Paper
+Section / classification: Chemometrics; Spectroscopy (NIR)
+
+Full title:
+Fleet calibration of handheld near-infrared spectrometers: label-free prediction and minimisation of the error on instrument units never seen in calibration
+
+Short (running) title: Fleet calibration of handheld NIR spectrometers
+
+Corresponding author: P N Bhargav Teja
+School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India
+E-mail: bhargavteja.c3@gmail.com
+
+Second author: [to be completed]
+
+Keywords (one per field):
+- Calibration transfer
+- Handheld NIR spectroscopy
+- Instrument fleet
+- Partial least squares
+- Prediction error
+- Model robustness
+
+Abstract (plain text, 249 words):
+Background: Handheld near-infrared (NIR) spectrometers are deployed as fleets of nominally identical units, yet one calibration, built on one unit, serves them all. Calibration transfer treats pairs of instruments, so fleet operators cannot know without laboratory analyses how accurate a calibration will be on unseen units, how to calibrate for the fleet, or whether a new unit is fit for use.
+
+Results: Treating units as a random population, we derive a target-label-free estimator of the error of a linear calibration on a given unit and on unseen units, using only the master's cross-validation and replicate scans and items scanned on several units, and fleet-risk PLS (FR-PLS), whose regularisation weight follows from the risk it minimises. On 30 handheld mango dry-matter units (leave-one-unit-out), fleet-level error predictions were within 1 % of realised errors and unit-level predictions agreed closely within a scanning session (r = 0.98; 25 units). FR-PLS reduced the error on unseen units by a median of 36 % per unit, outperformed EPO and GLSW tuned by the same criterion, and on paired test fruit the theoretical weight lay at the minimum of the error–weight curve. With five paired fruit scanned on a new unit, the accept decision was correct for 90 % of master-PLS deployments. A soil fleet served as negative control; a corn benchmark gave the same ranking.
+
+Significance: Without laboratory analyses beyond the master's calibration set, calibrations can be released with their expected error on future units, built to minimise it, and each unit qualified from five paired scans.
+
+Funding: This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+Competing interests: none.
+Data availability: public data (Mendeley Data doi:10.17632/46htwnp833; Zenodo doi:10.5281/zenodo.13122321; Eigenvector corn data set). Code available on request.
+Generative AI declaration: included in the manuscript (Section "Declaration of generative AI and AI-assisted technologies in the writing process").
+
+Suggested reviewers (authors of cited work, no conflict of interest; check current e-mail addresses on their latest papers before entering):
+1. John H. Kalivas - Idaho State University, USA (Tikhonov regularisation for calibration transfer; ref. Kalivas 2009)
+2. Ramin Nikzad-Langerodi - Software Competence Center Hagenberg, Austria (domain-invariant PLS)
+3. Jean-Michel Roger - INRAE, UMR ITAP, Montpellier, France (EPO)
+4. Alejandro C. Olivieri - Universidad Nacional de Rosario, Argentina (multivariate calibration figures of merit)
+
+Upload order / file types:
+00_Cover_letter.docx ............ Cover Letter
+01_Manuscript.docx .............. Manuscript (editable, line-numbered; includes title page, highlights, GA, tables, captions, references)
+02_Title_page.docx .............. Title Page (author details and declarations)
+03_Highlights.docx .............. Highlights
+04_Graphical_abstract.tif ....... Graphical Abstract
+05_Declaration_of_interests.docx  Declaration of Interest Statement
+06_Figure_1.tif ... 06_Figure_6.tif  Figure (one item each, 600 dpi)
+08_Supplementary_material.docx .. Supplementary Material (e-component)
+01_Manuscript.pdf / 08_Supplementary_material.pdf: proofreading copies only; Editorial Manager builds its own PDF.

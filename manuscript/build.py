@@ -27,6 +27,7 @@ json.dump(csl, open(H / 'references.json', 'w'), indent=1, ensure_ascii=False)
 order = ['00_front.md', '01_intro.md', '02_theory.md', '03_methods.md', '04_results.md', '04b_table1.md', '05_conclusion.md',
          '06_backmatter.md', '07_figures.md']
 text = '\n\n'.join((H / 'sections' / f).read_text() for f in order if (H / 'sections' / f).exists())
+text = re.sub(r'\\tag\{(\d+)\}', r'\\qquad\\qquad(\1)', text)  # Word (OMML) drops \tag
 text += '\n\n## References\n\n::: {#refs}\n:::\n'
 (H / 'manuscript.md').write_text(text)
 cmd = ['pandoc', str(H / 'manuscript.md'), '--citeproc', '--bibliography', str(H / 'references.json'), '--csl',

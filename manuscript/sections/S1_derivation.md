@@ -1,5 +1,9 @@
 # Supplementary material
 
+**Fleet calibration of handheld near-infrared spectrometers: label-free prediction and minimisation of the error on instrument units never seen in calibration**
+
+P N Bhargav Teja, [Second Author]
+
 ## S1. Derivation of Eq. (4)
 
 Let item $i$ be scanned $r_0$ times on the master, $\mathbf{x}_{i0}^{(r)} = \mathbf{s}_i + \boldsymbol{\varepsilon}_{i0}^{(r)}$, and once on unit $k$, $\mathbf{x}_{ik} = \mathbf{s}_i + \mathbf{a}_{ik} + \boldsymbol{\varepsilon}_{ik}$, with zero-mean scan noise independent across scans, items and units, $\mathrm{cov}(\boldsymbol{\varepsilon}_{i0}) = \boldsymbol{\Sigma}_0$, $\mathrm{cov}(\boldsymbol{\varepsilon}_{ik}) = \boldsymbol{\Sigma}_k$. Define $c_i = b_0 + \mathbf{b}^\top\mathbf{s}_i - y_i$ (the master's noise-free error). Then

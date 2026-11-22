@@ -1,6 +1,7 @@
-data/raw/
-data/processed/
-__pycache__/
+*.part
 *.pyc
 .pytest_cache/
-*.part
+__pycache__/
+data/processed/
+data/raw/
+submission/ACA_submission/

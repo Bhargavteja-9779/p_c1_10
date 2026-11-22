@@ -4,10 +4,11 @@ title: "Fleet calibration of handheld near-infrared spectrometers: label-free pr
 
 **P N Bhargav Teja**^a,\*^, **[Second Author]**^b^
 
-^a^ [Affiliation of P N Bhargav Teja, City, Country]
+^a^ School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India
+
 ^b^ [Affiliation of Second Author, City, Country]
 
-\* Corresponding author. E-mail address: [corresponding e-mail]
+\* Corresponding author. E-mail address: bhargavteja.c3\@gmail.com
 
 ## Highlights
 

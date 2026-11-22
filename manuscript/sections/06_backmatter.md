@@ -12,7 +12,7 @@ This research did not receive any specific grant from funding agencies in the pu
 
 ## Declaration of generative AI and AI-assisted technologies in the writing process
 
-During the preparation of this work the authors used an AI assistant for code development support and language editing. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article.
+During the preparation of this work the authors used Claude (Anthropic) to assist with writing analysis code and with drafting and language editing of the manuscript. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article.
 
 ## Data availability
 
