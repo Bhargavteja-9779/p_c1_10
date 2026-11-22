@@ -47,21 +47,13 @@ UCT-LMIR ACA 2026; Talanta 2026 group-conformal (intervals); Kayaoglu & Erdem (A
 - [ ] E6 simulation figure (optional), figures, manuscript (sections in manuscript/sections/; 01_intro, 02_theory drafted)
 - [ ] internal review, final packaging (docx via pandoc + CSL in manuscript/tools)
 
-## Status (session 2, late)
-- v2 protocol after round-1 review (manuscript/review_round1.md): label-free-tuned EPO/GLSW, wider oracle grids,
-  Tikhonov oracle excludes tau2=1, A=30, LFBC for all methods + offset-variance term, cross-term check,
-  population-grouped split robustness, physical-unit statistics + equivalence, decision-rule evaluation.
-- All v2 results in results/e1e2_v2, results/e4_v2; summaries + facts in results/summary_v2 (facts.json, facts_e4.json).
-- Manuscript fully drafted on v2 numbers; build: cd manuscript && python build.py -> manuscript.docx, supplementary.docx.
-- Figures: cd code && python scripts/make_figures.py && python scripts/make_fig1.py ; Table 1: python scripts/make_table1.py
-- Round-2 review running -> manuscript/review_round2.md
-
-## Key v2 results
-- Mango unit risk (master PLS): r=0.98, MdAPE 6.9% (62 cases, 25 units); grouped split r=0.69, 13%.
-- Fleet risk master: 2.42 pred vs 2.40 real. FR-PLS fleet prediction optimistic ~12%.
-- FR-PLS vs master per physical unit 0.64 (paired), 0.69 (all test); beats EPO-FR 0.86, GLSW-FR 0.93; vs pooled 1.08 ns; oracles ~20% better.
-- Decision rule (m=5, spec 1.5): 90% correct, out-of-spec deployments 66% -> 14%.
+## Status (session 2, final stages)
+- v3 protocol (after review rounds 1-2) complete: results/e1e2_v3, results/e4_v3, results/e6; summaries results/summary_v3.
+- Manuscript fully on v3 numbers: manuscript/manuscript.docx, supplementary.docx (build: cd manuscript && python build.py),
+  cover_letter.md. Figures 1-6 in manuscript/figures (scripts: code/scripts/make_figures.py, make_fig1.py, make_table1.py).
+- Round-3 number audit running -> manuscript/review_round3.md
 
 ## Exact next step (resume here)
-1. Read manuscript/review_round2.md; fix all number mismatches and OPEN issues; rebuild docx; commit.
-2. Final polish (abstract length, highlights, captions), then mark COMPLETE and delete scheduled task trig_015TacCvu2DnPWKUau3fRNyv.
+1. Apply fixes from manuscript/review_round3.md; rebuild docx; commit.
+2. Mark COMPLETE here and delete scheduled task trig_015TacCvu2DnPWKUau3fRNyv.
+3. User must fill: second author name/affiliation, own affiliation, e-mail, CRediT for author 2.
