@@ -194,7 +194,7 @@ def epo_models(X, y, groups, D, ks=(1, 2, 3, 4, 6, 8, 10, 12, 15, 20), A=20, k=5
         V = Vt[:kc].T
         P = np.eye(D.shape[1]) - V @ V.T
         m = master_pls(X @ P, y, groups, A, k, seed)
-        out.append(LinearModel(m.b0, P @ m.b, f"EPO(k={kc})", {"k": kc, "lv": m.info["lv"], "mse0": m.info["mse_cv"][m.info["lv"] - 1]}))
+        out.append(LinearModel(m.b0, P @ m.b, f"EPO(k={kc})", {"k": kc, "lv": m.info["lv"], "mse0": m.info["mse_cv"][m.info["lv"] - 1], "mse_curve": m.info["mse_cv"]}))
     return out
 
 
@@ -207,7 +207,7 @@ def glsw_models(X, y, groups, D, alphas=(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1.0
         a_abs = al * s2.max()
         G = V @ np.diag(1.0 / np.sqrt(s2 / a_abs + 1.0)) @ V.T
         m = master_pls(X @ G, y, groups, A, k, seed)
-        out.append(LinearModel(m.b0, G @ m.b, f"GLSW(a={al:g})", {"alpha": al, "lv": m.info["lv"], "mse0": m.info["mse_cv"][m.info["lv"] - 1]}))
+        out.append(LinearModel(m.b0, G @ m.b, f"GLSW(a={al:g})", {"alpha": al, "lv": m.info["lv"], "mse0": m.info["mse_cv"][m.info["lv"] - 1], "mse_curve": m.info["mse_cv"]}))
     return out
 
 
@@ -224,30 +224,59 @@ def _glsw_transform(D, al):
     return V @ np.diag(1.0 / np.sqrt(s2 / (al * s2.max()) + 1.0)) @ V.T
 
 
-def fr_select(models, kind, X, y, D, units, Sigma0, r0, seed=0):
-    """Label-free tuning of EPO/GLSW by fleet risk with a 2-fold split of the fleet UNITS: the projection is built
-    from the D rows of one half of the units and the quadratic term is evaluated on the other half (and vice
-    versa); LV count and master CV MSE are taken from each candidate's full-data fit. Returns the chosen model."""
+def fr_select(models, kind, X, y, D, units, Sigma0, r0, seed=0, groups=None, A=30):
+    """Label-free tuning of EPO/GLSW over (parameter, number of LVs) by fleet risk with a 2-fold split of the fleet
+    UNITS: the projection is built from the D rows of one half of the units, the PLS model on the projected master
+    data, and the quadratic term is evaluated on the other half (and vice versa). The master MSE for every LV count
+    comes from each candidate's grouped CV curve. Returns the chosen model refitted on all D."""
     from src.fleet.risk import noise_term
     uu = np.random.default_rng(seed).permutation(np.unique(units))
     if len(uu) < 2:
-        return min(models, key=lambda m: m.info["mse0"])
+        return None
     halves = [set(uu[0::2].tolist()), set(uu[1::2].tolist())]
-    xm, ym = X.mean(0), y.mean()
     best, bestR = None, np.inf
     for m in models:
         par = m.info["k"] if kind == "EPO" else m.info["alpha"]
-        q = []
+        mse_curve = m.info["mse_curve"]
+        Acur = len(mse_curve)
+        qsum = np.zeros(Acur); nq = 0; nts = np.zeros(Acur)
         for h in (0, 1):
             fit = np.isin(units, list(halves[h])); ev = ~fit
             T_ = _epo_transform(D[fit], par) if kind == "EPO" else _glsw_transform(D[fit], par)
-            pm = PLS1(m.info["lv"]).fit(X @ T_, y)
-            b = T_ @ pm.coefs_[:, min(m.info["lv"], pm.n_fitted_) - 1]
+            pm = PLS1(Acur).fit(X @ T_, y)
+            B = T_ @ pm.coefs_
+            if B.shape[1] < Acur:
+                B = np.hstack([B, np.repeat(B[:, -1:], Acur - B.shape[1], axis=1)])
             for u in np.unique(units[ev]):
-                q.append(np.mean((D[units == u] @ b) ** 2))
-            nt = noise_term(b, Sigma0, r0)[0]
-        R = m.info["mse0"] + np.mean(q) - nt
-        if R < bestR:
-            best, bestR = m, R
-    out = LinearModel(best.b0, best.b, f"{kind}-FR", dict(best.info, risk=bestR))
-    return out
+                qsum += np.mean((D[units == u] @ B) ** 2, axis=0); nq += 1
+            nts += noise_term(B, Sigma0, r0) / 2
+        R = mse_curve + qsum / max(nq, 1) - nts
+        a = int(np.argmin(R))
+        if R[a] < bestR:
+            best, bestR, besta = m, R[a], a + 1
+    par = best.info["k"] if kind == "EPO" else best.info["alpha"]
+    T_ = _epo_transform(D, par) if kind == "EPO" else _glsw_transform(D, par)
+    pm = PLS1(besta).fit(X @ T_, y)
+    b = T_ @ pm.coefs_[:, min(besta, pm.n_fitted_) - 1]
+    b0 = float(pm.y_mean_ - (pm.x_mean_ @ pm.coefs_[:, min(besta, pm.n_fitted_) - 1]))
+    # PLS fitted on X@T_: prediction = y_mean + (x T - mean(XT)) beta ; mean(XT) = mean(X) T  -> b0 above is correct
+    return LinearModel(b0, b, f"{kind}-FR", {"k" if kind == "EPO" else "alpha": par, "lv": besta, "risk": float(bestR),
+                                            "mse0": float(best.info["mse_curve"][besta - 1])})
+
+
+def pds(Xm, Xs, window=5, ncomp=2):
+    """Piecewise direct standardisation (Wang et al. 1991): maps target-unit spectra to master space using paired
+    item means (Xm master, Xs target). Local PLS with ncomp components per window. Returns (F, f0) with
+    x_master_hat = x_target @ F + f0."""
+    n, p = Xs.shape
+    F = np.zeros((p, p)); f0 = np.zeros(p)
+    h = window // 2
+    for j in range(p):
+        lo, hi = max(0, j - h), min(p, j + h + 1)
+        Z = Xs[:, lo:hi]
+        k = int(min(ncomp, Z.shape[1], max(n - 2, 1)))
+        m = PLS1(k).fit(Z, Xm[:, j])
+        coef = m.coefs_[:, min(k, m.n_fitted_) - 1]
+        F[lo:hi, j] = coef
+        f0[j] = m.y_mean_ - m.x_mean_ @ coef
+    return F, f0

@@ -1,0 +1,28 @@
+neo oc 3 none
+neo clay 3 none
+neo ph 3 none
+neo n 3 none
+neo cec 3 none
+neo sand 3 none
+mango 2016 5 none
+mango 2017 5 none
+mango 2018 5 none
+mango 2015 5 none
+mango 2019 5 none
+mango 2020 5 none
+mango 2016 5 session
+mango 2017 5 session
+mango 2018 5 session
+mango 2015 5 session
+mango 2019 5 session
+mango 2020 5 session
+mango 2015 5 population
+mango 2017 5 population
+mango 2018 5 population
+mango 2016 5 none 2
+mango 2017 5 none 2
+mango 2018 5 none 2
+corn moisture 20 none
+corn oil 20 none
+corn protein 20 none
+corn starch 20 none

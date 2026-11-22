@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 from src.fleet import methods as M
-from src.fleet.data import Fleet, paired_differences, replicate_cov
+from src.fleet.data import Fleet, paired_differences, replicate_cov, item_means
 from src.fleet.risk import fleet_risk, noise_term
 
 
@@ -106,9 +106,13 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
         gls_fr = M.fr_select(gls, "GLSW", Xc, yc, D, Du, Sigma0, r0, seed)
         epo_def = [m for m in epo if m.name == "EPO(k=2)"][0]; epo_def = M.LinearModel(epo_def.b0, epo_def.b, "EPO-default", epo_def.info)
         gls_def = [m for m in gls if m.name == "GLSW(a=0.01)"][0]; gls_def = M.LinearModel(gls_def.b0, gls_def.b, "GLSW-default", gls_def.info)
-        tik = M.tikhonov_path(Xc, yc, D, Du, frpls.info["lv"], [0.01, 0.03, 0.1, 0.3, 3, 10, 30, 100])  # tau2=1 excluded (= FR-PLS)
-        models = [base, frlv, frpls, pooled, epo_def, gls_def, epo_fr, gls_fr]
-        res["param|EPO-FR"], res["param|GLSW-FR"] = epo_fr.info["k"], gls_fr.info["alpha"]
+        taus = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100]
+        tik_all = M.tikhonov_path(Xc, yc, D, Du, frpls.info["lv"], taus)
+        tik = [m for m in tik_all if m.info["tau2"] != 1]  # oracle grid excludes tau2=1 (= FR-PLS itself)
+        models = [base, frlv, frpls, pooled, epo_def, gls_def] + [m for m in (epo_fr, gls_fr) if m is not None]
+        if epo_fr is not None:
+            res["param|EPO-FR"], res["param|GLSW-FR"] = epo_fr.info["k"], gls_fr.info["alpha"]
+            res["lvsel|EPO-FR"], res["lvsel|GLSW-FR"] = epo_fr.info["lv"], gls_fr.info["lv"]
         for m in models:
             r, bb, sd = _err(m, Xk, yk)
             res[f"rmse|{m.name}"], res[f"bias|{m.name}"], res[f"sep|{m.name}"] = r, bb, sd
@@ -123,6 +127,10 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
                 e, mbest = min(errs, key=lambda t: t[0])
                 res[f"{key}|{fam}-oracle"] = e
                 res[f"param{key}|{fam}-oracle"] = mbest.name
+        for m in tik_all:  # fleet-level tau2 curve (tau2=1 is FR-PLS at the same LV count)
+            if npair >= 10:
+                res[f"tauP|{m.info['tau2']:g}"] = _err(m, Xp, yp)[0]
+            res[f"tauA|{m.info['tau2']:g}"] = _err(m, Xk, yk)[0]
         res["rmse_master_on_master"] = _err(base, fl.X[mt], fl.y[mt])[0] if mt.sum() > 2 else np.nan
         res["rmse_master_cv"] = float(np.sqrt(base.info["mse_cv"][base.info["lv"] - 1]))
         # ---- label-free fleet-risk predictions (+ labelled cross-term check)
@@ -158,14 +166,42 @@ def run_scenario(fl: Fleet, master: str, seed: int = 0, min_test=20, min_pairs=5
                 if m.name in ("PLS-master", "FR-LV", "FR-PLS"):
                     nt = noise_term(m.b, Sigma0, r0k)[0]
                     res[f"predK|{m.name}"] = float(np.sqrt(max(mse0 + np.mean(pk ** 2) - nt, 1e-12)))
+                    # after correction: within-item scan variance + unbiased between-item variance (fleet-pooled
+                    # value when m<2) + sampling variance of the offset estimated from m items
+                    dfp = pd.DataFrame({"i": Dik, "p": pk})
+                    im = dfp.groupby("i").p.mean()
+                    v_within = float(np.mean((dfp.p - dfp.i.map(im)) ** 2))
                     vo = _lfbc_offset_var(m.b, D, Du, Di)
-                    res[f"predK|{m.name}+LFBC"] = float(np.sqrt(max(mse0 + np.mean(pk ** 2) - off ** 2 - nt + vo / max(mk, 1), 1e-12)))
+                    v_between = float(im.var(ddof=1)) if len(im) >= 2 else vo
+                    res[f"predK|{m.name}+LFBC"] = float(np.sqrt(max(mse0 - nt + v_within + v_between + vo / max(mk, 1), 1e-12)))
+            # classical standardisation with the same paired items: PDS (master PLS on standardised target spectra)
+            mi_, mX_, _ = item_means(fl.X[(fl.unit == master) & np.isin(fl.item, list(T))], fl.item[(fl.unit == master) & np.isin(fl.item, list(T))])
+            ki_, kX_, _ = item_means(fl.X[(fl.unit == k) & np.isin(fl.item, list(T))], fl.item[(fl.unit == k) & np.isin(fl.item, list(T))])
+            common = sorted(set(mi_) & set(ki_))
+            if len(common) >= 5:
+                pm_ = {it: j for j, it in enumerate(mi_)}; pk_ = {it: j for j, it in enumerate(ki_)}
+                Fm, f0 = M.pds(mX_[[pm_[i] for i in common]], kX_[[pk_[i] for i in common]])
+                for m in (base, frpls):
+                    mp_ = M.LinearModel(m.b0 + f0 @ m.b, Fm @ m.b, m.name + "+PDS")
+                    res[f"rmse|{m.name}+PDS"] = _err(mp_, Xk, yk)[0]
+                    if npair >= 10:
+                        res[f"rmseP|{m.name}+PDS"] = _err(mp_, Xp, yp)[0]
+                # slope/bias correction with the REFERENCE VALUES of the target's transfer items (labelled reference)
+                ky = pd.Series(fl.y[(fl.unit == k) & np.isin(fl.item, list(T))], index=fl.item[(fl.unit == k) & np.isin(fl.item, list(T))]).groupby(level=0).first()
+                for m in (base, frpls):
+                    yh = m.predict(kX_[[pk_[i] for i in common]]); yt = ky.reindex(common).to_numpy()
+                    sl, ic = np.polyfit(yh, yt, 1)
+                    ms_ = M.LinearModel(sl * m.b0 + ic, sl * m.b, m.name + "+SBC(labelled)")
+                    res[f"rmse|{m.name}+SBC(labelled)"] = _err(ms_, Xk, yk)[0]
+                    if npair >= 10:
+                        res[f"rmseP|{m.name}+SBC(labelled)"] = _err(ms_, Xp, yp)[0]
         rows.append(res)
     return pd.DataFrame(rows)
 
 
-def choose_master(fl: Fleet) -> str:
-    """Master = unit sharing the most items with other units (pre-registered rule, label-free)."""
+def choose_master(fl: Fleet, rank: int = 1) -> str:
+    """Master = unit sharing the most items with other units (pre-registered rule, label-free); rank=2 gives the
+    runner-up (master-choice sensitivity analysis)."""
     cov = fl.coverage() > 0
     multi = cov[cov.sum(axis=1) >= 2]
-    return str(multi.sum(axis=0).idxmax())
+    return str(multi.sum(axis=0).sort_values(ascending=False).index[rank - 1])
