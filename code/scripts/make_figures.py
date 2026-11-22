@@ -14,7 +14,7 @@ def plain_log(ax, axis='both'):
 from src.visualization.style import figure, save, series_style, INK, apply_style, WIDTH, MM, SURFACE
 FIG = '../manuscript/figures'; os.makedirs(FIG, exist_ok=True)
 rms = lambda s: float(np.sqrt(np.nanmean(np.asarray(s, float) ** 2)))
-T = pd.read_csv('../results/summary_v2/per_target.csv')
+T = pd.read_csv('../results/summary_v3/per_target.csv')
 FAMC = {'mango': 0, 'soil': 2, 'corn': 3}
 
 
@@ -100,8 +100,8 @@ fig.tight_layout(rect=(0, 0.035, 1, 1))
 save(fig, f'{FIG}/fig3_methods', pd.DataFrame(tab))
 
 # ---------------- Fig 4: design curves (mango)
-cur = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v2/mango*_curves.csv')])
-tm = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v2/mango*_targetm.csv')])
+cur = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v3/mango*_curves.csv')])
+tm = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v3/mango*_targetm.csv')])
 apply_style()
 fig, axs = plt.subplots(1, 2, figsize=(WIDTH['double'], 70 * MM))
 ax = axs[0]

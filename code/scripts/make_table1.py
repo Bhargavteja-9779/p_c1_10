@@ -1,6 +1,6 @@
-"""Table 1 (Markdown) generated from results/summary_v2 so that table numbers cannot drift from the analysis."""
+"""Table 1 (Markdown) generated from results/summary_v3 so that table numbers cannot drift from the analysis."""
 import json, pandas as pd, numpy as np
-F = json.load(open('../results/summary_v2/facts.json'))
+F = json.load(open('../results/summary_v3/facts.json'))
 E2 = pd.DataFrame(F['E2']); TT = pd.DataFrame(F['E2_tests'])
 rows = [('Target-label-free', 'PLS-master', 'Master PLS'), ('', 'FR-LV', 'FR-LV (proposed)'), ('', 'FR-PLS', 'FR-PLS (proposed)'),
         ('', 'EPO-default', 'EPO, k = 2'), ('', 'GLSW-default', 'GLSW, α = 0.01'), ('', 'EPO-FR', 'EPO, k by fleet risk'),
@@ -8,11 +8,13 @@ rows = [('Target-label-free', 'PLS-master', 'Master PLS'), ('', 'FR-LV', 'FR-LV 
         ('Uses fleet reference values', 'PLS-pooled (labelled)', 'Pooled PLS'),
         ('Oracle (target reference values)', 'EPO-oracle', 'EPO, oracle k'), ('', 'GLSW-oracle', 'GLSW, oracle α'), ('', 'Tikhonov-oracle', 'Tikhonov, oracle τ²'),
         ('With LFBC (target paired items)', 'PLS-master+LFBC', 'Master PLS + LFBC'), ('', 'FR-PLS+LFBC', 'FR-PLS + LFBC'),
-        ('', 'GLSW-FR+LFBC', 'GLSW (fleet risk) + LFBC'), ('', 'PLS-pooled (labelled)+LFBC', 'Pooled PLS + LFBC')]
+        ('', 'GLSW-FR+LFBC', 'GLSW (fleet risk) + LFBC'), ('', 'PLS-master+PDS', 'Master PLS + PDS'), ('', 'FR-PLS+PDS', 'FR-PLS + PDS'),
+        ('Target reference values', 'PLS-master+SBC(labelled)', 'Master PLS + slope/bias (labelled)'), ('', 'FR-PLS+SBC(labelled)', 'FR-PLS + slope/bias (labelled)'),
+        ('Fleet reference values', 'PLS-pooled (labelled)+LFBC', 'Pooled PLS + LFBC')]
 mp = E2[(E2.family == 'mango') & (E2.metric == 'paired')].iloc[0]; ma = E2[(E2.family == 'mango') & (E2.metric == 'all-test')].iloc[0]
 so = E2[E2.family == 'soil'].iloc[0]; co = E2[E2.family == 'corn'].iloc[0]
 def ratio(m):
-    ref = 'FR-PLS+LFBC' if m.endswith('LFBC') else 'FR-PLS'
+    ref = 'FR-PLS+LFBC' if ('+' in m) else 'FR-PLS'
     if m == ref: return '—'
     t = TT[(TT.family == 'mango') & (TT.metric == 'rmseP') & (TT.A == ref) & (TT.B == m)]
     if not len(t): return ''

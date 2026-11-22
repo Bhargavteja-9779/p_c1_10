@@ -3,13 +3,23 @@ Specification: a unit is fit for use if its realised RMSEP <= SPEC x master CV R
 import sys, glob, os, json, warnings; sys.path.insert(0, '.'); warnings.filterwarnings('ignore')
 import numpy as np, pandas as pd
 from scipy import stats
-OUT = '../results/summary_v2'; os.makedirs(OUT, exist_ok=True)
+OUT = '../results/summary_v3'; os.makedirs(OUT, exist_ok=True)
 rms = lambda s: float(np.sqrt(np.nanmean(np.asarray(s, float) ** 2)))
 F = {}
-cur = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v2/mango*_curves.csv')])
+cur = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v3/mango*_curves.csv')])
 c = cur.groupby(['tag', 'target', 'curve', 'value']).mean(numeric_only=True).reset_index()
-F['curves'] = c.groupby(['curve', 'value']).agg(n=('target', 'size'), FRPLS=('rmseP_FRPLS', rms), pred=('predF_FRPLS', rms), master=('rmseP_master', rms)).reset_index().to_dict(orient='records')
-tm = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v2/mango*_targetm.csv')])
+def boot_rms(x, B=2000, seed=0):
+    x = np.asarray(x, float); rng = np.random.default_rng(seed)
+    bs = [rms(x[rng.integers(0, len(x), len(x))]) for _ in range(B)]
+    return float(np.quantile(bs, 0.05)), float(np.quantile(bs, 0.95))
+cv = []
+for (cu, v), d in c.groupby(['curve', 'value']):
+    lo, hi = boot_rms(d.rmseP_FRPLS); plo, phi = boot_rms(d.predF_FRPLS)
+    cv.append({'curve': cu, 'value': v, 'n': len(d), 'FRPLS': rms(d.rmseP_FRPLS), 'FRPLS_lo': lo, 'FRPLS_hi': hi,
+               'pred': rms(d.predF_FRPLS), 'pred_lo': plo, 'pred_hi': phi, 'master': rms(d.rmseP_master),
+               'n_units_used_max': int(cur[(cur.curve == cu) & (cur.value == v)].n_units.max()), 'n_units_used_min': int(cur[(cur.curve == cu) & (cur.value == v)].n_units.min())})
+F['curves'] = cv
+tm = pd.concat([pd.read_csv(f) for f in glob.glob('../results/e4_v3/mango*_targetm.csv')])
 F['n_target_units_e4'] = int(tm.groupby(['tag', 'target']).ngroups)
 rows, dec = [], []
 for (mod, m), d in tm.groupby(['model', 'm_target']):
@@ -38,5 +48,7 @@ for (mod, m), d in tm.groupby(['model', 'm_target']):
 F['targetm'] = rows; F['decision'] = dec
 pd.DataFrame(rows).to_csv(f'{OUT}/E4_targetm.csv', index=False); pd.DataFrame(dec).to_csv(f'{OUT}/E4_decision.csv', index=False)
 json.dump(F, open(f'{OUT}/facts_e4.json', 'w'), indent=1)
-print(pd.DataFrame(F['curves']).round(3).to_string()); print(pd.DataFrame(rows).round(3).to_string())
+print(pd.DataFrame(F['curves']).round(3).to_string())
+F['fleet_sizes_all'] = [int(cur[cur.value == 99].n_units.min()), int(cur[cur.value == 99].n_units.max())]; print(pd.DataFrame(rows).round(3).to_string())
 print(pd.DataFrame(dec).query('spec==1.5').round(1).to_string())
+json.dump(F, open(f'{OUT}/facts_e4.json', 'w'), indent=1)
