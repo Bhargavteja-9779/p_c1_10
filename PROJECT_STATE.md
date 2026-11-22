@@ -47,22 +47,21 @@ UCT-LMIR ACA 2026; Talanta 2026 group-conformal (intervals); Kayaoglu & Erdem (A
 - [ ] E6 simulation figure (optional), figures, manuscript (sections in manuscript/sections/; 01_intro, 02_theory drafted)
 - [ ] internal review, final packaging (docx via pandoc + CSL in manuscript/tools)
 
-## Key results (final for mango/corn; soil pending)
-- Mango (62 target units w/ paired test): label-free unit risk r=0.98, MAPE 6.9%, ratio 0.99; corn r=1.00.
-- Fleet-level (LOUO): master predicted 2.42 vs realised 2.40 %DM; range coverage 77%.
-- RMS RMSEP unseen units: master 2.39, FR-LV 1.82, FR-PLS 1.40 (-41%), pooled-labelled 1.34, GLSW-oracle 1.32,
-  EPO-oracle 1.15, Tikhonov-oracle 1.10, master+LFBC 1.15, FR-PLS+LFBC 0.98. FR-PLS vs master: 81% wins, p<1e-4.
-- E4: N units: 1 unit already helps; prediction reliable from N>=4. m=5 paired fruit: LFBC 1.85->0.96 (master),
-  1.24->0.82 (FR-PLS); single-draw unit risk r=0.95, MAPE 16%.
-- E7: mango unit effects 91% explained by offset/gain/shift/bandwidth (gain dominant); soil tiny & unstructured.
+## Status (session 2, late)
+- v2 protocol after round-1 review (manuscript/review_round1.md): label-free-tuned EPO/GLSW, wider oracle grids,
+  Tikhonov oracle excludes tau2=1, A=30, LFBC for all methods + offset-variance term, cross-term check,
+  population-grouped split robustness, physical-unit statistics + equivalence, decision-rule evaluation.
+- All v2 results in results/e1e2_v2, results/e4_v2; summaries + facts in results/summary_v2 (facts.json, facts_e4.json).
+- Manuscript fully drafted on v2 numbers; build: cd manuscript && python build.py -> manuscript.docx, supplementary.docx.
+- Figures: cd code && python scripts/make_figures.py && python scripts/make_fig1.py ; Table 1: python scripts/make_table1.py
+- Round-2 review running -> manuscript/review_round2.md
 
-## Manuscript
-- manuscript/sections/*.md ; build: `cd manuscript && python build.py` -> manuscript.docx, supplementary.docx
-- Figures: `cd code && python scripts/analyse_e1e2.py && python scripts/make_figures.py && python scripts/make_fig1.py`
-- Abstract contains "[SOIL]" placeholder; results 4.x lacks soil paragraph -> fill when neo runs finish.
+## Key v2 results
+- Mango unit risk (master PLS): r=0.98, MdAPE 6.9% (62 cases, 25 units); grouped split r=0.69, 13%.
+- Fleet risk master: 2.42 pred vs 2.40 real. FR-PLS fleet prediction optimistic ~12%.
+- FR-PLS vs master per physical unit 0.64 (paired), 0.69 (all test); beats EPO-FR 0.86, GLSW-FR 0.93; vs pooled 1.08 ns; oracles ~20% better.
+- Decision rule (m=5, spec 1.5): 90% correct, out-of-spec deployments 66% -> 14%.
 
 ## Exact next step (resume here)
-1. Wait/finish NeoSpectra jobs: results/e1e2/neo_{oc,clay,ph,n,cec,sand}.csv (relaunch missing ones:
-   `cd code && nohup python scripts/run_e1e2.py neo 5 <props> &`), and results/e4/neo_oc_*.csv (`python scripts/run_e4.py oc`).
-2. analyse_e1e2.py -> add soil paragraph (negative control) in 04_results.md, replace [SOIL] in 00_front.md, Fig 2/3 regenerate.
-3. Internal review pass (reviewer-style critique), polish, build docx, final commit. Then delete scheduled task trig_015TacCvu2DnPWKUau3fRNyv.
+1. Read manuscript/review_round2.md; fix all number mismatches and OPEN issues; rebuild docx; commit.
+2. Final polish (abstract length, highlights, captions), then mark COMPLETE and delete scheduled task trig_015TacCvu2DnPWKUau3fRNyv.
