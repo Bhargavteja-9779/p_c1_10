@@ -21,8 +21,8 @@ def arrow(x0, y0, x1, y1):
 
 box(2, 44, 52, 30, 'Master unit (labelled)', 'calibration spectra X₀ + lab\nreference values y\n→ PLS, cross-validated MSE₀\n→ replicate covariance Σ₀', 'data')
 box(2, 6, 52, 32, 'Fleet units (no lab analysis)', 'a few items scanned on the\nmaster and on N other units\n→ paired differences\n  d = x(unit k) − x̄(master)', 'data')
-box(70, 44, 54, 30, 'Fleet risk  (Eq. 5)', 'R̂(b) = MSE₀ + mean (bᵀd)²\n          − (1+1/r₀) bᵀΣ₀b\nexact identity eₖ = ē₀ + bᵀd\nunits = random population', 'calc')
-box(70, 6, 54, 32, 'FR-PLS  (Eq. 6)', 'PLS on [X₀ ; √w D] → [y ; 0]\nweight w = n/(N·Mₖ) fixed\nby theory (no tuning)\nLVs by unit-held-out risk', 'calc')
+box(70, 44, 54, 30, 'Fleet risk  (Eq. 5)', 'R̂(b) = MSE₀ + mean (bᵀd)²\n          − (1+1/r₀) bᵀΣ₀b\nexact identity e(k) = ē₀ + bᵀd\nunits = random population', 'calc')
+box(70, 6, 54, 32, 'FR-PLS  (Eq. 6)', 'PLS on [X₀ ; √w D] → [y ; 0]\nweight w = n/(N·M(k)) fixed\nby theory (no tuning)\nLVs by unit-held-out risk', 'calc')
 box(140, 52, 48, 22, 'Before release', 'expected RMSEP on units\nnever seen (label-free)', 'out')
 box(140, 27, 48, 21, 'Fleet-robust calibration', 'error on unseen units −41 %\n(31 mango units)', 'out')
 box(140, 2, 48, 21, 'New unit arrives', 'scan 5 items: predict its RMSEP\n→ accept / bias-correct / reject', 'out')
